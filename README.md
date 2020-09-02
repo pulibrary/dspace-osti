@@ -12,11 +12,11 @@ For oversight reasons, [OSTI](https://www.osti.gov/) requires that PPPL submit i
 
 ## Get an ELink account
 
-To post to OSTI, a user needs to acquire an ELink account. Currently, they do not have a UI to create an account, so a new user will have to 
+To post to OSTI, a user needs to acquire an ELink account. Currently, the OSTI API does not have a UI to create an account, so a new user will have to OSTI directly.
 
 ## Setup
 
-OSTI's library looks for two environment variables, `OSTI_USERNAME` and `OSTI_PASSWORD`. After a user gets an ELink Account, one can set the appropriate variables in `secrets.sh`, which is already removed from version control by `.gitignore`.
+`ostiapi` looks for two environment variables, `OSTI_USERNAME` and `OSTI_PASSWORD`. After a user gets an ELink Account, one can set the appropriate variables in `secrets.sh`, which is already removed from version control by `.gitignore`.
 
 ```
 export OSTI_USERNAME="my-osti-username"
@@ -54,6 +54,6 @@ Given all data files mentioned above, create the final JSON, `osti.json`, which 
 
 
 ### Post to OSTI
-#### `post_to_osti.py`
+#### post_to_osti.py
 Use the OSTI API to post `osti.json`.
 
