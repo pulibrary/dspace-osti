@@ -1,0 +1,3 @@
+[submodule "ostiapi"]
+	path = ostiapi
+	url = https://github.com/doecode/ostiapi
