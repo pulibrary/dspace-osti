@@ -1,6 +1,6 @@
 # dspace-osti 
 
-For oversight reasons, [OSTI](https://www.osti.gov/) requires that PPPL submit its datasets' metadata through their API. OSTI is only a metadata repository, and the datasets themselves are stored in Dataspace. We are responsible for posting the metadata by the end of each fiscal year. This is not to be confused with submitting journal article metadata to OSTI, which is an entirely separate process and is handled by PPPL.
+For oversight reasons, [OSTI](https://www.osti.gov/) requires that PPPL submit its datasets' metadata through their API. OSTI is only a metadata repository, and the datasets themselves are stored in Dataspace. We are responsible for posting the metadata by the end of each fiscal year. This is not to be confused with submitting journal article metadata to contact OSTI, which is an entirely separate process and is handled by PPPL.
 
 ## Useful Links:
 
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 Pull the JSON of datasets we've already pushed to OSTI in previous fiscal years. Output `existing_osti_datasets.json`
 
 #### get_dspace_metadata.py
-Pull the JSON of datasets we currently host on Dataspace. Output `dspace_datasets.json`
+Pull the JSON of datasets we currently host on Dataspace. Output `dspace_dataset_metadata.json`
 
 #### get_unposted_metadata.py
 Find the difference between `existing_osti_datasets.json` and `dspace_datasets.json`, and output `dataset_metadata_to_upload.json`.

@@ -6,6 +6,9 @@ data_dir = 'data'
 existing_osti_datasets = pjoin(data_dir, 'existing_osti_datasets.json')
 
 def get_existing_datasets():
+    """Paginate through OSTI's Data Explorer API to find the datasets that have
+    already been submitted.
+    """
     existing_datasets = []
 
     MAX_PAGE_COUNT = 10
