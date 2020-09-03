@@ -1,0 +1,1144 @@
+[
+    {
+        "id": 97051,
+        "name": "Comment on \u2018Numerical modeling of tokamak breakdown phase driven by pure Ohmic heating under ideal conditions\u2019",
+        "handle": "88435/dsp015h73pz85r",
+        "type": "item",
+        "link": "/rest/items/97051",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2019-06-12 05:14:56.233",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Yoo, Min-Gu",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Na, Yong-Su",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2019-06-11T20:08:14Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2019-06-11T20:08:14Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2019-06",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp015h73pz85r",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "In this comment, we point out possible critical numerical flaws of recent particle simulation studies (Jiang et al 2016 Nucl. Fusion 56 126017, Peng et al 2018 Nucl. Fusion 58 026007) on the electrical gas breakdown in a simple one-dimensional periodic slab geometry. We show that their observations on the effects of the ambipolar electric fields during the breakdown, such as the sudden reversal of the ion flow direction, could not be real physical phenomena but resulting from numerical artifacts violating the momentum conservation law. We show that an incomplete implementation of the direct-implicit scheme can cause the artificial electric fields and plasma transports resulting in fallacies in simulation results. We also discuss that their simple plasma model without considering poloidal magnetic fields seriously mislead the physical mechanism of the electrical gas breakdown because it cannot reflect important dominant plasma dynamics in the poloidal plane (Yoo et al 2018 Nat. Commun. 9 3523).",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "readme and digital data files",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "Nuclear Fusion",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "electrical gas breakdown",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "direct-implicit scheme",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "particle simulation",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "tokamak",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Comment on \u2018Numerical modeling of tokamak breakdown phase driven by pure Ohmic heating under ideal conditions\u2019",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 103595,
+        "name": "Gyrokinetic understanding of the edge pedestal transport driven by resonant magnetic perturbations in a realistic divertor geometry",
+        "handle": "88435/dsp01ng451m42w",
+        "type": "item",
+        "link": "/rest/items/103595",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2020-06-10 08:04:52.598",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Hager, R.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Chang, C. S.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Ferraro, N. M.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Nazikian R.",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2020-06-10T12:04:51Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2020-06-10T12:04:51Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2020-06",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp01ng451m42w",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "Self-consistent simulations of neoclassical and electrostatic turbulent transport in a DIII-D H-mode edge plasma under resonant magnetic perturbations (RMPs) have been performed using the global total-f gyrokinetic particle-in-cell code XGC, in order to study density-pump out and electron heat confinement.The RMP field is imported from the extended magneto-hydrodynamics (MHD) code M3D-C1, taking into account the linear two-fluid plasma response.With both neoclassical and turbulence physics considered together, the XGC simulation reproduces two key features of experimentally observed edge transport under RMPs: increased radial particle transport in the pedestal region that is sufficient to account for the experimental pump-out rate, and suppression of the electron heat flux in the steepest part of the edge pedestal.In the simulation, the density fluctuation amplitude of modes moving in the electron diamagnetic direction increases due to interaction with RMPs in the pedestal shoulder and outward, while the electron temperature fluctuation amplitude decreases.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "readme and digital data files",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "Physics of Plasmas",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "XGC",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "DIII-D",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "RMP",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "turbulence",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "transport",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Gyrokinetic understanding of the edge pedestal transport driven by resonant magnetic perturbations in a realistic divertor geometry",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 103271,
+        "name": "Deep convolutional neural networks for multi-scale time-series classification and application to disruption prediction in fusion devices",
+        "handle": "88435/dsp013b591c48v",
+        "type": "item",
+        "link": "/rest/items/103271",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2020-05-21 11:36:24.921",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Churchill, R.M",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "the DIII-D team",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2020-05-21T15:36:23Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2020-05-21T15:36:23Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2019-10",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp013b591c48v",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "The multi-scale, mutli-physics nature of fusion plasmas makes predicting plasma events challenging. Recent advances in deep convolutional neural network architectures (CNN) utilizing dilated convolutions enable accurate predictions on sequences which have long-range, multi-scale characteristics, such as the time-series generated by diagnostic instruments observing fusion plasmas. Here we apply this neural network architecture to the popular problem of disruption prediction in fusion tokamaks, utilizing raw data from a single diagnostic, the Electron Cyclotron Emission imaging (ECEi) diagnostic from the DIII-D tokamak. ECEi measures a fundamental plasma quantity (electron temperature) with high temporal resolution over the entire plasma discharge, making it sensitive to a number of potential pre-disruptions markers with different temporal and spatial scales. Promising, initial disruption prediction results are obtained training a deep CNN with large receptive field ({$\\sim$}30k), achieving an $F_1$-score of {$\\sim$}91\\% on individual time-slices using only the ECEi data.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "readme and digital data files",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "arxiv",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "fusion",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "plasma physics",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "machine learning",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "deep learning",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "convolutional neural networks",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "ECEi",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Deep convolutional neural networks for multi-scale time-series classification and application to disruption prediction in fusion devices",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 103853,
+        "name": "Theory of the tertiary instability and the Dimits shift within a scalar model",
+        "handle": "88435/dsp016q182p06m",
+        "type": "item",
+        "link": "/rest/items/103853",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2020-09-02 11:07:08.724",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Zhu, Hongxuan",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Zhou Yao",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Dodin, I.Y.",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2020-06-29T16:49:30Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2020-06-29T16:49:30Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2020-06",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp016q182p06m",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "The Dimits shift is the shift between the threshold of the drift-wave primary instability and the actual onset of turbulent transport in magnetized plasma. It is generally attributed to the suppression of turbulence by zonal flows, but developing a more detailed understanding calls for consideration of specific reduced models. The modified Terry--Horton system has been proposed by St-Onge [J. Plasma Phys. {\\bf 83}, 905830504 (2017)] as a minimal model capturing the Dimits shift. Here, we use this model to develop an analytic theory of the Dimits shift and a related theory of the tertiary instability of zonal flows. We show that tertiary modes are localized near extrema of the zonal velocity $U(x)$, where $x$ is the radial coordinate. By approximating $U(x)$ with a parabola, we derive the tertiary-instability growth rate using two different methods and show that the tertiary instability is essentially the primary drift-wave instability modified by the local $U''$. Then, depending on $U''$, the tertiary instability can be suppressed or unleashed. The former corresponds to the case when zonal flows are strong enough to suppress turbulence (Dimits regime), while the latter corresponds to the case when zonal flows are unstable and turbulence develops. This understanding is different from the traditional paradigm that turbulence is controlled by the flow shear $U'$. Our analytic predictions are in agreement with direct numerical simulations of the modified Terry--Horton system.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "readme and digital data files",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "Journal of Plasma Physics",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "fusion plasmas",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "plasma instabilities",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "plasma waves",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Theory of the tertiary instability and the Dimits shift within a scalar model",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 105871,
+        "name": "Geometric concepts for stellarator permanent magnet arrays",
+        "handle": "88435/dsp01db78tg01d",
+        "type": "item",
+        "link": "/rest/items/105871",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2020-09-03 09:09:21.629",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Hammond, K. C.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Zhu, C.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Brown, T.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Corrigan, K.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Gates, D. A.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Sibilia, M.",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2020-09-03T13:09:19Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2020-09-03T13:09:19Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2020-07",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp01db78tg01d",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "The development of stellarators that use permanent magnet arrays to shape their confining magnetic fields has been a topic of recent interest, but the requirements for how such magnets must be shaped, manufactured, and assembled remain to be determined. To address these open questions, we have performed a study of geometric concepts for magnet arrays with the aid of the newly developed MAGPIE code. A proposed experiment similar to the National Compact Stellarator Experiment (NCSX) is used as a test case. Two classes of magnet geometry are explored: curved bricks that conform to a regular grid in cylindrical coordinates, and hexahedra that conform to the toroidal plasma geometry. In addition, we test constraints on the magnet polarization. While magnet configurations constrained to be polarized normally to a toroidal surface around the plasma are unable to meet the required magnetic field parameters when subject to physical limitations on the strength of present-day magnets, configurations with unconstrained polarizations are shown to satisfy the physics requirements for a targeted plasma.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "readme and digital data files",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "Nuclear Fusion 60, 106010 (2020)",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "stellarator, permanent magnet, optimization",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Geometric concepts for stellarator permanent magnet arrays",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Hammond, Kenneth",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 103331,
+        "name": "MHD-blob correlations in NSTX",
+        "handle": "88435/dsp012v23vx30c",
+        "type": "item",
+        "link": "/rest/items/103331",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2020-07-08 13:00:06.776",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Zweben SJ",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Fredrickson ED",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Myra JR",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Podesta M",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Scotti F",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2020-07-08T17:00:05Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2020-07-08T17:00:05Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2020-05",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp012v23vx30c",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "This paper describes a study of the cross-correlations between edge fluctuations as seen in the gas puff imaging (GPI) diagnostic and low frequency coherent magnetic fluctuations (MHD) in H-mode plasmas in NSTX.  The main new result was that large blobs in the SOL were significantly correlated with MHD activity the 3-6 kHz range in 21 of the 223 shots examined.  There were also many other shots in which fluctuations in the GPI signal level and its peak radius Rpeak were correlated with MHD activity, but without any significant correlation of the MHD with large blobs.  The structure and motion of the MHD is compared with that of the correlated blobs, and some possible theoretical mechanisms for the MHD-blob correlation are discussed.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "readme and digital data files",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "Physics of Plasmas",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "blobs",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "MHD",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "NSTX",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "MHD-blob correlations in NSTX",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 87627,
+        "name": "Nonlinear simulations of beam-driven Compressional Alfv\u00e9n Eigenmodes in NSTX",
+        "handle": "88435/dsp019593tx75w",
+        "type": "item",
+        "link": "/rest/items/87627",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2017-07-20 04:07:51.672",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Belova, E.V.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Gorelenkov, N.N.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Crocker, N.A.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Lestz, J.B.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Fredrickson, E.D.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Tang, S.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Tritz, K.",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2017-07-19T17:03:37Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2017-07-19T17:03:37Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2017-04",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp019593tx75w",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "Results of 3D nonlinear simulations of neutral-beam-driven compressional Alfven eigenmodes (CAEs) in the National Spherical Torus Experiment (NSTX) are presented. Hybrid MHD-particle simulations for the H-mode NSTX discharge (shot 141398) using the HYM code show unstable CAE modes for a range of toroidal mode numbers, n=4-9, and frequencies below the ion cyclotron frequency. It is found that the essential feature of CAEs is their coupling to kinetic Alfven wave (KAW) that occurs on the high-field side at the Alfven resonance location. High-frequency Alfven eigenmodes are frequently observed in beam-heated NSTX plasmas, and have been linked to flattening of the electron temperature profiles at high beam power. Coupling between CAE and KAW suggests an energy channeling  mechanism to explain these observations, in which beam-driven CAEs dissipate their energy at the resonance location,\r\ntherefore significantly modifying the energy deposition profile. Nonlinear simulations demonstrate that CAEs can channel the energy of the beam ions from the injection region near the magnetic axis to the location of the resonant mode conversion at the edge of the beam density profile. A set of nonlinear simulations show that the CAE instability saturates due to nonlinear particle trapping, and a large fraction of beam energy can be transferred to several unstable CAEs of relatively large amplitudes and absorbed at the resonant location. Absorption rate shows a strong scaling with the beam power.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "readme and data files",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "Physics of Plasmas vol. 24 p. 042505 (April 2017)",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation.isreferencedby",
+                "value": "http://dx.doi.org/10.1063/1.4979278",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "NSTX",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "Numerical simulations",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "Compressional Alfven Eigenmodes",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Nonlinear simulations of beam-driven Compressional Alfv\u00e9n Eigenmodes in NSTX",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.projectgrantnumber",
+                "value": "31016 G0001 10003086 101",
+                "language": null
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Kaye, S.M.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy contract number DE-AC02-09CH11466",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 103939,
+        "name": "Enhanced Pedestal H-mode at low edge ion collisionality on NSTX",
+        "handle": "88435/dsp016h440w39j",
+        "type": "item",
+        "link": "/rest/items/103939",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2020-07-08 12:59:27.905",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Battaglia, D.J.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Guttenfelder, W.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Bell, R.E.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Diallo, A.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Ferraro, N.;, Fredrickson, E.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Gerhardt, S.P.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Kaye, S.M.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Maingi, R.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Smith, D.R.",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2020-07-08T16:59:27Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2020-07-08T16:59:27Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2020-06",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp016h440w39j",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "The Enhanced Pedestal (EP) H-mode regime is an attractive wide-pedestal ELM-free high-betap scenario for NSTX-U and next-step devices as it achieves enhanced energy confinement (H98y,2 > 1.5), large normalized pressure (betaN > 5) and significant bootstrap fraction (f_BS > 0.6) at I_p/B_T = 2 MA/T. This regime is realized when the edge ion collisionality becomes sufficiently small that a positive feedback interaction occurs between a reduction in the ion neoclassical energy transport and an increase in the particle transport from pressure-driven edge instabilities. EP H-mode was most often observed as a transition following a large ELM in conditions with low edge neutral recycling.  It is hypothesized that the onset of pressure-driven instabilities prior to the full recovery of the neutral density leads to a temporary period with elevated ion temperature gradient that triggers the transition to EP H-mode.  Linear CGYRO and M3D-C1 calculations are compared to beam emission spectroscopy (BES) and magnetic spectroscopy in order to describe the evolution of the edge particle transport mechanisms during the ELM recovery and the saturated EP H-mode state.  The observations are consistent with the hypothesis that the onset of pressure-driven edge instabilities, such as the KBM and kink-peeling, can be responsible for the increased particle transport in EP H-mode.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "readme and digital data files",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "Physics of Plasmas",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "spherical tokamaks",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "magnetic plasma confinement",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "turbulence and transport",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "edge and boundary physics",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "NSTX",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "H-mode",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Enhanced Pedestal H-mode at low edge ion collisionality on NSTX",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 103196,
+        "name": "Toward fusion plasma scenario planning for NSTX-U using machine-learning-accelerated models",
+        "handle": "88435/dsp01z316q451j",
+        "type": "item",
+        "link": "/rest/items/103196",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2020-07-08 13:00:48.964",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Mark D. Boyer",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2020-07-08T17:00:48Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2020-07-08T17:00:48Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2020-05",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp01z316q451j",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "One of the most promising devices for realizing power production through nuclear fusion is the tokamak. To maximize performance, it is preferable that tokamak reactors achieve advanced operating scenarios characterized by good plasma confinement, improved magnetohydrodynamic (MHD) stability, and a largely non-inductively driven plasma current. Such scenarios could enable steady-state reactor operation with high \\emph{fusion gain} --- the ratio of produced fusion power to the external power provided through the plasma boundary. Precise and robust control of the evolution of the plasma boundary shape as well as the spatial distribution of the plasma current, density, temperature, and rotation will be essential to achieving and maintaining such scenarios. The complexity of the evolution of tokamak plasmas, arising due to nonlinearities and coupling between various parameters, motivates the use of model-based control algorithms that can account for the system dynamics. In this work, a learning-based accelerated model trained on data from the National Spherical Torus Experiment Upgrade (NSTX-U) is employed to develop planning and control strategies for regulating the density and temperature profile evolution around desired trajectories. The proposed model combines empirical scaling laws developed across multiple devices with neural networks trained on empirical data from NSTX-U and a database of first-principles-based computationally intensive simulations. The reduced execution time of the accelerated model will enable practical application of optimization algorithms and reinforcement learning approaches for scenario planning and control development. An initial demonstration of applying optimization approaches to the learning-based model is presented, including a strategy for mitigating the effect of leaving the finite validity range of the accelerated model. The approach shows promise for actuator planning between experiments and in real-time.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "readme and digital data files",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "Proceedings of Machine Learning Research",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "NSTX-U",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "machine learning",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "optimization",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "NUBEAM",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "profile control",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Toward fusion plasma scenario planning for NSTX-U using machine-learning-accelerated models",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    }
+]
