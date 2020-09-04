@@ -45,7 +45,6 @@ class Poster:
         assert no_empty_cells(df['Sponsoring Organizations'])
         assert no_empty_cells(df['DOE Contract'])
         assert no_empty_cells(df['Datatype'])
-        assert no_empty_cells(df['Author'])
 
         accepted_datatype_values = ['AS','GD', 'IM', 'ND', 'IP', 'FP', 'SM', 'MM', 'I']
         assert all([dt in accepted_datatype_values for dt in df['Datatype']])
