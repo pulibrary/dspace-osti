@@ -94,6 +94,7 @@ class Poster:
 
 
     def _fake_post(self, record, username, password):
+        """A fake JSON response that mirrors OSTI's"""
         return {'record': {'osti_id': '1488485',
           'accession_num': '88435/dsp01z316q451j',
           'product_nos': 'None',

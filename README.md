@@ -32,12 +32,19 @@ Run `python Scraper.py` to collect data from OSTI & DSpace. The pipeline will co
 
 Copy `entry_form.csv` to a Google Sheet and share with partners at PPPL. They will need to enter `Sponsoring Organizations`, `DOE Contract`, and `Datatype`. [See `Datatype` codes here.](https://github.com/doecode/ostiapi#data-set-content-type-values) (Ideally, in the long run we would integrate these fields into DSpace's metadata.) Save the file into this folder as `form_input.csv`.
 
-Note: Since we're joining by title, typos and encoding errors will inevitably lead to missed results. `Scraper.py` also checks for items that are in OSTI but not DSpace, something that shouldn't happen. The user will need to manually remove those rows from the entry form.
+Note: Since we're joining by title, typos and encoding errors will inevitably lead to missed results in `entry_form.csv`. `Scraper.py` also checks for items that are in OSTI but not DSpace, something that shouldn't happen. The user will need to manually remove those rows from the entry form.
 
 ### Post to OSTI
 
-Run `python Poster.py` to use the `form_input.csv` and DSpace metadata to generate the JSON necessary for OSTI ingestion. It then posts to OSTI using their API.
+`Poster.py` is used to combine the `form_input.csv` and DSpace metadata to generate the JSON necessary for OSTI ingestion. Choose one of the three options:
 
+```
+    --dev: Make fake requests locally to test workflow.
+    --test: Post to OSTI's test server.
+    --prod: Post to OSTI's prod server.
+```
+
+Important ‼️ Posting to OSTI, both through test and prod, will send an email to you, your team, and OSTI. Make sure that `data/osti.json` is in good shape by running `python Poster.py --dev` before posting with `--test`. After OSTI approves what you've posted to their test server, post to production with the `--prod` flag. Ideally, you'd only need to go through this process once.
 
 ## Useful Links:
 
