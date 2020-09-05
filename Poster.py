@@ -37,8 +37,6 @@ class Poster:
         # Validate Input CSV 
         def no_empty_cells(series):
             return series.shape[0] == series.dropna().shape[0]
-        def unique_values(series):
-            return series.shape[0] == series.unique().shape[0]
 
         expected_columns = ['Sponsoring Organizations', 'DOE Contract', 'Datatype']
         assert all([col in df.columns for col in expected_columns])
