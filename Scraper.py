@@ -18,7 +18,7 @@ class Scraper:
         data_dir = 'data'
         self.osti_scrape = pjoin(data_dir, osti_scrape)
         self.dspace_scrape = pjoin(data_dir, dspace_scrape)
-        self.entry_form = entry_form
+        self.entry_form = entry_form_full_path
         self.to_upload = os.path.join(data_dir, to_upload)
 
         if not os.path.exists(data_dir):
