@@ -1,8 +1,8 @@
-DSpace ID,Issue Date,Title,Author,Sponsoring Organizations,DOE Contract,Datatype
-103196,May-2020,Toward fusion plasma scenario planning for NSTX-U using machine-learning-accelerated models,Mark D. Boyer,USDOE,AC02-09CH11466,ND
-103331,May-2020,MHD-blob correlations in NSTX,Zweben SJ; Fredrickson ED; Myra JR; Podesta M; Scotti F,USDOE,AC02 09CH11466; FG02-97ER54392; AC52-07NA27344,ND
-103939,Jun-2020,Enhanced Pedestal H-mode at low edge ion collisionality on NSTX,"Battaglia, D.J.; Guttenfelder, W.; Bell, R.E.; Diallo, A.; Ferraro, N.;, Fredrickson, E.; Gerhardt, S.P.; Kaye, S.M.; Maingi, R.; Smith, D.R.",USDOE,AC02-09CH11466,ND
-103853,Jun-2020,The tertiary instability and the Dimits shift within a scalar model,"Zhu, Hongxuan; Zhou Yao; Dodin, I.Y.",USDOE,xxxxxxx;xxxxxx,ND
-103595,Jun-2020,Gyrokinetic understanding of the edge pedestal transport driven by resonant magnetic perturbations in a realistic divertor geometry,"Hager, R.; Chang, C. S.; Ferraro, N. M.; Nazikian R.",USDOE,AC02-09CH11466; FC02-04ER54698; AC02-06CH11357; AC02-05CH11231,ND
-103271,Oct-2019,Deep convolutional neural networks for multi-scale time-series classification and application to disruption prediction in fusion devices,"Churchill, R.M; the DIII-D team",USDOE,xxxxxxx;xxxxxx,ND
-105871,July-2020,Geometric concepts for stellarator permanent magnet arrays,"Hammond, K. C.;Zhu, C.;Brown, T.;Corrigan, K.;Gates, D. A.;Sibilia, M.",USDOE,xxxxxxx;xxxxxx,ND
+DSpace ID,Issue Date,Title,Dataspace Link,Author(s),Sponsoring Organizations,DOE Contract,Datatype
+103196,May-2020,Toward fusion plasma scenario planning for NSTX-U using machine-learning-accelerated models,https://dataspace.princeton.edu/handle/88435/dsp01z316q451j,Mark D. Boyer,USDOE,AC02-09CH11466,ND
+103331,May-2020,MHD-blob correlations in NSTX,https://dataspace.princeton.edu/handle/88435/dsp012v23vx30c,Zweben SJ; Fredrickson ED; Myra JR; Podesta M; Scotti F,USDOE,AC02 09CH11466; FG02-97ER54392; AC52-07NA27344,ND
+103939,Jun-2020,Enhanced Pedestal H-mode at low edge ion collisionality on NSTX,https://dataspace.princeton.edu/handle/88435/dsp016h440w39j,"Battaglia, D.J.; Guttenfelder, W.; Bell, R.E.; Diallo, A.; Ferraro, N.;, Fredrickson, E.; Gerhardt, S.P.; Kaye, S.M.; Maingi, R.; Smith, D.R.",USDOE,AC02-09CH11466,ND
+103853,Jun-2020,Theory of the tertiary instability and the Dimits shift within a scalar model,https://dataspace.princeton.edu/handle/88435/dsp016q182p06m,"Zhu, Hongxuan; Zhou Yao; Dodin, I.Y.",USDOE,AC02-09CH11466,ND
+103595,Jun-2020,Gyrokinetic understanding of the edge pedestal transport driven by resonant magnetic perturbations in a realistic divertor geometry,https://dataspace.princeton.edu/handle/88435/dsp01ng451m42w,"Hager, R.; Chang, C. S.; Ferraro, N. M.; Nazikian R.",USDOE,AC02-09CH11466; FC02-04ER54698; AC02-06CH11357; AC02-05CH11231,ND
+103271,Oct-2019,Deep convolutional neural networks for multi-scale time-series classification and application to disruption prediction in fusion devices,https://dataspace.princeton.edu/handle/88435/dsp013b591c48v,"Churchill, R.M; the DIII-D team",USDOE,AC02-09CH11466; FC02-04ER54698; FG02-99ER54531,ND
+105871,July-2020,Geometric concepts for stellarator permanent magnet arrays,https://dataspace.princeton.edu/handle/88435/dsp01db78tg01d,"Hammond, K. C.;Zhu, C.;Brown, T.;Corrigan, K.;Gates, D. A.;Sibilia, M.",USDOE,AC02-09CH11466,ND
