@@ -1,0 +1,95 @@
+{
+    "record": [
+        {
+            "osti_id": "1661166",
+            "accession_num": "88435/dsp01z316q451j",
+            "product_nos": "None",
+            "title": "Toward fusion plasma scenario planning for NSTX-U using machine-learning-accelerated models",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_nos": null,
+            "doi": "10.11578/1661166",
+            "doi_status": "PENDING",
+            "status": "SUCCESS",
+            "status_message": null,
+            "@status": "NEW"
+        },
+        {
+            "osti_id": "1661167",
+            "accession_num": "88435/dsp012v23vx30c",
+            "product_nos": "None",
+            "title": "MHD-blob correlations in NSTX",
+            "contract_nos": "AC02 09CH11466; FG02-97ER54392; AC52-07NA27344",
+            "other_identifying_nos": null,
+            "doi": "10.11578/1661167",
+            "doi_status": "PENDING",
+            "status": "SUCCESS",
+            "status_message": null,
+            "@status": "NEW"
+        },
+        {
+            "osti_id": "1661168",
+            "accession_num": "88435/dsp016h440w39j",
+            "product_nos": "None",
+            "title": "Enhanced Pedestal H-mode at low edge ion collisionality on NSTX",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_nos": null,
+            "doi": "10.11578/1661168",
+            "doi_status": "PENDING",
+            "status": "SUCCESS",
+            "status_message": null,
+            "@status": "NEW"
+        },
+        {
+            "osti_id": "1661169",
+            "accession_num": "88435/dsp016q182p06m",
+            "product_nos": "None",
+            "title": "Theory of the tertiary instability and the Dimits shift within a scalar model",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_nos": null,
+            "doi": "10.11578/1661169",
+            "doi_status": "PENDING",
+            "status": "SUCCESS",
+            "status_message": null,
+            "@status": "NEW"
+        },
+        {
+            "osti_id": "1661170",
+            "accession_num": "88435/dsp01ng451m42w",
+            "product_nos": "None",
+            "title": "Gyrokinetic understanding of the edge pedestal transport driven by resonant magnetic perturbations in a realistic divertor geometry",
+            "contract_nos": "AC02-09CH11466; FC02-04ER54698; AC02-06CH11357; AC02-05CH11231",
+            "other_identifying_nos": null,
+            "doi": "10.11578/1661170",
+            "doi_status": "PENDING",
+            "status": "SUCCESS",
+            "status_message": null,
+            "@status": "NEW"
+        },
+        {
+            "osti_id": "1661171",
+            "accession_num": "88435/dsp013b591c48v",
+            "product_nos": "None",
+            "title": "Deep convolutional neural networks for multi-scale time-series classification and application to disruption prediction in fusion devices",
+            "contract_nos": "AC02-09CH11466; FC02-04ER54698; FG02-99ER54531",
+            "other_identifying_nos": null,
+            "doi": "10.11578/1661171",
+            "doi_status": "PENDING",
+            "status": "SUCCESS",
+            "status_message": null,
+            "@status": "NEW"
+        },
+        {
+            "osti_id": "1661172",
+            "accession_num": "88435/dsp01db78tg01d",
+            "product_nos": "None",
+            "title": "Geometric concepts for stellarator permanent magnet arrays",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_nos": null,
+            "doi": "10.11578/1661172",
+            "doi_status": "PENDING",
+            "status": "SUCCESS",
+            "status_message": null,
+            "@status": "NEW"
+        }
+    ]
+}
