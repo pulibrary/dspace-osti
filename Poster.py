@@ -119,8 +119,7 @@ class Poster:
             if mode == 'dev':
                 response = self._fake_post(record, os.environ['OSTI_USERNAME'], os.environ['OSTI_PASSWORD'])
             else:
-                # response = ostiapi.post(record, os.environ['OSTI_USERNAME'], os.environ['OSTI_PASSWORD'])
-                response = self._fake_post(record, os.environ['OSTI_USERNAME'], os.environ['OSTI_PASSWORD'])
+                response = ostiapi.post(record, os.environ['OSTI_USERNAME'], os.environ['OSTI_PASSWORD'])
             print(response)
             response_data.append(response)
 
