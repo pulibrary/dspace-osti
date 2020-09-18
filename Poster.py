@@ -92,17 +92,36 @@ class Poster:
 
     def _fake_post(self, record, username, password):
         """A fake JSON response that mirrors OSTI's"""
-        return {'record': {'osti_id': '1488485',
-          'accession_num': '88435/dsp01z316q451j',
-          'product_nos': 'None',
-          'title': 'Toward fusion plasma scenario planning for NSTX-U using machine-learning-accelerated models',
-          'contract_nos': 'AC02-09CH11466',
-          'other_identifying_nos': None,
-          'doi': '10.11578/1488485',
-          'doi_status': 'PENDING',
-          'status': 'SUCCESS',
-          'status_message': None,
-          '@status': 'UPDATED'}}
+        return {
+            "record": [
+                {
+                    "osti_id": "1488485",
+                    "accession_num": "88435/dsp01z316q451j",
+                    "product_nos": "None",
+                    "title": "Fake title 1: Toward fusion plasma scenario planning",
+                    "contract_nos": "AC02-09CH11466",
+                    "other_identifying_nos": None,
+                    "doi": "10.11578/1488485",
+                    "doi_status": "PENDING",
+                    "status": "SUCCESS",
+                    "status_message": None,
+                    "@status": "UPDATED"
+                },
+                {
+                    "osti_id": "1491154",
+                    "accession_num": "88435/dsp012v23vx30c",
+                    "product_nos": "None",
+                    "title": "Fake title 2: MHD-blob correlations in NSTX",
+                    "contract_nos": "AC02 09CH11466; FG02-97ER54392; AC52-07NA27344",
+                    "other_identifying_nos": None,
+                    "doi": "10.11578/1491154",
+                    "doi_status": "PENDING",
+                    "status": "SUCCESS",
+                    "status_message": None,
+                    "@status": "UPDATED"
+                }
+            ]
+        }
 
 
     def post_to_osti(self, mode):
@@ -111,23 +130,19 @@ class Poster:
         if mode == 'test':
             ostiapi.testmode()
 
-        response_data = []
         with open(self.osti_upload) as f:
             osti_j = json.load(f)
 
-        for record in osti_j:
-            if mode == 'dev':
-                response = self._fake_post(record, os.environ['OSTI_USERNAME'], os.environ['OSTI_PASSWORD'])
-            else:
-                response = ostiapi.post(record, os.environ['OSTI_USERNAME'], os.environ['OSTI_PASSWORD'])
-            print(response)
-            response_data.append(response)
+        if mode == 'dev':
+            response_data = self._fake_post(osti_j, os.environ['OSTI_USERNAME'], os.environ['OSTI_PASSWORD'])
+        else:
+            response_data = ostiapi.post(osti_j, os.environ['OSTI_USERNAME'], os.environ['OSTI_PASSWORD'])
 
         with open(self.response_output, 'w') as f:
             json.dump(response_data, f, indent=4)
         
         if mode != 'dev':
-            if all([item['record']['status'] == 'SUCCESS' for item in response_data]):
+            if all([item['status'] == 'SUCCESS' for item in response_data['record']]):
                 print("Congrats 🚀 OSTI says that all records were successfully uploaded!")
             else:
                 print("Some of OSTI's responses do not have 'SUCCESS' as their" +
