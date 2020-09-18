@@ -155,8 +155,7 @@ class Poster:
         if self.mode == 'dry-run':
             response_data = self._fake_post(osti_j, self.username, self.password)
         else:
-            response_data = self._fake_post(osti_j, self.username, self.password)
-            # response_data = ostiapi.post(osti_j, self.username, self.password)
+            response_data = ostiapi.post(osti_j, self.username, self.password)
 
         with open(self.response_output, 'w') as f:
             json.dump(response_data, f, indent=4)
