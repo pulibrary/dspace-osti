@@ -67,7 +67,7 @@ class Poster:
                 'title': dspace_data['name'],
                 'creators': ';'.join([m['value'] for m in dspace_data['metadata'] if m['key'] == 'dc.contributor.author']),
                 'dataset_type': row['Datatype'],
-                'site_url': "https://dataspace.princeton.edu/handle" + dspace_data['handle'],
+                'site_url': "https://dataspace.princeton.edu/handle/" + dspace_data['handle'],
                 'contract_nos': row['DOE Contract'],
                 'sponsor_org': row['Sponsoring Organizations'],
                 'research_org': 'PPPL',
