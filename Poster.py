@@ -28,6 +28,7 @@ class Poster:
          'OSTI_USERNAME_PROD', 'OSTI_PASSWORD_PROD']
         assert all([var in os.environ for var in environment_vars])
 
+        # Assign username and password depending on where data is being posted
         if mode == 'test':
             self.username = os.environ['OSTI_USERNAME_TEST']
             self.password = os.environ['OSTI_PASSWORD_TEST']
@@ -138,15 +139,15 @@ class Poster:
 
 
     def post_to_osti(self):
-        """Post the collected metadata to OSTI's test or prod server. If in dev
-         mode, call our _fake_post method"""
+        """Post the collected metadata to OSTI's test or prod server. If in
+         dry-run mode, call our _fake_post method"""
         if self.mode == 'test':
             ostiapi.testmode()
 
         with open(self.osti_upload) as f:
             osti_j = json.load(f)
 
-        if self.mode == 'dev':
+        if self.mode == 'dry-run':
             response_data = self._fake_post(osti_j, self.username, self.password)
         else:
             response_data = ostiapi.post(osti_j, self.username, self.password)
@@ -154,7 +155,7 @@ class Poster:
         with open(self.response_output, 'w') as f:
             json.dump(response_data, f, indent=4)
         
-        if self.mode != 'dev':
+        if self.mode != 'dry-run':
             if all([item['status'] == 'SUCCESS' for item in response_data['record']]):
                 print("Congrats 🚀 OSTI says that all records were successfully uploaded!")
             else:
@@ -173,12 +174,12 @@ if __name__ == '__main__':
 
     help_s = """
 Choose one of the following options:
-    --dev: Make fake requests locally to test workflow.
+    --dry-run: Make fake requests locally to test workflow.
     --test: Post to OSTI's test server.
     --prod: Post to OSTI's prod server.
     """
     
-    commands = ['--dev', '--test', '--prod']
+    commands = ['--dry-run', '--test', '--prod']
 
     if len(args) != 2 or args[1] in ['--help', '-h'] or args[1] not in commands:
         print(help_s)
