@@ -6,7 +6,7 @@ For oversight reasons, [OSTI](https://www.osti.gov/) requires that PPPL submit i
 
 ### Get an ELink account
 
-To post to OSTI, a user needs to acquire an ELink account. Currently, the OSTI API does not have a UI to create an account, so a new user will have to OSTI directly.
+To post to OSTI's test server, a user needs to acquire an ELink account. Currently, the OSTI API does not have a UI to create an account, so a new user will have to contact OSTI directly. To post to the production account, go to LastPass and get Princeton's credentials.
 
 ### Setup an environment
 We are dependent on [ostiapi](https://github.com/doecode/ostiapi) as a submodule. Presumably, this will eventually be available on PyPi. For all other libraries install the requirements in a python 3.8 environment.
@@ -15,11 +15,13 @@ We are dependent on [ostiapi](https://github.com/doecode/ostiapi) as a submodule
 pip install -r requirements.txt
 ```
 
-`ostiapi` looks for two environment variables, `OSTI_USERNAME` and `OSTI_PASSWORD`. After a user gets an ELink Account, one can set the appropriate variables in `secrets.sh`, which is already removed from version control by `.gitignore`.
+`ostiapi` requires a username and a password, which are different for posting to either test or dev. `Poster.py` searches for four environment variables, listed below. After a user gets an ELink Account, one can set the appropriate variables in `secrets.sh`, which is already removed from version control by `.gitignore`.
 
 ```
-export OSTI_USERNAME="my-osti-username"
-export OSTI_PASSWORD="my-osti-password"
+export OSTI_USERNAME_TEST="my-test-osti-username"
+export OSTI_PASSWORD_TEST="my-test-osti-password"
+export OSTI_USERNAME_PROD="my-prod-osti-username" # from LastPass
+export OSTI_PASSWORD_PROD="my-prod-osti-password" # from LastPass
 ```
 
 ## Workflow
@@ -39,12 +41,24 @@ Note: Since we're joining by title, typos and encoding errors will inevitably le
 `Poster.py` is used to combine the `form_input.csv` and DSpace metadata to generate the JSON necessary for OSTI ingestion. Choose one of the three options:
 
 ```
-    --dev: Make fake requests locally to test workflow.
+    --dry-run: Make fake requests locally to test workflow.
     --test: Post to OSTI's test server.
     --prod: Post to OSTI's prod server.
 ```
 
-Important ‼️ Posting to OSTI, both through test and prod, will send an email to you, your team, and OSTI. Make sure that `data/osti.json` is in good shape by running `python Poster.py --dev` before posting with `--test`. After OSTI approves what you've posted to their test server, post to production with the `--prod` flag. Ideally, you'd only need to go through this process once.
+| :warning:  | Posting to OSTI, both through test and prod, will send an email to you, your team, and OSTI. Make sure that `data/osti.json` is in good shape by running `python Poster.py --dry-run` before posting with `--test`. After OSTI approves what you've posted to their test server, post to production with the `--prod` flag. Ideally, you'd only need to go through this process once.      |
+|---------------|:------------------------|
+
+### Examples
+If you're confused about how the output of `Scraper.py` turns into the input for `Poster.py`, consider looking at the CSVs in the `examples` folder.
+
+Also, successful runs `Poster.py` will give the following output:
+```
+Posting data...
+    ✔ Toward fusion plasma scenario planning
+    ✔ MHD-blob correlations in NSTX
+Congrats 🚀 OSTI says that all records were successfully uploaded!
+```
 
 ## Useful Links:
 
