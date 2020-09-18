@@ -12,7 +12,7 @@ class Poster:
     """Use the form input and DSpace metadata to generate the JSON necessary
      for OSTI ingestion. Then post to OSTI using their API"""
     def __init__(self, mode, data_dir='data', to_upload='dataset_metadata_to_upload.json',
-     form_input_full_path='form_input.csv', osti_upload='osti.json', response_output='osti_response.json'):
+     form_input_full_path='form_input.csv', osti_upload='osti.json', response_dir="responses"):
         self.mode = mode
 
         # Prepare all paths
@@ -20,8 +20,12 @@ class Poster:
         self.data_dir = data_dir
         self.to_upload = os.path.join(data_dir, to_upload)
         self.osti_upload = os.path.join(data_dir, osti_upload)
-        self.response_output = os.path.join(data_dir, response_output)
+
+        self.response_output = os.path.join(response_dir,
+            f"{mode}_osti_response_{str(datetime.datetime.now()).replace(':', '')}.json")
+
         assert os.path.exists(data_dir)
+        assert os.path.exists(response_dir)
 
         # Ensure environment variables are prepared
         environment_vars = ['OSTI_USERNAME_TEST', 'OSTI_PASSWORD_TEST',
