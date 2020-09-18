@@ -11,17 +11,31 @@ from ostiapi import ostiapi
 class Poster:
     """Use the form input and DSpace metadata to generate the JSON necessary
      for OSTI ingestion. Then post to OSTI using their API"""
-    def __init__(self, data_dir='data', to_upload='dataset_metadata_to_upload.json',
+    def __init__(self, mode, data_dir='data', to_upload='dataset_metadata_to_upload.json',
      form_input_full_path='form_input.csv', osti_upload='osti.json', response_output='osti_response.json'):
-        self.form_input = form_input_full_path
+        self.mode = mode
 
+        # Prepare all paths
+        self.form_input = form_input_full_path
         self.data_dir = data_dir
         self.to_upload = os.path.join(data_dir, to_upload)
         self.osti_upload = os.path.join(data_dir, osti_upload)
         self.response_output = os.path.join(data_dir, response_output)
-
         assert os.path.exists(data_dir)
-        assert 'OSTI_USERNAME' in os.environ and 'OSTI_PASSWORD' in os.environ
+
+        # Ensure environment variables are prepared
+        environment_vars = ['OSTI_USERNAME_TEST', 'OSTI_PASSWORD_TEST',
+         'OSTI_USERNAME_PROD', 'OSTI_PASSWORD_PROD']
+        assert all([var in os.environ for var in environment_vars])
+
+        if mode == 'test':
+            self.username = os.environ['OSTI_USERNAME_TEST']
+            self.password = os.environ['OSTI_PASSWORD_TEST']
+        elif mode == 'prod':
+            self.username = os.environ['OSTI_USERNAME_PROD']
+            self.password = os.environ['OSTI_PASSWORD_PROD']
+        else:
+            self.username, self.password = None, None
 
     def generate_upload_json(self):
         """Validate the form input provided by the user and combine new data
@@ -32,7 +46,6 @@ class Poster:
 
         df = pd.read_csv(self.form_input)
         df = df.set_index('DSpace ID')
-
 
         # Validate Input CSV 
         def no_empty_cells(series):
@@ -124,24 +137,24 @@ class Poster:
         }
 
 
-    def post_to_osti(self, mode):
+    def post_to_osti(self):
         """Post the collected metadata to OSTI's test or prod server. If in dev
          mode, call our _fake_post method"""
-        if mode == 'test':
+        if self.mode == 'test':
             ostiapi.testmode()
 
         with open(self.osti_upload) as f:
             osti_j = json.load(f)
 
-        if mode == 'dev':
-            response_data = self._fake_post(osti_j, os.environ['OSTI_USERNAME'], os.environ['OSTI_PASSWORD'])
+        if self.mode == 'dev':
+            response_data = self._fake_post(osti_j, self.username, self.password)
         else:
-            response_data = ostiapi.post(osti_j, os.environ['OSTI_USERNAME'], os.environ['OSTI_PASSWORD'])
+            response_data = ostiapi.post(osti_j, self.username, self.password)
 
         with open(self.response_output, 'w') as f:
             json.dump(response_data, f, indent=4)
         
-        if mode != 'dev':
+        if self.mode != 'dev':
             if all([item['status'] == 'SUCCESS' for item in response_data['record']]):
                 print("Congrats 🚀 OSTI says that all records were successfully uploaded!")
             else:
@@ -150,9 +163,9 @@ class Poster:
                     " see which records were not successfully uploaded.")
 
 
-    def run_pipeline(self, mode):
+    def run_pipeline(self):
         self.generate_upload_json()
-        self.post_to_osti(mode)
+        self.post_to_osti()
 
 
 if __name__ == '__main__':
@@ -171,5 +184,5 @@ Choose one of the following options:
         print(help_s)
     else:
         mode = args[1][2:]
-        p = Poster()
-        p.run_pipeline(mode)
+        p = Poster(mode)
+        p.run_pipeline()
