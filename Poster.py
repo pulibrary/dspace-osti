@@ -151,14 +151,23 @@ class Poster:
         with open(self.osti_upload) as f:
             osti_j = json.load(f)
 
+        print('Posting data...')
         if self.mode == 'dry-run':
             response_data = self._fake_post(osti_j, self.username, self.password)
         else:
-            response_data = ostiapi.post(osti_j, self.username, self.password)
+            response_data = self._fake_post(osti_j, self.username, self.password)
+            # response_data = ostiapi.post(osti_j, self.username, self.password)
 
         with open(self.response_output, 'w') as f:
             json.dump(response_data, f, indent=4)
         
+        # output results to the shell:
+        for item in response_data['record']:
+            if item['status'] == 'SUCCESS':
+                print(f"\t✔ {item['title']}")
+            else:
+                print(f"\t✗ {item['title']}")
+
         if self.mode != 'dry-run':
             if all([item['status'] == 'SUCCESS' for item in response_data['record']]):
                 print("Congrats 🚀 OSTI says that all records were successfully uploaded!")
