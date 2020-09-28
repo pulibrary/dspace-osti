@@ -52,7 +52,7 @@ Note: Since we're joining by title, typos and encoding errors will inevitably le
 ### Examples
 If you're confused about how the output of `Scraper.py` turns into the input for `Poster.py`, consider looking at the CSVs in the `examples` folder.
 
-Also, successful runs `Poster.py` will give the following output:
+Also, successful runs of `Poster.py` will give the following output:
 ```
 Posting data...
     ✔ Toward fusion plasma scenario planning
