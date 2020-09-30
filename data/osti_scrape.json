@@ -5951,5 +5951,296 @@
                 "href": "https://www.osti.gov/dataexplorer/servlets/purl/1608313"
             }
         ]
+    },
+    {
+        "osti_id": "1661166",
+        "title": "Toward fusion plasma scenario planning for NSTX-U using machine-learning-accelerated models",
+        "doi": "10.11578/1661166",
+        "product_type": "Dataset",
+        "language": "English",
+        "country_publication": "United States",
+        "description": "One of the most promising devices for realizing power production through nuclear fusion is the tokamak. To maximize performance, it is preferable that tokamak reactors achieve advanced operating scenarios characterized by good plasma confinement, improved magnetohydrodynamic (MHD) stability, and a largely non-inductively driven plasma current. Such scenarios could enable steady-state reactor operation with high \\emph{fusion gain} --- the ratio of produced fusion power to the external power provided through the plasma boundary. Precise and robust control of the evolution of the plasma boundary shape as well as the spatial distribution of the plasma current, density, temperature, and rotation will be essential to achieving and maintaining such scenarios. The complexity of the evolution of tokamak plasmas, arising due to nonlinearities and coupling between various parameters, motivates the use of model-based control algorithms that can account for the system dynamics. In this work, a learning-based accelerated model trained on data from the National Spherical Torus Experiment Upgrade (NSTX-U) is employed to develop planning and control strategies for regulating the density and temperature profile evolution around desired trajectories. The proposed model combines empirical scaling laws developed across multiple devices with neural networks trained on empirical data from NSTX-U and a database of first-principles-based computationally intensive simulations. The reduced execution time of the accelerated model will enable practical application of optimization algorithms and reinforcement learning approaches for scenario planning and control development. An initial demonstration of applying optimization approaches to the learning-based model is presented, including a strategy for mitigating the effect of leaving the finite validity range of the accelerated model. The approach shows promise for actuator planning between experiments and in real-time.",
+        "site_ownership_code": "PPPL",
+        "publication_date": "2020-07-08T00:00:00Z",
+        "entry_date": "2020-09-30T00:00:00Z",
+        "authors": [
+            "Boyer, Mark D"
+        ],
+        "subjects": [
+            "NSTX-U",
+            "machine learning",
+            "optimization",
+            "NUBEAM",
+            "profile control"
+        ],
+        "doe_contract_number": "AC02-09CH11466",
+        "sponsor_orgs": [
+            "USDOE"
+        ],
+        "research_orgs": [
+            "Princeton Plasma Physics Lab. (PPPL), Princeton, NJ (United States)"
+        ],
+        "links": [
+            {
+                "rel": "citation",
+                "href": "https://www.osti.gov/dataexplorer/biblio/1661166"
+            },
+            {
+                "rel": "fulltext",
+                "href": "https://www.osti.gov/dataexplorer/servlets/purl/1661166"
+            }
+        ]
+    },
+    {
+        "osti_id": "1661167",
+        "title": "MHD-blob correlations in NSTX",
+        "doi": "10.11578/1661167",
+        "product_type": "Dataset",
+        "language": "English",
+        "country_publication": "United States",
+        "description": "This paper describes a study of the cross-correlations between edge fluctuations as seen in the gas puff imaging (GPI) diagnostic and low frequency coherent magnetic fluctuations (MHD) in H-mode plasmas in NSTX. The main new result was that large blobs in the SOL were significantly correlated with MHD activity the 3-6 kHz range in 21 of the 223 shots examined. There were also many other shots in which fluctuations in the GPI signal level and its peak radius Rpeak were correlated with MHD activity, but without any significant correlation of the MHD with large blobs. The structure and motion of the MHD is compared with that of the correlated blobs, and some possible theoretical mechanisms for the MHD-blob correlation are discussed.",
+        "site_ownership_code": "PPPL",
+        "publication_date": "2020-07-08T00:00:00Z",
+        "entry_date": "2020-09-30T00:00:00Z",
+        "authors": [
+            "SJ, Zweben",
+            "ED, Fredrickson",
+            "Myra, JR",
+            "M, Podesta",
+            "F, Scotti"
+        ],
+        "subjects": [
+            "blobs",
+            "MHD",
+            "NSTX"
+        ],
+        "doe_contract_number": "AC02 09CH11466; FG02-97ER54392; AC52-07NA27344",
+        "sponsor_orgs": [
+            "USDOE"
+        ],
+        "research_orgs": [
+            "Princeton Plasma Physics Lab. (PPPL), Princeton, NJ (United States)"
+        ],
+        "links": [
+            {
+                "rel": "citation",
+                "href": "https://www.osti.gov/dataexplorer/biblio/1661167"
+            },
+            {
+                "rel": "fulltext",
+                "href": "https://www.osti.gov/dataexplorer/servlets/purl/1661167"
+            }
+        ]
+    },
+    {
+        "osti_id": "1661168",
+        "title": "Enhanced Pedestal H-mode at low edge ion collisionality on NSTX",
+        "doi": "10.11578/1661168",
+        "product_type": "Dataset",
+        "language": "English",
+        "country_publication": "United States",
+        "description": "The Enhanced Pedestal (EP) H-mode regime is an attractive wide-pedestal ELM-free high-betap scenario for NSTX-U and next-step devices as it achieves enhanced energy confinement (H98y,2 > 1.5), large normalized pressure (betaN > 5) and significant bootstrap fraction (f_BS > 0.6) at I_p/B_T = 2 MA/T. This regime is realized when the edge ion collisionality becomes sufficiently small that a positive feedback interaction occurs between a reduction in the ion neoclassical energy transport and an increase in the particle transport from pressure-driven edge instabilities. EP H-mode was most often observed as a transition following a large ELM in conditions with low edge neutral recycling. It is hypothesized that the onset of pressure-driven instabilities prior to the full recovery of the neutral density leads to a temporary period with elevated ion temperature gradient that triggers the transition to EP H-mode. Linear CGYRO and M3D-C1 calculations are compared to beam emission spectroscopy (BES) and magnetic spectroscopy in order to describe the evolution of the edge particle transport mechanisms during the ELM recovery and the saturated EP H-mode state. The observations are consistent with the hypothesis that the onset of pressure-driven edge instabilities, such as the KBM and kink-peeling, can be responsible for the increased particle transport in EP H-mode.",
+        "site_ownership_code": "PPPL",
+        "publication_date": "2020-07-08T00:00:00Z",
+        "entry_date": "2020-09-30T00:00:00Z",
+        "authors": [
+            "Battaglia, D J",
+            "Guttenfelder, W",
+            "Bell, R E",
+            "Diallo, A",
+            "Ferraro, N",
+            ", Fredrickson, E.",
+            "Gerhardt, S P",
+            "Kaye, S M",
+            "Maingi, R",
+            "Smith, D R"
+        ],
+        "subjects": [
+            "spherical tokamaks",
+            "magnetic plasma confinement",
+            "turbulence and transport",
+            "edge and boundary physics",
+            "NSTX",
+            "H-mode"
+        ],
+        "doe_contract_number": "AC02-09CH11466",
+        "sponsor_orgs": [
+            "USDOE"
+        ],
+        "research_orgs": [
+            "Princeton Plasma Physics Lab. (PPPL), Princeton, NJ (United States)"
+        ],
+        "links": [
+            {
+                "rel": "citation",
+                "href": "https://www.osti.gov/dataexplorer/biblio/1661168"
+            },
+            {
+                "rel": "fulltext",
+                "href": "https://www.osti.gov/dataexplorer/servlets/purl/1661168"
+            }
+        ]
+    },
+    {
+        "osti_id": "1661169",
+        "title": "Theory of the tertiary instability and the Dimits shift within a scalar model",
+        "doi": "10.11578/1661169",
+        "product_type": "Dataset",
+        "language": "English",
+        "country_publication": "United States",
+        "description": "The Dimits shift is the shift between the threshold of the drift-wave primary instability and the actual onset of turbulent transport in magnetized plasma. It is generally attributed to the suppression of turbulence by zonal flows, but developing a more detailed understanding calls for consideration of specific reduced models. The modified Terry--Horton system has been proposed by St-Onge [J. Plasma Phys. {\\bf 83}, 905830504 (2017)] as a minimal model capturing the Dimits shift. Here, we use this model to develop an analytic theory of the Dimits shift and a related theory of the tertiary instability of zonal flows. We show that tertiary modes are localized near extrema of the zonal velocity $U(x)$, where $x$ is the radial coordinate. By approximating $U(x)$ with a parabola, we derive the tertiary-instability growth rate using two different methods and show that the tertiary instability is essentially the primary drift-wave instability modified by the local $U''$. Then, depending on $U''$, the tertiary instability can be suppressed or unleashed. The former corresponds to the case when zonal flows are strong enough to suppress turbulence (Dimits regime), while the latter corresponds to the case when zonal flows are unstable and turbulence develops. This understanding is different from the traditional paradigm that turbulence is controlled by the flow shear $U'$. Our analytic predictions are in agreement with direct numerical simulations of the modified Terry--Horton system.",
+        "site_ownership_code": "PPPL",
+        "publication_date": "2020-06-29T00:00:00Z",
+        "entry_date": "2020-09-30T00:00:00Z",
+        "authors": [
+            "Zhu, Hongxuan",
+            "Yao, Zhou",
+            "Dodin, I Y"
+        ],
+        "subjects": [
+            "fusion plasmas",
+            "plasma instabilities",
+            "plasma waves"
+        ],
+        "doe_contract_number": "AC02-09CH11466",
+        "sponsor_orgs": [
+            "USDOE"
+        ],
+        "research_orgs": [
+            "Princeton Plasma Physics Lab. (PPPL), Princeton, NJ (United States)"
+        ],
+        "links": [
+            {
+                "rel": "citation",
+                "href": "https://www.osti.gov/dataexplorer/biblio/1661169"
+            },
+            {
+                "rel": "fulltext",
+                "href": "https://www.osti.gov/dataexplorer/servlets/purl/1661169"
+            }
+        ]
+    },
+    {
+        "osti_id": "1661170",
+        "title": "Gyrokinetic understanding of the edge pedestal transport driven by resonant magnetic perturbations in a realistic divertor geometry",
+        "doi": "10.11578/1661170",
+        "product_type": "Dataset",
+        "language": "English",
+        "country_publication": "United States",
+        "description": "Self-consistent simulations of neoclassical and electrostatic turbulent transport in a DIII-D H-mode edge plasma under resonant magnetic perturbations (RMPs) have been performed using the global total-f gyrokinetic particle-in-cell code XGC, in order to study density-pump out and electron heat confinement.The RMP field is imported from the extended magneto-hydrodynamics (MHD) code M3D-C1, taking into account the linear two-fluid plasma response.With both neoclassical and turbulence physics considered together, the XGC simulation reproduces two key features of experimentally observed edge transport under RMPs: increased radial particle transport in the pedestal region that is sufficient to account for the experimental pump-out rate, and suppression of the electron heat flux in the steepest part of the edge pedestal.In the simulation, the density fluctuation amplitude of modes moving in the electron diamagnetic direction increases due to interaction with RMPs in the pedestal shoulder and outward, while the electron temperature fluctuation amplitude decreases.",
+        "site_ownership_code": "PPPL",
+        "publication_date": "2020-06-10T00:00:00Z",
+        "entry_date": "2020-09-30T00:00:00Z",
+        "authors": [
+            "Hager, R",
+            "Chang, C S",
+            "Ferraro, N M",
+            "Nazikian R."
+        ],
+        "subjects": [
+            "XGC",
+            "DIII-D",
+            "RMP",
+            "turbulence",
+            "transport"
+        ],
+        "doe_contract_number": "AC02-09CH11466; FC02-04ER54698; AC02-06CH11357; AC02-05CH11231",
+        "sponsor_orgs": [
+            "USDOE"
+        ],
+        "research_orgs": [
+            "Princeton Plasma Physics Lab. (PPPL), Princeton, NJ (United States)"
+        ],
+        "links": [
+            {
+                "rel": "citation",
+                "href": "https://www.osti.gov/dataexplorer/biblio/1661170"
+            },
+            {
+                "rel": "fulltext",
+                "href": "https://www.osti.gov/dataexplorer/servlets/purl/1661170"
+            }
+        ]
+    },
+    {
+        "osti_id": "1661171",
+        "title": "Deep convolutional neural networks for multi-scale time-series classification and application to disruption prediction in fusion devices",
+        "doi": "10.11578/1661171",
+        "product_type": "Dataset",
+        "language": "English",
+        "country_publication": "United States",
+        "description": "The multi-scale, mutli-physics nature of fusion plasmas makes predicting plasma events challenging. Recent advances in deep convolutional neural network architectures (CNN) utilizing dilated convolutions enable accurate predictions on sequences which have long-range, multi-scale characteristics, such as the time-series generated by diagnostic instruments observing fusion plasmas. Here we apply this neural network architecture to the popular problem of disruption prediction in fusion tokamaks, utilizing raw data from a single diagnostic, the Electron Cyclotron Emission imaging (ECEi) diagnostic from the DIII-D tokamak. ECEi measures a fundamental plasma quantity (electron temperature) with high temporal resolution over the entire plasma discharge, making it sensitive to a number of potential pre-disruptions markers with different temporal and spatial scales. Promising, initial disruption prediction results are obtained training a deep CNN with large receptive field ({$\\sim$}30k), achieving an $F_1$-score of {$\\sim$}91\\% on individual time-slices using only the ECEi data.",
+        "site_ownership_code": "PPPL",
+        "publication_date": "2020-05-21T00:00:00Z",
+        "entry_date": "2020-09-30T00:00:00Z",
+        "authors": [
+            "Churchill, R M",
+            "the DIII-D team"
+        ],
+        "subjects": [
+            "fusion",
+            "plasma physics",
+            "machine learning",
+            "deep learning",
+            "convolutional neural networks",
+            "ECEi"
+        ],
+        "doe_contract_number": "AC02-09CH11466; FC02-04ER54698; FG02-99ER54531",
+        "sponsor_orgs": [
+            "USDOE"
+        ],
+        "research_orgs": [
+            "Princeton Plasma Physics Lab. (PPPL), Princeton, NJ (United States)"
+        ],
+        "links": [
+            {
+                "rel": "citation",
+                "href": "https://www.osti.gov/dataexplorer/biblio/1661171"
+            },
+            {
+                "rel": "fulltext",
+                "href": "https://www.osti.gov/dataexplorer/servlets/purl/1661171"
+            }
+        ]
+    },
+    {
+        "osti_id": "1661172",
+        "title": "Geometric concepts for stellarator permanent magnet arrays",
+        "doi": "10.11578/1661172",
+        "product_type": "Dataset",
+        "language": "English",
+        "country_publication": "United States",
+        "description": "The development of stellarators that use permanent magnet arrays to shape their confining magnetic fields has been a topic of recent interest, but the requirements for how such magnets must be shaped, manufactured, and assembled remain to be determined. To address these open questions, we have performed a study of geometric concepts for magnet arrays with the aid of the newly developed MAGPIE code. A proposed experiment similar to the National Compact Stellarator Experiment (NCSX) is used as a test case. Two classes of magnet geometry are explored: curved bricks that conform to a regular grid in cylindrical coordinates, and hexahedra that conform to the toroidal plasma geometry. In addition, we test constraints on the magnet polarization. While magnet configurations constrained to be polarized normally to a toroidal surface around the plasma are unable to meet the required magnetic field parameters when subject to physical limitations on the strength of present-day magnets, configurations with unconstrained polarizations are shown to satisfy the physics requirements for a targeted plasma.",
+        "site_ownership_code": "PPPL",
+        "publication_date": "2020-09-03T00:00:00Z",
+        "entry_date": "2020-09-30T00:00:00Z",
+        "authors": [
+            "Hammond, K C",
+            "Zhu, C",
+            "Brown, T",
+            "Corrigan, K",
+            "Gates, D A",
+            "Sibilia, M"
+        ],
+        "subjects": [
+            "stellarator, permanent magnet, optimization"
+        ],
+        "doe_contract_number": "AC02-09CH11466",
+        "sponsor_orgs": [
+            "USDOE"
+        ],
+        "research_orgs": [
+            "Princeton Plasma Physics Lab. (PPPL), Princeton, NJ (United States)"
+        ],
+        "links": [
+            {
+                "rel": "citation",
+                "href": "https://www.osti.gov/dataexplorer/biblio/1661172"
+            },
+            {
+                "rel": "fulltext",
+                "href": "https://www.osti.gov/dataexplorer/servlets/purl/1661172"
+            }
+        ]
     }
 ]
