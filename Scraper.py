@@ -63,8 +63,7 @@ class Scraper:
 
         for collection_id in collection_ids:
             r = requests.get(
-                f'https://dataspace.princeton.edu/rest/collections/{collection_id}/items?expand=metadata', 
-                verify=False
+                f'https://dataspace.princeton.edu/rest/collections/{collection_id}/items?expand=metadata'
             )
             j = json.loads(r.text)
             all_items.extend(j)
