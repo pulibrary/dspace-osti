@@ -13,13 +13,14 @@ class Scraper:
      additional needed information."""
     def __init__(self, data_dir='data', osti_scrape='osti_scrape.json',
             dspace_scrape='dspace_scrape.json', entry_form_full_path='entry_form.tsv',
-            to_upload='dataset_metadata_to_upload.json'):
+            to_upload='dataset_metadata_to_upload.json', redirects='redirects.json'):
 
         data_dir = 'data'
         self.osti_scrape = pjoin(data_dir, osti_scrape)
         self.dspace_scrape = pjoin(data_dir, dspace_scrape)
         self.entry_form = entry_form_full_path
-        self.to_upload = os.path.join(data_dir, to_upload)
+        self.to_upload = pjoin(data_dir, to_upload)
+        self.redirects = pjoin(data_dir, redirects)
 
         if not os.path.exists(data_dir):
             os.mkdir(data_dir)
@@ -85,7 +86,7 @@ class Scraper:
             " are included. Or write a recursive function to prevent this" +
             " from happening again.")
 
-        print(f'Pulled {len(all_items)} records from DSpace.\n\n')
+        print(f'Pulled {len(all_items)} records from DSpace.')
         with open(self.dspace_scrape, 'w') as f:
             json.dump(all_items, f, indent=4)
 
@@ -93,32 +94,47 @@ class Scraper:
     def get_unposted_metadata(self):
         """Compare the OSTI and DSpace JSON to see what titles need to be uploaded.
         """
+        def get_handle(doi, redirects_j):
+            if doi not in redirects_j:
+                r = requests.get(f'https://doi.org/{doi}')
+                assert r.status_code == 200, f"Error parsing DOI: {doi}"
+                handle = r.url.split('handle/')[-1]
+                redirects_j[doi] = handle
+                return handle
+            else:
+                return redirects_j[doi]
 
+        with open(self.redirects) as f:
+            redirects_j = json.load(f)
         with open(self.dspace_scrape) as f:
             dspace_j = json.load(f)
         with open(self.osti_scrape) as f:
             osti_j = json.load(f)
 
-        osti_titles = [html.unescape(x['title']) for x in osti_j]
-        dspace_titles = [x['name'] for x in dspace_j]
+        # Find handles in DSpace whose handles aren't linked in OSTI's DOIs
+        osti_handles = [get_handle(record['doi'], redirects_j) 
+            for record in osti_j]
 
-        titles_to_be_published = [x for x in dspace_titles if x not in osti_titles]
-        to_be_published = [item for item in dspace_j if item['name'] in titles_to_be_published]
+        to_be_published = []
+        for dspace_record in dspace_j:
+            if dspace_record['handle'] not in osti_handles:
+                to_be_published.append(dspace_record)
+
+        # osti_titles = [html.unescape(x['title']) for x in osti_j]
+        # dspace_titles = [x['name'] for x in dspace_j]
+
+        # titles_to_be_published = [x for x in dspace_titles if x not in osti_titles]
+        # to_be_published = [item for item in dspace_j if item['name'] in titles_to_be_published]
 
         with open(self.to_upload, 'w') as f:
             json.dump(to_be_published, f, indent=4)
+        with open(self.redirects, 'w') as f:
+            json.dump(redirects_j, f, indent=4)
 
         print(f"{len(to_be_published)} unpublished records were found.", end="\n\n")
 
-
-        errors = [x for x in osti_titles if x not in dspace_titles]
-        if len(errors) > 0:
-            print(f"The following records were found on OSTI but not in DSpace (that" +
-                " shouldn't happen). If they closely resemble records we are about to" +
-                " upload, please remove those records from from the upload process.")
-            for error in errors:
-                print("---  " + error)
-
+        for record in to_be_published:
+            print(f"\t{record['name']}")
 
     def generate_contract_entry_form(self):
         """Create a CSV where a user can enter Sponsoring Organizations, DOE
