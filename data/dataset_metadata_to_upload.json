@@ -1,10 +1,10 @@
 [
     {
-        "id": 97051,
-        "name": "Comment on \u2018Numerical modeling of tokamak breakdown phase driven by pure Ohmic heating under ideal conditions\u2019",
-        "handle": "88435/dsp015h73pz85r",
+        "id": 87628,
+        "name": "Application of IR imaging for free-surface velocity measurement in liquid-metal systems",
+        "handle": "88435/dsp015h73pz67t",
         "type": "item",
-        "link": "/rest/items/97051",
+        "link": "/rest/items/87628",
         "expand": [
             "parentCollection",
             "parentCollectionList",
@@ -12,49 +12,54 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2019-06-12 05:14:56.233",
+        "lastModified": "2017-07-20 04:07:52.985",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
         "metadata": [
             {
                 "key": "dc.contributor.author",
-                "value": "Yoo, Min-Gu",
+                "value": "Hvasta, M.H.",
                 "language": null
             },
             {
                 "key": "dc.contributor.author",
-                "value": "Na, Yong-Su",
+                "value": "Kolemen, E.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Fisher, A.",
                 "language": null
             },
             {
                 "key": "dc.date.accessioned",
-                "value": "2019-06-11T20:08:14Z",
+                "value": "2017-07-19T17:29:15Z",
                 "language": null
             },
             {
                 "key": "dc.date.available",
-                "value": "2019-06-11T20:08:14Z",
+                "value": "2017-07-19T17:29:15Z",
                 "language": null
             },
             {
                 "key": "dc.date.issued",
-                "value": "2019-06",
+                "value": "2017-01",
                 "language": null
             },
             {
                 "key": "dc.identifier.uri",
-                "value": "http://arks.princeton.edu/ark:/88435/dsp015h73pz85r",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp015h73pz67t",
                 "language": null
             },
             {
                 "key": "dc.description.abstract",
-                "value": "In this comment, we point out possible critical numerical flaws of recent particle simulation studies (Jiang et al 2016 Nucl. Fusion 56 126017, Peng et al 2018 Nucl. Fusion 58 026007) on the electrical gas breakdown in a simple one-dimensional periodic slab geometry. We show that their observations on the effects of the ambipolar electric fields during the breakdown, such as the sudden reversal of the ion flow direction, could not be real physical phenomena but resulting from numerical artifacts violating the momentum conservation law. We show that an incomplete implementation of the direct-implicit scheme can cause the artificial electric fields and plasma transports resulting in fallacies in simulation results. We also discuss that their simple plasma model without considering poloidal magnetic fields seriously mislead the physical mechanism of the electrical gas breakdown because it cannot reflect important dominant plasma dynamics in the poloidal plane (Yoo et al 2018 Nat. Commun. 9 3523).",
+                "value": "Measuring free-surface, liquid-metal flow velocity is challenging to do in a reliable and accurate manner.  This paper presents a non-invasive, easily-calibrated method of measuring the surface velocities of open-channel liquid-metal flows using an IR camera.  Unlike other spatially-limited methods, this IR camera particle tracking technique provides full field-of-view data that can be used to better understand open-channel flows and determine surface boundary conditions.  This method could be implemented and automated for a wide range of liquid-metal experiments, even if they operate at high-temperatures or within strong magnetic fields.",
                 "language": "en_US"
             },
             {
                 "key": "dc.description.tableofcontents",
-                "value": "readme and digital data files",
+                "value": "readme, data files",
                 "language": "en_US"
             },
             {
@@ -69,170 +74,37 @@
             },
             {
                 "key": "dc.relation",
-                "value": "Nuclear Fusion",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.subject",
-                "value": "electrical gas breakdown",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.subject",
-                "value": "direct-implicit scheme",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.subject",
-                "value": "particle simulation",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.subject",
-                "value": "tokamak",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.title",
-                "value": "Comment on \u2018Numerical modeling of tokamak breakdown phase driven by pure Ohmic heating under ideal conditions\u2019",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.type",
-                "value": "Dataset",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.contributor.funder",
-                "value": "U. S. Department of Energy",
-                "language": "en_US"
-            }
-        ],
-        "bitstreams": null,
-        "archived": "true",
-        "withdrawn": "false"
-    },
-    {
-        "id": 87627,
-        "name": "Nonlinear simulations of beam-driven Compressional Alfv\u00e9n Eigenmodes in NSTX",
-        "handle": "88435/dsp019593tx75w",
-        "type": "item",
-        "link": "/rest/items/87627",
-        "expand": [
-            "parentCollection",
-            "parentCollectionList",
-            "parentCommunityList",
-            "bitstreams",
-            "all"
-        ],
-        "lastModified": "2017-07-20 04:07:51.672",
-        "parentCollection": null,
-        "parentCollectionList": null,
-        "parentCommunityList": null,
-        "metadata": [
-            {
-                "key": "dc.contributor.author",
-                "value": "Belova, E.V.",
-                "language": null
-            },
-            {
-                "key": "dc.contributor.author",
-                "value": "Gorelenkov, N.N.",
-                "language": null
-            },
-            {
-                "key": "dc.contributor.author",
-                "value": "Crocker, N.A.",
-                "language": null
-            },
-            {
-                "key": "dc.contributor.author",
-                "value": "Lestz, J.B.",
-                "language": null
-            },
-            {
-                "key": "dc.contributor.author",
-                "value": "Fredrickson, E.D.",
-                "language": null
-            },
-            {
-                "key": "dc.contributor.author",
-                "value": "Tang, S.",
-                "language": null
-            },
-            {
-                "key": "dc.contributor.author",
-                "value": "Tritz, K.",
-                "language": null
-            },
-            {
-                "key": "dc.date.accessioned",
-                "value": "2017-07-19T17:03:37Z",
-                "language": null
-            },
-            {
-                "key": "dc.date.available",
-                "value": "2017-07-19T17:03:37Z",
-                "language": null
-            },
-            {
-                "key": "dc.date.issued",
-                "value": "2017-04",
-                "language": null
-            },
-            {
-                "key": "dc.identifier.uri",
-                "value": "http://arks.princeton.edu/ark:/88435/dsp019593tx75w",
-                "language": null
-            },
-            {
-                "key": "dc.description.abstract",
-                "value": "Results of 3D nonlinear simulations of neutral-beam-driven compressional Alfven eigenmodes (CAEs) in the National Spherical Torus Experiment (NSTX) are presented. Hybrid MHD-particle simulations for the H-mode NSTX discharge (shot 141398) using the HYM code show unstable CAE modes for a range of toroidal mode numbers, n=4-9, and frequencies below the ion cyclotron frequency. It is found that the essential feature of CAEs is their coupling to kinetic Alfven wave (KAW) that occurs on the high-field side at the Alfven resonance location. High-frequency Alfven eigenmodes are frequently observed in beam-heated NSTX plasmas, and have been linked to flattening of the electron temperature profiles at high beam power. Coupling between CAE and KAW suggests an energy channeling  mechanism to explain these observations, in which beam-driven CAEs dissipate their energy at the resonance location,\r\ntherefore significantly modifying the energy deposition profile. Nonlinear simulations demonstrate that CAEs can channel the energy of the beam ions from the injection region near the magnetic axis to the location of the resonant mode conversion at the edge of the beam density profile. A set of nonlinear simulations show that the CAE instability saturates due to nonlinear particle trapping, and a large fraction of beam energy can be transferred to several unstable CAEs of relatively large amplitudes and absorbed at the resonant location. Absorption rate shows a strong scaling with the beam power.",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.description.tableofcontents",
-                "value": "readme and data files",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.language.iso",
-                "value": "en_US",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.publisher",
-                "value": "Princeton Plasma Physics Laboratory, Princeton University",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.relation",
-                "value": "Physics of Plasmas vol. 24 p. 042505 (April 2017)",
+                "value": "Review of Scientific Instruments vol. 88 p. 013501 (January 2017)",
                 "language": "en_US"
             },
             {
                 "key": "dc.relation.isreferencedby",
-                "value": "http://dx.doi.org/10.1063/1.4979278",
+                "value": "http://dx.doi.org/10.1063/1.4973421",
                 "language": "en_US"
             },
             {
                 "key": "dc.subject",
-                "value": "NSTX",
+                "value": "Liquid metal",
                 "language": "en_US"
             },
             {
                 "key": "dc.subject",
-                "value": "Numerical simulations",
+                "value": "Free surface",
                 "language": "en_US"
             },
             {
                 "key": "dc.subject",
-                "value": "Compressional Alfven Eigenmodes",
+                "value": "IR camera",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "Velocimetry",
                 "language": "en_US"
             },
             {
                 "key": "dc.title",
-                "value": "Nonlinear simulations of beam-driven Compressional Alfv\u00e9n Eigenmodes in NSTX",
+                "value": "Application of IR imaging for free-surface velocity measurement in liquid-metal systems",
                 "language": "en_US"
             },
             {
@@ -253,6 +125,134 @@
             {
                 "key": "dc.contributor.funder",
                 "value": "U. S. Department of Energy contract number DE-AC02-09CH11466",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 101740,
+        "name": "Machine Learning Characterization of Alfv\u00e9nic and Sub-Alfv\u00e9nic Chirping and Correlation With Fast-Ion Loss at NSTX",
+        "handle": "88435/dsp01m326m461v",
+        "type": "item",
+        "link": "/rest/items/101740",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2020-01-02 08:01:14.199",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Woods, B. J. Q.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Duarte, V. N.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Fredrickson, E. D.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Gorelenkov, N. N.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Podest\u00e0, M.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Vann, R. G. L.",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2020-01-02T13:01:13Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2020-01-02T13:01:13Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2019-12",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp01m326m461v",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "Abrupt large events in the Alfvenic and sub-Alfvenic frequency bands in tokamaks are typically correlated with increased fast-ion loss. Here, machine learning is used to speed up the laborious process of characterizing the behavior of magnetic perturbations from corresponding frequency spectrograms that are typically identified by humans. The analysis allows for comparison between different mode character (such as quiescent, fixed frequency, and chirping, avalanching) and plasma parameters obtained from the TRANSP code, such as the ratio of the neutral beam injection (NBI) velocity and the Alfven velocity (v_inj./v_A), the q-profile, and the ratio of the neutral beam beta and the total plasma beta (beta_beam,i / beta). In agreement with the previous work by Fredrickson et al., we find a correlation between beta_beam,i and mode character. In addition, previously unknown correlations are found between moments of the spectrograms and mode character. Character transition from quiescent to nonquiescent behavior for magnetic fluctuations in the 50200-kHz frequency band is observed along the boundary v_phi ~ (1/4)(v_inj. - 3v_A), where v_phi is the rotation velocity.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "readme and digital data files",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "IEEE Transactions on Plasma Science",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "machine learning",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "tokamak physics",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "plasma physics",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Machine Learning Characterization of Alfv\u00e9nic and Sub-Alfv\u00e9nic Chirping and Correlation With Fast-Ion Loss at NSTX",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy",
                 "language": "en_US"
             }
         ],
