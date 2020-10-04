@@ -112,6 +112,7 @@ class Scraper:
             osti_j = json.load(f)
 
         # Find handles in DSpace whose handles aren't linked in OSTI's DOIs
+        # HACK: returning proper DOI while also updating redirects_j
         osti_handles = [get_handle(record['doi'], redirects_j) 
             for record in osti_j]
 
@@ -120,21 +121,25 @@ class Scraper:
             if dspace_record['handle'] not in osti_handles:
                 to_be_published.append(dspace_record)
 
-        # osti_titles = [html.unescape(x['title']) for x in osti_j]
-        # dspace_titles = [x['name'] for x in dspace_j]
-
-        # titles_to_be_published = [x for x in dspace_titles if x not in osti_titles]
-        # to_be_published = [item for item in dspace_j if item['name'] in titles_to_be_published]
-
         with open(self.to_upload, 'w') as f:
             json.dump(to_be_published, f, indent=4)
         with open(self.redirects, 'w') as f:
             json.dump(redirects_j, f, indent=4)
 
-        print(f"{len(to_be_published)} unpublished records were found.", end="\n\n")
-
+        print(f"{len(to_be_published)} unpublished records were found and saved to {self.to_upload}")
         for record in to_be_published:
             print(f"\t{record['name']}")
+
+        # Find records in OSTI but not DSpace
+        dspace_handles = [record['handle'] for record in dspace_j]
+        errors = [record for record in osti_j if redirects_j[record['doi']] not in dspace_handles]
+        if len(errors) > 0:
+            print(f"The following records were found on OSTI but not in DSpace (that" + 
+                " shouldn't happen). If they closely resemble records we are about to" +
+                " upload, please remove those records from from the upload process.")
+            for error in errors:
+                print(f"\t{error['title']}")
+
 
     def generate_contract_entry_form(self):
         """Create a CSV where a user can enter Sponsoring Organizations, DOE
@@ -142,7 +147,6 @@ class Scraper:
         """
         with open(self.to_upload) as f:
             to_upload_j = json.load(f)
-
 
         df = pd.DataFrame()
         df['DSpace ID'] = [item['id'] for item in to_upload_j]
