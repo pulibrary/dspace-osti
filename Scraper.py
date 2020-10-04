@@ -58,15 +58,25 @@ class Scraper:
             'NSTX-U': 1304
         }
         """
-        collection_ids = [1422, 2266, 1308, 1282, 1304]
+        COLLECTION_IDS = [1422, 2266, 1308, 1282, 1304]
         all_items = []
 
-        for collection_id in collection_ids:
+        for collection_id in COLLECTION_IDS:
             r = requests.get(
                 f'https://dataspace.princeton.edu/rest/collections/{collection_id}/items?expand=metadata'
             )
             j = json.loads(r.text)
             all_items.extend(j)
+
+        # Confirm that all collections were included
+        PPPL_COMMUNITY_ID = 346
+        r = requests.get(f"https://dataspace.princeton.edu/rest/communities/{PPPL_COMMUNITY_ID}")
+        assert json.loads(r.text)['countItems'] == len(all_items), ("The number" + 
+            " of items in the PPPL community does not equal the number of items" + 
+            " collected. Review the list of collections we search through" +
+            " (variable COLLECTION_IDS) and ensure that all PPPL collections" +
+            " are included. Or write a recursive function to prevent this" +
+            " from happening again.")
 
         print(f'Pulled {len(all_items)} records from DSpace.\n\n')
         with open(self.dspace_scrape, 'w') as f:
