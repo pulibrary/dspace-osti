@@ -11,8 +11,8 @@ class Scraper:
     """Pipeline to collect data from OSTI & DSpace, comparing which datasets
      are not yet posted, and generating a form for a user to manually enter
      additional needed information."""
-    def __init__(self, data_dir='data', osti_scrape='osti_scrape.json', 
-            dspace_scrape='dspace_scrape.json', entry_form_full_path='entry_form.csv', 
+    def __init__(self, data_dir='data', osti_scrape='osti_scrape.json',
+            dspace_scrape='dspace_scrape.json', entry_form_full_path='entry_form.csv',
             to_upload='dataset_metadata_to_upload.json'):
 
         data_dir = 'data'
@@ -46,19 +46,26 @@ class Scraper:
         with open(self.osti_scrape, 'w') as f:
             json.dump(existing_datasets, f, indent=4)
 
-    
+
     def get_dspace_metadata(self):
         """Collect metadata on all items from all DSpace PPPL collections.
-        
+
         collections = {
+            'NSTX': 1282,
+            'NSTX-U': 1304,
+            'Stellarators': 1308,
             'Plasma Science & Technology': 1422,
             'Theory and Computation': 2266,
-            'Stellarators': 1308,    
-            'NSTX': 1282,
-            'NSTX-U': 1304
+            'ITER and Tokamaks PPPL Collaborations': 3378,
+            'Theory': 3379,
+            'Computational Science PPPL Collaborations': 3380,
+            'Engineering Research': 3381,
+            'ESH Technical Reports': 3382,
+            'IT PPPL Collaborations': 3383
         }
         """
-        COLLECTION_IDS = [1422, 2266, 1308, 1282, 1304]
+        COLLECTION_IDS = [1282, 1304, 1308, 1422, 2266, 3378, 3379, 3380, 3381, 3382, 3383]
+
         all_items = []
 
         for collection_id in COLLECTION_IDS:
@@ -71,8 +78,8 @@ class Scraper:
         # Confirm that all collections were included
         PPPL_COMMUNITY_ID = 346
         r = requests.get(f"https://dataspace.princeton.edu/rest/communities/{PPPL_COMMUNITY_ID}")
-        assert json.loads(r.text)['countItems'] == len(all_items), ("The number" + 
-            " of items in the PPPL community does not equal the number of items" + 
+        assert json.loads(r.text)['countItems'] == len(all_items), ("The number" +
+            " of items in the PPPL community does not equal the number of items" +
             " collected. Review the list of collections we search through" +
             " (variable COLLECTION_IDS) and ensure that all PPPL collections" +
             " are included. Or write a recursive function to prevent this" +
@@ -102,11 +109,11 @@ class Scraper:
             json.dump(to_be_published, f, indent=4)
 
         print(f"{len(to_be_published)} unpublished records were found.", end="\n\n")
-        
+
 
         errors = [x for x in osti_titles if x not in dspace_titles]
         if len(errors) > 0:
-            print(f"The following records were found on OSTI but not in DSpace (that" + 
+            print(f"The following records were found on OSTI but not in DSpace (that" +
                 " shouldn't happen). If they closely resemble records we are about to" +
                 " upload, please remove those records from from the upload process.")
             for error in errors:
