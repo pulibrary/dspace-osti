@@ -6,13 +6,13 @@ import sys
 
 import pandas as pd
 
-from ostiapi import ostiapi
+import ostiapi
 
 class Poster:
     """Use the form input and DSpace metadata to generate the JSON necessary
      for OSTI ingestion. Then post to OSTI using their API"""
     def __init__(self, mode, data_dir='data', to_upload='dataset_metadata_to_upload.json',
-     form_input_full_path='form_input.csv', osti_upload='osti.json', response_dir="responses"):
+     form_input_full_path='form_input.tsv', osti_upload='osti.json', response_dir="responses"):
         self.mode = mode
 
         # Prepare all paths
@@ -49,7 +49,7 @@ class Poster:
         with open(self.to_upload) as f:
             to_upload_j = json.load(f)
 
-        df = pd.read_csv(self.form_input)
+        df = pd.read_csv(self.form_input, sep='\t')
         df = df.set_index('DSpace ID')
 
         # Validate Input CSV 
@@ -70,7 +70,7 @@ class Poster:
         osti_format = []
         for dspace_id, row in df.iterrows():
             dspace_data = [item for item in to_upload_j if item['id'] == dspace_id]
-            assert len(dspace_data) == 1
+            assert len(dspace_data) == 1, dspace_data
             dspace_data = dspace_data[0]
             
             # get publication date

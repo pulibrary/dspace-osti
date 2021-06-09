@@ -12,7 +12,7 @@ class Scraper:
      are not yet posted, and generating a form for a user to manually enter
      additional needed information."""
     def __init__(self, data_dir='data', osti_scrape='osti_scrape.json',
-            dspace_scrape='dspace_scrape.json', entry_form_full_path='entry_form.csv',
+            dspace_scrape='dspace_scrape.json', entry_form_full_path='entry_form.tsv',
             to_upload='dataset_metadata_to_upload.json'):
 
         data_dir = 'data'
@@ -141,7 +141,7 @@ class Scraper:
         df['Datatype'] = None
 
         df = df.sort_values('Issue Date')
-        df.to_csv(self.entry_form, index=False)
+        df.to_csv(self.entry_form, index=False, sep='\t')
 
 
     def run_pipeline(self, scrape=True):

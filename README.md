@@ -28,17 +28,17 @@ export OSTI_PASSWORD_PROD="my-prod-osti-password" # from LastPass
 
 ### Pull necessary data
 
-Run `python Scraper.py` to collect data from OSTI & DSpace. The pipeline will compare (by title) to see which datasets haven't yet been uploaded. It will output `entry_form.csv` that one needs to manually fill out with DOE Contract information 
+Run `python Scraper.py` to collect data from OSTI & DSpace. The pipeline will compare (by title) to see which datasets haven't yet been uploaded. It will output `entry_form.tsv` that one needs to manually fill out with DOE Contract information 
 
 ### Manually enter data
 
-Copy `entry_form.csv` to a Google Sheet and share with partners at PPPL. They will need to enter `Sponsoring Organizations`, `DOE Contract`, and `Datatype`. [See `Datatype` codes here.](https://github.com/doecode/ostiapi#data-set-content-type-values) (Ideally, in the long run we would integrate these fields into DSpace's metadata.) Save the file into this folder as `form_input.csv`.
+Copy `entry_form.tsv` to a Google Sheet and share with partners at PPPL. They will need to enter `Sponsoring Organizations`, `DOE Contract`, and `Datatype`. [See `Datatype` codes here.](https://github.com/doecode/ostiapi#data-set-content-type-values) (Ideally, in the long run we would integrate these fields into DSpace's metadata.) Save the file into this folder as `form_input.tsv`.
 
-Note: Since we're joining by title, typos and encoding errors will inevitably lead to missed results in `entry_form.csv`. `Scraper.py` also checks for items that are in OSTI but not DSpace, something that shouldn't happen. The user will need to manually remove those rows from the entry form.
+Note: Since we're joining by title, typos and encoding errors will inevitably lead to missed results in `entry_form.tsv`. `Scraper.py` also checks for items that are in OSTI but not DSpace, something that shouldn't happen. The user will need to manually remove those rows from the entry form.
 
 ### Post to OSTI
 
-`Poster.py` is used to combine the `form_input.csv` and DSpace metadata to generate the JSON necessary for OSTI ingestion. Choose one of the three options:
+`Poster.py` is used to combine the `form_input.tsv` and DSpace metadata to generate the JSON necessary for OSTI ingestion. Choose one of the three options:
 
 ```
     --dry-run: Make fake requests locally to test workflow.
