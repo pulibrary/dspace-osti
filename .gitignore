@@ -1,3 +1,4 @@
 secrets.sh
 dry-run_osti_response_*.json
 scratch/
+venv/
