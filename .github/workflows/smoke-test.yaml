@@ -1,0 +1,30 @@
+name: smoke-test
+
+on: [push]
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+
+    - name: Run scraper
+      run: python Scraper.py
+    
+    - name: Run poster
+      run: python Poster.py --dry-run
+      env:
+        OSTI_USERNAME_TEST: my-test-osti-username
+        OSTI_PASSWORD_TEST: my-test-osti-password
+        OSTI_USERNAME_PROD: my-prod-osti-username
+        OSTI_PASSWORD_PROD: my-prod-osti-password
