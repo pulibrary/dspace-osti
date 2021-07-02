@@ -99,7 +99,7 @@ class Scraper:
         """
         def get_handle(doi, redirects_j):
             if doi not in redirects_j:
-                r = requests.get(f'https://doi.org/{doi}')
+                r = requests.get(doi)
                 assert r.status_code == 200, f"Error parsing DOI: {doi}"
                 handle = r.url.split('handle/')[-1]
                 redirects_j[doi] = handle
