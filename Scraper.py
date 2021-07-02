@@ -129,10 +129,6 @@ class Scraper:
         with open(self.redirects, 'w') as f:
             json.dump(redirects_j, f, indent=4)
 
-        print(f"{len(to_be_published)} unpublished records were found and saved to {self.to_upload}")
-        for record in to_be_published:
-            print(f"\t{record['name']}")
-
         # Check for records in OSTI but not DSpace
         dspace_handles = [record['handle'] for record in dspace_j]
         errors = [record for record in osti_j if redirects_j[record['doi']] not in dspace_handles]
@@ -165,6 +161,13 @@ class Scraper:
 
         df = df.sort_values('Issue Date')
         df.to_csv(self.entry_form, index=False, sep='\t')
+
+        print(f"{df.shape[0]} unpublished records were found in the PPPL dataspace community that have not been registered with OSTI.")
+        print(f"They've been saved to the form {self.entry_form}.")
+        print("You're now expected to manually update that form and save as a new file before running Poster.py")
+        for i, row in df.iterrows():
+            print(f"\t{repr(row['Title'])}")
+            print(f"\t\t{row['Dataspace Link']}")
 
 
     def run_pipeline(self, scrape=True):
