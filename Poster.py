@@ -30,7 +30,7 @@ class Poster:
         # Ensure environment variables are prepared
         environment_vars = ['OSTI_USERNAME_TEST', 'OSTI_PASSWORD_TEST',
          'OSTI_USERNAME_PROD', 'OSTI_PASSWORD_PROD']
-        assert all([var in os.environ for var in environment_vars])
+        assert all([var in os.environ for var in environment_vars]), 'All four environment variables need to be set. See the README for more information.'
 
         # Assign username and password depending on where data is being posted
         if mode == 'test':
@@ -108,15 +108,15 @@ class Poster:
             json.dump(osti_format, f, indent=4)
 
 
-    def _fake_post(self, record, username, password):
+    def _fake_post(self, records, username, password):
         """A fake JSON response that mirrors OSTI's"""
         return {
             "record": [
                 {
                     "osti_id": "1488485",
-                    "accession_num": "88435/dsp01z316q451j",
+                    "accession_num": record["accession_num"],
                     "product_nos": "None",
-                    "title": "Fake title 1: Toward fusion plasma scenario planning",
+                    "title": record["title"],
                     "contract_nos": "AC02-09CH11466",
                     "other_identifying_nos": None,
                     "doi": "10.11578/1488485",
@@ -124,20 +124,7 @@ class Poster:
                     "status": "SUCCESS",
                     "status_message": None,
                     "@status": "UPDATED"
-                },
-                {
-                    "osti_id": "1491154",
-                    "accession_num": "88435/dsp012v23vx30c",
-                    "product_nos": "None",
-                    "title": "Fake title 2: MHD-blob correlations in NSTX",
-                    "contract_nos": "AC02 09CH11466; FG02-97ER54392; AC52-07NA27344",
-                    "other_identifying_nos": None,
-                    "doi": "10.11578/1491154",
-                    "doi_status": "PENDING",
-                    "status": "SUCCESS",
-                    "status_message": None,
-                    "@status": "UPDATED"
-                }
+                } for record in records
             ]
         }
 
