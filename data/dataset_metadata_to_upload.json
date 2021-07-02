@@ -1,5 +1,640 @@
 [
     {
+        "id": 108958,
+        "name": "Microtearing Instabilities and Electron Thermal Transport in Low and High Collisionality NSTX Discharges",
+        "handle": "88435/dsp011j92gb54m",
+        "type": "item",
+        "link": "/rest/items/108958",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2021-02-19 15:54:32.281",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Rafiq T",
+                "language": ""
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Kaye S",
+                "language": ""
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Guttenfelder W",
+                "language": ""
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Weiland J",
+                "language": ""
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Schuster E",
+                "language": ""
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Anderson J",
+                "language": ""
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Luo L;",
+                "language": ""
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2021-02-19T20:54:31Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2021-02-19T20:54:31Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2021-02",
+                "language": ""
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp011j92gb54m",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "Microtearing mode (MTM) real frequency, growth rate, magnetic fluctuation amplitude and resulting electron thermal transport are studied in systematic NSTX scans of relevant plasma parameters. The dependency of the MTM real frequency and growth rate on plasma parameters, suitable for low and high collision NSTX discharges, is obtained by using the reduced MTM transport model [T. Rafiq, et al., Phys. Plasmas 23, 062507 (2016)]. The plasma parameter dependencies are compared and found to be consistent with the results obtained from MTM using the Gyrokinetic GYRO code. The scaling trend of collision frequency and plasma beta is found to be consistent with the global energy confinement trend observed in the NSTX experiment. The strength of the magnetic fluctuation is found to be consistent with the gyrokinetic estimate.In earlier studies, it was found that the version of the Multi-Mode (MM) anomalous transport model, which did not contain the effect of MTMs, provided an appropriate description of the electron temperature profiles in standard tokamak discharges and not in spherical tokamaks. When the MM model, which involves transport associated with MTMs, is incorporated in the TRANSP code and is used in the study of electron thermal transport in NSTX discharges, it is observed that the agreement with the experimental electron temperature profile is substantially improved.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "readme and digital data files",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "Physics of Plasmas",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "magnetic confinement",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "microtearing",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "instabilities",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "tokamaks",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "turbulence and transport",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "fusion plasma technology",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Microtearing Instabilities and Electron Thermal Transport in Low and High Collisionality NSTX Discharges",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 87628,
+        "name": "Application of IR imaging for free-surface velocity measurement in liquid-metal systems",
+        "handle": "88435/dsp015h73pz67t",
+        "type": "item",
+        "link": "/rest/items/87628",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2017-07-20 04:07:52.985",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Hvasta, M.H.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Kolemen, E.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Fisher, A.",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2017-07-19T17:29:15Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2017-07-19T17:29:15Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2017-01",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp015h73pz67t",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "Measuring free-surface, liquid-metal flow velocity is challenging to do in a reliable and accurate manner.  This paper presents a non-invasive, easily-calibrated method of measuring the surface velocities of open-channel liquid-metal flows using an IR camera.  Unlike other spatially-limited methods, this IR camera particle tracking technique provides full field-of-view data that can be used to better understand open-channel flows and determine surface boundary conditions.  This method could be implemented and automated for a wide range of liquid-metal experiments, even if they operate at high-temperatures or within strong magnetic fields.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "readme, data files",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "Review of Scientific Instruments vol. 88 p. 013501 (January 2017)",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation.isreferencedby",
+                "value": "http://dx.doi.org/10.1063/1.4973421",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "Liquid metal",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "Free surface",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "IR camera",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "Velocimetry",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Application of IR imaging for free-surface velocity measurement in liquid-metal systems",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.projectgrantnumber",
+                "value": "31016 G0001 10003086 101",
+                "language": null
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Kaye, S.M.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy contract number DE-AC02-09CH11466",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 101740,
+        "name": "Machine Learning Characterization of Alfv\u00e9nic and Sub-Alfv\u00e9nic Chirping and Correlation With Fast-Ion Loss at NSTX",
+        "handle": "88435/dsp01m326m461v",
+        "type": "item",
+        "link": "/rest/items/101740",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2020-01-02 08:01:14.199",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Woods, B. J. Q.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Duarte, V. N.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Fredrickson, E. D.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Gorelenkov, N. N.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Podest\u00e0, M.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Vann, R. G. L.",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2020-01-02T13:01:13Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2020-01-02T13:01:13Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2019-12",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp01m326m461v",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "Abrupt large events in the Alfvenic and sub-Alfvenic frequency bands in tokamaks are typically correlated with increased fast-ion loss. Here, machine learning is used to speed up the laborious process of characterizing the behavior of magnetic perturbations from corresponding frequency spectrograms that are typically identified by humans. The analysis allows for comparison between different mode character (such as quiescent, fixed frequency, and chirping, avalanching) and plasma parameters obtained from the TRANSP code, such as the ratio of the neutral beam injection (NBI) velocity and the Alfven velocity (v_inj./v_A), the q-profile, and the ratio of the neutral beam beta and the total plasma beta (beta_beam,i / beta). In agreement with the previous work by Fredrickson et al., we find a correlation between beta_beam,i and mode character. In addition, previously unknown correlations are found between moments of the spectrograms and mode character. Character transition from quiescent to nonquiescent behavior for magnetic fluctuations in the 50200-kHz frequency band is observed along the boundary v_phi ~ (1/4)(v_inj. - 3v_A), where v_phi is the rotation velocity.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "readme and digital data files",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "IEEE Transactions on Plasma Science",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "machine learning",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "tokamak physics",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "plasma physics",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Machine Learning Characterization of Alfv\u00e9nic and Sub-Alfv\u00e9nic Chirping and Correlation With Fast-Ion Loss at NSTX",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 108611,
+        "name": "Modeling of resistive plasma response in toroidal geometry using an asymptotic matching approach",
+        "handle": "88435/dsp0141687m529",
+        "type": "item",
+        "link": "/rest/items/108611",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2020-10-26 17:06:25.729",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Z. R. Wang",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "A. H. Glasser",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "D. Brennan",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Y. Q. Liu",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "J-K. Park",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2020-10-26T21:04:27Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2020-10-26T21:04:27Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2020-10",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp0141687m529",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "The method of solving linear resistive plasma response, based on the asymptotic matching approach, is developed for full toroidal tokamaks by upgrading the Resistive DCON code [A.H. Glasser, Z.R. Wang and J.-K. Park, Physics of Plasmas, \\textbf{23}, 112506 (2016)]. The derived matching matrix, asymptotically matching the outer and inner regions, indicates that the applied three dimension (3-D) magnetic perturbations contribute additional small solutions at each resonant surface due to the toroidal coupling of poloidal modes. In contrast, the resonant harmonic only affects the corresponding resonant surface in the cylindrical plasma. Since the solution of ideal outer region is critical to the asymptotic matching and is challenging to be solved in the toroidal geometry due to the singular power series solution at the resonant surfaces, systematic verification of the outer region $\\Delta^\\prime$ matrix is made by reproducing the well known analytical $\\Delta^{\\prime}$ result in [H.P. Furth, P.H. Rutherford and H. Selberg, The Physics of Fluids, \\textbf{16}, 1054-1063 (1073)] as well as by making a quantitative benchmark with the PEST3 code [A. Pletzer and R.L. Dewar, J. Plasma Physics, \\textbf{45}, 427-451 (1991)]. Finally, the reconstructed numerical solution of resistive plasma response from the toroidal matching matrix is presented. Comparing with the ideal plasma response, the global structure of the response can be affected by the small finite island at the resonant surfaces.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "readme and digital data files",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "Physics of Plasmas",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "MHD simulation",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "resistive plasma response",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Modeling of resistive plasma response in toroidal geometry using an asymptotic matching approach",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 108613,
+        "name": "Simulating pitch angle scattering using an explicitly solvable energy-conserving algorithm",
+        "handle": "88435/dsp01vh53wz79c",
+        "type": "item",
+        "link": "/rest/items/108613",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2020-10-26 17:08:52.368",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Zhang, Xin",
+                "language": ""
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Fu, Yichen",
+                "language": ""
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Qin, Hong",
+                "language": ""
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2020-10-26T21:08:51Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2020-10-26T21:08:51Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2020-09",
+                "language": ""
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp01vh53wz79c",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "Particle distribution functions evolving under the Lorentz operator can be simulated with the Langevin equation for pitch angle scattering. This approach is frequently used in particle based Monte-Carlo simulations of plasma collisions, among others. However, most numerical treatments do not guarantee energy conservation, which may lead to unphysical artifacts such as numerical heating and spectra distortions. We present a novel structure-preserving numerical algorithm for the Langevin equation for pitch angle scattering. Similar to the well-known Boris algorithm, the proposed numerical scheme takes advantage of the structure-preserving properties of the Cayley transform when calculating the velocity-space rotations. The resulting algorithm is explicitly solvable, while preserving the norm of velocities down to machine precision. We demonstrate that the method has the same order of numerical convergence as the traditional stochastic Euler-Maruyama method.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "readme and digital data files",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "Physical Review E",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Simulating pitch angle scattering using an explicitly solvable energy-conserving algorithm",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
         "id": 108882,
         "name": "Dynamics of filaments during the edge-localized mode crash on NSTX",
         "handle": "88435/dsp011v53k104h",
@@ -110,169 +745,6 @@
             {
                 "key": "dc.title",
                 "value": "Dynamics of filaments during the edge-localized mode crash on NSTX",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.type",
-                "value": "Dataset",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.contributor.funder",
-                "value": "U. S. Department of Energy",
-                "language": "en_US"
-            }
-        ],
-        "bitstreams": null,
-        "archived": "true",
-        "withdrawn": "false"
-    },
-    {
-        "id": 110065,
-        "name": "A software package for plasma facing component analysis and\ndesign: the Heat flux Engineering Analysis Toolkit (HEAT)",
-        "handle": "88435/dsp01x920g0924",
-        "type": "item",
-        "link": "/rest/items/110065",
-        "expand": [
-            "parentCollection",
-            "parentCollectionList",
-            "parentCommunityList",
-            "bitstreams",
-            "all"
-        ],
-        "lastModified": "2021-03-26 16:21:13.701",
-        "parentCollection": null,
-        "parentCollectionList": null,
-        "parentCommunityList": null,
-        "metadata": [
-            {
-                "key": "dc.contributor.author",
-                "value": "Looby, Tom",
-                "language": ""
-            },
-            {
-                "key": "dc.contributor.author",
-                "value": "Reinke, Matthew",
-                "language": ""
-            },
-            {
-                "key": "dc.contributor.author",
-                "value": "Wingen, Andreas",
-                "language": ""
-            },
-            {
-                "key": "dc.contributor.author",
-                "value": "Menard, Jonathan",
-                "language": ""
-            },
-            {
-                "key": "dc.contributor.author",
-                "value": "Gerhardt, Stefan",
-                "language": ""
-            },
-            {
-                "key": "dc.contributor.author",
-                "value": "Gray, Travis",
-                "language": ""
-            },
-            {
-                "key": "dc.contributor.author",
-                "value": "Donovan, David",
-                "language": ""
-            },
-            {
-                "key": "dc.contributor.author",
-                "value": "Unterberg, Ezekial",
-                "language": ""
-            },
-            {
-                "key": "dc.contributor.author",
-                "value": "Klabacha, Jonathan",
-                "language": ""
-            },
-            {
-                "key": "dc.contributor.author",
-                "value": "Messineo, Mike",
-                "language": ""
-            },
-            {
-                "key": "dc.date.accessioned",
-                "value": "2021-03-26T20:21:12Z",
-                "language": null
-            },
-            {
-                "key": "dc.date.available",
-                "value": "2021-03-26T20:21:12Z",
-                "language": null
-            },
-            {
-                "key": "dc.date.issued",
-                "value": "2021-03",
-                "language": ""
-            },
-            {
-                "key": "dc.identifier.uri",
-                "value": "http://arks.princeton.edu/ark:/88435/dsp01x920g0924",
-                "language": null
-            },
-            {
-                "key": "dc.description.abstract",
-                "value": "The engineering limits of plasma facing components (PFCs) constrain the allowable operational space of tokamaks.  Poorly managed heat fluxes that push the PFCs beyond their limits not only degrade core plasma performance via elevated impurities, but can also result in PFC failure due to thermal stresses or melting.  Simple axisymmetric assumptions fail to capture the complex interaction between 3D PFC geometry and 2D or 3D plasmas.  This results in fusion systems that must either operate with increased risk or reduce PFC loads, potentially through lower core plasma performance, to maintain a nominal safety factor.  High precision 3D heat flux predictions are necessary to accurately ascertain the state of a PFC given the evolution of the magnetic equilibrium.  A new code, the Heat flux Engineering Analysis Toolkit (HEAT), has been developed to provide high precision 3D predictions and analysis for PFCs.  HEAT couples many otherwise disparate computational tools together into a single open source python package.  Magnetic equilibrium, engineering CAD, finite volume solvers, scrape off layer plasma physics, visualization, high performace computing, and more, are connected in a single web-based user interface.  Linux users may use HEAT without any software prerequisites via an appImage.  This manuscript introduces HEAT, discusses the software architecture, presents first HEAT results, and outlines physics modules in development.",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.description.tableofcontents",
-                "value": "readme and digital data files",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.language.iso",
-                "value": "en_US",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.publisher",
-                "value": "Princeton Plasma Physics Laboratory, Princeton University",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.relation",
-                "value": "Fusion Science and Technology",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.subject",
-                "value": "fusion",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.subject",
-                "value": "magnetic confinement",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.subject",
-                "value": "divertor physics",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.subject",
-                "value": "tokamak",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.subject",
-                "value": "heat",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.subject",
-                "value": "python",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.title",
-                "value": "A software package for plasma facing component analysis and\ndesign: the Heat flux Engineering Analysis Toolkit (HEAT)",
                 "language": "en_US"
             },
             {
@@ -507,6 +979,124 @@
         "withdrawn": "false"
     },
     {
+        "id": 108970,
+        "name": "Inversion technique to obtain local ion temperature profiles for an axisymmetric plasma with toroidal and radial velocities",
+        "handle": "88435/dsp01r207ts405",
+        "type": "item",
+        "link": "/rest/items/108970",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2021-02-26 15:50:13.921",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Bell, Ronald E.",
+                "language": ""
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2021-02-26T20:50:13Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2021-02-26T20:50:13Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2021-02",
+                "language": ""
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp01r207ts405",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "A matrix inversion technique is derived to calculate local ion temperature from line-integrated measurements of an extended emission source in an axisymmetric plasma which exactly corrects for both toroidal velocity and radial velocity components. Local emissivity and toroidal velocity can be directly recovered from line-integrated spectroscopic measurements, but an independent measurement of the radial velocity is necessary to complete the temperature inversion. The extension of this technique to handle the radial velocity is relevant for magnetic reconnection and merging compression devices where temperature inversion from spectroscopic measurements is desired. A simulation demonstrates the effects of radial velocity on the determination of ion temperature.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "readme and digital data files",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "Plasma Physics and Controlled Fusion",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "tomographic inversion",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "ion temperature",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "radial velocity",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "plasma spectroscopy",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "magnetic reconnection",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "merging compression",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Inversion technique to obtain local ion temperature profiles for an axisymmetric plasma with toroidal and radial velocities",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
         "id": 109073,
         "name": "The updated ITPA global H-mode confinement database: description and analysis",
         "handle": "88435/dsp01m900nx49h",
@@ -655,11 +1245,11 @@
         "withdrawn": "false"
     },
     {
-        "id": 108970,
-        "name": "Inversion technique to obtain local ion temperature profiles for an axisymmetric plasma with toroidal and radial velocities",
-        "handle": "88435/dsp01r207ts405",
+        "id": 110065,
+        "name": "A software package for plasma facing component analysis and\ndesign: the Heat flux Engineering Analysis Toolkit (HEAT)",
+        "handle": "88435/dsp01x920g0924",
         "type": "item",
-        "link": "/rest/items/108970",
+        "link": "/rest/items/110065",
         "expand": [
             "parentCollection",
             "parentCollectionList",
@@ -667,39 +1257,84 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2021-02-26 15:50:13.921",
+        "lastModified": "2021-03-26 16:21:13.701",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
         "metadata": [
             {
                 "key": "dc.contributor.author",
-                "value": "Bell, Ronald E.",
+                "value": "Looby, Tom",
+                "language": ""
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Reinke, Matthew",
+                "language": ""
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Wingen, Andreas",
+                "language": ""
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Menard, Jonathan",
+                "language": ""
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Gerhardt, Stefan",
+                "language": ""
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Gray, Travis",
+                "language": ""
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Donovan, David",
+                "language": ""
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Unterberg, Ezekial",
+                "language": ""
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Klabacha, Jonathan",
+                "language": ""
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Messineo, Mike",
                 "language": ""
             },
             {
                 "key": "dc.date.accessioned",
-                "value": "2021-02-26T20:50:13Z",
+                "value": "2021-03-26T20:21:12Z",
                 "language": null
             },
             {
                 "key": "dc.date.available",
-                "value": "2021-02-26T20:50:13Z",
+                "value": "2021-03-26T20:21:12Z",
                 "language": null
             },
             {
                 "key": "dc.date.issued",
-                "value": "2021-02",
+                "value": "2021-03",
                 "language": ""
             },
             {
                 "key": "dc.identifier.uri",
-                "value": "http://arks.princeton.edu/ark:/88435/dsp01r207ts405",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp01x920g0924",
                 "language": null
             },
             {
                 "key": "dc.description.abstract",
-                "value": "A matrix inversion technique is derived to calculate local ion temperature from line-integrated measurements of an extended emission source in an axisymmetric plasma which exactly corrects for both toroidal velocity and radial velocity components. Local emissivity and toroidal velocity can be directly recovered from line-integrated spectroscopic measurements, but an independent measurement of the radial velocity is necessary to complete the temperature inversion. The extension of this technique to handle the radial velocity is relevant for magnetic reconnection and merging compression devices where temperature inversion from spectroscopic measurements is desired. A simulation demonstrates the effects of radial velocity on the determination of ion temperature.",
+                "value": "The engineering limits of plasma facing components (PFCs) constrain the allowable operational space of tokamaks.  Poorly managed heat fluxes that push the PFCs beyond their limits not only degrade core plasma performance via elevated impurities, but can also result in PFC failure due to thermal stresses or melting.  Simple axisymmetric assumptions fail to capture the complex interaction between 3D PFC geometry and 2D or 3D plasmas.  This results in fusion systems that must either operate with increased risk or reduce PFC loads, potentially through lower core plasma performance, to maintain a nominal safety factor.  High precision 3D heat flux predictions are necessary to accurately ascertain the state of a PFC given the evolution of the magnetic equilibrium.  A new code, the Heat flux Engineering Analysis Toolkit (HEAT), has been developed to provide high precision 3D predictions and analysis for PFCs.  HEAT couples many otherwise disparate computational tools together into a single open source python package.  Magnetic equilibrium, engineering CAD, finite volume solvers, scrape off layer plasma physics, visualization, high performace computing, and more, are connected in a single web-based user interface.  Linux users may use HEAT without any software prerequisites via an appImage.  This manuscript introduces HEAT, discusses the software architecture, presents first HEAT results, and outlines physics modules in development.",
                 "language": "en_US"
             },
             {
@@ -719,263 +1354,42 @@
             },
             {
                 "key": "dc.relation",
-                "value": "Plasma Physics and Controlled Fusion",
+                "value": "Fusion Science and Technology",
                 "language": "en_US"
             },
             {
                 "key": "dc.subject",
-                "value": "tomographic inversion",
+                "value": "fusion",
                 "language": "en_US"
             },
             {
                 "key": "dc.subject",
-                "value": "ion temperature",
+                "value": "magnetic confinement",
                 "language": "en_US"
             },
             {
                 "key": "dc.subject",
-                "value": "radial velocity",
+                "value": "divertor physics",
                 "language": "en_US"
             },
             {
                 "key": "dc.subject",
-                "value": "plasma spectroscopy",
+                "value": "tokamak",
                 "language": "en_US"
             },
             {
                 "key": "dc.subject",
-                "value": "magnetic reconnection",
+                "value": "heat",
                 "language": "en_US"
             },
             {
                 "key": "dc.subject",
-                "value": "merging compression",
+                "value": "python",
                 "language": "en_US"
             },
             {
                 "key": "dc.title",
-                "value": "Inversion technique to obtain local ion temperature profiles for an axisymmetric plasma with toroidal and radial velocities",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.type",
-                "value": "Dataset",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.contributor.funder",
-                "value": "U. S. Department of Energy",
-                "language": "en_US"
-            }
-        ],
-        "bitstreams": null,
-        "archived": "true",
-        "withdrawn": "false"
-    },
-    {
-        "id": 108611,
-        "name": "Modeling of resistive plasma response in toroidal geometry using an asymptotic matching approach",
-        "handle": "88435/dsp0141687m529",
-        "type": "item",
-        "link": "/rest/items/108611",
-        "expand": [
-            "parentCollection",
-            "parentCollectionList",
-            "parentCommunityList",
-            "bitstreams",
-            "all"
-        ],
-        "lastModified": "2020-10-26 17:06:25.729",
-        "parentCollection": null,
-        "parentCollectionList": null,
-        "parentCommunityList": null,
-        "metadata": [
-            {
-                "key": "dc.contributor.author",
-                "value": "Z. R. Wang",
-                "language": null
-            },
-            {
-                "key": "dc.contributor.author",
-                "value": "A. H. Glasser",
-                "language": null
-            },
-            {
-                "key": "dc.contributor.author",
-                "value": "D. Brennan",
-                "language": null
-            },
-            {
-                "key": "dc.contributor.author",
-                "value": "Y. Q. Liu",
-                "language": null
-            },
-            {
-                "key": "dc.contributor.author",
-                "value": "J-K. Park",
-                "language": null
-            },
-            {
-                "key": "dc.date.accessioned",
-                "value": "2020-10-26T21:04:27Z",
-                "language": null
-            },
-            {
-                "key": "dc.date.available",
-                "value": "2020-10-26T21:04:27Z",
-                "language": null
-            },
-            {
-                "key": "dc.date.issued",
-                "value": "2020-10",
-                "language": null
-            },
-            {
-                "key": "dc.identifier.uri",
-                "value": "http://arks.princeton.edu/ark:/88435/dsp0141687m529",
-                "language": null
-            },
-            {
-                "key": "dc.description.abstract",
-                "value": "The method of solving linear resistive plasma response, based on the asymptotic matching approach, is developed for full toroidal tokamaks by upgrading the Resistive DCON code [A.H. Glasser, Z.R. Wang and J.-K. Park, Physics of Plasmas, \\textbf{23}, 112506 (2016)]. The derived matching matrix, asymptotically matching the outer and inner regions, indicates that the applied three dimension (3-D) magnetic perturbations contribute additional small solutions at each resonant surface due to the toroidal coupling of poloidal modes. In contrast, the resonant harmonic only affects the corresponding resonant surface in the cylindrical plasma. Since the solution of ideal outer region is critical to the asymptotic matching and is challenging to be solved in the toroidal geometry due to the singular power series solution at the resonant surfaces, systematic verification of the outer region $\\Delta^\\prime$ matrix is made by reproducing the well known analytical $\\Delta^{\\prime}$ result in [H.P. Furth, P.H. Rutherford and H. Selberg, The Physics of Fluids, \\textbf{16}, 1054-1063 (1073)] as well as by making a quantitative benchmark with the PEST3 code [A. Pletzer and R.L. Dewar, J. Plasma Physics, \\textbf{45}, 427-451 (1991)]. Finally, the reconstructed numerical solution of resistive plasma response from the toroidal matching matrix is presented. Comparing with the ideal plasma response, the global structure of the response can be affected by the small finite island at the resonant surfaces.",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.description.tableofcontents",
-                "value": "readme and digital data files",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.language.iso",
-                "value": "en_US",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.publisher",
-                "value": "Princeton Plasma Physics Laboratory, Princeton University",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.relation",
-                "value": "Physics of Plasmas",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.subject",
-                "value": "MHD simulation",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.subject",
-                "value": "resistive plasma response",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.title",
-                "value": "Modeling of resistive plasma response in toroidal geometry using an asymptotic matching approach",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.type",
-                "value": "Dataset",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.contributor.funder",
-                "value": "U. S. Department of Energy",
-                "language": "en_US"
-            }
-        ],
-        "bitstreams": null,
-        "archived": "true",
-        "withdrawn": "false"
-    },
-    {
-        "id": 108613,
-        "name": "Simulating pitch angle scattering using an explicitly solvable energy-conserving algorithm",
-        "handle": "88435/dsp01vh53wz79c",
-        "type": "item",
-        "link": "/rest/items/108613",
-        "expand": [
-            "parentCollection",
-            "parentCollectionList",
-            "parentCommunityList",
-            "bitstreams",
-            "all"
-        ],
-        "lastModified": "2020-10-26 17:08:52.368",
-        "parentCollection": null,
-        "parentCollectionList": null,
-        "parentCommunityList": null,
-        "metadata": [
-            {
-                "key": "dc.contributor.author",
-                "value": "Zhang, Xin",
-                "language": ""
-            },
-            {
-                "key": "dc.contributor.author",
-                "value": "Fu, Yichen",
-                "language": ""
-            },
-            {
-                "key": "dc.contributor.author",
-                "value": "Qin, Hong",
-                "language": ""
-            },
-            {
-                "key": "dc.date.accessioned",
-                "value": "2020-10-26T21:08:51Z",
-                "language": null
-            },
-            {
-                "key": "dc.date.available",
-                "value": "2020-10-26T21:08:51Z",
-                "language": null
-            },
-            {
-                "key": "dc.date.issued",
-                "value": "2020-09",
-                "language": ""
-            },
-            {
-                "key": "dc.identifier.uri",
-                "value": "http://arks.princeton.edu/ark:/88435/dsp01vh53wz79c",
-                "language": null
-            },
-            {
-                "key": "dc.description.abstract",
-                "value": "Particle distribution functions evolving under the Lorentz operator can be simulated with the Langevin equation for pitch angle scattering. This approach is frequently used in particle based Monte-Carlo simulations of plasma collisions, among others. However, most numerical treatments do not guarantee energy conservation, which may lead to unphysical artifacts such as numerical heating and spectra distortions. We present a novel structure-preserving numerical algorithm for the Langevin equation for pitch angle scattering. Similar to the well-known Boris algorithm, the proposed numerical scheme takes advantage of the structure-preserving properties of the Cayley transform when calculating the velocity-space rotations. The resulting algorithm is explicitly solvable, while preserving the norm of velocities down to machine precision. We demonstrate that the method has the same order of numerical convergence as the traditional stochastic Euler-Maruyama method.",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.description.tableofcontents",
-                "value": "readme and digital data files",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.language.iso",
-                "value": "en_US",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.publisher",
-                "value": "Princeton Plasma Physics Laboratory, Princeton University",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.relation",
-                "value": "Physical Review E",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.subject",
-                "value": "",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.title",
-                "value": "Simulating pitch angle scattering using an explicitly solvable energy-conserving algorithm",
+                "value": "A software package for plasma facing component analysis and\ndesign: the Heat flux Engineering Analysis Toolkit (HEAT)",
                 "language": "en_US"
             },
             {
@@ -1285,247 +1699,6 @@
         "withdrawn": "false"
     },
     {
-        "id": 110275,
-        "name": "Multi-Fluid and Kinetic Models of Partially Ionized Magnetic Reconnection",
-        "handle": "88435/dsp01sj1395028",
-        "type": "item",
-        "link": "/rest/items/110275",
-        "expand": [
-            "parentCollection",
-            "parentCollectionList",
-            "parentCommunityList",
-            "bitstreams",
-            "all"
-        ],
-        "lastModified": "2021-03-29 09:56:03.41",
-        "parentCollection": null,
-        "parentCollectionList": null,
-        "parentCommunityList": null,
-        "metadata": [
-            {
-                "key": "dc.contributor.author",
-                "value": "Jara-Almonte, J.",
-                "language": null
-            },
-            {
-                "key": "dc.contributor.author",
-                "value": "Murphy, N.A.",
-                "language": null
-            },
-            {
-                "key": "dc.contributor.author",
-                "value": "Ji, H.",
-                "language": null
-            },
-            {
-                "key": "dc.date.accessioned",
-                "value": "2021-03-29T13:56:02Z",
-                "language": null
-            },
-            {
-                "key": "dc.date.available",
-                "value": "2021-03-29T13:56:02Z",
-                "language": null
-            },
-            {
-                "key": "dc.date.issued",
-                "value": "2021",
-                "language": null
-            },
-            {
-                "key": "dc.identifier.uri",
-                "value": "http://arks.princeton.edu/ark:/88435/dsp01sj1395028",
-                "language": null
-            },
-            {
-                "key": "dc.description.abstract",
-                "value": "Magnetic reconnection in partially ionized plasmas is a ubiquitous and important phenomena in both laboratory and astrophysical systems. Here, simulations of partially ionized magnetic reconnection with well-matched initial conditions are performed using both multi-fluid and fully-kinetic approaches. Despite similar initial conditions, the time-dependent evolution differs between the two models. In multi-fluid models, the reconnection rate locally obeys either a decoupled Sweet-Parker scaling, where neutrals are unimportant, or a fully coupled Sweet-Parker scaling, where neutrals and ions are strongly coupled, depending on the resistivity. In contrast, kinetic models show a faster reconnection rate that is proportional to the fully-coupled, bulk Alfv\\'en speed, $v_A^\\star$. These differences are interpreted as the result of operating in different collisional regimes. Multi-fluid simulations are found to maintain $\\nu_{ni}L/v_A^\\star \\gtrsim 1$, where $\\nu_{ni}$ is the neutral-ion collision frequency and $L$ is the time-dependent current sheet half-length. This strongly couples neutrals to the reconnection outflow, while kinetic simulations evolve to allow $\\nu_{ni}L/v_A^\\star < 1$, decoupling neutrals from the reconnection outflow. Differences in the way reconnection is triggered may explain these discrepancies.",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.language.iso",
-                "value": "en_US",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.publisher",
-                "value": "Princeton Plasma Physics Laboratory, Princeton University",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.subject",
-                "value": "Magnetic reconnection",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.subject",
-                "value": "Partially ionized plasmas",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.title",
-                "value": "Multi-Fluid and Kinetic Models of Partially Ionized Magnetic Reconnection",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.type",
-                "value": "Dataset",
-                "language": "en_US"
-            },
-            {
-                "key": "pu.projectgrantnumber",
-                "value": "31016 G0001 10003086 101",
-                "language": null
-            },
-            {
-                "key": "pu.depositor",
-                "value": "Stratton, Brent",
-                "language": null
-            },
-            {
-                "key": "dc.contributor.funder",
-                "value": "U. S. Department of Energy contract number DE-AC02-09CH11466",
-                "language": "en_US"
-            }
-        ],
-        "bitstreams": null,
-        "archived": "true",
-        "withdrawn": "false"
-    },
-    {
-        "id": 108956,
-        "name": "Developments on two lithium vapor-box linear test-stand experiments",
-        "handle": "88435/dsp019306t236q",
-        "type": "item",
-        "link": "/rest/items/108956",
-        "expand": [
-            "parentCollection",
-            "parentCollectionList",
-            "parentCommunityList",
-            "bitstreams",
-            "all"
-        ],
-        "lastModified": "2021-02-19 15:52:47.524",
-        "parentCollection": null,
-        "parentCollectionList": null,
-        "parentCommunityList": null,
-        "metadata": [
-            {
-                "key": "dc.contributor.author",
-                "value": "Schwartz, Jacob A.",
-                "language": ""
-            },
-            {
-                "key": "dc.contributor.author",
-                "value": "Goldston, Robert J.",
-                "language": ""
-            },
-            {
-                "key": "dc.date.accessioned",
-                "value": "2021-02-19T20:52:45Z",
-                "language": null
-            },
-            {
-                "key": "dc.date.available",
-                "value": "2021-02-19T20:52:45Z",
-                "language": null
-            },
-            {
-                "key": "dc.date.issued",
-                "value": "2021-01",
-                "language": ""
-            },
-            {
-                "key": "dc.identifier.uri",
-                "value": "http://arks.princeton.edu/ark:/88435/dsp019306t236q",
-                "language": null
-            },
-            {
-                "key": "dc.description.abstract",
-                "value": "The lithium vapor-box divertor is a possible fusion power exhaust solution.It uses condensation pumping to create a gradient of vapor density in a divertor slot; this should allow a stable detachment front without active feedback.As initial explorations of the concept, two test stands which take the form of three connected cylindrical stainless steel boxes are being developed: one without plasma at PPPL, to test models of lithium evaporation and flow; and one for the linear plasma device Magnum-PSI (at DIFFER in Eindhoven, The Netherlands) to test the ability of a lithium vapor cloud to induce volumetric detachment and redistribute the plasma power.The first experiment uses boxes with diameters of 6 cm, joined by apertures with diameters of 2.2 cm. Up to 1 g of Li is placed in one box, which is heated to up to 600 degrees C. The Li evaporates, then flows to and condenses in the two other, cooler boxes over several minutes. The quantity of Li transported is assessed by weighing the boxes before and after the heating cycle, and is compared to the quantity predicted to flow for the box at its measured temperature using a Direct Simulation Monte Carlo code, SPARTA. With good experimental conditions, the two values agree to within 15%.The experiment on Magnum-PSI is in the conceptual design stage.The design is assessed by simulations using the code B2.5-Eunomia.They show that when the hydrogen-ion plasma beam, with n_e = 4e20 per cubic meter, T_e = 1.5 eV, and r = 1 cm, is passed through a 16 cm long, 12 Pa, 625 degree C Li vapor cloud, the plasma heat flux and pressure on the target are significantly reduced compared to the case without Li.With the Li present, the plasma is cooled by excitation of Li neutrals followed by radiation until it volumetrically recombines, lowering the heat flux from 3.7 MW/m^2 to 0.13 MW/m^2, and the pressure is reduced by 93%, largely by collisions of hydrogen ions with neutral Li.",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.description.tableofcontents",
-                "value": "readme and digital data files",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.language.iso",
-                "value": "en_US",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.publisher",
-                "value": "Princeton Plasma Physics Laboratory, Princeton University",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.relation",
-                "value": "Nuclear Materials and Energy",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.subject",
-                "value": "vapor box",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.subject",
-                "value": "lithium vapor-box",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.subject",
-                "value": "vapor-box",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.subject",
-                "value": "divertor",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.subject",
-                "value": "lithium",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.subject",
-                "value": "test-stand",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.subject",
-                "value": "vapor",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.subject",
-                "value": "Magnum-PSI;",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.title",
-                "value": "Developments on two lithium vapor-box linear test-stand experiments",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.type",
-                "value": "Dataset",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.contributor.funder",
-                "value": "U. S. Department of Energy",
-                "language": "en_US"
-            }
-        ],
-        "bitstreams": null,
-        "archived": "true",
-        "withdrawn": "false"
-    },
-    {
         "id": 108609,
         "name": "Statistical properties of magnetic structures and energy dissipation during turbulent reconnection in the Earth's magnetotail",
         "handle": "88435/dsp01cf95jf52h",
@@ -1817,11 +1990,11 @@
         "withdrawn": "false"
     },
     {
-        "id": 97051,
-        "name": "Comment on \u2018Numerical modeling of tokamak breakdown phase driven by pure Ohmic heating under ideal conditions\u2019",
-        "handle": "88435/dsp015h73pz85r",
+        "id": 108956,
+        "name": "Developments on two lithium vapor-box linear test-stand experiments",
+        "handle": "88435/dsp019306t236q",
         "type": "item",
-        "link": "/rest/items/97051",
+        "link": "/rest/items/108956",
         "expand": [
             "parentCollection",
             "parentCollectionList",
@@ -1829,44 +2002,44 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2019-06-12 05:14:56.233",
+        "lastModified": "2021-02-19 15:52:47.524",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
         "metadata": [
             {
                 "key": "dc.contributor.author",
-                "value": "Yoo, Min-Gu",
-                "language": null
+                "value": "Schwartz, Jacob A.",
+                "language": ""
             },
             {
                 "key": "dc.contributor.author",
-                "value": "Na, Yong-Su",
-                "language": null
+                "value": "Goldston, Robert J.",
+                "language": ""
             },
             {
                 "key": "dc.date.accessioned",
-                "value": "2019-06-11T20:08:14Z",
+                "value": "2021-02-19T20:52:45Z",
                 "language": null
             },
             {
                 "key": "dc.date.available",
-                "value": "2019-06-11T20:08:14Z",
+                "value": "2021-02-19T20:52:45Z",
                 "language": null
             },
             {
                 "key": "dc.date.issued",
-                "value": "2019-06",
-                "language": null
+                "value": "2021-01",
+                "language": ""
             },
             {
                 "key": "dc.identifier.uri",
-                "value": "http://arks.princeton.edu/ark:/88435/dsp015h73pz85r",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp019306t236q",
                 "language": null
             },
             {
                 "key": "dc.description.abstract",
-                "value": "In this comment, we point out possible critical numerical flaws of recent particle simulation studies (Jiang et al 2016 Nucl. Fusion 56 126017, Peng et al 2018 Nucl. Fusion 58 026007) on the electrical gas breakdown in a simple one-dimensional periodic slab geometry. We show that their observations on the effects of the ambipolar electric fields during the breakdown, such as the sudden reversal of the ion flow direction, could not be real physical phenomena but resulting from numerical artifacts violating the momentum conservation law. We show that an incomplete implementation of the direct-implicit scheme can cause the artificial electric fields and plasma transports resulting in fallacies in simulation results. We also discuss that their simple plasma model without considering poloidal magnetic fields seriously mislead the physical mechanism of the electrical gas breakdown because it cannot reflect important dominant plasma dynamics in the poloidal plane (Yoo et al 2018 Nat. Commun. 9 3523).",
+                "value": "The lithium vapor-box divertor is a possible fusion power exhaust solution.It uses condensation pumping to create a gradient of vapor density in a divertor slot; this should allow a stable detachment front without active feedback.As initial explorations of the concept, two test stands which take the form of three connected cylindrical stainless steel boxes are being developed: one without plasma at PPPL, to test models of lithium evaporation and flow; and one for the linear plasma device Magnum-PSI (at DIFFER in Eindhoven, The Netherlands) to test the ability of a lithium vapor cloud to induce volumetric detachment and redistribute the plasma power.The first experiment uses boxes with diameters of 6 cm, joined by apertures with diameters of 2.2 cm. Up to 1 g of Li is placed in one box, which is heated to up to 600 degrees C. The Li evaporates, then flows to and condenses in the two other, cooler boxes over several minutes. The quantity of Li transported is assessed by weighing the boxes before and after the heating cycle, and is compared to the quantity predicted to flow for the box at its measured temperature using a Direct Simulation Monte Carlo code, SPARTA. With good experimental conditions, the two values agree to within 15%.The experiment on Magnum-PSI is in the conceptual design stage.The design is assessed by simulations using the code B2.5-Eunomia.They show that when the hydrogen-ion plasma beam, with n_e = 4e20 per cubic meter, T_e = 1.5 eV, and r = 1 cm, is passed through a 16 cm long, 12 Pa, 625 degree C Li vapor cloud, the plasma heat flux and pressure on the target are significantly reduced compared to the case without Li.With the Li present, the plasma is cooled by excitation of Li neutrals followed by radiation until it volumetrically recombines, lowering the heat flux from 3.7 MW/m^2 to 0.13 MW/m^2, and the pressure is reduced by 93%, largely by collisions of hydrogen ions with neutral Li.",
                 "language": "en_US"
             },
             {
@@ -1886,32 +2059,52 @@
             },
             {
                 "key": "dc.relation",
-                "value": "Nuclear Fusion",
+                "value": "Nuclear Materials and Energy",
                 "language": "en_US"
             },
             {
                 "key": "dc.subject",
-                "value": "electrical gas breakdown",
+                "value": "vapor box",
                 "language": "en_US"
             },
             {
                 "key": "dc.subject",
-                "value": "direct-implicit scheme",
+                "value": "lithium vapor-box",
                 "language": "en_US"
             },
             {
                 "key": "dc.subject",
-                "value": "particle simulation",
+                "value": "vapor-box",
                 "language": "en_US"
             },
             {
                 "key": "dc.subject",
-                "value": "tokamak",
+                "value": "divertor",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "lithium",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "test-stand",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "vapor",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "Magnum-PSI;",
                 "language": "en_US"
             },
             {
                 "key": "dc.title",
-                "value": "Comment on \u2018Numerical modeling of tokamak breakdown phase driven by pure Ohmic heating under ideal conditions\u2019",
+                "value": "Developments on two lithium vapor-box linear test-stand experiments",
                 "language": "en_US"
             },
             {
@@ -1930,11 +2123,11 @@
         "withdrawn": "false"
     },
     {
-        "id": 109563,
-        "name": "Hybrid simulations of sub-cyclotron compressional and global Alfven Eigenmode stability in spherical tokamaks",
-        "handle": "88435/dsp0112579w33q",
+        "id": 110275,
+        "name": "Multi-Fluid and Kinetic Models of Partially Ionized Magnetic Reconnection",
+        "handle": "88435/dsp01sj1395028",
         "type": "item",
-        "link": "/rest/items/109563",
+        "link": "/rest/items/110275",
         "expand": [
             "parentCollection",
             "parentCollectionList",
@@ -1942,34 +2135,137 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2021-04-01 12:14:48.861",
+        "lastModified": "2021-03-29 09:56:03.41",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
         "metadata": [
             {
                 "key": "dc.contributor.author",
-                "value": "Lestz, J.B.",
-                "language": ""
+                "value": "Jara-Almonte, J.",
+                "language": null
             },
             {
                 "key": "dc.contributor.author",
-                "value": "Belova, E.V.",
-                "language": ""
+                "value": "Murphy, N.A.",
+                "language": null
             },
             {
                 "key": "dc.contributor.author",
-                "value": "Gorelenkov, N.N",
-                "language": ""
+                "value": "Ji, H.",
+                "language": null
             },
             {
                 "key": "dc.date.accessioned",
-                "value": "2021-04-01T16:14:47Z",
+                "value": "2021-03-29T13:56:02Z",
                 "language": null
             },
             {
                 "key": "dc.date.available",
-                "value": "2021-04-01T16:14:47Z",
+                "value": "2021-03-29T13:56:02Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2021",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp01sj1395028",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "Magnetic reconnection in partially ionized plasmas is a ubiquitous and important phenomena in both laboratory and astrophysical systems. Here, simulations of partially ionized magnetic reconnection with well-matched initial conditions are performed using both multi-fluid and fully-kinetic approaches. Despite similar initial conditions, the time-dependent evolution differs between the two models. In multi-fluid models, the reconnection rate locally obeys either a decoupled Sweet-Parker scaling, where neutrals are unimportant, or a fully coupled Sweet-Parker scaling, where neutrals and ions are strongly coupled, depending on the resistivity. In contrast, kinetic models show a faster reconnection rate that is proportional to the fully-coupled, bulk Alfv\\'en speed, $v_A^\\star$. These differences are interpreted as the result of operating in different collisional regimes. Multi-fluid simulations are found to maintain $\\nu_{ni}L/v_A^\\star \\gtrsim 1$, where $\\nu_{ni}$ is the neutral-ion collision frequency and $L$ is the time-dependent current sheet half-length. This strongly couples neutrals to the reconnection outflow, while kinetic simulations evolve to allow $\\nu_{ni}L/v_A^\\star < 1$, decoupling neutrals from the reconnection outflow. Differences in the way reconnection is triggered may explain these discrepancies.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "Magnetic reconnection",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "Partially ionized plasmas",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Multi-Fluid and Kinetic Models of Partially Ionized Magnetic Reconnection",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.projectgrantnumber",
+                "value": "31016 G0001 10003086 101",
+                "language": null
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Stratton, Brent",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy contract number DE-AC02-09CH11466",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 108959,
+        "name": "Wave-kinetic approach to zonal-flow dynamics: recent advances",
+        "handle": "88435/dsp01ws859j72v",
+        "type": "item",
+        "link": "/rest/items/108959",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2021-02-19 15:55:22.263",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Zhu, Hongxuan",
+                "language": ""
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Dodin, I. Y.",
+                "language": ""
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2021-02-19T20:55:21Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2021-02-19T20:55:21Z",
                 "language": null
             },
             {
@@ -1979,12 +2275,12 @@
             },
             {
                 "key": "dc.identifier.uri",
-                "value": "http://arks.princeton.edu/ark:/88435/dsp0112579w33q",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp01ws859j72v",
                 "language": null
             },
             {
                 "key": "dc.description.abstract",
-                "value": "A comprehensive numerical study has been conducted in order to investigate the stability of beam-driven, sub-cyclotron frequency compressional (CAE) and global (GAE) Alfven Eigenmodes in low aspect ratio plasmas for a wide range of beam parameters. The presence of CAEs and GAEs has previously been linked to anomalous electron temperature profile flattening at high beam power in NSTX experiments, prompting further examination of the conditions for their excitation. Linear simulations are performed with the hybrid MHD-kinetic initial value code HYM in order to capture the general Doppler-shifted cyclotron resonance that drives the modes. Three distinct types of modes are found in simulations -- co-CAEs, cntr-GAEs, and co-GAEs -- with differing spectral and stability properties. The simulations reveal that unstable GAEs are more ubiquitous than unstable CAEs, consistent with experimental observations, as they are excited at lower beam energies and generally have larger growth rates. Local analytic theory is used to explain key features of the simulation results, including the preferential excitation of different modes based on beam injection geometry and the growth rate dependence on the beam injection velocity, critical velocity, and degree of velocity space anisotropy. The background damping rate is inferred from simulations and estimated analytically for relevant sources not present in the simulation model, indicating that co-CAEs are closer to marginal stability than modes driven by the cyclotron resonances.",
+                "value": "Basic physics of drift-wave turbulence and zonal flows has long been studied within the framework of wave-kinetic theory. Recently, this framework has been re-examined from first principles, which has led to more accurate yet still tractable \"improved\" wave-kinetic equations. In particular, these equations reveal an important effect of the zonal-flow \"curvature\" (the second radial derivative of the flow velocity) on dynamics and stability of drift waves and zonal flows. We overview these recent findings and present a consolidated high-level picture of (mostly quasilinear) zonal-flow physics within reduced models of drift-wave turbulence.",
                 "language": "en_US"
             },
             {
@@ -2004,37 +2300,27 @@
             },
             {
                 "key": "dc.relation",
-                "value": "Nuclear Fusion",
+                "value": "Physics of Plasmas",
                 "language": "en_US"
             },
             {
                 "key": "dc.subject",
-                "value": "Fast ion driven instabilities",
+                "value": "fusion plasmas",
                 "language": "en_US"
             },
             {
                 "key": "dc.subject",
-                "value": "Compressional Alfven Eigenmodes",
+                "value": "plasma instabilities",
                 "language": "en_US"
             },
             {
                 "key": "dc.subject",
-                "value": "Global Alfven Eigenmodes",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.subject",
-                "value": "Hybrid simulations",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.subject",
-                "value": "Doppler-shifted cyclotron resonance",
+                "value": "plasma waves",
                 "language": "en_US"
             },
             {
                 "key": "dc.title",
-                "value": "Hybrid simulations of sub-cyclotron compressional and global Alfven Eigenmode stability in spherical tokamaks",
+                "value": "Wave-kinetic approach to zonal-flow dynamics: recent advances",
                 "language": "en_US"
             },
             {
@@ -2186,11 +2472,11 @@
         "withdrawn": "false"
     },
     {
-        "id": 108959,
-        "name": "Wave-kinetic approach to zonal-flow dynamics: recent advances",
-        "handle": "88435/dsp01ws859j72v",
+        "id": 109563,
+        "name": "Hybrid simulations of sub-cyclotron compressional and global Alfven Eigenmode stability in spherical tokamaks",
+        "handle": "88435/dsp0112579w33q",
         "type": "item",
-        "link": "/rest/items/108959",
+        "link": "/rest/items/109563",
         "expand": [
             "parentCollection",
             "parentCollectionList",
@@ -2198,29 +2484,34 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2021-02-19 15:55:22.263",
+        "lastModified": "2021-04-01 12:14:48.861",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
         "metadata": [
             {
                 "key": "dc.contributor.author",
-                "value": "Zhu, Hongxuan",
+                "value": "Lestz, J.B.",
                 "language": ""
             },
             {
                 "key": "dc.contributor.author",
-                "value": "Dodin, I. Y.",
+                "value": "Belova, E.V.",
+                "language": ""
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Gorelenkov, N.N",
                 "language": ""
             },
             {
                 "key": "dc.date.accessioned",
-                "value": "2021-02-19T20:55:21Z",
+                "value": "2021-04-01T16:14:47Z",
                 "language": null
             },
             {
                 "key": "dc.date.available",
-                "value": "2021-02-19T20:55:21Z",
+                "value": "2021-04-01T16:14:47Z",
                 "language": null
             },
             {
@@ -2230,12 +2521,12 @@
             },
             {
                 "key": "dc.identifier.uri",
-                "value": "http://arks.princeton.edu/ark:/88435/dsp01ws859j72v",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp0112579w33q",
                 "language": null
             },
             {
                 "key": "dc.description.abstract",
-                "value": "Basic physics of drift-wave turbulence and zonal flows has long been studied within the framework of wave-kinetic theory. Recently, this framework has been re-examined from first principles, which has led to more accurate yet still tractable \"improved\" wave-kinetic equations. In particular, these equations reveal an important effect of the zonal-flow \"curvature\" (the second radial derivative of the flow velocity) on dynamics and stability of drift waves and zonal flows. We overview these recent findings and present a consolidated high-level picture of (mostly quasilinear) zonal-flow physics within reduced models of drift-wave turbulence.",
+                "value": "A comprehensive numerical study has been conducted in order to investigate the stability of beam-driven, sub-cyclotron frequency compressional (CAE) and global (GAE) Alfven Eigenmodes in low aspect ratio plasmas for a wide range of beam parameters. The presence of CAEs and GAEs has previously been linked to anomalous electron temperature profile flattening at high beam power in NSTX experiments, prompting further examination of the conditions for their excitation. Linear simulations are performed with the hybrid MHD-kinetic initial value code HYM in order to capture the general Doppler-shifted cyclotron resonance that drives the modes. Three distinct types of modes are found in simulations -- co-CAEs, cntr-GAEs, and co-GAEs -- with differing spectral and stability properties. The simulations reveal that unstable GAEs are more ubiquitous than unstable CAEs, consistent with experimental observations, as they are excited at lower beam energies and generally have larger growth rates. Local analytic theory is used to explain key features of the simulation results, including the preferential excitation of different modes based on beam injection geometry and the growth rate dependence on the beam injection velocity, critical velocity, and degree of velocity space anisotropy. The background damping rate is inferred from simulations and estimated analytically for relevant sources not present in the simulation model, indicating that co-CAEs are closer to marginal stability than modes driven by the cyclotron resonances.",
                 "language": "en_US"
             },
             {
@@ -2255,27 +2546,37 @@
             },
             {
                 "key": "dc.relation",
-                "value": "Physics of Plasmas",
+                "value": "Nuclear Fusion",
                 "language": "en_US"
             },
             {
                 "key": "dc.subject",
-                "value": "fusion plasmas",
+                "value": "Fast ion driven instabilities",
                 "language": "en_US"
             },
             {
                 "key": "dc.subject",
-                "value": "plasma instabilities",
+                "value": "Compressional Alfven Eigenmodes",
                 "language": "en_US"
             },
             {
                 "key": "dc.subject",
-                "value": "plasma waves",
+                "value": "Global Alfven Eigenmodes",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "Hybrid simulations",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "Doppler-shifted cyclotron resonance",
                 "language": "en_US"
             },
             {
                 "key": "dc.title",
-                "value": "Wave-kinetic approach to zonal-flow dynamics: recent advances",
+                "value": "Hybrid simulations of sub-cyclotron compressional and global Alfven Eigenmode stability in spherical tokamaks",
                 "language": "en_US"
             },
             {
@@ -2473,6 +2774,109 @@
                 "key": "pu.depositor",
                 "value": "Yichen, Fu",
                 "language": null
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 112978,
+        "name": "Type-I ELM mitigation by continuous lithium granule gravitational injection into the upper tungsten divertor in EAST",
+        "handle": "88435/dsp018p58ph029",
+        "type": "item",
+        "link": "/rest/items/112978",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2021-05-06 10:59:45.022",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Sun, Zhen",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Qian, Yuzhong",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Maingi, Rajesh",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2021-05-06T14:59:44Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2021-05-06T14:59:44Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2021-04",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp018p58ph029",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "Large edge-localized modes (ELMs) were mitigated by gravitational injection of lithium granules into the upper X-point region of the EAST device with tungsten plasma-facing components. The maximum ELM size was reduced by ~ 70% in high \u03b2N H-mode plasmas. Large ELM stabilization was sustained for up to about 40 energy confinement times, with constant core radiated power and no evidence of high-Z or low-Z impurity accumulation. The lithium granules injection reduced the edge plasma pedestal density and temperature and their gradients, due to increased edge radiation and reduced recycling from the plasma-facing components. Ideal stability calculations using the ELITE code indicate that the stabilization of large ELMs correlates with improved stability of intermediate-n peeling-ballooning modes, due to reduced edge current resulting from the profile changes. The pedestal pressure reduction was partially offset by a core density increase, which resulted in a modest ~ 7% drop in core stored energy and normalized energy confinement time. We surmise that the remnant small ELMs are triggered by the penetration of multiple Li granules just past the separatrix, similar to small ELMs triggered by deuterium pellet [S. Futatani et al., Nucl. Fusion 54 (2014) 073008]. This study extends previous ELM elimination with Li powder injection [R. Maingi et al., Nucl. Fusion 58 (2018) 024003] in EAST because 1) use of small, dust-like powder and the related potential health hazards were eliminated, and 2) use of macroscopic granules should be more applicable to future devices, due to deeper penetration than dust particles, e.g. inside the separatrix with velocities ~ 10 m/s in EAST.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Nuclear Fusion",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "Lithium",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "Impurity seeding",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "Edge localized modes",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "EAST",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Type-I ELM mitigation by continuous lithium granule gravitational injection into the upper tungsten divertor in EAST",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Article",
+                "language": "en_US"
             }
         ],
         "bitstreams": null,
@@ -2703,11 +3107,11 @@
         "withdrawn": "false"
     },
     {
-        "id": 112978,
-        "name": "Type-I ELM mitigation by continuous lithium granule gravitational injection into the upper tungsten divertor in EAST",
-        "handle": "88435/dsp018p58ph029",
+        "id": 115956,
+        "name": "Observation of synergy between lower hybrid waves at two frequencies in EAST",
+        "handle": "88435/dsp0137720g81z",
         "type": "item",
-        "link": "/rest/items/112978",
+        "link": "/rest/items/115956",
         "expand": [
             "parentCollection",
             "parentCollectionList",
@@ -2715,49 +3119,129 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2021-05-06 10:59:45.022",
+        "lastModified": "2021-06-15 12:13:07.782",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
         "metadata": [
             {
                 "key": "dc.contributor.author",
-                "value": "Sun, Zhen",
+                "value": "Choi, W.",
                 "language": null
             },
             {
                 "key": "dc.contributor.author",
-                "value": "Qian, Yuzhong",
+                "value": "Poli, F. M.",
                 "language": null
             },
             {
                 "key": "dc.contributor.author",
-                "value": "Maingi, Rajesh",
+                "value": "Li, M. H.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Baek, S. G.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Gorenlenkova, M.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Ding, B. J.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Gong, X. Z.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Chan, A.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Duan, Y. M.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Hu, J. H.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Lian, H.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Lin, S. Y.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Liu, H. Q.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Qian, J. P.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Wallace, G.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Wang, Y. M.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Zang, Q.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Zhao, H. L.",
                 "language": null
             },
             {
                 "key": "dc.date.accessioned",
-                "value": "2021-05-06T14:59:44Z",
+                "value": "2021-06-15T16:13:06Z",
                 "language": null
             },
             {
                 "key": "dc.date.available",
-                "value": "2021-05-06T14:59:44Z",
+                "value": "2021-06-15T16:13:06Z",
                 "language": null
             },
             {
                 "key": "dc.date.issued",
-                "value": "2021-04",
+                "value": "2021-06",
                 "language": null
             },
             {
                 "key": "dc.identifier.uri",
-                "value": "http://arks.princeton.edu/ark:/88435/dsp018p58ph029",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp0137720g81z",
                 "language": null
             },
             {
                 "key": "dc.description.abstract",
-                "value": "Large edge-localized modes (ELMs) were mitigated by gravitational injection of lithium granules into the upper X-point region of the EAST device with tungsten plasma-facing components. The maximum ELM size was reduced by ~ 70% in high \u03b2N H-mode plasmas. Large ELM stabilization was sustained for up to about 40 energy confinement times, with constant core radiated power and no evidence of high-Z or low-Z impurity accumulation. The lithium granules injection reduced the edge plasma pedestal density and temperature and their gradients, due to increased edge radiation and reduced recycling from the plasma-facing components. Ideal stability calculations using the ELITE code indicate that the stabilization of large ELMs correlates with improved stability of intermediate-n peeling-ballooning modes, due to reduced edge current resulting from the profile changes. The pedestal pressure reduction was partially offset by a core density increase, which resulted in a modest ~ 7% drop in core stored energy and normalized energy confinement time. We surmise that the remnant small ELMs are triggered by the penetration of multiple Li granules just past the separatrix, similar to small ELMs triggered by deuterium pellet [S. Futatani et al., Nucl. Fusion 54 (2014) 073008]. This study extends previous ELM elimination with Li powder injection [R. Maingi et al., Nucl. Fusion 58 (2018) 024003] in EAST because 1) use of small, dust-like powder and the related potential health hazards were eliminated, and 2) use of macroscopic granules should be more applicable to future devices, due to deeper penetration than dust particles, e.g. inside the separatrix with velocities ~ 10 m/s in EAST.",
+                "value": "Synergistic effects between two frequencies of lower hybrid (LH) waves\u2014operating at 2.45 and 4.6 GHz\u2014were observed in experiment on EAST for the first time. At low density (n_e,lin \u2248 2.0 \u00d7 10^19m^\u22123), simultaneous injection of a 65/35 mix of 2.45 GHz/4.6 GHz power achieved an LHCD efficiency that was 25% higher than what should be expected from the linear combination of the two sources. The experiment was interpreted with time-dependent simulations, using the equilibrium and transport solver TRANSP, coupled with the ray-tracing code GENRAY and the Fokker-Planck solver CQL3D. For each discharge, profiles of current and hard x-ray from simulation and measurement agree within uncertainties. An examination of the electron distribution function indicates that the LH synergy is supported by the increased width of the LH resonance plateau in the simultaneous injection case compared to independent injection.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.sponsorship",
+                "value": "DE-AC02-09CH1146, DE-SC0010685",
                 "language": "en_US"
             },
             {
@@ -2766,38 +3250,23 @@
                 "language": "en_US"
             },
             {
-                "key": "dc.publisher",
-                "value": "Nuclear Fusion",
+                "key": "dc.subject",
+                "value": "Lower hybrid synergy",
                 "language": "en_US"
             },
             {
                 "key": "dc.subject",
-                "value": "Lithium",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.subject",
-                "value": "Impurity seeding",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.subject",
-                "value": "Edge localized modes",
-                "language": "en_US"
-            },
-            {
-                "key": "dc.subject",
-                "value": "EAST",
+                "value": "TRANSP simulation",
                 "language": "en_US"
             },
             {
                 "key": "dc.title",
-                "value": "Type-I ELM mitigation by continuous lithium granule gravitational injection into the upper tungsten divertor in EAST",
+                "value": "Observation of synergy between lower hybrid waves at two frequencies in EAST",
                 "language": "en_US"
             },
             {
                 "key": "dc.type",
-                "value": "Article",
+                "value": "Dataset",
                 "language": "en_US"
             }
         ],
@@ -2885,7 +3354,7 @@
             },
             {
                 "key": "dc.type",
-                "value": "U. S. Department of Energy",
+                "value": "Image",
                 "language": "en_US"
             }
         ],
