@@ -57,14 +57,13 @@ class Poster:
             return series.shape[0] == series.dropna().shape[0]
 
         expected_columns = ['Sponsoring Organizations', 'DOE Contract', 'Datatype']
-        assert all([col in df.columns for col in expected_columns])
-        assert no_empty_cells(df['Sponsoring Organizations'])
-        assert no_empty_cells(df['DOE Contract'])
-        assert no_empty_cells(df['Datatype'])
+        assert all([col in df.columns for col in expected_columns]), f"You're missing one of these columns {expected_columns}"
+        assert no_empty_cells(df['Sponsoring Organizations']), f"You have empty values in the Sponsoring Organizations column. This is a required value."
+        assert no_empty_cells(df['DOE Contract']), f"You have empty values in the DOE Contract column. This is a required value."
+        assert no_empty_cells(df['Datatype']), f"You have empty values in the Datatype column. This is a required value."
 
         accepted_datatype_values = ['AS','GD', 'IM', 'ND', 'IP', 'FP', 'SM', 'MM', 'I']
-        assert all([dt in accepted_datatype_values for dt in df['Datatype']])
-
+        assert all([dt in accepted_datatype_values for dt in df['Datatype']]), f"The Datatype column contains improper datatype values. The accepted datatype values are: {accepted_datatype_values}"
 
         # Generate final JSON to post to OSTI
         osti_format = []
