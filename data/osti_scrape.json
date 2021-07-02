@@ -2,7 +2,7 @@
     {
         "osti_id": "1356364",
         "title": "Full-wave simulations of ICRF heating regimes in toroidal plasmas with non-Maxwellian distribution functions",
-        "doi": "10.11578/1356364",
+        "doi": "https://doi.org/10.11578/1356364",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -48,7 +48,7 @@
     {
         "osti_id": "1367163",
         "title": "Effect of progressively increasing lithium conditioning on edge transport and stability in high triangularity NSTX H-modes",
-        "doi": "10.11578/1367163",
+        "doi": "https://doi.org/10.11578/1367163",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -95,7 +95,7 @@
     {
         "osti_id": "1367164",
         "title": "Diagnostics for molybdenum and tungsten erosion and transport in NSTX-U",
-        "doi": "10.11578/1367164",
+        "doi": "https://doi.org/10.11578/1367164",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -133,7 +133,7 @@
     {
         "osti_id": "1366750",
         "title": "Theory based scaling of edge turbulence and implications for the scrape-off layer width",
-        "doi": "10.11578/1366750",
+        "doi": "https://doi.org/10.11578/1366750",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -172,7 +172,7 @@
     {
         "osti_id": "1366751",
         "title": "Saturation of Alfven modes in tokamaks",
-        "doi": "10.11578/1366751",
+        "doi": "https://doi.org/10.11578/1366751",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -215,7 +215,7 @@
     {
         "osti_id": "1366752",
         "title": "Resonance in Fast-Wave Amplitude in the Periphery of Cylindrical Plasmas and Application to Edge Losses of Wave Heating Power in Tokamaks",
-        "doi": "10.11578/1366752",
+        "doi": "https://doi.org/10.11578/1366752",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -256,7 +256,7 @@
     {
         "osti_id": "1366755",
         "title": "Remote-sensing gas measurements with coherent Rayleigh-Brillouin scattering",
-        "doi": "10.11578/1366755",
+        "doi": "https://doi.org/10.11578/1366755",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -295,7 +295,7 @@
     {
         "osti_id": "1367156",
         "title": "Hydrogen Retention in Lithium on Metallic Walls from \u201cIn Vacuo\u201d Analysis in LTX and Implications for High-Z Plasma-Facing Components in NSTX-U",
-        "doi": "10.11578/1367156",
+        "doi": "https://doi.org/10.11578/1367156",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -344,7 +344,7 @@
     {
         "osti_id": "1367157",
         "title": "Far-infrared tangential interferometer/polarimeter design and installation for NSTX-U",
-        "doi": "10.11578/1367157",
+        "doi": "https://doi.org/10.11578/1367157",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -390,7 +390,7 @@
     {
         "osti_id": "1367166",
         "title": "Development of miniaturized, spectroscopically assisted Penning gauges for fractional helium and hydrogen neutral pressure measurements",
-        "doi": "10.11578/1367166",
+        "doi": "https://doi.org/10.11578/1367166",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -431,7 +431,7 @@
     {
         "osti_id": "1367167",
         "title": "Compact and multi-view solid state neutral particle analyzer arrays on National Spherical Torus Experiment-Upgrade",
-        "doi": "10.11578/1367167",
+        "doi": "https://doi.org/10.11578/1367167",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -472,7 +472,7 @@
     {
         "osti_id": "1367870",
         "title": "A Reduced Resistive Wall Mode Kinetic Stability Model for Disruption Forecasting",
-        "doi": "10.11578/1367870",
+        "doi": "https://doi.org/10.11578/1367870",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -512,7 +512,7 @@
     {
         "osti_id": "1367890",
         "title": "Overview of NSTX Upgrade Initial Results and Modelling Highlights",
-        "doi": "10.11578/1367890",
+        "doi": "https://doi.org/10.11578/1367890",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -649,7 +649,7 @@
     {
         "osti_id": "1366498",
         "title": "Exploration of magnetic perturbation effects on advanced divertor configurations in NSTX-U",
-        "doi": "10.11578/1366498",
+        "doi": "https://doi.org/10.11578/1366498",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -694,7 +694,7 @@
     {
         "osti_id": "1366453",
         "title": "A dynamic magnetic tension force as the cause of failed solar eruptions",
-        "doi": "10.11578/1366453",
+        "doi": "https://doi.org/10.11578/1366453",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -738,7 +738,7 @@
     {
         "osti_id": "1366473",
         "title": "Evolution patterns and parameter regimes in edge localized modes on the National Spherical Torus Experiment",
-        "doi": "10.11578/1366473",
+        "doi": "https://doi.org/10.11578/1366473",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -784,7 +784,7 @@
     {
         "osti_id": "1367873",
         "title": "M3D-C1 simulations of the plasma response to RMPs in NSTX-U single-null and snowflake divertor configurations",
-        "doi": "10.11578/1367873",
+        "doi": "https://doi.org/10.11578/1367873",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -832,7 +832,7 @@
     {
         "osti_id": "1367618",
         "title": "Nonlinear fishbone dynamics in spherical tokamaks",
-        "doi": "10.11578/1367618",
+        "doi": "https://doi.org/10.11578/1367618",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -885,7 +885,7 @@
     {
         "osti_id": "1366462",
         "title": "Midplane neutral density profiles in the National Spherical Torus Experiment",
-        "doi": "10.11578/1366462",
+        "doi": "https://doi.org/10.11578/1366462",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -931,7 +931,7 @@
     {
         "osti_id": "1366479",
         "title": "Massive Gas Injection Valve Development for NSTX-U",
-        "doi": "10.11578/1366479",
+        "doi": "https://doi.org/10.11578/1366479",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -970,7 +970,7 @@
     {
         "osti_id": "1356364",
         "title": "Full-wave simulations of ICRF heating regimes in toroidal plasmas with non-Maxwellian distribution functions",
-        "doi": "10.11578/1356364",
+        "doi": "https://doi.org/10.11578/1356364",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -1016,7 +1016,7 @@
     {
         "osti_id": "1367163",
         "title": "Effect of progressively increasing lithium conditioning on edge transport and stability in high triangularity NSTX H-modes",
-        "doi": "10.11578/1367163",
+        "doi": "https://doi.org/10.11578/1367163",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -1063,7 +1063,7 @@
     {
         "osti_id": "1367164",
         "title": "Diagnostics for molybdenum and tungsten erosion and transport in NSTX-U",
-        "doi": "10.11578/1367164",
+        "doi": "https://doi.org/10.11578/1367164",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -1101,7 +1101,7 @@
     {
         "osti_id": "1366750",
         "title": "Theory based scaling of edge turbulence and implications for the scrape-off layer width",
-        "doi": "10.11578/1366750",
+        "doi": "https://doi.org/10.11578/1366750",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -1140,7 +1140,7 @@
     {
         "osti_id": "1366751",
         "title": "Saturation of Alfven modes in tokamaks",
-        "doi": "10.11578/1366751",
+        "doi": "https://doi.org/10.11578/1366751",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -1183,7 +1183,7 @@
     {
         "osti_id": "1366752",
         "title": "Resonance in Fast-Wave Amplitude in the Periphery of Cylindrical Plasmas and Application to Edge Losses of Wave Heating Power in Tokamaks",
-        "doi": "10.11578/1366752",
+        "doi": "https://doi.org/10.11578/1366752",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -1224,7 +1224,7 @@
     {
         "osti_id": "1366755",
         "title": "Remote-sensing gas measurements with coherent Rayleigh-Brillouin scattering",
-        "doi": "10.11578/1366755",
+        "doi": "https://doi.org/10.11578/1366755",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -1263,7 +1263,7 @@
     {
         "osti_id": "1367156",
         "title": "Hydrogen Retention in Lithium on Metallic Walls from \u201cIn Vacuo\u201d Analysis in LTX and Implications for High-Z Plasma-Facing Components in NSTX-U",
-        "doi": "10.11578/1367156",
+        "doi": "https://doi.org/10.11578/1367156",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -1312,7 +1312,7 @@
     {
         "osti_id": "1367157",
         "title": "Far-infrared tangential interferometer/polarimeter design and installation for NSTX-U",
-        "doi": "10.11578/1367157",
+        "doi": "https://doi.org/10.11578/1367157",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -1358,7 +1358,7 @@
     {
         "osti_id": "1367166",
         "title": "Development of miniaturized, spectroscopically assisted Penning gauges for fractional helium and hydrogen neutral pressure measurements",
-        "doi": "10.11578/1367166",
+        "doi": "https://doi.org/10.11578/1367166",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -1399,7 +1399,7 @@
     {
         "osti_id": "1367167",
         "title": "Compact and multi-view solid state neutral particle analyzer arrays on National Spherical Torus Experiment-Upgrade",
-        "doi": "10.11578/1367167",
+        "doi": "https://doi.org/10.11578/1367167",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -1440,7 +1440,7 @@
     {
         "osti_id": "1367870",
         "title": "A Reduced Resistive Wall Mode Kinetic Stability Model for Disruption Forecasting",
-        "doi": "10.11578/1367870",
+        "doi": "https://doi.org/10.11578/1367870",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -1480,7 +1480,7 @@
     {
         "osti_id": "1367890",
         "title": "Overview of NSTX Upgrade Initial Results and Modelling Highlights",
-        "doi": "10.11578/1367890",
+        "doi": "https://doi.org/10.11578/1367890",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -1617,7 +1617,7 @@
     {
         "osti_id": "1366498",
         "title": "Exploration of magnetic perturbation effects on advanced divertor configurations in NSTX-U",
-        "doi": "10.11578/1366498",
+        "doi": "https://doi.org/10.11578/1366498",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -1662,7 +1662,7 @@
     {
         "osti_id": "1366453",
         "title": "A dynamic magnetic tension force as the cause of failed solar eruptions",
-        "doi": "10.11578/1366453",
+        "doi": "https://doi.org/10.11578/1366453",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -1706,7 +1706,7 @@
     {
         "osti_id": "1366473",
         "title": "Evolution patterns and parameter regimes in edge localized modes on the National Spherical Torus Experiment",
-        "doi": "10.11578/1366473",
+        "doi": "https://doi.org/10.11578/1366473",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -1752,7 +1752,7 @@
     {
         "osti_id": "1367873",
         "title": "M3D-C1 simulations of the plasma response to RMPs in NSTX-U single-null and snowflake divertor configurations",
-        "doi": "10.11578/1367873",
+        "doi": "https://doi.org/10.11578/1367873",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -1800,7 +1800,7 @@
     {
         "osti_id": "1367618",
         "title": "Nonlinear fishbone dynamics in spherical tokamaks",
-        "doi": "10.11578/1367618",
+        "doi": "https://doi.org/10.11578/1367618",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -1853,7 +1853,7 @@
     {
         "osti_id": "1366462",
         "title": "Midplane neutral density profiles in the National Spherical Torus Experiment",
-        "doi": "10.11578/1366462",
+        "doi": "https://doi.org/10.11578/1366462",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -1899,7 +1899,7 @@
     {
         "osti_id": "1366479",
         "title": "Massive Gas Injection Valve Development for NSTX-U",
-        "doi": "10.11578/1366479",
+        "doi": "https://doi.org/10.11578/1366479",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -1938,7 +1938,7 @@
     {
         "osti_id": "1366480",
         "title": "Phase space effects on fast ion distribution function modeling in tokamaks",
-        "doi": "10.11578/1366480",
+        "doi": "https://doi.org/10.11578/1366480",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -1979,7 +1979,7 @@
     {
         "osti_id": "1366495",
         "title": "Quasi-linear gyrokinetic predictions of the Coriolis momentum pinch in NSTX",
-        "doi": "10.11578/1366495",
+        "doi": "https://doi.org/10.11578/1366495",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -2023,7 +2023,7 @@
     {
         "osti_id": "1366987",
         "title": "Phase coherence of parametric-decay modes during high-harmonic fast-wave heating in the National Spherical Torus Experiment",
-        "doi": "10.11578/1366987",
+        "doi": "https://doi.org/10.11578/1366987",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -2064,7 +2064,7 @@
     {
         "osti_id": "1367078",
         "title": "Linear gyrokinetic simulations of microinstabilities within the pedestal region of H-mode NSTX discharges in a highly shaped geometry",
-        "doi": "10.11578/1367078",
+        "doi": "https://doi.org/10.11578/1367078",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -2109,7 +2109,7 @@
     {
         "osti_id": "1366742",
         "title": "Understanding the dynamics and energetics of magnetic reconnection in a laboratory plasma: Review of recent progress on selected fronts",
-        "doi": "10.11578/1366742",
+        "doi": "https://doi.org/10.11578/1366742",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -2148,7 +2148,7 @@
     {
         "osti_id": "1366719",
         "title": "Time dependent analysis of visible helium line-ratios for electron temperature and density diagnostic using synthetic simulations on NSTX-U",
-        "doi": "10.11578/1366719",
+        "doi": "https://doi.org/10.11578/1366719",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -2191,7 +2191,7 @@
     {
         "osti_id": "1366720",
         "title": "Parallel electron force balance and the L-H transition",
-        "doi": "10.11578/1366720",
+        "doi": "https://doi.org/10.11578/1366720",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -2227,7 +2227,7 @@
     {
         "osti_id": "1366721",
         "title": "Real-time Radiative Divertor Feedback Control Development for the NSTX-U Tokamak using a Vacuum Ultraviolet Spectrometer",
-        "doi": "10.11578/1366721",
+        "doi": "https://doi.org/10.11578/1366721",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -2270,7 +2270,7 @@
     {
         "osti_id": "1366722",
         "title": "Fusion Nuclear Science Facilities and Pilot Plants Based on the Spherical Tokamak",
-        "doi": "10.11578/1366722",
+        "doi": "https://doi.org/10.11578/1366722",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -2338,7 +2338,7 @@
     {
         "osti_id": "1366984",
         "title": "Quasi-static and dynamic magnetic tension forces in arched, line-tied magnetic flux ropes",
-        "doi": "10.11578/1366984",
+        "doi": "https://doi.org/10.11578/1366984",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -2380,7 +2380,7 @@
     {
         "osti_id": "1366985",
         "title": "Observation of quasi-coherent edge fluctuations in Ohmic plasmas on NSTX",
-        "doi": "10.11578/1366985",
+        "doi": "https://doi.org/10.11578/1366985",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -2419,7 +2419,7 @@
     {
         "osti_id": "1367081",
         "title": "Laboratory study of low-beta forces in arched, line-tied magnetic flux ropes",
-        "doi": "10.11578/1367081",
+        "doi": "https://doi.org/10.11578/1367081",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -2460,7 +2460,7 @@
     {
         "osti_id": "1367082",
         "title": "Initial operation of the NSTX-Upgrade real-time velocity diagnostic",
-        "doi": "10.11578/1367082",
+        "doi": "https://doi.org/10.11578/1367082",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -2498,7 +2498,7 @@
     {
         "osti_id": "1366746",
         "title": "Three New Extreme Ultraviolet Spectrometers on NSTX-U for Impurity Monitoring",
-        "doi": "10.11578/1366746",
+        "doi": "https://doi.org/10.11578/1366746",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -2539,7 +2539,7 @@
     {
         "osti_id": "1367170",
         "title": "Collisional dependence of Alfven mode saturation in tokamaks",
-        "doi": "10.11578/1367170",
+        "doi": "https://doi.org/10.11578/1367170",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -2577,7 +2577,7 @@
     {
         "osti_id": "1354837",
         "title": "Large-volume flux closure during plasmoid-mediated reconnection in coaxial helicity injection",
-        "doi": "10.11578/1354837",
+        "doi": "https://doi.org/10.11578/1354837",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -2617,7 +2617,7 @@
     {
         "osti_id": "1367550",
         "title": "Design of Faraday cup ion detectors built by thin film deposition",
-        "doi": "10.11578/1367550",
+        "doi": "https://doi.org/10.11578/1367550",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -2656,7 +2656,7 @@
     {
         "osti_id": "1367551",
         "title": "Optimization of the angular orientation for a fast ion loss detector in a tokamak",
-        "doi": "10.11578/1367551",
+        "doi": "https://doi.org/10.11578/1367551",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -2693,7 +2693,7 @@
     {
         "osti_id": "1367552",
         "title": "Application of IR imaging for free-surface velocity measurement in liquid-metal systems",
-        "doi": "10.11578/1367552",
+        "doi": "https://doi.org/10.11578/1367552",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -2732,7 +2732,7 @@
     {
         "osti_id": "1367555",
         "title": "Advances in boronization on NSTX-Upgrade",
-        "doi": "10.11578/1367555",
+        "doi": "https://doi.org/10.11578/1367555",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -2776,7 +2776,7 @@
     {
         "osti_id": "1367554",
         "title": "Validation and benchmarking of two particle-in-cell codes for a glow discharge",
-        "doi": "10.11578/1367554",
+        "doi": "https://doi.org/10.11578/1367554",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -2816,7 +2816,7 @@
     {
         "osti_id": "1367557",
         "title": "Multi-species impurity granule injection and mass deposition projections in NSTX-U discharges Authors",
-        "doi": "10.11578/1367557",
+        "doi": "https://doi.org/10.11578/1367557",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -2862,7 +2862,7 @@
     {
         "osti_id": "1367547",
         "title": "Energy Exchange Dynamics across L-H Transitions in NSTX",
-        "doi": "10.11578/1367547",
+        "doi": "https://doi.org/10.11578/1367547",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -2902,7 +2902,7 @@
     {
         "osti_id": "1367548",
         "title": "Stabilizing effect of resistivity towards ELM-free H-mode discharge in lithium-conditioned NSTX",
-        "doi": "10.11578/1367548",
+        "doi": "https://doi.org/10.11578/1367548",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -2941,7 +2941,7 @@
     {
         "osti_id": "1367878",
         "title": "The Role of Recti ed Currents in Far-Field RF Sheaths and in SOL Losses of HHFW Power on NSTX",
-        "doi": "10.11578/1367878",
+        "doi": "https://doi.org/10.11578/1367878",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -2985,7 +2985,7 @@
     {
         "osti_id": "1608302",
         "title": "Theory of the tertiary instability and the Dimits shift from reduced drift-wave models",
-        "doi": "10.11578/1608302",
+        "doi": "https://doi.org/10.11578/1608302",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -3027,7 +3027,7 @@
     {
         "osti_id": "1608306",
         "title": "Analytic stability boundaries for compressional and global Alfven eigenmodes driven by fast ions. II. Interaction via Landau resonance.",
-        "doi": "10.11578/1608306",
+        "doi": "https://doi.org/10.11578/1608306",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -3067,7 +3067,7 @@
     {
         "osti_id": "1608312",
         "title": "Vertical forces during VDEs in an ITER plasma and the role of halo currents",
-        "doi": "10.11578/1608312",
+        "doi": "https://doi.org/10.11578/1608312",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -3110,7 +3110,7 @@
     {
         "osti_id": "1608313",
         "title": "Solitary zonal structures in subcritical drift waves: a minimum model",
-        "doi": "10.11578/1608313",
+        "doi": "https://doi.org/10.11578/1608313",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -3152,7 +3152,7 @@
     {
         "osti_id": "1608254",
         "title": "Machine Learning Characterization of Alfv\u00e9nic and Sub-Alfv\u00e9nic Chirping and Correlation With Fast-Ion Loss at NSTX",
-        "doi": "10.11578/1608254",
+        "doi": "https://doi.org/10.11578/1608254",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -3198,7 +3198,7 @@
     {
         "osti_id": "1608293",
         "title": "Intrinsic Rotation in Axisymmetric Devices",
-        "doi": "10.11578/1608293",
+        "doi": "https://doi.org/10.11578/1608293",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -3239,7 +3239,7 @@
     {
         "osti_id": "1608300",
         "title": "Analytic stability boundaries for compressional and global Alfven eigenmodes driven by fast ions. I. Interaction via ordinary and anomalous cyclotron resonances.",
-        "doi": "10.11578/1608300",
+        "doi": "https://doi.org/10.11578/1608300",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -3282,9 +3282,300 @@
         ]
     },
     {
+        "osti_id": "1661166",
+        "title": "Toward fusion plasma scenario planning for NSTX-U using machine-learning-accelerated models",
+        "doi": "https://doi.org/10.11578/1661166",
+        "product_type": "Dataset",
+        "language": "English",
+        "country_publication": "United States",
+        "description": "One of the most promising devices for realizing power production through nuclear fusion is the tokamak. To maximize performance, it is preferable that tokamak reactors achieve advanced operating scenarios characterized by good plasma confinement, improved magnetohydrodynamic (MHD) stability, and a largely non-inductively driven plasma current. Such scenarios could enable steady-state reactor operation with high \\emph{fusion gain} --- the ratio of produced fusion power to the external power provided through the plasma boundary. Precise and robust control of the evolution of the plasma boundary shape as well as the spatial distribution of the plasma current, density, temperature, and rotation will be essential to achieving and maintaining such scenarios. The complexity of the evolution of tokamak plasmas, arising due to nonlinearities and coupling between various parameters, motivates the use of model-based control algorithms that can account for the system dynamics. In this work, a learning-based accelerated model trained on data from the National Spherical Torus Experiment Upgrade (NSTX-U) is employed to develop planning and control strategies for regulating the density and temperature profile evolution around desired trajectories. The proposed model combines empirical scaling laws developed across multiple devices with neural networks trained on empirical data from NSTX-U and a database of first-principles-based computationally intensive simulations. The reduced execution time of the accelerated model will enable practical application of optimization algorithms and reinforcement learning approaches for scenario planning and control development. An initial demonstration of applying optimization approaches to the learning-based model is presented, including a strategy for mitigating the effect of leaving the finite validity range of the accelerated model. The approach shows promise for actuator planning between experiments and in real-time.",
+        "site_ownership_code": "PPPL",
+        "publication_date": "2020-07-08T00:00:00Z",
+        "entry_date": "2020-09-30T00:00:00Z",
+        "authors": [
+            "Boyer, Mark D"
+        ],
+        "subjects": [
+            "NSTX-U",
+            "machine learning",
+            "optimization",
+            "NUBEAM",
+            "profile control"
+        ],
+        "doe_contract_number": "AC02-09CH11466",
+        "sponsor_orgs": [
+            "USDOE"
+        ],
+        "research_orgs": [
+            "Princeton Plasma Physics Lab. (PPPL), Princeton, NJ (United States)"
+        ],
+        "links": [
+            {
+                "rel": "citation",
+                "href": "https://www.osti.gov/dataexplorer/biblio/1661166"
+            },
+            {
+                "rel": "fulltext",
+                "href": "https://www.osti.gov/dataexplorer/servlets/purl/1661166"
+            }
+        ]
+    },
+    {
+        "osti_id": "1661167",
+        "title": "MHD-blob correlations in NSTX",
+        "doi": "https://doi.org/10.11578/1661167",
+        "product_type": "Dataset",
+        "language": "English",
+        "country_publication": "United States",
+        "description": "This paper describes a study of the cross-correlations between edge fluctuations as seen in the gas puff imaging (GPI) diagnostic and low frequency coherent magnetic fluctuations (MHD) in H-mode plasmas in NSTX. The main new result was that large blobs in the SOL were significantly correlated with MHD activity the 3-6 kHz range in 21 of the 223 shots examined. There were also many other shots in which fluctuations in the GPI signal level and its peak radius Rpeak were correlated with MHD activity, but without any significant correlation of the MHD with large blobs. The structure and motion of the MHD is compared with that of the correlated blobs, and some possible theoretical mechanisms for the MHD-blob correlation are discussed.",
+        "site_ownership_code": "PPPL",
+        "publication_date": "2020-07-08T00:00:00Z",
+        "entry_date": "2020-09-30T00:00:00Z",
+        "authors": [
+            "SJ, Zweben",
+            "ED, Fredrickson",
+            "Myra, JR",
+            "M, Podesta",
+            "F, Scotti"
+        ],
+        "subjects": [
+            "blobs",
+            "MHD",
+            "NSTX"
+        ],
+        "doe_contract_number": "AC02 09CH11466; FG02-97ER54392; AC52-07NA27344",
+        "sponsor_orgs": [
+            "USDOE"
+        ],
+        "research_orgs": [
+            "Princeton Plasma Physics Lab. (PPPL), Princeton, NJ (United States)"
+        ],
+        "links": [
+            {
+                "rel": "citation",
+                "href": "https://www.osti.gov/dataexplorer/biblio/1661167"
+            },
+            {
+                "rel": "fulltext",
+                "href": "https://www.osti.gov/dataexplorer/servlets/purl/1661167"
+            }
+        ]
+    },
+    {
+        "osti_id": "1661168",
+        "title": "Enhanced Pedestal H-mode at low edge ion collisionality on NSTX",
+        "doi": "https://doi.org/10.11578/1661168",
+        "product_type": "Dataset",
+        "language": "English",
+        "country_publication": "United States",
+        "description": "The Enhanced Pedestal (EP) H-mode regime is an attractive wide-pedestal ELM-free high-betap scenario for NSTX-U and next-step devices as it achieves enhanced energy confinement (H98y,2 > 1.5), large normalized pressure (betaN > 5) and significant bootstrap fraction (f_BS > 0.6) at I_p/B_T = 2 MA/T. This regime is realized when the edge ion collisionality becomes sufficiently small that a positive feedback interaction occurs between a reduction in the ion neoclassical energy transport and an increase in the particle transport from pressure-driven edge instabilities. EP H-mode was most often observed as a transition following a large ELM in conditions with low edge neutral recycling. It is hypothesized that the onset of pressure-driven instabilities prior to the full recovery of the neutral density leads to a temporary period with elevated ion temperature gradient that triggers the transition to EP H-mode. Linear CGYRO and M3D-C1 calculations are compared to beam emission spectroscopy (BES) and magnetic spectroscopy in order to describe the evolution of the edge particle transport mechanisms during the ELM recovery and the saturated EP H-mode state. The observations are consistent with the hypothesis that the onset of pressure-driven edge instabilities, such as the KBM and kink-peeling, can be responsible for the increased particle transport in EP H-mode.",
+        "site_ownership_code": "PPPL",
+        "publication_date": "2020-07-08T00:00:00Z",
+        "entry_date": "2020-09-30T00:00:00Z",
+        "authors": [
+            "Battaglia, D J",
+            "Guttenfelder, W",
+            "Bell, R E",
+            "Diallo, A",
+            "Ferraro, N",
+            ", Fredrickson, E.",
+            "Gerhardt, S P",
+            "Kaye, S M",
+            "Maingi, R",
+            "Smith, D R"
+        ],
+        "subjects": [
+            "spherical tokamaks",
+            "magnetic plasma confinement",
+            "turbulence and transport",
+            "edge and boundary physics",
+            "NSTX",
+            "H-mode"
+        ],
+        "doe_contract_number": "AC02-09CH11466",
+        "sponsor_orgs": [
+            "USDOE"
+        ],
+        "research_orgs": [
+            "Princeton Plasma Physics Lab. (PPPL), Princeton, NJ (United States)"
+        ],
+        "links": [
+            {
+                "rel": "citation",
+                "href": "https://www.osti.gov/dataexplorer/biblio/1661168"
+            },
+            {
+                "rel": "fulltext",
+                "href": "https://www.osti.gov/dataexplorer/servlets/purl/1661168"
+            }
+        ]
+    },
+    {
+        "osti_id": "1661169",
+        "title": "Theory of the tertiary instability and the Dimits shift within a scalar model",
+        "doi": "https://doi.org/10.11578/1661169",
+        "product_type": "Dataset",
+        "language": "English",
+        "country_publication": "United States",
+        "description": "The Dimits shift is the shift between the threshold of the drift-wave primary instability and the actual onset of turbulent transport in magnetized plasma. It is generally attributed to the suppression of turbulence by zonal flows, but developing a more detailed understanding calls for consideration of specific reduced models. The modified Terry--Horton system has been proposed by St-Onge [J. Plasma Phys. {\\bf 83}, 905830504 (2017)] as a minimal model capturing the Dimits shift. Here, we use this model to develop an analytic theory of the Dimits shift and a related theory of the tertiary instability of zonal flows. We show that tertiary modes are localized near extrema of the zonal velocity $U(x)$, where $x$ is the radial coordinate. By approximating $U(x)$ with a parabola, we derive the tertiary-instability growth rate using two different methods and show that the tertiary instability is essentially the primary drift-wave instability modified by the local $U''$. Then, depending on $U''$, the tertiary instability can be suppressed or unleashed. The former corresponds to the case when zonal flows are strong enough to suppress turbulence (Dimits regime), while the latter corresponds to the case when zonal flows are unstable and turbulence develops. This understanding is different from the traditional paradigm that turbulence is controlled by the flow shear $U'$. Our analytic predictions are in agreement with direct numerical simulations of the modified Terry--Horton system.",
+        "site_ownership_code": "PPPL",
+        "publication_date": "2020-06-29T00:00:00Z",
+        "entry_date": "2020-09-30T00:00:00Z",
+        "authors": [
+            "Zhu, Hongxuan",
+            "Yao, Zhou",
+            "Dodin, I Y"
+        ],
+        "subjects": [
+            "fusion plasmas",
+            "plasma instabilities",
+            "plasma waves"
+        ],
+        "doe_contract_number": "AC02-09CH11466",
+        "sponsor_orgs": [
+            "USDOE"
+        ],
+        "research_orgs": [
+            "Princeton Plasma Physics Lab. (PPPL), Princeton, NJ (United States)"
+        ],
+        "links": [
+            {
+                "rel": "citation",
+                "href": "https://www.osti.gov/dataexplorer/biblio/1661169"
+            },
+            {
+                "rel": "fulltext",
+                "href": "https://www.osti.gov/dataexplorer/servlets/purl/1661169"
+            }
+        ]
+    },
+    {
+        "osti_id": "1661170",
+        "title": "Gyrokinetic understanding of the edge pedestal transport driven by resonant magnetic perturbations in a realistic divertor geometry",
+        "doi": "https://doi.org/10.11578/1661170",
+        "product_type": "Dataset",
+        "language": "English",
+        "country_publication": "United States",
+        "description": "Self-consistent simulations of neoclassical and electrostatic turbulent transport in a DIII-D H-mode edge plasma under resonant magnetic perturbations (RMPs) have been performed using the global total-f gyrokinetic particle-in-cell code XGC, in order to study density-pump out and electron heat confinement.The RMP field is imported from the extended magneto-hydrodynamics (MHD) code M3D-C1, taking into account the linear two-fluid plasma response.With both neoclassical and turbulence physics considered together, the XGC simulation reproduces two key features of experimentally observed edge transport under RMPs: increased radial particle transport in the pedestal region that is sufficient to account for the experimental pump-out rate, and suppression of the electron heat flux in the steepest part of the edge pedestal.In the simulation, the density fluctuation amplitude of modes moving in the electron diamagnetic direction increases due to interaction with RMPs in the pedestal shoulder and outward, while the electron temperature fluctuation amplitude decreases.",
+        "site_ownership_code": "PPPL",
+        "publication_date": "2020-06-10T00:00:00Z",
+        "entry_date": "2020-09-30T00:00:00Z",
+        "authors": [
+            "Hager, R",
+            "Chang, C S",
+            "Ferraro, N M",
+            "Nazikian R."
+        ],
+        "subjects": [
+            "XGC",
+            "DIII-D",
+            "RMP",
+            "turbulence",
+            "transport"
+        ],
+        "doe_contract_number": "AC02-09CH11466; FC02-04ER54698; AC02-06CH11357; AC02-05CH11231",
+        "sponsor_orgs": [
+            "USDOE"
+        ],
+        "research_orgs": [
+            "Princeton Plasma Physics Lab. (PPPL), Princeton, NJ (United States)"
+        ],
+        "links": [
+            {
+                "rel": "citation",
+                "href": "https://www.osti.gov/dataexplorer/biblio/1661170"
+            },
+            {
+                "rel": "fulltext",
+                "href": "https://www.osti.gov/dataexplorer/servlets/purl/1661170"
+            }
+        ]
+    },
+    {
+        "osti_id": "1661171",
+        "title": "Deep convolutional neural networks for multi-scale time-series classification and application to disruption prediction in fusion devices",
+        "doi": "https://doi.org/10.11578/1661171",
+        "product_type": "Dataset",
+        "language": "English",
+        "country_publication": "United States",
+        "description": "The multi-scale, mutli-physics nature of fusion plasmas makes predicting plasma events challenging. Recent advances in deep convolutional neural network architectures (CNN) utilizing dilated convolutions enable accurate predictions on sequences which have long-range, multi-scale characteristics, such as the time-series generated by diagnostic instruments observing fusion plasmas. Here we apply this neural network architecture to the popular problem of disruption prediction in fusion tokamaks, utilizing raw data from a single diagnostic, the Electron Cyclotron Emission imaging (ECEi) diagnostic from the DIII-D tokamak. ECEi measures a fundamental plasma quantity (electron temperature) with high temporal resolution over the entire plasma discharge, making it sensitive to a number of potential pre-disruptions markers with different temporal and spatial scales. Promising, initial disruption prediction results are obtained training a deep CNN with large receptive field ({$\\sim$}30k), achieving an $F_1$-score of {$\\sim$}91\\% on individual time-slices using only the ECEi data.",
+        "site_ownership_code": "PPPL",
+        "publication_date": "2020-05-21T00:00:00Z",
+        "entry_date": "2020-09-30T00:00:00Z",
+        "authors": [
+            "Churchill, R M",
+            "the DIII-D team"
+        ],
+        "subjects": [
+            "fusion",
+            "plasma physics",
+            "machine learning",
+            "deep learning",
+            "convolutional neural networks",
+            "ECEi"
+        ],
+        "doe_contract_number": "AC02-09CH11466; FC02-04ER54698; FG02-99ER54531",
+        "sponsor_orgs": [
+            "USDOE"
+        ],
+        "research_orgs": [
+            "Princeton Plasma Physics Lab. (PPPL), Princeton, NJ (United States)"
+        ],
+        "links": [
+            {
+                "rel": "citation",
+                "href": "https://www.osti.gov/dataexplorer/biblio/1661171"
+            },
+            {
+                "rel": "fulltext",
+                "href": "https://www.osti.gov/dataexplorer/servlets/purl/1661171"
+            }
+        ]
+    },
+    {
+        "osti_id": "1661172",
+        "title": "Geometric concepts for stellarator permanent magnet arrays",
+        "doi": "https://doi.org/10.11578/1661172",
+        "product_type": "Dataset",
+        "language": "English",
+        "country_publication": "United States",
+        "description": "The development of stellarators that use permanent magnet arrays to shape their confining magnetic fields has been a topic of recent interest, but the requirements for how such magnets must be shaped, manufactured, and assembled remain to be determined. To address these open questions, we have performed a study of geometric concepts for magnet arrays with the aid of the newly developed MAGPIE code. A proposed experiment similar to the National Compact Stellarator Experiment (NCSX) is used as a test case. Two classes of magnet geometry are explored: curved bricks that conform to a regular grid in cylindrical coordinates, and hexahedra that conform to the toroidal plasma geometry. In addition, we test constraints on the magnet polarization. While magnet configurations constrained to be polarized normally to a toroidal surface around the plasma are unable to meet the required magnetic field parameters when subject to physical limitations on the strength of present-day magnets, configurations with unconstrained polarizations are shown to satisfy the physics requirements for a targeted plasma.",
+        "site_ownership_code": "PPPL",
+        "publication_date": "2020-09-03T00:00:00Z",
+        "entry_date": "2020-09-30T00:00:00Z",
+        "authors": [
+            "Hammond, K C",
+            "Zhu, C",
+            "Brown, T",
+            "Corrigan, K",
+            "Gates, D A",
+            "Sibilia, M"
+        ],
+        "subjects": [
+            "stellarator, permanent magnet, optimization"
+        ],
+        "doe_contract_number": "AC02-09CH11466",
+        "sponsor_orgs": [
+            "USDOE"
+        ],
+        "research_orgs": [
+            "Princeton Plasma Physics Lab. (PPPL), Princeton, NJ (United States)"
+        ],
+        "links": [
+            {
+                "rel": "citation",
+                "href": "https://www.osti.gov/dataexplorer/biblio/1661172"
+            },
+            {
+                "rel": "fulltext",
+                "href": "https://www.osti.gov/dataexplorer/servlets/purl/1661172"
+            }
+        ]
+    },
+    {
         "osti_id": "1561996",
         "title": "Effects of Axial Boundary Conductivity on a Free Stewartson-Shercliff Layer",
-        "doi": "10.11578/1561996",
+        "doi": "https://doi.org/10.11578/1561996",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -3324,7 +3615,7 @@
     {
         "osti_id": "1561998",
         "title": "Demonstrating electromagnetic control of free-surface, liquid-metal flows relevant to fusion reactors",
-        "doi": "10.11578/1561998",
+        "doi": "https://doi.org/10.11578/1561998",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -3362,7 +3653,7 @@
     {
         "osti_id": "1561999",
         "title": "Physics design for a lithium vapor box divertor experiment on Magnum-PSI",
-        "doi": "10.11578/1561999",
+        "doi": "https://doi.org/10.11578/1561999",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -3401,7 +3692,7 @@
     {
         "osti_id": "1562000",
         "title": "Electron heating and energy inventory during asymmetric reconnection in a laboratory plasma",
-        "doi": "10.11578/1562000",
+        "doi": "https://doi.org/10.11578/1562000",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -3444,7 +3735,7 @@
     {
         "osti_id": "1562001",
         "title": "Whistler wave generation by anisotropic tail electrons during asymmetric magnetic reconnection in space and laboratory",
-        "doi": "10.11578/1562001",
+        "doi": "https://doi.org/10.11578/1562001",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -3494,7 +3785,7 @@
     {
         "osti_id": "1562006",
         "title": "Spontaneous multi-keV electron generation in a low-RF-power axisymmetric mirror machine",
-        "doi": "10.11578/1562006",
+        "doi": "https://doi.org/10.11578/1562006",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -3527,7 +3818,7 @@
     {
         "osti_id": "1562007",
         "title": "Calibrationless rotating Lorentz-force flowmeters for low flow rate applications",
-        "doi": "10.11578/1562007",
+        "doi": "https://doi.org/10.11578/1562007",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -3565,7 +3856,7 @@
     {
         "osti_id": "1562008",
         "title": "Detection of an electron beam in a high density plasma via an electrostatic probe",
-        "doi": "10.11578/1562008",
+        "doi": "https://doi.org/10.11578/1562008",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -3603,7 +3894,7 @@
     {
         "osti_id": "1562009",
         "title": "Quantitative imaging of carbon dimer precursor for nanomaterial synthesis in the carbon arc",
-        "doi": "10.11578/1562009",
+        "doi": "https://doi.org/10.11578/1562009",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -3646,7 +3937,7 @@
     {
         "osti_id": "1562010",
         "title": "Design and measurement methods for a lithium vapor box similarity experiment",
-        "doi": "10.11578/1562010",
+        "doi": "https://doi.org/10.11578/1562010",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -3684,7 +3975,7 @@
     {
         "osti_id": "1562012",
         "title": "Experimental calibration procedures for rotating Lorentz-force flowmeters",
-        "doi": "10.11578/1562012",
+        "doi": "https://doi.org/10.11578/1562012",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -3722,7 +4013,7 @@
     {
         "osti_id": "1562013",
         "title": "Experimental demonstration of hydraulic jump control in liquid metal channel flow using Lorentz force",
-        "doi": "10.11578/1562013",
+        "doi": "https://doi.org/10.11578/1562013",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -3759,7 +4050,7 @@
     {
         "osti_id": "1562019",
         "title": "Sensitivity of WallDYN material migration modeling to uncertainties in mixed-material surface binding energies",
-        "doi": "10.11578/1562019",
+        "doi": "https://doi.org/10.11578/1562019",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -3805,7 +4096,7 @@
     {
         "osti_id": "1562020",
         "title": "Blob Structure and Motion in the Edge and SOL of NSTX",
-        "doi": "10.11578/1562020",
+        "doi": "https://doi.org/10.11578/1562020",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -3849,7 +4140,7 @@
     {
         "osti_id": "1562021",
         "title": "Blob-hole correlation model for edge turbulence and comparisons with NSTX GPI data",
-        "doi": "10.11578/1562021",
+        "doi": "https://doi.org/10.11578/1562021",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -3884,7 +4175,7 @@
     {
         "osti_id": "1562022",
         "title": "A multi-machine scaling of halo current rotation",
-        "doi": "10.11578/1562022",
+        "doi": "https://doi.org/10.11578/1562022",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -3925,7 +4216,7 @@
     {
         "osti_id": "1562023",
         "title": "Plasma measurements of the Fe XVII L-shell emission and blending with F VIII and F IX",
-        "doi": "10.11578/1562023",
+        "doi": "https://doi.org/10.11578/1562023",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -3967,7 +4258,7 @@
     {
         "osti_id": "1562024",
         "title": "Mitigation of Alfven activity by 3D magnetic perturbations on NSTX",
-        "doi": "10.11578/1562024",
+        "doi": "https://doi.org/10.11578/1562024",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -4012,7 +4303,7 @@
     {
         "osti_id": "1562025",
         "title": "Study of the impact of pre- and real-time deposition of lithium on plasma performance on NSTX",
-        "doi": "10.11578/1562025",
+        "doi": "https://doi.org/10.11578/1562025",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -4056,7 +4347,7 @@
     {
         "osti_id": "1562027",
         "title": "Computation of Alfv\u00e8n eigenmode stability and saturation through a reduced fast ion transport model in the TRANSP tokamak transport code",
-        "doi": "10.11578/1562027",
+        "doi": "https://doi.org/10.11578/1562027",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -4094,7 +4385,7 @@
     {
         "osti_id": "1562028",
         "title": "Two-dimensional turbulence cross-correlation functions in the edge of NSTX",
-        "doi": "10.11578/1562028",
+        "doi": "https://doi.org/10.11578/1562028",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -4135,7 +4426,7 @@
     {
         "osti_id": "1562031",
         "title": "Nonlinear simulations of beam-driven Compressional Alf&eacute;n Eigenmodes in NSTX",
-        "doi": "10.11578/1562031",
+        "doi": "https://doi.org/10.11578/1562031",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -4176,7 +4467,7 @@
     {
         "osti_id": "1562032",
         "title": "Modeling of Lithium Granule Injection in NSTX with M3D-C1",
-        "doi": "10.11578/1562032",
+        "doi": "https://doi.org/10.11578/1562032",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -4216,7 +4507,7 @@
     {
         "osti_id": "1562033",
         "title": "Kinetic neoclassical calculations of impurity radiation profiles",
-        "doi": "10.11578/1562033",
+        "doi": "https://doi.org/10.11578/1562033",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -4257,7 +4548,7 @@
     {
         "osti_id": "1562038",
         "title": "Electron-density-sensitive Line Ratios of Fe XIII--XVI from Laboratory Sources Compared to CHIANTI",
-        "doi": "10.11578/1562038",
+        "doi": "https://doi.org/10.11578/1562038",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -4296,7 +4587,7 @@
     {
         "osti_id": "1562041",
         "title": "Density perturbation mode structure of high frequency compressional and global Alfv\u00e9n eigenmodes in the National Spherical Torus Experiment using a novel reflectometer analysis technique",
-        "doi": "10.11578/1562041",
+        "doi": "https://doi.org/10.11578/1562041",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -4339,7 +4630,7 @@
     {
         "osti_id": "1562042",
         "title": "ELM-free and inter-ELM divertor heat flux broadening induced by Edge Harmonics Oscillation in NSTX",
-        "doi": "10.11578/1562042",
+        "doi": "https://doi.org/10.11578/1562042",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -4385,7 +4676,7 @@
     {
         "osti_id": "1562044",
         "title": "Drift kinetic effects on the plasma response in high beta spherical tokamak experiments",
-        "doi": "10.11578/1562044",
+        "doi": "https://doi.org/10.11578/1562044",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -4425,7 +4716,7 @@
     {
         "osti_id": "1562045",
         "title": "Application of Townsend avalanche theory to tokamak startup by coaxial helicity injection",
-        "doi": "10.11578/1562045",
+        "doi": "https://doi.org/10.11578/1562045",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -4462,7 +4753,7 @@
     {
         "osti_id": "1562046",
         "title": "A Riccati Solution for the Ideal MHD Plasma Response with Applications to Real-time Stability Control",
-        "doi": "10.11578/1562046",
+        "doi": "https://doi.org/10.11578/1562046",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -4499,7 +4790,7 @@
     {
         "osti_id": "1562048",
         "title": "Elemental and topographical imaging of microscopic variations in deposition on NSTX-U and DIII-D samples",
-        "doi": "10.11578/1562048",
+        "doi": "https://doi.org/10.11578/1562048",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -4537,7 +4828,7 @@
     {
         "osti_id": "1562052",
         "title": "Scenario Development During Commissioning Operations on the National Spherical Torus Experiment Upgrade",
-        "doi": "10.11578/1562052",
+        "doi": "https://doi.org/10.11578/1562052",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -4601,7 +4892,7 @@
     {
         "osti_id": "1562053",
         "title": "Elemental and topographical imaging of microscopic variations in deposition on NSTX-U and DIII-D samples2",
-        "doi": "10.11578/1562053",
+        "doi": "https://doi.org/10.11578/1562053",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -4638,7 +4929,7 @@
     {
         "osti_id": "1562054",
         "title": "Regarding the optimization of O1-mode ECRH and the feasibility of EBW startup on NSTX-U",
-        "doi": "10.11578/1562054",
+        "doi": "https://doi.org/10.11578/1562054",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -4677,7 +4968,7 @@
     {
         "osti_id": "1562055",
         "title": "Suppression of Alfv&eacute;n modes on NSTX-U with outboard beam injection",
-        "doi": "10.11578/1562055",
+        "doi": "https://doi.org/10.11578/1562055",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -4724,7 +5015,7 @@
     {
         "osti_id": "1562056",
         "title": "Two-dimensional full-wave simulations of waves in space and tokamak plasmas",
-        "doi": "10.11578/1562056",
+        "doi": "https://doi.org/10.11578/1562056",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -4762,7 +5053,7 @@
     {
         "osti_id": "1562057",
         "title": "Design and simulation of the snowflake divertor control for NSTX-U",
-        "doi": "10.11578/1562057",
+        "doi": "https://doi.org/10.11578/1562057",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -4800,7 +5091,7 @@
     {
         "osti_id": "1562061",
         "title": "Application of Benchmarked Kinetic Resistive Wall Mode Stability Codes to ITER, Including Additional Physics",
-        "doi": "10.11578/1562061",
+        "doi": "https://doi.org/10.11578/1562061",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -4840,7 +5131,7 @@
     {
         "osti_id": "1562064",
         "title": "ELM elimination with Li powder injection in EAST discharges using the tungsten upper divertor",
-        "doi": "10.11578/1562064",
+        "doi": "https://doi.org/10.11578/1562064",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -4890,7 +5181,7 @@
     {
         "osti_id": "1562065",
         "title": "On the scattering correction of fast-ion D-alpha signal on NSTX-U",
-        "doi": "10.11578/1562065",
+        "doi": "https://doi.org/10.11578/1562065",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -4930,7 +5221,7 @@
     {
         "osti_id": "1562067",
         "title": "Parallel electron force balance and the L-H transition",
-        "doi": "10.11578/1562067",
+        "doi": "https://doi.org/10.11578/1562067",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -4968,7 +5259,7 @@
     {
         "osti_id": "1562069",
         "title": "Real-time capable modeling of neutral beam injection on NSTX-U using neural networks",
-        "doi": "10.11578/1562069",
+        "doi": "https://doi.org/10.11578/1562069",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -5007,7 +5298,7 @@
     {
         "osti_id": "1562070",
         "title": "Electromagnetic Particle Injector for Fast Time Response Disruption Mitigation in Tokamaks",
-        "doi": "10.11578/1562070",
+        "doi": "https://doi.org/10.11578/1562070",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -5046,7 +5337,7 @@
     {
         "osti_id": "1562073",
         "title": "Compact steady-state tokamak performance dependence on magnet and core physics limits",
-        "doi": "10.11578/1562073",
+        "doi": "https://doi.org/10.11578/1562073",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -5081,7 +5372,7 @@
     {
         "osti_id": "1562074",
         "title": "Energetic-particle-modified global Alfven eigenmodes",
-        "doi": "10.11578/1562074",
+        "doi": "https://doi.org/10.11578/1562074",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -5116,7 +5407,7 @@
     {
         "osti_id": "1562076",
         "title": "Gas Puff Imaging Diagnostics of Edge Plasma Turbulence in Magnetic Fusion Devices",
-        "doi": "10.11578/1562076",
+        "doi": "https://doi.org/10.11578/1562076",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -5154,7 +5445,7 @@
     {
         "osti_id": "1562077",
         "title": "Neutral recycling effects on ITG turbulence",
-        "doi": "10.11578/1562077",
+        "doi": "https://doi.org/10.11578/1562077",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -5193,7 +5484,7 @@
     {
         "osti_id": "1562080",
         "title": "Global modeling of wall material migration following boronization in NSTX-U",
-        "doi": "10.11578/1562080",
+        "doi": "https://doi.org/10.11578/1562080",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -5234,7 +5525,7 @@
     {
         "osti_id": "1562082",
         "title": "Study of liquid metal surface wave damping in the presence of magnetic fields and electrical currents",
-        "doi": "10.11578/1562082",
+        "doi": "https://doi.org/10.11578/1562082",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -5272,7 +5563,7 @@
     {
         "osti_id": "1562083",
         "title": "A scalable real-time framework for Thomson scattering analysis: Application to NSTX-U",
-        "doi": "10.11578/1562083",
+        "doi": "https://doi.org/10.11578/1562083",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -5306,7 +5597,7 @@
     {
         "osti_id": "1562086",
         "title": "TRANSP-based closed-loop simulations of current profile optimal regulation in NSTX-Upgrade",
-        "doi": "10.11578/1562086",
+        "doi": "https://doi.org/10.11578/1562086",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -5344,7 +5635,7 @@
     {
         "osti_id": "1562088",
         "title": "Modeling of a Laser-Induced Rydberg Spectroscopy diagnostic for Direct Measurement of the Local Electric Field in the Edge Region of NSTX/NSTX-U",
-        "doi": "10.11578/1562088",
+        "doi": "https://doi.org/10.11578/1562088",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -5381,7 +5672,7 @@
     {
         "osti_id": "1562089",
         "title": "Injected mass deposition thresholds for lithium granule instigated triggering of edge localized modes on EAST",
-        "doi": "10.11578/1562089",
+        "doi": "https://doi.org/10.11578/1562089",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -5431,7 +5722,7 @@
     {
         "osti_id": "1562090",
         "title": "Feedback control design for non-inductively sustained scenarios in NSTX-U using TRANSP",
-        "doi": "10.11578/1562090",
+        "doi": "https://doi.org/10.11578/1562090",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -5471,7 +5762,7 @@
     {
         "osti_id": "1562092",
         "title": "Plasma boundary shape control and real-time equilibrium reconstruction on NSTX-U",
-        "doi": "10.11578/1562092",
+        "doi": "https://doi.org/10.11578/1562092",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -5518,7 +5809,7 @@
     {
         "osti_id": "1562094",
         "title": "Modelling of Ablatant Deposition from Electromagnetically Driven Radiative Pellets for Disruption Mitigation Studies",
-        "doi": "10.11578/1562094",
+        "doi": "https://doi.org/10.11578/1562094",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -5556,7 +5847,7 @@
     {
         "osti_id": "1562095",
         "title": "Blob wakes in NSTX",
-        "doi": "10.11578/1562095",
+        "doi": "https://doi.org/10.11578/1562095",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -5592,7 +5883,7 @@
     {
         "osti_id": "1562096",
         "title": "Reduced Model for Direct Induction Startup Scenario Development on MAST-U and NSTX-U",
-        "doi": "10.11578/1562096",
+        "doi": "https://doi.org/10.11578/1562096",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -5636,7 +5927,7 @@
     {
         "osti_id": "1562097",
         "title": "Initial transport and turbulence analysis and gyrokinetic simulation validation in NSTX-U L-mode plasmas",
-        "doi": "10.11578/1562097",
+        "doi": "https://doi.org/10.11578/1562097",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -5680,7 +5971,7 @@
     {
         "osti_id": "1562098",
         "title": "TRANSP-based Optimization Towards Tokamak Scenario Development",
-        "doi": "10.11578/1562098",
+        "doi": "https://doi.org/10.11578/1562098",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -5722,7 +6013,7 @@
     {
         "osti_id": "1562099",
         "title": "Application of transient CHI plasma startup to future ST and AT devices",
-        "doi": "10.11578/1562099",
+        "doi": "https://doi.org/10.11578/1562099",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -5759,7 +6050,7 @@
     {
         "osti_id": "1562100",
         "title": "ELM frequency enhancement and discharge modification through lithium granule injection into EAST H-modes",
-        "doi": "10.11578/1562100",
+        "doi": "https://doi.org/10.11578/1562100",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -5810,7 +6101,7 @@
     {
         "osti_id": "1562101",
         "title": "Quasioptical modeling of wave beams with and without mode conversion: II. Numerical simulations of single-mode beams",
-        "doi": "10.11578/1562101",
+        "doi": "https://doi.org/10.11578/1562101",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -5848,7 +6139,7 @@
     {
         "osti_id": "1562102",
         "title": "Electron inertial effects on linearly polarized electromagnetic ion cyclotron waves at Earth's magnetosphere",
-        "doi": "10.11578/1562102",
+        "doi": "https://doi.org/10.11578/1562102",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -5882,7 +6173,7 @@
     {
         "osti_id": "1562103",
         "title": "Verification of the global gyrokinetic stellarator code XGC-S for linear ion temperature gradient driven modes",
-        "doi": "10.11578/1562103",
+        "doi": "https://doi.org/10.11578/1562103",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -5922,7 +6213,7 @@
     {
         "osti_id": "1562104",
         "title": "Comment on 'Numerical modeling of tokamak breakdown phase driven by pure Ohmic heating under ideal conditions'",
-        "doi": "10.11578/1562104",
+        "doi": "https://doi.org/10.11578/1562104",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -5957,7 +6248,7 @@
     {
         "osti_id": "1562105",
         "title": "Nonlinear saturation and oscillations of collisionless zonal flows",
-        "doi": "10.11578/1562105",
+        "doi": "https://doi.org/10.11578/1562105",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -5993,7 +6284,7 @@
     {
         "osti_id": "1562106",
         "title": "Formation of solitary zonal structures via the modulational instability of drift waves",
-        "doi": "10.11578/1562106",
+        "doi": "https://doi.org/10.11578/1562106",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -6029,7 +6320,7 @@
     {
         "osti_id": "1562107",
         "title": "Quasioptical modeling of wave beams with and without mode conversion: III. Numerical simulations of mode-converting beams",
-        "doi": "10.11578/1562107",
+        "doi": "https://doi.org/10.11578/1562107",
         "product_type": "Dataset",
         "language": "English",
         "country_publication": "United States",
@@ -6059,297 +6350,6 @@
             {
                 "rel": "fulltext",
                 "href": "https://www.osti.gov/dataexplorer/servlets/purl/1562107"
-            }
-        ]
-    },
-    {
-        "osti_id": "1661166",
-        "title": "Toward fusion plasma scenario planning for NSTX-U using machine-learning-accelerated models",
-        "doi": "10.11578/1661166",
-        "product_type": "Dataset",
-        "language": "English",
-        "country_publication": "United States",
-        "description": "One of the most promising devices for realizing power production through nuclear fusion is the tokamak. To maximize performance, it is preferable that tokamak reactors achieve advanced operating scenarios characterized by good plasma confinement, improved magnetohydrodynamic (MHD) stability, and a largely non-inductively driven plasma current. Such scenarios could enable steady-state reactor operation with high \\emph{fusion gain} --- the ratio of produced fusion power to the external power provided through the plasma boundary. Precise and robust control of the evolution of the plasma boundary shape as well as the spatial distribution of the plasma current, density, temperature, and rotation will be essential to achieving and maintaining such scenarios. The complexity of the evolution of tokamak plasmas, arising due to nonlinearities and coupling between various parameters, motivates the use of model-based control algorithms that can account for the system dynamics. In this work, a learning-based accelerated model trained on data from the National Spherical Torus Experiment Upgrade (NSTX-U) is employed to develop planning and control strategies for regulating the density and temperature profile evolution around desired trajectories. The proposed model combines empirical scaling laws developed across multiple devices with neural networks trained on empirical data from NSTX-U and a database of first-principles-based computationally intensive simulations. The reduced execution time of the accelerated model will enable practical application of optimization algorithms and reinforcement learning approaches for scenario planning and control development. An initial demonstration of applying optimization approaches to the learning-based model is presented, including a strategy for mitigating the effect of leaving the finite validity range of the accelerated model. The approach shows promise for actuator planning between experiments and in real-time.",
-        "site_ownership_code": "PPPL",
-        "publication_date": "2020-07-08T00:00:00Z",
-        "entry_date": "2020-09-30T00:00:00Z",
-        "authors": [
-            "Boyer, Mark D"
-        ],
-        "subjects": [
-            "NSTX-U",
-            "machine learning",
-            "optimization",
-            "NUBEAM",
-            "profile control"
-        ],
-        "doe_contract_number": "AC02-09CH11466",
-        "sponsor_orgs": [
-            "USDOE"
-        ],
-        "research_orgs": [
-            "Princeton Plasma Physics Lab. (PPPL), Princeton, NJ (United States)"
-        ],
-        "links": [
-            {
-                "rel": "citation",
-                "href": "https://www.osti.gov/dataexplorer/biblio/1661166"
-            },
-            {
-                "rel": "fulltext",
-                "href": "https://www.osti.gov/dataexplorer/servlets/purl/1661166"
-            }
-        ]
-    },
-    {
-        "osti_id": "1661167",
-        "title": "MHD-blob correlations in NSTX",
-        "doi": "10.11578/1661167",
-        "product_type": "Dataset",
-        "language": "English",
-        "country_publication": "United States",
-        "description": "This paper describes a study of the cross-correlations between edge fluctuations as seen in the gas puff imaging (GPI) diagnostic and low frequency coherent magnetic fluctuations (MHD) in H-mode plasmas in NSTX. The main new result was that large blobs in the SOL were significantly correlated with MHD activity the 3-6 kHz range in 21 of the 223 shots examined. There were also many other shots in which fluctuations in the GPI signal level and its peak radius Rpeak were correlated with MHD activity, but without any significant correlation of the MHD with large blobs. The structure and motion of the MHD is compared with that of the correlated blobs, and some possible theoretical mechanisms for the MHD-blob correlation are discussed.",
-        "site_ownership_code": "PPPL",
-        "publication_date": "2020-07-08T00:00:00Z",
-        "entry_date": "2020-09-30T00:00:00Z",
-        "authors": [
-            "SJ, Zweben",
-            "ED, Fredrickson",
-            "Myra, JR",
-            "M, Podesta",
-            "F, Scotti"
-        ],
-        "subjects": [
-            "blobs",
-            "MHD",
-            "NSTX"
-        ],
-        "doe_contract_number": "AC02 09CH11466; FG02-97ER54392; AC52-07NA27344",
-        "sponsor_orgs": [
-            "USDOE"
-        ],
-        "research_orgs": [
-            "Princeton Plasma Physics Lab. (PPPL), Princeton, NJ (United States)"
-        ],
-        "links": [
-            {
-                "rel": "citation",
-                "href": "https://www.osti.gov/dataexplorer/biblio/1661167"
-            },
-            {
-                "rel": "fulltext",
-                "href": "https://www.osti.gov/dataexplorer/servlets/purl/1661167"
-            }
-        ]
-    },
-    {
-        "osti_id": "1661168",
-        "title": "Enhanced Pedestal H-mode at low edge ion collisionality on NSTX",
-        "doi": "10.11578/1661168",
-        "product_type": "Dataset",
-        "language": "English",
-        "country_publication": "United States",
-        "description": "The Enhanced Pedestal (EP) H-mode regime is an attractive wide-pedestal ELM-free high-betap scenario for NSTX-U and next-step devices as it achieves enhanced energy confinement (H98y,2 > 1.5), large normalized pressure (betaN > 5) and significant bootstrap fraction (f_BS > 0.6) at I_p/B_T = 2 MA/T. This regime is realized when the edge ion collisionality becomes sufficiently small that a positive feedback interaction occurs between a reduction in the ion neoclassical energy transport and an increase in the particle transport from pressure-driven edge instabilities. EP H-mode was most often observed as a transition following a large ELM in conditions with low edge neutral recycling. It is hypothesized that the onset of pressure-driven instabilities prior to the full recovery of the neutral density leads to a temporary period with elevated ion temperature gradient that triggers the transition to EP H-mode. Linear CGYRO and M3D-C1 calculations are compared to beam emission spectroscopy (BES) and magnetic spectroscopy in order to describe the evolution of the edge particle transport mechanisms during the ELM recovery and the saturated EP H-mode state. The observations are consistent with the hypothesis that the onset of pressure-driven edge instabilities, such as the KBM and kink-peeling, can be responsible for the increased particle transport in EP H-mode.",
-        "site_ownership_code": "PPPL",
-        "publication_date": "2020-07-08T00:00:00Z",
-        "entry_date": "2020-09-30T00:00:00Z",
-        "authors": [
-            "Battaglia, D J",
-            "Guttenfelder, W",
-            "Bell, R E",
-            "Diallo, A",
-            "Ferraro, N",
-            ", Fredrickson, E.",
-            "Gerhardt, S P",
-            "Kaye, S M",
-            "Maingi, R",
-            "Smith, D R"
-        ],
-        "subjects": [
-            "spherical tokamaks",
-            "magnetic plasma confinement",
-            "turbulence and transport",
-            "edge and boundary physics",
-            "NSTX",
-            "H-mode"
-        ],
-        "doe_contract_number": "AC02-09CH11466",
-        "sponsor_orgs": [
-            "USDOE"
-        ],
-        "research_orgs": [
-            "Princeton Plasma Physics Lab. (PPPL), Princeton, NJ (United States)"
-        ],
-        "links": [
-            {
-                "rel": "citation",
-                "href": "https://www.osti.gov/dataexplorer/biblio/1661168"
-            },
-            {
-                "rel": "fulltext",
-                "href": "https://www.osti.gov/dataexplorer/servlets/purl/1661168"
-            }
-        ]
-    },
-    {
-        "osti_id": "1661169",
-        "title": "Theory of the tertiary instability and the Dimits shift within a scalar model",
-        "doi": "10.11578/1661169",
-        "product_type": "Dataset",
-        "language": "English",
-        "country_publication": "United States",
-        "description": "The Dimits shift is the shift between the threshold of the drift-wave primary instability and the actual onset of turbulent transport in magnetized plasma. It is generally attributed to the suppression of turbulence by zonal flows, but developing a more detailed understanding calls for consideration of specific reduced models. The modified Terry--Horton system has been proposed by St-Onge [J. Plasma Phys. {\\bf 83}, 905830504 (2017)] as a minimal model capturing the Dimits shift. Here, we use this model to develop an analytic theory of the Dimits shift and a related theory of the tertiary instability of zonal flows. We show that tertiary modes are localized near extrema of the zonal velocity $U(x)$, where $x$ is the radial coordinate. By approximating $U(x)$ with a parabola, we derive the tertiary-instability growth rate using two different methods and show that the tertiary instability is essentially the primary drift-wave instability modified by the local $U''$. Then, depending on $U''$, the tertiary instability can be suppressed or unleashed. The former corresponds to the case when zonal flows are strong enough to suppress turbulence (Dimits regime), while the latter corresponds to the case when zonal flows are unstable and turbulence develops. This understanding is different from the traditional paradigm that turbulence is controlled by the flow shear $U'$. Our analytic predictions are in agreement with direct numerical simulations of the modified Terry--Horton system.",
-        "site_ownership_code": "PPPL",
-        "publication_date": "2020-06-29T00:00:00Z",
-        "entry_date": "2020-09-30T00:00:00Z",
-        "authors": [
-            "Zhu, Hongxuan",
-            "Yao, Zhou",
-            "Dodin, I Y"
-        ],
-        "subjects": [
-            "fusion plasmas",
-            "plasma instabilities",
-            "plasma waves"
-        ],
-        "doe_contract_number": "AC02-09CH11466",
-        "sponsor_orgs": [
-            "USDOE"
-        ],
-        "research_orgs": [
-            "Princeton Plasma Physics Lab. (PPPL), Princeton, NJ (United States)"
-        ],
-        "links": [
-            {
-                "rel": "citation",
-                "href": "https://www.osti.gov/dataexplorer/biblio/1661169"
-            },
-            {
-                "rel": "fulltext",
-                "href": "https://www.osti.gov/dataexplorer/servlets/purl/1661169"
-            }
-        ]
-    },
-    {
-        "osti_id": "1661170",
-        "title": "Gyrokinetic understanding of the edge pedestal transport driven by resonant magnetic perturbations in a realistic divertor geometry",
-        "doi": "10.11578/1661170",
-        "product_type": "Dataset",
-        "language": "English",
-        "country_publication": "United States",
-        "description": "Self-consistent simulations of neoclassical and electrostatic turbulent transport in a DIII-D H-mode edge plasma under resonant magnetic perturbations (RMPs) have been performed using the global total-f gyrokinetic particle-in-cell code XGC, in order to study density-pump out and electron heat confinement.The RMP field is imported from the extended magneto-hydrodynamics (MHD) code M3D-C1, taking into account the linear two-fluid plasma response.With both neoclassical and turbulence physics considered together, the XGC simulation reproduces two key features of experimentally observed edge transport under RMPs: increased radial particle transport in the pedestal region that is sufficient to account for the experimental pump-out rate, and suppression of the electron heat flux in the steepest part of the edge pedestal.In the simulation, the density fluctuation amplitude of modes moving in the electron diamagnetic direction increases due to interaction with RMPs in the pedestal shoulder and outward, while the electron temperature fluctuation amplitude decreases.",
-        "site_ownership_code": "PPPL",
-        "publication_date": "2020-06-10T00:00:00Z",
-        "entry_date": "2020-09-30T00:00:00Z",
-        "authors": [
-            "Hager, R",
-            "Chang, C S",
-            "Ferraro, N M",
-            "Nazikian R."
-        ],
-        "subjects": [
-            "XGC",
-            "DIII-D",
-            "RMP",
-            "turbulence",
-            "transport"
-        ],
-        "doe_contract_number": "AC02-09CH11466; FC02-04ER54698; AC02-06CH11357; AC02-05CH11231",
-        "sponsor_orgs": [
-            "USDOE"
-        ],
-        "research_orgs": [
-            "Princeton Plasma Physics Lab. (PPPL), Princeton, NJ (United States)"
-        ],
-        "links": [
-            {
-                "rel": "citation",
-                "href": "https://www.osti.gov/dataexplorer/biblio/1661170"
-            },
-            {
-                "rel": "fulltext",
-                "href": "https://www.osti.gov/dataexplorer/servlets/purl/1661170"
-            }
-        ]
-    },
-    {
-        "osti_id": "1661171",
-        "title": "Deep convolutional neural networks for multi-scale time-series classification and application to disruption prediction in fusion devices",
-        "doi": "10.11578/1661171",
-        "product_type": "Dataset",
-        "language": "English",
-        "country_publication": "United States",
-        "description": "The multi-scale, mutli-physics nature of fusion plasmas makes predicting plasma events challenging. Recent advances in deep convolutional neural network architectures (CNN) utilizing dilated convolutions enable accurate predictions on sequences which have long-range, multi-scale characteristics, such as the time-series generated by diagnostic instruments observing fusion plasmas. Here we apply this neural network architecture to the popular problem of disruption prediction in fusion tokamaks, utilizing raw data from a single diagnostic, the Electron Cyclotron Emission imaging (ECEi) diagnostic from the DIII-D tokamak. ECEi measures a fundamental plasma quantity (electron temperature) with high temporal resolution over the entire plasma discharge, making it sensitive to a number of potential pre-disruptions markers with different temporal and spatial scales. Promising, initial disruption prediction results are obtained training a deep CNN with large receptive field ({$\\sim$}30k), achieving an $F_1$-score of {$\\sim$}91\\% on individual time-slices using only the ECEi data.",
-        "site_ownership_code": "PPPL",
-        "publication_date": "2020-05-21T00:00:00Z",
-        "entry_date": "2020-09-30T00:00:00Z",
-        "authors": [
-            "Churchill, R M",
-            "the DIII-D team"
-        ],
-        "subjects": [
-            "fusion",
-            "plasma physics",
-            "machine learning",
-            "deep learning",
-            "convolutional neural networks",
-            "ECEi"
-        ],
-        "doe_contract_number": "AC02-09CH11466; FC02-04ER54698; FG02-99ER54531",
-        "sponsor_orgs": [
-            "USDOE"
-        ],
-        "research_orgs": [
-            "Princeton Plasma Physics Lab. (PPPL), Princeton, NJ (United States)"
-        ],
-        "links": [
-            {
-                "rel": "citation",
-                "href": "https://www.osti.gov/dataexplorer/biblio/1661171"
-            },
-            {
-                "rel": "fulltext",
-                "href": "https://www.osti.gov/dataexplorer/servlets/purl/1661171"
-            }
-        ]
-    },
-    {
-        "osti_id": "1661172",
-        "title": "Geometric concepts for stellarator permanent magnet arrays",
-        "doi": "10.11578/1661172",
-        "product_type": "Dataset",
-        "language": "English",
-        "country_publication": "United States",
-        "description": "The development of stellarators that use permanent magnet arrays to shape their confining magnetic fields has been a topic of recent interest, but the requirements for how such magnets must be shaped, manufactured, and assembled remain to be determined. To address these open questions, we have performed a study of geometric concepts for magnet arrays with the aid of the newly developed MAGPIE code. A proposed experiment similar to the National Compact Stellarator Experiment (NCSX) is used as a test case. Two classes of magnet geometry are explored: curved bricks that conform to a regular grid in cylindrical coordinates, and hexahedra that conform to the toroidal plasma geometry. In addition, we test constraints on the magnet polarization. While magnet configurations constrained to be polarized normally to a toroidal surface around the plasma are unable to meet the required magnetic field parameters when subject to physical limitations on the strength of present-day magnets, configurations with unconstrained polarizations are shown to satisfy the physics requirements for a targeted plasma.",
-        "site_ownership_code": "PPPL",
-        "publication_date": "2020-09-03T00:00:00Z",
-        "entry_date": "2020-09-30T00:00:00Z",
-        "authors": [
-            "Hammond, K C",
-            "Zhu, C",
-            "Brown, T",
-            "Corrigan, K",
-            "Gates, D A",
-            "Sibilia, M"
-        ],
-        "subjects": [
-            "stellarator, permanent magnet, optimization"
-        ],
-        "doe_contract_number": "AC02-09CH11466",
-        "sponsor_orgs": [
-            "USDOE"
-        ],
-        "research_orgs": [
-            "Princeton Plasma Physics Lab. (PPPL), Princeton, NJ (United States)"
-        ],
-        "links": [
-            {
-                "rel": "citation",
-                "href": "https://www.osti.gov/dataexplorer/biblio/1661172"
-            },
-            {
-                "rel": "fulltext",
-                "href": "https://www.osti.gov/dataexplorer/servlets/purl/1661172"
             }
         ]
     }

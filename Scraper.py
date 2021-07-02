@@ -13,13 +13,14 @@ class Scraper:
      additional needed information."""
     def __init__(self, data_dir='data', osti_scrape='osti_scrape.json',
             dspace_scrape='dspace_scrape.json', entry_form_full_path='entry_form.tsv',
-            to_upload='dataset_metadata_to_upload.json'):
+            to_upload='dataset_metadata_to_upload.json', redirects='redirects.json'):
 
         data_dir = 'data'
         self.osti_scrape = pjoin(data_dir, osti_scrape)
         self.dspace_scrape = pjoin(data_dir, dspace_scrape)
         self.entry_form = entry_form_full_path
-        self.to_upload = os.path.join(data_dir, to_upload)
+        self.to_upload = pjoin(data_dir, to_upload)
+        self.redirects = pjoin(data_dir, redirects)
 
         if not os.path.exists(data_dir):
             os.mkdir(data_dir)
@@ -64,6 +65,9 @@ class Scraper:
             'IT PPPL Collaborations': 3383
         }
         """
+        # NOTE: The Dataspace REST API can now support requests from handles.
+        #  Shifting this scrape to collection handles instead of IDs may make
+        #  this script clearer and easier to change if necessary.
         COLLECTION_IDS = [1282, 1304, 1308, 1422, 2266, 3378, 3379, 3380, 3381, 3382, 3383]
 
         all_items = []
@@ -85,7 +89,7 @@ class Scraper:
             " are included. Or write a recursive function to prevent this" +
             " from happening again.")
 
-        print(f'Pulled {len(all_items)} records from DSpace.\n\n')
+        print(f'Pulled {len(all_items)} records from DSpace.')
         with open(self.dspace_scrape, 'w') as f:
             json.dump(all_items, f, indent=4)
 
@@ -93,31 +97,47 @@ class Scraper:
     def get_unposted_metadata(self):
         """Compare the OSTI and DSpace JSON to see what titles need to be uploaded.
         """
+        def get_handle(doi, redirects_j):
+            if doi not in redirects_j:
+                r = requests.get(doi)
+                assert r.status_code == 200, f"Error parsing DOI: {doi}"
+                handle = r.url.split('handle/')[-1]
+                redirects_j[doi] = handle
+                return handle
+            else:
+                return redirects_j[doi]
 
+        with open(self.redirects) as f:
+            redirects_j = json.load(f)
         with open(self.dspace_scrape) as f:
             dspace_j = json.load(f)
         with open(self.osti_scrape) as f:
             osti_j = json.load(f)
 
-        osti_titles = [html.unescape(x['title']) for x in osti_j]
-        dspace_titles = [x['name'] for x in dspace_j]
+        # Find handles in DSpace whose handles aren't linked in OSTI's DOIs
+        # HACK: returning proper DOI while also updating redirects_j
+        osti_handles = [get_handle(record['doi'], redirects_j) 
+            for record in osti_j]
 
-        titles_to_be_published = [x for x in dspace_titles if x not in osti_titles]
-        to_be_published = [item for item in dspace_j if item['name'] in titles_to_be_published]
+        to_be_published = []
+        for dspace_record in dspace_j:
+            if dspace_record['handle'] not in osti_handles:
+                to_be_published.append(dspace_record)
 
         with open(self.to_upload, 'w') as f:
             json.dump(to_be_published, f, indent=4)
+        with open(self.redirects, 'w') as f:
+            json.dump(redirects_j, f, indent=4)
 
-        print(f"{len(to_be_published)} unpublished records were found.", end="\n\n")
-
-
-        errors = [x for x in osti_titles if x not in dspace_titles]
+        # Check for records in OSTI but not DSpace
+        dspace_handles = [record['handle'] for record in dspace_j]
+        errors = [record for record in osti_j if redirects_j[record['doi']] not in dspace_handles]
         if len(errors) > 0:
-            print(f"The following records were found on OSTI but not in DSpace (that" +
+            print(f"The following records were found on OSTI but not in DSpace (that" + 
                 " shouldn't happen). If they closely resemble records we are about to" +
                 " upload, please remove those records from from the upload process.")
             for error in errors:
-                print("---  " + error)
+                print(f"\t{error['title']}")
 
 
     def generate_contract_entry_form(self):
@@ -126,7 +146,6 @@ class Scraper:
         """
         with open(self.to_upload) as f:
             to_upload_j = json.load(f)
-
 
         df = pd.DataFrame()
         df['DSpace ID'] = [item['id'] for item in to_upload_j]
@@ -143,6 +162,13 @@ class Scraper:
         df = df.sort_values('Issue Date')
         df.to_csv(self.entry_form, index=False, sep='\t')
 
+        print(f"{df.shape[0]} unpublished records were found in the PPPL dataspace community that have not been registered with OSTI.")
+        print(f"They've been saved to the form {self.entry_form}.")
+        print("You're now expected to manually update that form and save as a new file before running Poster.py")
+        for i, row in df.iterrows():
+            print(f"\t{repr(row['Title'])}")
+            print(f"\t\t{row['Dataspace Link']}")
+
 
     def run_pipeline(self, scrape=True):
         if scrape:
@@ -154,4 +180,7 @@ class Scraper:
 
 if __name__ == '__main__':
     s = Scraper()
+    # NOTE: It may be useful to implement a CLI command (e.g. --no-scrape) to 
+    #  allow for debugging the get_unposted_metadata or generate_contract_entry_form
+    #  functions
     s.run_pipeline()
