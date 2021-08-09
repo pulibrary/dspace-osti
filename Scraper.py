@@ -8,9 +8,25 @@ from os.path import join as pjoin
 
 
 class Scraper:
-    """Pipeline to collect data from OSTI & DSpace, comparing which datasets
-     are not yet posted, and generating a form for a user to manually enter
-     additional needed information."""
+    """
+    Pipeline to collect data from OSTI & DataSpace, comparing which datasets
+    are not yet posted, and generating a form for a user to manually enter
+    additional needed information
+
+    :param data_dir: Local data folder for save files
+    :param osti_scrape: JSON output file containing OSTI metadata
+    :param dspace_scrape: JSON output file containing DataSpace metadata
+    :param entry_form_full_path: TSV file containing DataSpace
+           records not in OSTI
+    :param to_upload: JSON output file containing metadata for OSTI upload
+    :param redirects: JSON output file containing DOI redirects
+
+    :ivar osti_scrape: JSON output file containing OSTI metadata
+    :ivar dspace_scrape: JSON output file containing DataSpace metadata
+    :ivar entry_form: TSV file containing DataSpace records not in OSTI
+    :ivar to_upload: JSON output file containing metadata for OSTI upload
+    :ivar redirects: JSON output file containing DOI redirects
+    """
     def __init__(self, data_dir='data', osti_scrape='osti_scrape.json',
                  dspace_scrape='dspace_scrape.json',
                  entry_form_full_path='entry_form.tsv',
@@ -27,8 +43,9 @@ class Scraper:
             os.mkdir(data_dir)
 
     def get_existing_datasets(self):
-        """Paginate through OSTI's Data Explorer API to find the datasets that have
-        already been submitted.
+        """
+        Paginate through OSTI's Data Explorer API to find datasets that have
+        been submitted
         """
         MAX_PAGE_COUNT = 10
         existing_datasets = []
@@ -48,7 +65,8 @@ class Scraper:
             json.dump(existing_datasets, f, indent=4)
 
     def get_dspace_metadata(self):
-        """Collect metadata on all items from all DSpace PPPL collections.
+        """
+        Collect metadata on all items from all DataSpace PPPL collections
 
         collections = {
             'NSTX': 1282,
@@ -93,8 +111,7 @@ class Scraper:
             json.dump(all_items, f, indent=4)
 
     def get_unposted_metadata(self):
-        """Compare the OSTI and DSpace JSON to see what titles need to be uploaded.
-        """
+        """Compare OSTI and DataSpace JSON to identify records to be uploaded"""
         def get_handle(doi, redirects_j):
             if doi not in redirects_j:
                 r = requests.get(doi)
@@ -138,8 +155,9 @@ class Scraper:
                 print(f"\t{error['title']}")
 
     def generate_contract_entry_form(self):
-        """Create a CSV where a user can enter Sponsoring Organizations, DOE
-         Contract, and Datatype, additional information required by OSTI
+        """
+        Create a CSV where a user can enter Sponsoring Organizations, DOE
+        Contract, and Datatype, additional information required by OSTI
         """
         with open(self.to_upload) as f:
             to_upload_j = json.load(f)
