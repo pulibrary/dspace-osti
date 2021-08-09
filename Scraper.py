@@ -17,7 +17,6 @@ class Scraper:
                  to_upload='dataset_metadata_to_upload.json',
                  redirects='redirects.json'):
 
-        data_dir = 'data'
         self.osti_scrape = pjoin(data_dir, osti_scrape)
         self.dspace_scrape = pjoin(data_dir, dspace_scrape)
         self.entry_form = entry_form_full_path
