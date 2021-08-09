@@ -1,6 +1,5 @@
 import os
 import json
-import html
 
 import requests
 import pandas as pd
