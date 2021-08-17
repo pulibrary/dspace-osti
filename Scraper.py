@@ -79,13 +79,14 @@ class Scraper:
             'Computational Science PPPL Collaborations': 3380,
             'Engineering Research': 3381,
             'ESH Technical Reports': 3382,
-            'IT PPPL Collaborations': 3383
+            'IT PPPL Collaborations': 3383,
+            'Advanced Projects Other Projects', 3386
         }
         """
         # NOTE: The Dataspace REST API can now support requests from handles.
         #  Shifting this scrape to collection handles instead of IDs may make
         #  this script clearer and easier to change if necessary.
-        COLLECTION_IDS = [1282, 1304, 1308, 1422, 2266, 3378, 3379, 3380, 3381, 3382, 3383]
+        COLLECTION_IDS = [1282, 1304, 1308, 1422, 2266, 3378, 3379, 3380, 3381, 3382, 3383, 3386]
 
         all_items = []
 
@@ -200,7 +201,7 @@ class Scraper:
 
 if __name__ == '__main__':
     s = Scraper()
-    # NOTE: It may be useful to implement a CLI command (e.g. --no-scrape) to 
+    # NOTE: It may be useful to implement a CLI command (e.g. --no-scrape) to
     #  allow for debugging the get_unposted_metadata or generate_contract_entry_form
     #  functions
     s.run_pipeline()
