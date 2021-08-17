@@ -1,21 +1,38 @@
 import os
 import json
-import html
 
 import requests
 import pandas as pd
 
 from os.path import join as pjoin
 
-class Scraper:
-    """Pipeline to collect data from OSTI & DSpace, comparing which datasets
-     are not yet posted, and generating a form for a user to manually enter
-     additional needed information."""
-    def __init__(self, data_dir='data', osti_scrape='osti_scrape.json',
-            dspace_scrape='dspace_scrape.json', entry_form_full_path='entry_form.tsv',
-            to_upload='dataset_metadata_to_upload.json', redirects='redirects.json'):
 
-        data_dir = 'data'
+class Scraper:
+    """
+    Pipeline to collect data from OSTI & DataSpace, comparing which datasets
+    are not yet posted, and generating a form for a user to manually enter
+    additional needed information
+
+    :param data_dir: Local data folder for save files
+    :param osti_scrape: JSON output file containing OSTI metadata
+    :param dspace_scrape: JSON output file containing DataSpace metadata
+    :param entry_form_full_path: TSV file containing DataSpace
+           records not in OSTI
+    :param to_upload: JSON output file containing metadata for OSTI upload
+    :param redirects: JSON output file containing DOI redirects
+
+    :ivar osti_scrape: JSON output file containing OSTI metadata
+    :ivar dspace_scrape: JSON output file containing DataSpace metadata
+    :ivar entry_form: TSV file containing DataSpace records not in OSTI
+    :ivar to_upload: JSON output file containing metadata for OSTI upload
+    :ivar redirects: JSON output file containing DOI redirects
+    """
+    def __init__(self, data_dir='data', osti_scrape='osti_scrape.json',
+                 dspace_scrape='dspace_scrape.json',
+                 entry_form_full_path='entry_form.tsv',
+                 to_upload='dataset_metadata_to_upload.json',
+                 redirects='redirects.json'):
+
         self.osti_scrape = pjoin(data_dir, osti_scrape)
         self.dspace_scrape = pjoin(data_dir, dspace_scrape)
         self.entry_form = entry_form_full_path
@@ -25,10 +42,10 @@ class Scraper:
         if not os.path.exists(data_dir):
             os.mkdir(data_dir)
 
-
     def get_existing_datasets(self):
-        """Paginate through OSTI's Data Explorer API to find the datasets that have
-        already been submitted.
+        """
+        Paginate through OSTI's Data Explorer API to find datasets that have
+        been submitted
         """
         MAX_PAGE_COUNT = 10
         existing_datasets = []
@@ -47,9 +64,9 @@ class Scraper:
         with open(self.osti_scrape, 'w') as f:
             json.dump(existing_datasets, f, indent=4)
 
-
     def get_dspace_metadata(self):
-        """Collect metadata on all items from all DSpace PPPL collections.
+        """
+        Collect metadata on all items from all DataSpace PPPL collections
 
         collections = {
             'NSTX': 1282,
@@ -83,21 +100,19 @@ class Scraper:
         # Confirm that all collections were included
         PPPL_COMMUNITY_ID = 346
         r = requests.get(f"https://dataspace.princeton.edu/rest/communities/{PPPL_COMMUNITY_ID}")
-        assert json.loads(r.text)['countItems'] == len(all_items), ("The number" +
-            " of items in the PPPL community does not equal the number of items" +
-            " collected. Review the list of collections we search through" +
-            " (variable COLLECTION_IDS) and ensure that all PPPL collections" +
-            " are included. Or write a recursive function to prevent this" +
-            " from happening again.")
+        assert json.loads(r.text)['countItems'] == len(all_items),\
+            ("The number of items in the PPPL community does not equal the "
+             "number of items collected. Review the list of collections we "
+             "search through (variable COLLECTION_IDS) and ensure that all "
+             "PPPL collections are included. Or write a recursive function "
+             "to prevent this from happening again.")
 
         print(f'Pulled {len(all_items)} records from DSpace.')
         with open(self.dspace_scrape, 'w') as f:
             json.dump(all_items, f, indent=4)
 
-
     def get_unposted_metadata(self):
-        """Compare the OSTI and DSpace JSON to see what titles need to be uploaded.
-        """
+        """Compare OSTI and DataSpace JSON to identify records to be uploaded"""
         def get_handle(doi, redirects_j):
             if doi not in redirects_j:
                 r = requests.get(doi)
@@ -118,7 +133,7 @@ class Scraper:
         # Find handles in DSpace whose handles aren't linked in OSTI's DOIs
         # HACK: returning proper DOI while also updating redirects_j
         osti_handles = [get_handle(record['doi'], redirects_j)
-            for record in osti_j]
+                        for record in osti_j]
 
         to_be_published = []
         for dspace_record in dspace_j:
@@ -134,26 +149,30 @@ class Scraper:
         dspace_handles = [record['handle'] for record in dspace_j]
         errors = [record for record in osti_j if redirects_j[record['doi']] not in dspace_handles]
         if len(errors) > 0:
-            print(f"The following records were found on OSTI but not in DSpace (that" +
-                " shouldn't happen). If they closely resemble records we are about to" +
-                " upload, please remove those records from from the upload process.")
+            print(f"The following records were found on OSTI but not in DSpace (that" + 
+                  " shouldn't happen). If they closely resemble records we are about to" +
+                  " upload, please remove those records from from the upload process.")
             for error in errors:
                 print(f"\t{error['title']}")
 
-
     def generate_contract_entry_form(self):
-        """Create a CSV where a user can enter Sponsoring Organizations, DOE
-         Contract, and Datatype, additional information required by OSTI
+        """
+        Create a CSV where a user can enter Sponsoring Organizations, DOE
+        Contract, and Datatype, additional information required by OSTI
         """
         with open(self.to_upload) as f:
             to_upload_j = json.load(f)
 
         df = pd.DataFrame()
         df['DSpace ID'] = [item['id'] for item in to_upload_j]
-        df['Issue Date'] = [[m['value'] for m in item['metadata'] if m['key'] == 'dc.date.issued'][0] for item in to_upload_j]
+        df['Issue Date'] = [[m['value'] for m in item['metadata'] if m['key'] == 'dc.date.issued'][0]
+                            for item in to_upload_j]
         df['Title'] = [item['name'] for item in to_upload_j]
-        df['Author'] = [';'.join([m['value'] for m in item['metadata'] if m['key'] == 'dc.contributor.author']) for item in to_upload_j]
-        df['Dataspace Link'] = ["https://dataspace.princeton.edu/handle/" + item['handle'] for item in to_upload_j]
+        df['Author'] = [';'.join([m['value'] for m in item['metadata'] if
+                                  m['key'] == 'dc.contributor.author'])
+                        for item in to_upload_j]
+        df['Dataspace Link'] = ["https://dataspace.princeton.edu/handle/" + item['handle']
+                                for item in to_upload_j]
 
         # To be filled in:
         df['Sponsoring Organizations'] = None
@@ -163,13 +182,14 @@ class Scraper:
         df = df.sort_values('Issue Date')
         df.to_csv(self.entry_form, index=False, sep='\t')
 
-        print(f"{df.shape[0]} unpublished records were found in the PPPL dataspace community that have not been registered with OSTI.")
+        print(f"{df.shape[0]} unpublished records were found in the PPPL "
+              f"dataspace community that have not been registered with OSTI.")
         print(f"They've been saved to the form {self.entry_form}.")
-        print("You're now expected to manually update that form and save as a new file before running Poster.py")
+        print("You're now expected to manually update that form and save as a "
+              "new file before running Poster.py")
         for i, row in df.iterrows():
             print(f"\t{repr(row['Title'])}")
             print(f"\t\t{row['Dataspace Link']}")
-
 
     def run_pipeline(self, scrape=True):
         if scrape:
