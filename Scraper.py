@@ -222,6 +222,14 @@ class Scraper:
             input_df.drop(drops, inplace=True)
             print(f"Appending : {','.join([str(add) for add in adds])}")
             revised_df = input_df.append(entry_df.loc[adds])
+
+            # Sponsoring organizations is always 'PPPL',
+            # DOE Contact is often the case (for starter), and
+            # Datatype seems to be placeholder - not included in OSTI metadata
+            revised_df.loc[adds, 'Sponsoring Organizations'] = 'PPPL'
+            revised_df.loc[adds, 'DOE Contract'] = 'AC02-09CH11466***'
+            revised_df.loc[adds, 'Datatype'] = 'AS'
+
             revised_df.to_csv(self.form_input, sep='\t')
         else:
             raise FileNotFoundError(f"WARNING: {self.form_input} does not exist!")
