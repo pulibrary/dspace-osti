@@ -62,13 +62,14 @@ class Scraper:
             'Computational Science PPPL Collaborations': 3380,
             'Engineering Research': 3381,
             'ESH Technical Reports': 3382,
-            'IT PPPL Collaborations': 3383
+            'IT PPPL Collaborations': 3383,
+            'Advanced Projects Other Projects', 3386
         }
         """
         # NOTE: The Dataspace REST API can now support requests from handles.
         #  Shifting this scrape to collection handles instead of IDs may make
         #  this script clearer and easier to change if necessary.
-        COLLECTION_IDS = [1282, 1304, 1308, 1422, 2266, 3378, 3379, 3380, 3381, 3382, 3383]
+        COLLECTION_IDS = [1282, 1304, 1308, 1422, 2266, 3378, 3379, 3380, 3381, 3382, 3383, 3386]
 
         all_items = []
 
@@ -116,7 +117,7 @@ class Scraper:
 
         # Find handles in DSpace whose handles aren't linked in OSTI's DOIs
         # HACK: returning proper DOI while also updating redirects_j
-        osti_handles = [get_handle(record['doi'], redirects_j) 
+        osti_handles = [get_handle(record['doi'], redirects_j)
             for record in osti_j]
 
         to_be_published = []
@@ -133,7 +134,7 @@ class Scraper:
         dspace_handles = [record['handle'] for record in dspace_j]
         errors = [record for record in osti_j if redirects_j[record['doi']] not in dspace_handles]
         if len(errors) > 0:
-            print(f"The following records were found on OSTI but not in DSpace (that" + 
+            print(f"The following records were found on OSTI but not in DSpace (that" +
                 " shouldn't happen). If they closely resemble records we are about to" +
                 " upload, please remove those records from from the upload process.")
             for error in errors:
@@ -180,7 +181,7 @@ class Scraper:
 
 if __name__ == '__main__':
     s = Scraper()
-    # NOTE: It may be useful to implement a CLI command (e.g. --no-scrape) to 
+    # NOTE: It may be useful to implement a CLI command (e.g. --no-scrape) to
     #  allow for debugging the get_unposted_metadata or generate_contract_entry_form
     #  functions
     s.run_pipeline()
