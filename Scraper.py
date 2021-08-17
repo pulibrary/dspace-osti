@@ -6,6 +6,8 @@ import pandas as pd
 
 from os.path import join as pjoin
 
+DSPACE_ID = 'DSpace ID'
+
 
 class Scraper:
     """
@@ -18,6 +20,8 @@ class Scraper:
     :param dspace_scrape: JSON output file containing DataSpace metadata
     :param entry_form_full_path: TSV file containing DataSpace
            records not in OSTI
+    :param form_input_full_path: TSV file containing DataSpace
+           records and DOE metadata for submission
     :param to_upload: JSON output file containing metadata for OSTI upload
     :param redirects: JSON output file containing DOI redirects
 
@@ -30,12 +34,14 @@ class Scraper:
     def __init__(self, data_dir='data', osti_scrape='osti_scrape.json',
                  dspace_scrape='dspace_scrape.json',
                  entry_form_full_path='entry_form.tsv',
+                 form_input_full_path='form_input.tsv',
                  to_upload='dataset_metadata_to_upload.json',
                  redirects='redirects.json'):
 
         self.osti_scrape = pjoin(data_dir, osti_scrape)
         self.dspace_scrape = pjoin(data_dir, dspace_scrape)
         self.entry_form = entry_form_full_path
+        self.form_input = form_input_full_path
         self.to_upload = pjoin(data_dir, to_upload)
         self.redirects = pjoin(data_dir, redirects)
 
@@ -164,7 +170,7 @@ class Scraper:
             to_upload_j = json.load(f)
 
         df = pd.DataFrame()
-        df['DSpace ID'] = [item['id'] for item in to_upload_j]
+        df[DSPACE_ID] = [item['id'] for item in to_upload_j]
         df['Issue Date'] = [[m['value'] for m in item['metadata'] if m['key'] == 'dc.date.issued'][0]
                             for item in to_upload_j]
         df['Title'] = [item['name'] for item in to_upload_j]
@@ -191,12 +197,42 @@ class Scraper:
             print(f"\t{repr(row['Title'])}")
             print(f"\t\t{row['Dataspace Link']}")
 
+    def update_form_input(self):
+        """
+        Update form_input.tsv by adding new records or removing DataSpace
+        records that were removed/withdrawn
+
+        In most cases, this will update form_input.tsv. This further supports CI
+        """
+        if os.path.exists(self.form_input):
+            print(f"File exists. Will update: {self.form_input}")
+
+            entry_df = pd.read_csv(self.entry_form, index_col=DSPACE_ID, sep='\t')
+            input_df = pd.read_csv(self.form_input, index_col=DSPACE_ID, sep='\t')
+            print("Identifying DataSpace records to add and remove ...")
+            entry_id = set(entry_df.index)
+            input_id = set(input_df.index)
+            drops = input_id - entry_id
+            adds = entry_id - input_id
+            commons = entry_id & input_id
+            print(f"Commons records : {len(commons):3}")
+            print(f"New records     : {len(adds):3}")
+            print(f"Records to drop : {len(drops):3}")
+            print(f"Removing : {','.join([str(drop) for drop in drops])} ...")
+            input_df.drop(drops, inplace=True)
+            print(f"Appending : {','.join([str(add) for add in adds])}")
+            revised_df = input_df.append(entry_df.loc[adds])
+            revised_df.to_csv(self.form_input, sep='\t')
+        else:
+            raise FileNotFoundError(f"WARNING: {self.form_input} does not exist!")
+
     def run_pipeline(self, scrape=True):
         if scrape:
             self.get_existing_datasets()
             self.get_dspace_metadata()
         self.get_unposted_metadata()
         self.generate_contract_entry_form()
+        self.update_form_input()
 
 
 if __name__ == '__main__':
