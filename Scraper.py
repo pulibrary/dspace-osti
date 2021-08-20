@@ -226,9 +226,9 @@ class Scraper:
             # Sponsoring organizations is always 'PPPL',
             # DOE Contact is often the case (for starter), and
             # Datatype seems to be placeholder - not included in OSTI metadata
-            revised_df.loc[adds, 'Sponsoring Organizations'] = 'PPPL'
-            revised_df.loc[adds, 'DOE Contract'] = 'AC02-09CH11466***'
-            revised_df.loc[adds, 'Datatype'] = 'AS'
+            revised_df.loc[adds, 'Sponsoring Organizations'] = "USDOE Office of Science (SC)"
+            revised_df.loc[adds, 'DOE Contract'] = "AC02-09CH11466***"
+            revised_df.loc[adds, 'Datatype'] = "AS"
 
             revised_df.to_csv(self.form_input, sep='\t')
         else:
