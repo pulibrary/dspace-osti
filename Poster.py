@@ -184,6 +184,8 @@ Choose one of the following options:
     else:
         mode = args[1][2:]
         p = Poster(mode)
+        if mode == 'dry-run':
+            user_response = 'yes'
         if mode in ['test', 'prod']:
             print(f"WARNING: Running this script in {mode} mode will "
                   "trigger emails to PPPL and OSTI!")
