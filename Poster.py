@@ -184,4 +184,16 @@ Choose one of the following options:
     else:
         mode = args[1][2:]
         p = Poster(mode)
-        p.run_pipeline()
+        if mode == 'dry-run':
+            user_response = 'yes'
+        if mode in ['test', 'prod']:
+            print(f"WARNING: Running this script in {mode} mode will "
+                  "trigger emails to PPPL and OSTI!")
+            user_response = input(
+                "Are you sure you wish you proceed? (Enter 'Yes'/'yes') "
+            )
+        print(f"User response: {user_response}")
+        if user_response.lower() == 'yes':
+            p.run_pipeline()
+        else:
+            print("Exiting!!! You must respond with a Yes/yes")
