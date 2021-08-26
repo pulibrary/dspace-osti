@@ -27,18 +27,22 @@ class Poster:
         assert os.path.exists(data_dir)
         assert os.path.exists(response_dir)
 
-        # Ensure environment variables are prepared
-        environment_vars = ['OSTI_USERNAME_TEST', 'OSTI_PASSWORD_TEST',
-         'OSTI_USERNAME_PROD', 'OSTI_PASSWORD_PROD']
-        assert all([var in os.environ for var in environment_vars]), 'All four environment variables need to be set. See the README for more information.'
+        # Ensure minimum (test/prod) environment variables are prepared
+        if mode in ['test', 'prod']:
+            environment_vars = [v + f'_{mode.upper()}' for
+                                v in ['OSTI_USERNAME', 'OSTI_PASSWORD']]
+        if mode == 'dry-run':
+            environment_vars = ['OSTI_USERNAME_TEST', 'OSTI_PASSWORD_TEST',
+                                'OSTI_USERNAME_PROD', 'OSTI_PASSWORD_PROD']
+
+        assert all([var in os.environ for var in environment_vars]), \
+            f'All {mode} environment variables need to be set. ' \
+            f'See the README for more information.'
 
         # Assign username and password depending on where data is being posted
-        if mode == 'test':
-            self.username = os.environ['OSTI_USERNAME_TEST']
-            self.password = os.environ['OSTI_PASSWORD_TEST']
-        elif mode == 'prod':
-            self.username = os.environ['OSTI_USERNAME_PROD']
-            self.password = os.environ['OSTI_PASSWORD_PROD']
+        if mode in ['test', 'prod']:
+            self.username = os.environ[f'OSTI_USERNAME_{mode.upper()}']
+            self.password = os.environ[f'OSTI_PASSWORD_{mode.upper()}']
         else:
             self.username, self.password = None, None
 

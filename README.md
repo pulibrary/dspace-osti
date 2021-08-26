@@ -15,7 +15,10 @@ We are dependent on [ostiapi](https://github.com/doecode/ostiapi) as a submodule
 pip install -r requirements.txt
 ```
 
-`ostiapi` requires a username and a password, which are different for posting to either test or dev. `Poster.py` searches for four environment variables, listed below. After a user gets an ELink Account, one can set the appropriate variables in `secrets.sh`, which is already removed from version control by `.gitignore`.
+`ostiapi` requires a username and a password, which are different for posting to either `test` or `prod`.
+`Poster.py` searches for two environment variables for the appropriate `mode` (`test`/`prod`).
+After a user gets an E-Link Account, one can set the appropriate variables in `secrets.sh`,
+which is already removed from version control by `.gitignore`.
 
 ```
 export OSTI_USERNAME_TEST="my-test-osti-username"
