@@ -103,7 +103,7 @@ class Poster:
 
             keywords = [m['value'] for m in dspace_data['metadata'] if m['key'] == 'dc.subject']
             if len(keywords) != 0:
-                item_dict['keywords'] = ';'.join(keywords)
+                item_dict['keywords'] = '; '.join(keywords)
 
             osti_format.append(item_dict)
 
