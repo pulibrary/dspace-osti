@@ -105,6 +105,17 @@ class Poster:
             if len(keywords) != 0:
                 item_dict['keywords'] = '; '.join(keywords)
 
+            is_referenced_by = [m['value'] for m in dspace_data['metadata'] if
+                                m['key'] == 'dc.relation.isreferencedby']
+            if len(is_referenced_by) != 0:
+                item_dict['related_identifiers'] = []
+                for irb in is_referenced_by:
+                    item_dict['related_identifiers'].append({
+                        'related_identifier': irb.split('doi.org/')[1],
+                        'relation_type': 'IsReferencedBy',
+                        'related_identifier_type': 'DOI',
+                    })
+
             osti_format.append(item_dict)
 
         with open(self.osti_upload, 'w') as f:
