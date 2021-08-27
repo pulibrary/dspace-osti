@@ -1,0 +1,122 @@
+{
+    "record": [
+        {
+            "site_input_code": "PPPL",
+            "osti_id": "1523481",
+            "dataset_type": "FP",
+            "title": "Application of IR imaging for free-surface velocity measurement in liquid-metal systems",
+            "status": "SUCCESS",
+            "authors": {
+                "author": [
+                    {
+                        "first_name": "M",
+                        "middle_name": "H",
+                        "last_name": "Hvasta"
+                    },
+                    {
+                        "first_name": "E",
+                        "last_name": "Kolemen"
+                    },
+                    {
+                        "first_name": "A",
+                        "last_name": "Fisher"
+                    }
+                ]
+            },
+            "related_resource": null,
+            "product_nos": "None",
+            "product_type": "DA",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_numbers": null,
+            "originating_research_org": "Princeton Plasma Physics Laboratory (PPPL), Princeton, NJ (United States)",
+            "availability": null,
+            "collaboration_names": null,
+            "publication_date": "07/19/2017",
+            "language": "English",
+            "country": "US",
+            "sponsor_org": "USDOE Office of Science (SC)",
+            "subject_categories_code": null,
+            "keywords": "Liquid metal; Free surface; IR camera; Velocimetry",
+            "accession_num": "88435/dsp015h73pz67t",
+            "description": "Measuring free-surface, liquid-metal flow velocity is challenging to do in a reliable and accurate manner. This paper presents a non-invasive, easily-calibrated method of measuring the surface velocities of open-channel liquid-metal flows using an IR camera. Unlike other spatially-limited methods, this IR camera particle tracking technique provides full field-of-view data that can be used to better understand open-channel flows and determine surface boundary conditions. This method could be implemented and automated for a wide range of liquid-metal experiments, even if they operate at high-temperatures or within strong magnetic fields.",
+            "site_url": "https://dataspace.princeton.edu/handle/88435/dsp015h73pz67t",
+            "related_identifiers": {
+                "detail": {
+                    "related_identifier": "10.1063/1.4973421",
+                    "related_identifier_type": "DOI",
+                    "relation_type": "IsReferencedBy"
+                }
+            },
+            "date_first_submitted": "2021-08-18",
+            "date_last_submitted": "2021-08-26",
+            "doi": "10.11578/1523481",
+            "doi_status": "PENDING",
+            "doi_infix": null,
+            "file_extension": null,
+            "software_needed": null,
+            "dataset_size": null,
+            "contact_name": "Kate Lynch",
+            "contact_org": "Princeton University",
+            "contact_email": "katelynch@princeton.edu",
+            "contact_phone": "(609) 258-1470",
+            "othnondoe_contract_nos": null,
+            "@status": "Pending",
+            "@released": "N"
+        },
+        {
+            "site_input_code": "PPPL",
+            "osti_id": "1523484",
+            "dataset_type": "ND",
+            "title": "Simulating pitch angle scattering using an explicitly solvable energy-conserving algorithm",
+            "status": "SUCCESS",
+            "authors": {
+                "author": [
+                    {
+                        "first_name": "Xin",
+                        "last_name": "Zhang"
+                    },
+                    {
+                        "first_name": "Yichen",
+                        "last_name": "Fu"
+                    },
+                    {
+                        "first_name": "Hong",
+                        "last_name": "Qin"
+                    }
+                ]
+            },
+            "related_resource": null,
+            "product_nos": "None",
+            "product_type": "DA",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_numbers": null,
+            "originating_research_org": "Princeton Plasma Physics Laboratory (PPPL), Princeton, NJ (United States)",
+            "availability": null,
+            "collaboration_names": null,
+            "publication_date": "10/26/2020",
+            "language": "English",
+            "country": "US",
+            "sponsor_org": "USDOE Office of Science (SC)",
+            "subject_categories_code": null,
+            "keywords": null,
+            "accession_num": "88435/dsp01vh53wz79c",
+            "description": "Particle distribution functions evolving under the Lorentz operator can be simulated with the Langevin equation for pitch angle scattering. This approach is frequently used in particle based Monte-Carlo simulations of plasma collisions, among others. However, most numerical treatments do not guarantee energy conservation, which may lead to unphysical artifacts such as numerical heating and spectra distortions. We present a novel structure-preserving numerical algorithm for the Langevin equation for pitch angle scattering. Similar to the well-known Boris algorithm, the proposed numerical scheme takes advantage of the structure-preserving properties of the Cayley transform when calculating the velocity-space rotations. The resulting algorithm is explicitly solvable, while preserving the norm of velocities down to machine precision. We demonstrate that the method has the same order of numerical convergence as the traditional stochastic Euler-Maruyama method.",
+            "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01vh53wz79c",
+            "date_first_submitted": "2021-08-18",
+            "date_last_submitted": "2021-08-26",
+            "doi": "10.11578/1523484",
+            "doi_status": "PENDING",
+            "doi_infix": null,
+            "file_extension": null,
+            "software_needed": null,
+            "dataset_size": null,
+            "contact_name": "Kate Lynch",
+            "contact_org": "Princeton University",
+            "contact_email": "katelynch@princeton.edu",
+            "contact_phone": "(609) 258-1470",
+            "othnondoe_contract_nos": null,
+            "@status": "Pending",
+            "@released": "N"
+        }
+    ]
+}

@@ -1,0 +1,2078 @@
+{
+    "record": [
+        {
+            "site_input_code": "PPPL",
+            "osti_id": "1523481",
+            "dataset_type": "FP",
+            "title": "Application of IR imaging for free-surface velocity measurement in liquid-metal systems",
+            "status": "SUCCESS",
+            "authors": {
+                "author": [
+                    {
+                        "first_name": "M",
+                        "middle_name": "H",
+                        "last_name": "Hvasta"
+                    },
+                    {
+                        "first_name": "E",
+                        "last_name": "Kolemen"
+                    },
+                    {
+                        "first_name": "A",
+                        "last_name": "Fisher"
+                    }
+                ]
+            },
+            "related_resource": null,
+            "product_nos": "None",
+            "product_type": "DA",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_numbers": null,
+            "originating_research_org": "Princeton Plasma Physics Laboratory (PPPL), Princeton, NJ (United States)",
+            "availability": null,
+            "collaboration_names": null,
+            "publication_date": "07/19/2017",
+            "language": "English",
+            "country": "US",
+            "sponsor_org": "USDOE Office of Science (SC)",
+            "subject_categories_code": null,
+            "keywords": "Liquid metal;Free surface;IR camera;Velocimetry",
+            "accession_num": "88435/dsp015h73pz67t",
+            "description": "Measuring free-surface, liquid-metal flow velocity is challenging to do in a reliable and accurate manner. This paper presents a non-invasive, easily-calibrated method of measuring the surface velocities of open-channel liquid-metal flows using an IR camera. Unlike other spatially-limited methods, this IR camera particle tracking technique provides full field-of-view data that can be used to better understand open-channel flows and determine surface boundary conditions. This method could be implemented and automated for a wide range of liquid-metal experiments, even if they operate at high-temperatures or within strong magnetic fields.",
+            "site_url": "https://dataspace.princeton.edu/handle/88435/dsp015h73pz67t",
+            "date_first_submitted": "2021-08-18",
+            "date_last_submitted": "2021-08-25",
+            "doi": "10.11578/1523481",
+            "doi_status": "PENDING",
+            "doi_infix": null,
+            "file_extension": null,
+            "software_needed": null,
+            "dataset_size": null,
+            "contact_name": "Kate Lynch",
+            "contact_org": "Princeton University",
+            "contact_email": "katelynch@princeton.edu",
+            "contact_phone": "(609) 258-1470",
+            "othnondoe_contract_nos": null,
+            "@status": "Pending",
+            "@released": "N"
+        },
+        {
+            "site_input_code": "PPPL",
+            "osti_id": "1523482",
+            "dataset_type": "ND",
+            "title": "Machine Learning Characterization of Alfv\u00e9nic and Sub-Alfv\u00e9nic Chirping and Correlation With Fast-Ion Loss at NSTX",
+            "status": "SUCCESS",
+            "authors": {
+                "author": [
+                    {
+                        "first_name": "B",
+                        "middle_name": "J Q",
+                        "last_name": "Woods"
+                    },
+                    {
+                        "first_name": "V",
+                        "middle_name": "N",
+                        "last_name": "Duarte"
+                    },
+                    {
+                        "first_name": "E",
+                        "middle_name": "D",
+                        "last_name": "Fredrickson"
+                    },
+                    {
+                        "first_name": "N",
+                        "middle_name": "N",
+                        "last_name": "Gorelenkov"
+                    },
+                    {
+                        "first_name": "M",
+                        "last_name": "Podest\u00e0"
+                    },
+                    {
+                        "first_name": "R",
+                        "middle_name": "G L",
+                        "last_name": "Vann"
+                    }
+                ]
+            },
+            "related_resource": null,
+            "product_nos": "None",
+            "product_type": "DA",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_numbers": null,
+            "originating_research_org": "Princeton Plasma Physics Laboratory (PPPL), Princeton, NJ (United States)",
+            "availability": null,
+            "collaboration_names": null,
+            "publication_date": "01/02/2020",
+            "language": "English",
+            "country": "US",
+            "sponsor_org": "USDOE Office of Science (SC)",
+            "subject_categories_code": null,
+            "keywords": "machine learning;tokamak physics;plasma physics",
+            "accession_num": "88435/dsp01m326m461v",
+            "description": "Abrupt large events in the Alfvenic and sub-Alfvenic frequency bands in tokamaks are typically correlated with increased fast-ion loss. Here, machine learning is used to speed up the laborious process of characterizing the behavior of magnetic perturbations from corresponding frequency spectrograms that are typically identified by humans. The analysis allows for comparison between different mode character (such as quiescent, fixed frequency, and chirping, avalanching) and plasma parameters obtained from the TRANSP code, such as the ratio of the neutral beam injection (NBI) velocity and the Alfven velocity (v_inj./v_A), the q-profile, and the ratio of the neutral beam beta and the total plasma beta (beta_beam,i / beta). In agreement with the previous work by Fredrickson et al., we find a correlation between beta_beam,i and mode character. In addition, previously unknown correlations are found between moments of the spectrograms and mode character. Character transition from quiescent to nonquiescent behavior for magnetic fluctuations in the 50200-kHz frequency band is observed along the boundary v_phi ~ (1/4)(v_inj. - 3v_A), where v_phi is the rotation velocity.",
+            "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01m326m461v",
+            "date_first_submitted": "2021-08-18",
+            "date_last_submitted": "2021-08-25",
+            "doi": "10.11578/1523482",
+            "doi_status": "PENDING",
+            "doi_infix": null,
+            "file_extension": null,
+            "software_needed": null,
+            "dataset_size": null,
+            "contact_name": "Kate Lynch",
+            "contact_org": "Princeton University",
+            "contact_email": "katelynch@princeton.edu",
+            "contact_phone": "(609) 258-1470",
+            "othnondoe_contract_nos": null,
+            "@status": "Pending",
+            "@released": "N"
+        },
+        {
+            "site_input_code": "PPPL",
+            "osti_id": "1523483",
+            "dataset_type": "FP",
+            "title": "Topological phases and bulk-edge correspondence of magnetized cold plasmas",
+            "status": "SUCCESS",
+            "authors": {
+                "author": [
+                    {
+                        "first_name": "Fu",
+                        "last_name": "Yichen"
+                    },
+                    {
+                        "first_name": "Qin",
+                        "last_name": "Hong"
+                    }
+                ]
+            },
+            "related_resource": null,
+            "product_nos": "None",
+            "product_type": "DA",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_numbers": null,
+            "originating_research_org": "Princeton Plasma Physics Laboratory (PPPL), Princeton, NJ (United States)",
+            "availability": null,
+            "collaboration_names": null,
+            "publication_date": "06/03/2021",
+            "language": "English",
+            "country": "US",
+            "sponsor_org": "USDOE Office of Science (SC)",
+            "subject_categories_code": null,
+            "keywords": "topological phases;plasma waves",
+            "accession_num": "88435/dsp01qj72pb21d",
+            "description": "The \ufb01gures and related data are used to describe the topological phase in cold magnetized plasma.",
+            "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01qj72pb21d",
+            "date_first_submitted": "2021-08-18",
+            "date_last_submitted": "2021-08-25",
+            "doi": "10.11578/1523483",
+            "doi_status": "PENDING",
+            "doi_infix": null,
+            "file_extension": null,
+            "software_needed": null,
+            "dataset_size": null,
+            "contact_name": "Kate Lynch",
+            "contact_org": "Princeton University",
+            "contact_email": "katelynch@princeton.edu",
+            "contact_phone": "(609) 258-1470",
+            "othnondoe_contract_nos": null,
+            "@status": "Pending",
+            "@released": "N"
+        },
+        {
+            "site_input_code": "PPPL",
+            "osti_id": "1523484",
+            "dataset_type": "ND",
+            "title": "Simulating pitch angle scattering using an explicitly solvable energy-conserving algorithm",
+            "status": "SUCCESS",
+            "authors": {
+                "author": [
+                    {
+                        "first_name": "Xin",
+                        "last_name": "Zhang"
+                    },
+                    {
+                        "first_name": "Yichen",
+                        "last_name": "Fu"
+                    },
+                    {
+                        "first_name": "Hong",
+                        "last_name": "Qin"
+                    }
+                ]
+            },
+            "related_resource": null,
+            "product_nos": "None",
+            "product_type": "DA",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_numbers": null,
+            "originating_research_org": "Princeton Plasma Physics Laboratory (PPPL), Princeton, NJ (United States)",
+            "availability": null,
+            "collaboration_names": null,
+            "publication_date": "10/26/2020",
+            "language": "English",
+            "country": "US",
+            "sponsor_org": "USDOE Office of Science (SC)",
+            "subject_categories_code": null,
+            "keywords": null,
+            "accession_num": "88435/dsp01vh53wz79c",
+            "description": "Particle distribution functions evolving under the Lorentz operator can be simulated with the Langevin equation for pitch angle scattering. This approach is frequently used in particle based Monte-Carlo simulations of plasma collisions, among others. However, most numerical treatments do not guarantee energy conservation, which may lead to unphysical artifacts such as numerical heating and spectra distortions. We present a novel structure-preserving numerical algorithm for the Langevin equation for pitch angle scattering. Similar to the well-known Boris algorithm, the proposed numerical scheme takes advantage of the structure-preserving properties of the Cayley transform when calculating the velocity-space rotations. The resulting algorithm is explicitly solvable, while preserving the norm of velocities down to machine precision. We demonstrate that the method has the same order of numerical convergence as the traditional stochastic Euler-Maruyama method.",
+            "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01vh53wz79c",
+            "date_first_submitted": "2021-08-18",
+            "date_last_submitted": "2021-08-25",
+            "doi": "10.11578/1523484",
+            "doi_status": "PENDING",
+            "doi_infix": null,
+            "file_extension": null,
+            "software_needed": null,
+            "dataset_size": null,
+            "contact_name": "Kate Lynch",
+            "contact_org": "Princeton University",
+            "contact_email": "katelynch@princeton.edu",
+            "contact_phone": "(609) 258-1470",
+            "othnondoe_contract_nos": null,
+            "@status": "Pending",
+            "@released": "N"
+        },
+        {
+            "site_input_code": "PPPL",
+            "osti_id": "1523485",
+            "dataset_type": "AS",
+            "title": "Statistical properties of magnetic structures and energy dissipation during turbulent reconnection in the Earth's magnetotail",
+            "status": "SUCCESS",
+            "authors": {
+                "author": [
+                    {
+                        "first_name": "K",
+                        "last_name": "Bergstedt"
+                    },
+                    {
+                        "first_name": "H",
+                        "last_name": "Ji"
+                    },
+                    {
+                        "first_name": "J",
+                        "last_name": "Jara-Almonte"
+                    },
+                    {
+                        "first_name": "J",
+                        "last_name": "Yoo"
+                    },
+                    {
+                        "first_name": "R",
+                        "middle_name": "E",
+                        "last_name": "Ergun"
+                    },
+                    {
+                        "first_name": "L",
+                        "middle_name": "-J",
+                        "last_name": "Chen"
+                    }
+                ]
+            },
+            "related_resource": null,
+            "product_nos": "None",
+            "product_type": "DA",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_numbers": null,
+            "originating_research_org": "Princeton Plasma Physics Laboratory (PPPL), Princeton, NJ (United States)",
+            "availability": null,
+            "collaboration_names": null,
+            "publication_date": "10/21/2020",
+            "language": "English",
+            "country": "US",
+            "sponsor_org": "USDOE Office of Science (SC)",
+            "subject_categories_code": null,
+            "keywords": "Magnetotail;plasmoids;reconnection;turbulence",
+            "accession_num": "88435/dsp01cf95jf52h",
+            "description": "We present the first statistical study of magnetic structures and associated energy dissipation observed during a single period of turbulent magnetic reconnection, by using the in situ measurements of the Magnetospheric Multiscale mission in the Earth's magnetotail on 26 July 2017. The structures are selected by identifying a bipolar signature in the magnetic field and categorized as plasmoids or current sheets via an automated algorithm which examines current density and plasma flow. The size of the plasmoids forms a decaying exponential distribution ranging from subelectron up to ion scales. The presence of substantial number of current sheets is consistent with a physical picture of dynamic production and merging of plasmoids during turbulent reconnection. The magnetic structures are locations of significant energy dissipation via electric field parallel to the local magnetic field, while dissipation via perpendicular electric field dominates outside of the structures. Significant energy also returns from particles to fields.",
+            "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01cf95jf52h",
+            "date_first_submitted": "2021-08-18",
+            "date_last_submitted": "2021-08-25",
+            "doi": "10.11578/1523485",
+            "doi_status": "PENDING",
+            "doi_infix": null,
+            "file_extension": null,
+            "software_needed": null,
+            "dataset_size": null,
+            "contact_name": "Kate Lynch",
+            "contact_org": "Princeton University",
+            "contact_email": "katelynch@princeton.edu",
+            "contact_phone": "(609) 258-1470",
+            "othnondoe_contract_nos": null,
+            "@status": "Pending",
+            "@released": "N"
+        },
+        {
+            "site_input_code": "PPPL",
+            "osti_id": "1523486",
+            "dataset_type": "SM",
+            "title": "Modeling of resistive plasma response in toroidal geometry using an asymptotic matching approach",
+            "status": "SUCCESS",
+            "authors": {
+                "author": [
+                    {
+                        "first_name": "Z",
+                        "middle_name": "R",
+                        "last_name": "Wang"
+                    },
+                    {
+                        "first_name": "A",
+                        "middle_name": "H",
+                        "last_name": "Glasser"
+                    },
+                    {
+                        "first_name": "D",
+                        "last_name": "Brennan"
+                    },
+                    {
+                        "first_name": "Y",
+                        "middle_name": "Q",
+                        "last_name": "Liu"
+                    },
+                    {
+                        "first_name": "J-K",
+                        "last_name": "Park"
+                    }
+                ]
+            },
+            "related_resource": null,
+            "product_nos": "None",
+            "product_type": "DA",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_numbers": null,
+            "originating_research_org": "Princeton Plasma Physics Laboratory (PPPL), Princeton, NJ (United States)",
+            "availability": null,
+            "collaboration_names": null,
+            "publication_date": "10/26/2020",
+            "language": "English",
+            "country": "US",
+            "sponsor_org": "USDOE Office of Science (SC)",
+            "subject_categories_code": null,
+            "keywords": "MHD simulation;resistive plasma response",
+            "accession_num": "88435/dsp0141687m529",
+            "description": "The method of solving linear resistive plasma response, based on the asymptotic matching approach, is developed for full toroidal tokamaks by upgrading the Resistive DCON code [A.H. Glasser, Z.R. Wang and J.-K. Park, Physics of Plasmas, \\textbf{23}, 112506 (2016)]. The derived matching matrix, asymptotically matching the outer and inner regions, indicates that the applied three dimension (3-D) magnetic perturbations contribute additional small solutions at each resonant surface due to the toroidal coupling of poloidal modes. In contrast, the resonant harmonic only affects the corresponding resonant surface in the cylindrical plasma. Since the solution of ideal outer region is critical to the asymptotic matching and is challenging to be solved in the toroidal geometry due to the singular power series solution at the resonant surfaces, systematic verification of the outer region $\\Delta^\\prime$ matrix is made by reproducing the well known analytical $\\Delta^{\\prime}$ result in [H.P. Furth, P.H. Rutherford and H. Selberg, The Physics of Fluids, \\textbf{16}, 1054-1063 (1073)] as well as by making a quantitative benchmark with the PEST3 code [A. Pletzer and R.L. Dewar, J. Plasma Physics, \\textbf{45}, 427-451 (1991)]. Finally, the reconstructed numerical solution of resistive plasma response from the toroidal matching matrix is presented. Comparing with the ideal plasma response, the global structure of the response can be affected by the small finite island at the resonant surfaces.",
+            "site_url": "https://dataspace.princeton.edu/handle/88435/dsp0141687m529",
+            "date_first_submitted": "2021-08-18",
+            "date_last_submitted": "2021-08-25",
+            "doi": "10.11578/1523486",
+            "doi_status": "PENDING",
+            "doi_infix": null,
+            "file_extension": null,
+            "software_needed": null,
+            "dataset_size": null,
+            "contact_name": "Kate Lynch",
+            "contact_org": "Princeton University",
+            "contact_email": "katelynch@princeton.edu",
+            "contact_phone": "(609) 258-1470",
+            "othnondoe_contract_nos": null,
+            "@status": "Pending",
+            "@released": "N"
+        },
+        {
+            "site_input_code": "PPPL",
+            "osti_id": "1523487",
+            "dataset_type": "ND",
+            "title": "Lower Hybrid Drift Waves During Guide Field Reconnection",
+            "status": "SUCCESS",
+            "authors": {
+                "author": [
+                    {
+                        "first_name": "Jongsoo",
+                        "last_name": "Yoo"
+                    },
+                    {
+                        "first_name": "Ji",
+                        "last_name": "Jeong-Young"
+                    },
+                    {
+                        "name": "M. V., Ambat"
+                    },
+                    {
+                        "first_name": "Wang",
+                        "last_name": "Shan"
+                    },
+                    {
+                        "first_name": "Ji",
+                        "last_name": "Hantao"
+                    },
+                    {
+                        "first_name": "Lo",
+                        "last_name": "Jenson"
+                    },
+                    {
+                        "first_name": "Li",
+                        "last_name": "Bowen"
+                    },
+                    {
+                        "first_name": "Ren",
+                        "last_name": "Yang"
+                    },
+                    {
+                        "name": "J., Jara-Almonte"
+                    },
+                    {
+                        "first_name": "Fox",
+                        "last_name": "William"
+                    },
+                    {
+                        "first_name": "Yamada",
+                        "last_name": "Masaaki"
+                    },
+                    {
+                        "first_name": "Alt",
+                        "last_name": "Andrew"
+                    },
+                    {
+                        "first_name": "Goodman",
+                        "last_name": "Aaron"
+                    }
+                ]
+            },
+            "related_resource": null,
+            "product_nos": "None",
+            "product_type": "DA",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_numbers": null,
+            "originating_research_org": "Princeton Plasma Physics Laboratory (PPPL), Princeton, NJ (United States)",
+            "availability": null,
+            "collaboration_names": null,
+            "publication_date": "08/18/2021",
+            "language": "English",
+            "country": "US",
+            "sponsor_org": "USDOE Office of Science (SC)",
+            "subject_categories_code": null,
+            "keywords": null,
+            "accession_num": "88435/dsp0112579w37b",
+            "description": "Digital data for figures used in Lower Hybrid Drift Waves During Guide Field Reconnection, Geophysical Research Letters, 47, e2020GL087192, 2020.",
+            "site_url": "https://dataspace.princeton.edu/handle/88435/dsp0112579w37b",
+            "date_first_submitted": "2021-08-18",
+            "date_last_submitted": "2021-08-25",
+            "doi": "10.11578/1523487",
+            "doi_status": "PENDING",
+            "doi_infix": null,
+            "file_extension": null,
+            "software_needed": null,
+            "dataset_size": null,
+            "contact_name": "Kate Lynch",
+            "contact_org": "Princeton University",
+            "contact_email": "katelynch@princeton.edu",
+            "contact_phone": "(609) 258-1470",
+            "othnondoe_contract_nos": null,
+            "@status": "Pending",
+            "@released": "N"
+        },
+        {
+            "site_input_code": "PPPL",
+            "osti_id": "1523488",
+            "dataset_type": "ND",
+            "title": "First impurity powder injection experiments in LHD",
+            "status": "SUCCESS",
+            "authors": {
+                "author": {
+                    "name": "Nespoli F., Ashikawa N., Gilson E.P., Lunsford R., Masuzaki S., Shoji M., Oishi T., Suzuki C., Nagy A., Mollen A., Pablant N.A., Ida K., Yoshinuma M., Tamura N., Gates D.A., Morisaki T., and the LHD experiment group"
+                }
+            },
+            "related_resource": null,
+            "product_nos": "None",
+            "product_type": "DA",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_numbers": null,
+            "originating_research_org": "Princeton Plasma Physics Laboratory (PPPL), Princeton, NJ (United States)",
+            "availability": null,
+            "collaboration_names": null,
+            "publication_date": "11/23/2020",
+            "language": "English",
+            "country": "US",
+            "sponsor_org": "USDOE Office of Science (SC)",
+            "subject_categories_code": null,
+            "keywords": "Powder;Impurity injection;Boron;Experiment;Impurity Transport;Helical plasma",
+            "accession_num": "88435/dsp01sx61dq35f",
+            "description": "Injection of impurities in the form of sub-millimeter powder grains is performed for the first time in the Large Helical Device (LHD) plasma, employing the Impurity Powder Dropper (IPD) [A. Nagy et al., RSI 2018], developed and built by PPPL. Controlled amounts of boron (B) and boron nitride (BN) powder are injected into the helical plasma. Visible camera imaging, UV and charge exchange spectroscopy measurements show that the injected impurities effectively penetrate into the plasma in two different magnetic configurations.The prompt effects of the impurities on the plasma are characterized as the injection rate is scanned. The injected impurities provide a supplemental electron source, causing the plasma density to increase, together with the radiated power. Beneficial effects on the confined plasma temperature are observed at low plasma densities, due to an increased efficiency in NBI power absorption. For $n_{e,av}<10^{19}m^{-3}$ the powder grains penetrate deeper into the plasma, as they can be less effectively deflected by the plasma flow in the divertor leg, which they have to cross first as they are injected from the top of the machine.In this case, the created B ions are observed to move outwards from UV spectroscopy and charge exchange measurements, due to the outwards direction of the radial electric field. This makes low density plasmas a better candidate for powder boronization techniques.",
+            "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01sx61dq35f",
+            "date_first_submitted": "2021-08-18",
+            "date_last_submitted": "2021-08-25",
+            "doi": "10.11578/1523488",
+            "doi_status": "PENDING",
+            "doi_infix": null,
+            "file_extension": null,
+            "software_needed": null,
+            "dataset_size": null,
+            "contact_name": "Kate Lynch",
+            "contact_org": "Princeton University",
+            "contact_email": "katelynch@princeton.edu",
+            "contact_phone": "(609) 258-1470",
+            "othnondoe_contract_nos": null,
+            "@status": "Pending",
+            "@released": "N"
+        },
+        {
+            "site_input_code": "PPPL",
+            "osti_id": "1523576",
+            "dataset_type": "ND",
+            "title": "Effects of Coulomb collisions on lower hybrid drift waves inside a laboratory reconnection current sheet",
+            "status": "SUCCESS",
+            "authors": {
+                "author": [
+                    {
+                        "first_name": "Jongsoo",
+                        "last_name": "Yoo"
+                    },
+                    {
+                        "first_name": "Yibo",
+                        "last_name": "Hu"
+                    },
+                    {
+                        "first_name": "Jeong-Young",
+                        "last_name": "Ji"
+                    },
+                    {
+                        "first_name": "Hantao",
+                        "last_name": "Ji"
+                    },
+                    {
+                        "first_name": "Masaaki",
+                        "last_name": "Yamada"
+                    },
+                    {
+                        "first_name": "Aaron",
+                        "last_name": "Goodman"
+                    },
+                    {
+                        "first_name": "Kendra",
+                        "last_name": "Bergstedt"
+                    },
+                    {
+                        "first_name": "Andrew",
+                        "last_name": "Alt"
+                    }
+                ]
+            },
+            "related_resource": null,
+            "product_nos": "None",
+            "product_type": "DA",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_numbers": null,
+            "originating_research_org": "Princeton Plasma Physics Laboratory (PPPL), Princeton, NJ (United States)",
+            "availability": null,
+            "collaboration_names": null,
+            "publication_date": "08/20/2021",
+            "language": "English",
+            "country": "US",
+            "sponsor_org": "USDOE Office of Science (SC)",
+            "subject_categories_code": null,
+            "keywords": null,
+            "accession_num": "88435/dsp01b2773z812",
+            "description": null,
+            "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01b2773z812",
+            "date_first_submitted": "2021-08-25",
+            "date_last_submitted": "2021-08-25",
+            "doi": "10.11578/1523576",
+            "doi_status": "PENDING",
+            "doi_infix": null,
+            "file_extension": null,
+            "software_needed": null,
+            "dataset_size": null,
+            "contact_name": "Chun Ly",
+            "contact_org": "Princeton Plasma Physics Laboratory (PPPL)",
+            "contact_email": "cly@pppl.gov",
+            "contact_phone": "None",
+            "othnondoe_contract_nos": null,
+            "@status": "Pending",
+            "@released": "N"
+        },
+        {
+            "site_input_code": "PPPL",
+            "osti_id": "1523490",
+            "dataset_type": "ND",
+            "title": "Multi-Fluid and Kinetic Models of Partially Ionized Magnetic Reconnection",
+            "status": "SUCCESS",
+            "authors": {
+                "author": [
+                    {
+                        "first_name": "J",
+                        "last_name": "Jara-Almonte"
+                    },
+                    {
+                        "first_name": "N",
+                        "middle_name": "A",
+                        "last_name": "Murphy"
+                    },
+                    {
+                        "first_name": "H",
+                        "last_name": "Ji"
+                    }
+                ]
+            },
+            "related_resource": null,
+            "product_nos": "None",
+            "product_type": "DA",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_numbers": null,
+            "originating_research_org": "Princeton Plasma Physics Laboratory (PPPL), Princeton, NJ (United States)",
+            "availability": null,
+            "collaboration_names": null,
+            "publication_date": "03/29/2021",
+            "language": "English",
+            "country": "US",
+            "sponsor_org": "USDOE Office of Science (SC)",
+            "subject_categories_code": null,
+            "keywords": "Magnetic reconnection;Partially ionized plasmas",
+            "accession_num": "88435/dsp01sj1395028",
+            "description": "Magnetic reconnection in partially ionized plasmas is a ubiquitous and important phenomena in both laboratory and astrophysical systems. Here, simulations of partially ionized magnetic reconnection with well-matched initial conditions are performed using both multi-fluid and fully-kinetic approaches. Despite similar initial conditions, the time-dependent evolution differs between the two models. In multi-fluid models, the reconnection rate locally obeys either a decoupled Sweet-Parker scaling, where neutrals are unimportant, or a fully coupled Sweet-Parker scaling, where neutrals and ions are strongly coupled, depending on the resistivity. In contrast, kinetic models show a faster reconnection rate that is proportional to the fully-coupled, bulk Alfv\\'en speed, $v_A^\\star$. These differences are interpreted as the result of operating in different collisional regimes. Multi-fluid simulations are found to maintain $\\nu_{ni}L/v_A^\\star \\gtrsim 1$, where $\\nu_{ni}$ is the neutral-ion collision frequency and $L$ is the time-dependent current sheet half-length. This strongly couples neutrals to the reconnection outflow, while kinetic simulations evolve to allow $\\nu_{ni}L/v_A^\\star < 1$, decoupling neutrals from the reconnection outflow. Differences in the way reconnection is triggered may explain these discrepancies.",
+            "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01sj1395028",
+            "date_first_submitted": "2021-08-18",
+            "date_last_submitted": "2021-08-25",
+            "doi": "10.11578/1523490",
+            "doi_status": "PENDING",
+            "doi_infix": null,
+            "file_extension": null,
+            "software_needed": null,
+            "dataset_size": null,
+            "contact_name": "Kate Lynch",
+            "contact_org": "Princeton University",
+            "contact_email": "katelynch@princeton.edu",
+            "contact_phone": "(609) 258-1470",
+            "othnondoe_contract_nos": null,
+            "@status": "Pending",
+            "@released": "N"
+        },
+        {
+            "site_input_code": "PPPL",
+            "osti_id": "1523489",
+            "dataset_type": "ND",
+            "title": "Initial operation and data processing on a system for real-time evaluation of Thomson scattering signals on the Large Helical Device",
+            "status": "SUCCESS",
+            "authors": {
+                "author": [
+                    {
+                        "first_name": "K",
+                        "middle_name": "C",
+                        "last_name": "Hammond"
+                    },
+                    {
+                        "first_name": "F",
+                        "middle_name": "M",
+                        "last_name": "Laggner"
+                    },
+                    {
+                        "first_name": "A",
+                        "last_name": "Diallo"
+                    },
+                    {
+                        "first_name": "S",
+                        "last_name": "Doskoczynski"
+                    },
+                    {
+                        "first_name": "C",
+                        "last_name": "Freeman"
+                    },
+                    {
+                        "first_name": "H",
+                        "last_name": "Funaba"
+                    },
+                    {
+                        "first_name": "D",
+                        "middle_name": "A",
+                        "last_name": "Gates"
+                    },
+                    {
+                        "first_name": "R",
+                        "last_name": "Rozenblat"
+                    },
+                    {
+                        "first_name": "G",
+                        "last_name": "Tchilinguirian"
+                    },
+                    {
+                        "first_name": "Z",
+                        "last_name": "Xing"
+                    },
+                    {
+                        "first_name": "I",
+                        "last_name": "Yamada"
+                    },
+                    {
+                        "first_name": "R",
+                        "last_name": "Yasuhara"
+                    },
+                    {
+                        "first_name": "G",
+                        "last_name": "Zimmer"
+                    },
+                    {
+                        "first_name": "E",
+                        "last_name": "Kolemen"
+                    }
+                ]
+            },
+            "related_resource": null,
+            "product_nos": "None",
+            "product_type": "DA",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_numbers": null,
+            "originating_research_org": "Princeton Plasma Physics Laboratory (PPPL), Princeton, NJ (United States)",
+            "availability": null,
+            "collaboration_names": null,
+            "publication_date": "05/28/2021",
+            "language": "English",
+            "country": "US",
+            "sponsor_org": "USDOE Office of Science (SC)",
+            "subject_categories_code": null,
+            "keywords": "Thomson scattering, real-time, LHD, plasma diagnostic",
+            "accession_num": "88435/dsp014t64gr25v",
+            "description": "A scalable system for real-time analysis of electron temperature and density based on signals from the Thomson scattering diagnostic, initially developed for and installed on the NSTX-U experiment, was recently adapted for the Large Helical Device (LHD) and operated for the first time during plasma discharges. During its initial operation run, it routinely recorded and processed signals for four spatial points at the laser repetition rate of 30 Hz, well within the system's rated capability for 60 Hz. We present examples of data collected from this initial run and describe subsequent adaptations to the analysis code to improve the fidelity of the temperature calculations.",
+            "site_url": "https://dataspace.princeton.edu/handle/88435/dsp014t64gr25v",
+            "date_first_submitted": "2021-08-18",
+            "date_last_submitted": "2021-08-25",
+            "doi": "10.11578/1523489",
+            "doi_status": "PENDING",
+            "doi_infix": null,
+            "file_extension": null,
+            "software_needed": null,
+            "dataset_size": null,
+            "contact_name": "Kate Lynch",
+            "contact_org": "Princeton University",
+            "contact_email": "katelynch@princeton.edu",
+            "contact_phone": "(609) 258-1470",
+            "othnondoe_contract_nos": null,
+            "@status": "Pending",
+            "@released": "N"
+        },
+        {
+            "site_input_code": "PPPL",
+            "osti_id": "1523491",
+            "dataset_type": "AS",
+            "title": "Dynamics of filaments during the edge-localized mode crash on NSTX",
+            "status": "SUCCESS",
+            "authors": {
+                "author": [
+                    {
+                        "first_name": "Mate",
+                        "last_name": "Lampert"
+                    },
+                    {
+                        "first_name": "Ahmed",
+                        "last_name": "Diallo"
+                    },
+                    {
+                        "first_name": "James",
+                        "middle_name": "R",
+                        "last_name": "Myra"
+                    },
+                    {
+                        "first_name": "Stewart",
+                        "middle_name": "J",
+                        "last_name": "Zweben"
+                    }
+                ]
+            },
+            "related_resource": null,
+            "product_nos": "None",
+            "product_type": "DA",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_numbers": null,
+            "originating_research_org": "Princeton Plasma Physics Laboratory (PPPL), Princeton, NJ (United States)",
+            "availability": null,
+            "collaboration_names": null,
+            "publication_date": "01/20/2021",
+            "language": "English",
+            "country": "US",
+            "sponsor_org": "USDOE Office of Science (SC)",
+            "subject_categories_code": null,
+            "keywords": "ELMs;correlation;dynamics;NSTX;GPI",
+            "accession_num": "88435/dsp011v53k104h",
+            "description": "Edge localized modes (ELMs) are routinely observed in H-mode plasma regimes of the National Spherical Torus Experiment (NSTX). Due to the explosive nature of the instability, only diagnostics with high temporal and spatial resolution could provide a detailed insight into the dynamics associated with the ELMs. Gas-puff imaging (GPI) at NSTX provides 2D measurements of the magnetic field aligned fluctuations (e.g. ELM filaments) in the scrape-off layer and the at the plasma edge with 2.5 us temporal and 10 mm optical resolution.A novel analysis technique was developed to estimate the frame-by-frame velocities and the spatial parameters of the dominant structures associated with the ELMs. The analysis was applied to single ELM events to characterize the ELM crash dynamics, and then extended to a database of 169 ELM events.Statistical analysis was performed in order to find the characterizing dynamics of the ELM crash. The results show that on average an ELM crash consists of a filament with a circular cross-section which is propelled outwards with a characterizing peak radial velocity of ~3.3 km/s. The radial velocity was found to be linearly dependent on the distance of the filament from the separatrix, which has never been seen before. The ELM filament is characterized by propagation in the ion-diamagnetic direction poloidally with a peak velocity of 11.4 km/s. The ELM crash lasts for approximately 100us until the radial propulsion settles back to the pre-ELM level. The experimental findings were compared with analytical theory. Two possible mechanisms were identified for explaining the observations: the curvature interchange model and the current-filament interaction model.",
+            "site_url": "https://dataspace.princeton.edu/handle/88435/dsp011v53k104h",
+            "date_first_submitted": "2021-08-18",
+            "date_last_submitted": "2021-08-25",
+            "doi": "10.11578/1523491",
+            "doi_status": "PENDING",
+            "doi_infix": null,
+            "file_extension": null,
+            "software_needed": null,
+            "dataset_size": null,
+            "contact_name": "Kate Lynch",
+            "contact_org": "Princeton University",
+            "contact_email": "katelynch@princeton.edu",
+            "contact_phone": "(609) 258-1470",
+            "othnondoe_contract_nos": null,
+            "@status": "Pending",
+            "@released": "N"
+        },
+        {
+            "site_input_code": "PPPL",
+            "osti_id": "1523492",
+            "dataset_type": "SM",
+            "title": "Developments on two lithium vapor-box linear test-stand experiments",
+            "status": "SUCCESS",
+            "authors": {
+                "author": [
+                    {
+                        "first_name": "Jacob",
+                        "middle_name": "A",
+                        "last_name": "Schwartz"
+                    },
+                    {
+                        "first_name": "Robert",
+                        "middle_name": "J",
+                        "last_name": "Goldston"
+                    }
+                ]
+            },
+            "related_resource": null,
+            "product_nos": "None",
+            "product_type": "DA",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_numbers": null,
+            "originating_research_org": "Princeton Plasma Physics Laboratory (PPPL), Princeton, NJ (United States)",
+            "availability": null,
+            "collaboration_names": null,
+            "publication_date": "02/19/2021",
+            "language": "English",
+            "country": "US",
+            "sponsor_org": "USDOE Office of Science (SC)",
+            "subject_categories_code": null,
+            "keywords": "vapor box;lithium vapor-box;vapor-box;divertor;lithium;test-stand;vapor;Magnum-PSI;",
+            "accession_num": "88435/dsp019306t236q",
+            "description": "The lithium vapor-box divertor is a possible fusion power exhaust solution.It uses condensation pumping to create a gradient of vapor density in a divertor slot; this should allow a stable detachment front without active feedback.As initial explorations of the concept, two test stands which take the form of three connected cylindrical stainless steel boxes are being developed: one without plasma at PPPL, to test models of lithium evaporation and flow; and one for the linear plasma device Magnum-PSI (at DIFFER in Eindhoven, The Netherlands) to test the ability of a lithium vapor cloud to induce volumetric detachment and redistribute the plasma power.The first experiment uses boxes with diameters of 6 cm, joined by apertures with diameters of 2.2 cm. Up to 1 g of Li is placed in one box, which is heated to up to 600 degrees C. The Li evaporates, then flows to and condenses in the two other, cooler boxes over several minutes. The quantity of Li transported is assessed by weighing the boxes before and after the heating cycle, and is compared to the quantity predicted to flow for the box at its measured temperature using a Direct Simulation Monte Carlo code, SPARTA. With good experimental conditions, the two values agree to within 15%.The experiment on Magnum-PSI is in the conceptual design stage.The design is assessed by simulations using the code B2.5-Eunomia.They show that when the hydrogen-ion plasma beam, with n_e = 4e20 per cubic meter, T_e = 1.5 eV, and r = 1 cm, is passed through a 16 cm long, 12 Pa, 625 degree C Li vapor cloud, the plasma heat flux and pressure on the target are significantly reduced compared to the case without Li.With the Li present, the plasma is cooled by excitation of Li neutrals followed by radiation until it volumetrically recombines, lowering the heat flux from 3.7 MW/m^2 to 0.13 MW/m^2, and the pressure is reduced by 93%, largely by collisions of hydrogen ions with neutral Li.",
+            "site_url": "https://dataspace.princeton.edu/handle/88435/dsp019306t236q",
+            "date_first_submitted": "2021-08-18",
+            "date_last_submitted": "2021-08-25",
+            "doi": "10.11578/1523492",
+            "doi_status": "PENDING",
+            "doi_infix": null,
+            "file_extension": null,
+            "software_needed": null,
+            "dataset_size": null,
+            "contact_name": "Kate Lynch",
+            "contact_org": "Princeton University",
+            "contact_email": "katelynch@princeton.edu",
+            "contact_phone": "(609) 258-1470",
+            "othnondoe_contract_nos": null,
+            "@status": "Pending",
+            "@released": "N"
+        },
+        {
+            "site_input_code": "PPPL",
+            "osti_id": "1523493",
+            "dataset_type": "FP",
+            "title": "Microtearing Instabilities and Electron Thermal Transport in Low and High Collisionality NSTX Discharges",
+            "status": "SUCCESS",
+            "authors": {
+                "author": [
+                    {
+                        "first_name": "Rafiq",
+                        "last_name": "T"
+                    },
+                    {
+                        "first_name": "Kaye",
+                        "last_name": "S"
+                    },
+                    {
+                        "first_name": "Guttenfelder",
+                        "last_name": "W"
+                    },
+                    {
+                        "first_name": "Weiland",
+                        "last_name": "J"
+                    },
+                    {
+                        "first_name": "Schuster",
+                        "last_name": "E"
+                    },
+                    {
+                        "first_name": "Anderson",
+                        "last_name": "J"
+                    },
+                    {
+                        "first_name": "Luo",
+                        "last_name": "L"
+                    }
+                ]
+            },
+            "related_resource": null,
+            "product_nos": "None",
+            "product_type": "DA",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_numbers": null,
+            "originating_research_org": "Princeton Plasma Physics Laboratory (PPPL), Princeton, NJ (United States)",
+            "availability": null,
+            "collaboration_names": null,
+            "publication_date": "02/19/2021",
+            "language": "English",
+            "country": "US",
+            "sponsor_org": "USDOE Office of Science (SC)",
+            "subject_categories_code": null,
+            "keywords": "magnetic confinement;microtearing;instabilities;tokamaks;turbulence and transport;fusion plasma technology;",
+            "accession_num": "88435/dsp011j92gb54m",
+            "description": "Microtearing mode (MTM) real frequency, growth rate, magnetic fluctuation amplitude and resulting electron thermal transport are studied in systematic NSTX scans of relevant plasma parameters. The dependency of the MTM real frequency and growth rate on plasma parameters, suitable for low and high collision NSTX discharges, is obtained by using the reduced MTM transport model [T. Rafiq, et al., Phys. Plasmas 23, 062507 (2016)]. The plasma parameter dependencies are compared and found to be consistent with the results obtained from MTM using the Gyrokinetic GYRO code. The scaling trend of collision frequency and plasma beta is found to be consistent with the global energy confinement trend observed in the NSTX experiment. The strength of the magnetic fluctuation is found to be consistent with the gyrokinetic estimate.In earlier studies, it was found that the version of the Multi-Mode (MM) anomalous transport model, which did not contain the effect of MTMs, provided an appropriate description of the electron temperature profiles in standard tokamak discharges and not in spherical tokamaks. When the MM model, which involves transport associated with MTMs, is incorporated in the TRANSP code and is used in the study of electron thermal transport in NSTX discharges, it is observed that the agreement with the experimental electron temperature profile is substantially improved.",
+            "site_url": "https://dataspace.princeton.edu/handle/88435/dsp011j92gb54m",
+            "date_first_submitted": "2021-08-18",
+            "date_last_submitted": "2021-08-25",
+            "doi": "10.11578/1523493",
+            "doi_status": "PENDING",
+            "doi_infix": null,
+            "file_extension": null,
+            "software_needed": null,
+            "dataset_size": null,
+            "contact_name": "Kate Lynch",
+            "contact_org": "Princeton University",
+            "contact_email": "katelynch@princeton.edu",
+            "contact_phone": "(609) 258-1470",
+            "othnondoe_contract_nos": null,
+            "@status": "Pending",
+            "@released": "N"
+        },
+        {
+            "site_input_code": "PPPL",
+            "osti_id": "1523494",
+            "dataset_type": "SM",
+            "title": "Inversion technique to obtain local ion temperature profiles for an axisymmetric plasma with toroidal and radial velocities",
+            "status": "SUCCESS",
+            "authors": {
+                "author": {
+                    "first_name": "Ronald",
+                    "middle_name": "E",
+                    "last_name": "Bell"
+                }
+            },
+            "related_resource": null,
+            "product_nos": "None",
+            "product_type": "DA",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_numbers": null,
+            "originating_research_org": "Princeton Plasma Physics Laboratory (PPPL), Princeton, NJ (United States)",
+            "availability": null,
+            "collaboration_names": null,
+            "publication_date": "02/26/2021",
+            "language": "English",
+            "country": "US",
+            "sponsor_org": "USDOE Office of Science (SC)",
+            "subject_categories_code": null,
+            "keywords": "tomographic inversion;ion temperature;radial velocity;plasma spectroscopy;magnetic reconnection;merging compression",
+            "accession_num": "88435/dsp01r207ts405",
+            "description": "A matrix inversion technique is derived to calculate local ion temperature from line-integrated measurements of an extended emission source in an axisymmetric plasma which exactly corrects for both toroidal velocity and radial velocity components. Local emissivity and toroidal velocity can be directly recovered from line-integrated spectroscopic measurements, but an independent measurement of the radial velocity is necessary to complete the temperature inversion. The extension of this technique to handle the radial velocity is relevant for magnetic reconnection and merging compression devices where temperature inversion from spectroscopic measurements is desired. A simulation demonstrates the effects of radial velocity on the determination of ion temperature.",
+            "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01r207ts405",
+            "date_first_submitted": "2021-08-18",
+            "date_last_submitted": "2021-08-25",
+            "doi": "10.11578/1523494",
+            "doi_status": "PENDING",
+            "doi_infix": null,
+            "file_extension": null,
+            "software_needed": null,
+            "dataset_size": null,
+            "contact_name": "Kate Lynch",
+            "contact_org": "Princeton University",
+            "contact_email": "katelynch@princeton.edu",
+            "contact_phone": "(609) 258-1470",
+            "othnondoe_contract_nos": null,
+            "@status": "Pending",
+            "@released": "N"
+        },
+        {
+            "site_input_code": "PPPL",
+            "osti_id": "1523495",
+            "dataset_type": "AS",
+            "title": "Synergy of Coupled Kink and Tearing Modes in Fast Ion Transport",
+            "status": "SUCCESS",
+            "authors": {
+                "author": [
+                    {
+                        "first_name": "J",
+                        "last_name": "Yang"
+                    },
+                    {
+                        "first_name": "M",
+                        "last_name": "Podesta"
+                    },
+                    {
+                        "first_name": "E",
+                        "last_name": "Fredrickson"
+                    }
+                ]
+            },
+            "related_resource": null,
+            "product_nos": "None",
+            "product_type": "DA",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_numbers": null,
+            "originating_research_org": "Princeton Plasma Physics Laboratory (PPPL), Princeton, NJ (United States)",
+            "availability": null,
+            "collaboration_names": null,
+            "publication_date": "02/26/2021",
+            "language": "English",
+            "country": "US",
+            "sponsor_org": "USDOE Office of Science (SC)",
+            "subject_categories_code": null,
+            "keywords": "Energetic Particles;Tearing Modes;Tokamak Transport;Kick Model",
+            "accession_num": "88435/dsp01vt150n32t",
+            "description": "One aspect of the interaction between fast ions and magnetohydrodynamic (MHD) instabilities is the fast ion transport. Coupled kink and tearing MHD instabilities have also been reported to cause fast ion transport. Recently, the ''kick\" model has been developed to compute the evolution of the fast ion distribution from the neutral beam injection using instabilities as phase space resonance sources. The goal of this paper is to utilize the kick model to understand the physics of fast ion transport caused by the coupled kink and tearing modes. Soft X-ray diagnostics are used to identify the mode parameters in NSTX. The comparison of neutron rates measured and computed from time-dependent TRANSP simulation with the kick model shows the coupling of kink and tearing mode is important in determination of the fast ion transport. The numerical scan of the mode parameters shows that the relative phase of the kink and tearing modes and the overlapping of kink and tearing mode resonances in the phase space can affect the fast ion transport, suggesting that the synergy of the coupled modes may be causing the fast ion transpor",
+            "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01vt150n32t",
+            "date_first_submitted": "2021-08-18",
+            "date_last_submitted": "2021-08-25",
+            "doi": "10.11578/1523495",
+            "doi_status": "PENDING",
+            "doi_infix": null,
+            "file_extension": null,
+            "software_needed": null,
+            "dataset_size": null,
+            "contact_name": "Kate Lynch",
+            "contact_org": "Princeton University",
+            "contact_email": "katelynch@princeton.edu",
+            "contact_phone": "(609) 258-1470",
+            "othnondoe_contract_nos": null,
+            "@status": "Pending",
+            "@released": "N"
+        },
+        {
+            "site_input_code": "PPPL",
+            "osti_id": "1523496",
+            "dataset_type": "ND",
+            "title": "Prediction of electron density and pressure profile shapes on NSTX-U using neural networks",
+            "status": "SUCCESS",
+            "authors": {
+                "author": [
+                    {
+                        "first_name": "Mark",
+                        "last_name": "Boyer"
+                    },
+                    {
+                        "first_name": "Jason",
+                        "last_name": "Chadwick"
+                    }
+                ]
+            },
+            "related_resource": null,
+            "product_nos": "None",
+            "product_type": "DA",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_numbers": null,
+            "originating_research_org": "Princeton Plasma Physics Laboratory (PPPL), Princeton, NJ (United States)",
+            "availability": null,
+            "collaboration_names": null,
+            "publication_date": "02/19/2021",
+            "language": "English",
+            "country": "US",
+            "sponsor_org": "USDOE Office of Science (SC)",
+            "subject_categories_code": null,
+            "keywords": null,
+            "accession_num": "88435/dsp015999n646v",
+            "description": "A new model for prediction of electron density and pressure profile shapes on NSTX and NSTX-U has been developed using neural networks. The model has been trained and tested on measured profiles from experimental discharges during the first operational campaign of NSTX-U. By projecting profiles onto empirically derived basis functions, the model is able to efficiently and accurately reproduce profile shapes. In order to project the performance of the model to upcoming NSTX-U operations, a large database of profiles from the operation of NSTX is used to test performance as a function of available data. The rapid execution time of the model is well suited to the planned applications, including optimization during scenario development activities, and real-time plasma control. A potential application of the model to real-time profile estimation is demonstrated.",
+            "site_url": "https://dataspace.princeton.edu/handle/88435/dsp015999n646v",
+            "date_first_submitted": "2021-08-18",
+            "date_last_submitted": "2021-08-25",
+            "doi": "10.11578/1523496",
+            "doi_status": "PENDING",
+            "doi_infix": null,
+            "file_extension": null,
+            "software_needed": null,
+            "dataset_size": null,
+            "contact_name": "Kate Lynch",
+            "contact_org": "Princeton University",
+            "contact_email": "katelynch@princeton.edu",
+            "contact_phone": "(609) 258-1470",
+            "othnondoe_contract_nos": null,
+            "@status": "Pending",
+            "@released": "N"
+        },
+        {
+            "site_input_code": "PPPL",
+            "osti_id": "1523497",
+            "dataset_type": "AS",
+            "title": "A software package for plasma facing component analysis and design: the Heat flux Engineering Analysis Toolkit (HEAT)",
+            "status": "SUCCESS",
+            "authors": {
+                "author": [
+                    {
+                        "first_name": "Tom",
+                        "last_name": "Looby"
+                    },
+                    {
+                        "first_name": "Matthew",
+                        "last_name": "Reinke"
+                    },
+                    {
+                        "first_name": "Andreas",
+                        "last_name": "Wingen"
+                    },
+                    {
+                        "first_name": "Jonathan",
+                        "last_name": "Menard"
+                    },
+                    {
+                        "first_name": "Stefan",
+                        "last_name": "Gerhardt"
+                    },
+                    {
+                        "first_name": "Travis",
+                        "last_name": "Gray"
+                    },
+                    {
+                        "first_name": "David",
+                        "last_name": "Donovan"
+                    },
+                    {
+                        "first_name": "Ezekial",
+                        "last_name": "Unterberg"
+                    },
+                    {
+                        "first_name": "Jonathan",
+                        "last_name": "Klabacha"
+                    },
+                    {
+                        "first_name": "Mike",
+                        "last_name": "Messineo"
+                    }
+                ]
+            },
+            "related_resource": null,
+            "product_nos": "None",
+            "product_type": "DA",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_numbers": null,
+            "originating_research_org": "Princeton Plasma Physics Laboratory (PPPL), Princeton, NJ (United States)",
+            "availability": null,
+            "collaboration_names": null,
+            "publication_date": "03/26/2021",
+            "language": "English",
+            "country": "US",
+            "sponsor_org": "USDOE Office of Science (SC)",
+            "subject_categories_code": null,
+            "keywords": "fusion;magnetic confinement;divertor physics;tokamak;heat;python",
+            "accession_num": "88435/dsp01x920g0924",
+            "description": "The engineering limits of plasma facing components (PFCs) constrain the allowable operational space of tokamaks. Poorly managed heat fluxes that push the PFCs beyond their limits not only degrade core plasma performance via elevated impurities, but can also result in PFC failure due to thermal stresses or melting. Simple axisymmetric assumptions fail to capture the complex interaction between 3D PFC geometry and 2D or 3D plasmas. This results in fusion systems that must either operate with increased risk or reduce PFC loads, potentially through lower core plasma performance, to maintain a nominal safety factor. High precision 3D heat flux predictions are necessary to accurately ascertain the state of a PFC given the evolution of the magnetic equilibrium. A new code, the Heat flux Engineering Analysis Toolkit (HEAT), has been developed to provide high precision 3D predictions and analysis for PFCs. HEAT couples many otherwise disparate computational tools together into a single open source python package. Magnetic equilibrium, engineering CAD, finite volume solvers, scrape off layer plasma physics, visualization, high performace computing, and more, are connected in a single web-based user interface. Linux users may use HEAT without any software prerequisites via an appImage. This manuscript introduces HEAT, discusses the software architecture, presents first HEAT results, and outlines physics modules in development.",
+            "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01x920g0924",
+            "date_first_submitted": "2021-08-18",
+            "date_last_submitted": "2021-08-25",
+            "doi": "10.11578/1523497",
+            "doi_status": "PENDING",
+            "doi_infix": null,
+            "file_extension": null,
+            "software_needed": null,
+            "dataset_size": null,
+            "contact_name": "Kate Lynch",
+            "contact_org": "Princeton University",
+            "contact_email": "katelynch@princeton.edu",
+            "contact_phone": "(609) 258-1470",
+            "othnondoe_contract_nos": null,
+            "@status": "Pending",
+            "@released": "N"
+        },
+        {
+            "site_input_code": "PPPL",
+            "osti_id": "1523498",
+            "dataset_type": "SM",
+            "title": "The updated ITPA global H-mode confinement database: description and analysis",
+            "status": "SUCCESS",
+            "authors": {
+                "author": [
+                    {
+                        "first_name": "G",
+                        "last_name": "Verdoolaege"
+                    },
+                    {
+                        "first_name": "S",
+                        "middle_name": "M",
+                        "last_name": "Kaye"
+                    },
+                    {
+                        "first_name": "C",
+                        "last_name": "Angioni"
+                    },
+                    {
+                        "first_name": "O",
+                        "middle_name": "W J F",
+                        "last_name": "Kardaunn"
+                    },
+                    {
+                        "first_name": "M",
+                        "last_name": "Maslov"
+                    },
+                    {
+                        "first_name": "M",
+                        "last_name": "Romanelli"
+                    },
+                    {
+                        "first_name": "F",
+                        "last_name": "Ryter"
+                    },
+                    {
+                        "first_name": "K",
+                        "last_name": "Thomsen"
+                    }
+                ]
+            },
+            "related_resource": null,
+            "product_nos": "None",
+            "product_type": "DA",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_numbers": null,
+            "originating_research_org": "Princeton Plasma Physics Laboratory (PPPL), Princeton, NJ (United States)",
+            "availability": null,
+            "collaboration_names": null,
+            "publication_date": "03/01/2021",
+            "language": "English",
+            "country": "US",
+            "sponsor_org": "USDOE Office of Science (SC)",
+            "subject_categories_code": null,
+            "keywords": "H-Mode;Database;ITER",
+            "accession_num": "88435/dsp01m900nx49h",
+            "description": "The multi-machine ITPA Global H-mode Confinement Database has been upgraded with new data from JET with the ITER-like wall and ASDEX Upgrade with the full tungsten wall. This paper describes the new database and presents results of regression analysis to estimate the global energy confinement scaling in H-mode plasmas using a standard power law. Various subsets of the database are considered, focusing on type of wall and divertor materials, confinement regime (all H-modes, ELMy H or ELM-free) and ITER-like constraints. Apart from ordinary least squares, two other, robust regression techniques are applied, which take into account uncertainty on all variables. Regression on data from individual devices shows that, generally, the confinement dependence on density and the power degradation are weakest in the fully metallic devices. Using the multi-machine scalings, predictions are made of the confinement time in a standard ELMy H-mode scenario in ITER. The uncertainty on the scaling parameters is discussed with a view to practically useful error bars on the parameters and predictions. One of the derived scalings for ELMy H-modes on an ITER-like subset is studied in particular and compared to the IPB98(y,2) confinement scaling in engineering and dimensionless form. Transformation of this new scaling from engineering variables to dimensionless quantities is shown to result in large error bars on the dimensionless scaling. Regression analysis in the space of dimensionless variables is therefore proposed as an alternative, yielding acceptable estimates for the dimensionless scaling. The new scaling, which is dimensionally correct within the uncertainties, suggests that some dependencies of confinement in the multi- machine database can be reconciled with parameter scans in individual devices. This includes vanishingly small dependence of confinement on line-averaged density and normalized plasma pressure (\u03b2), as well as a noticeable, positive dependence on effective atomic mass and plasma triangularity. Extrapolation of this scaling to ITER yields a somewhat lower confinement time compared to the IPB98(y, 2) prediction, possibly related to the considerably weaker dependence on major radius in the new scaling (slightly above linear). Further studies are needed to compare more flexible regression models with the power law used here. In addition, data from more devices concerning possible \u2018hidden variables\u2019 could help to determine their influence on confinement, while adding data in sparsely populated areas of the parameter space may contribute to further disentangling some of the global confinement dependencies in tokamak plasmas.",
+            "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01m900nx49h",
+            "date_first_submitted": "2021-08-18",
+            "date_last_submitted": "2021-08-25",
+            "doi": "10.11578/1523498",
+            "doi_status": "PENDING",
+            "doi_infix": null,
+            "file_extension": null,
+            "software_needed": null,
+            "dataset_size": null,
+            "contact_name": "Kate Lynch",
+            "contact_org": "Princeton University",
+            "contact_email": "katelynch@princeton.edu",
+            "contact_phone": "(609) 258-1470",
+            "othnondoe_contract_nos": null,
+            "@status": "Pending",
+            "@released": "N"
+        },
+        {
+            "site_input_code": "PPPL",
+            "osti_id": "1523499",
+            "dataset_type": "ND",
+            "title": "Wave-kinetic approach to zonal-flow dynamics: recent advances",
+            "status": "SUCCESS",
+            "authors": {
+                "author": [
+                    {
+                        "first_name": "Hongxuan",
+                        "last_name": "Zhu"
+                    },
+                    {
+                        "first_name": "I",
+                        "middle_name": "Y",
+                        "last_name": "Dodin"
+                    }
+                ]
+            },
+            "related_resource": null,
+            "product_nos": "None",
+            "product_type": "DA",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_numbers": null,
+            "originating_research_org": "Princeton Plasma Physics Laboratory (PPPL), Princeton, NJ (United States)",
+            "availability": null,
+            "collaboration_names": null,
+            "publication_date": "02/19/2021",
+            "language": "English",
+            "country": "US",
+            "sponsor_org": "USDOE Office of Science (SC)",
+            "subject_categories_code": null,
+            "keywords": "fusion plasmas;plasma instabilities;plasma waves",
+            "accession_num": "88435/dsp01ws859j72v",
+            "description": "Basic physics of drift-wave turbulence and zonal flows has long been studied within the framework of wave-kinetic theory. Recently, this framework has been re-examined from first principles, which has led to more accurate yet still tractable \"improved\" wave-kinetic equations. In particular, these equations reveal an important effect of the zonal-flow \"curvature\" (the second radial derivative of the flow velocity) on dynamics and stability of drift waves and zonal flows. We overview these recent findings and present a consolidated high-level picture of (mostly quasilinear) zonal-flow physics within reduced models of drift-wave turbulence.",
+            "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01ws859j72v",
+            "date_first_submitted": "2021-08-18",
+            "date_last_submitted": "2021-08-25",
+            "doi": "10.11578/1523499",
+            "doi_status": "PENDING",
+            "doi_infix": null,
+            "file_extension": null,
+            "software_needed": null,
+            "dataset_size": null,
+            "contact_name": "Kate Lynch",
+            "contact_org": "Princeton University",
+            "contact_email": "katelynch@princeton.edu",
+            "contact_phone": "(609) 258-1470",
+            "othnondoe_contract_nos": null,
+            "@status": "Pending",
+            "@released": "N"
+        },
+        {
+            "site_input_code": "PPPL",
+            "osti_id": "1523500",
+            "dataset_type": "AS",
+            "title": "Implementation of higher-order velocity mapping between marker particles and grid in the particle-in-cell code XGC",
+            "status": "SUCCESS",
+            "authors": {
+                "author": [
+                    {
+                        "first_name": "Mollen",
+                        "last_name": "Albert"
+                    },
+                    {
+                        "first_name": "Adams",
+                        "middle_name": "Mark",
+                        "last_name": "F"
+                    },
+                    {
+                        "first_name": "Knepley",
+                        "middle_name": "Matthew",
+                        "last_name": "G"
+                    },
+                    {
+                        "first_name": "Hager",
+                        "last_name": "Robert"
+                    },
+                    {
+                        "first_name": "Chang",
+                        "middle_name": "C",
+                        "last_name": "S"
+                    }
+                ]
+            },
+            "related_resource": null,
+            "product_nos": "None",
+            "product_type": "DA",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_numbers": null,
+            "originating_research_org": "Princeton Plasma Physics Laboratory (PPPL), Princeton, NJ (United States)",
+            "availability": null,
+            "collaboration_names": null,
+            "publication_date": "04/01/2021",
+            "language": "English",
+            "country": "US",
+            "sponsor_org": "USDOE Office of Science (SC)",
+            "subject_categories_code": null,
+            "keywords": "Fusion Plasma;Plasma Simulation;Particle-In-Cell;XGC;Plasma Transport",
+            "accession_num": "88435/dsp014t64gr246",
+            "description": "The global total-f gyrokinetic particle-in-cell code XGC, used to study transport in magnetic fusion plasmas or to couple with a core gyrokinetic code while functioning as an edge gyrokinetic code, implements a 5-dimensional (5D) continuum grid to perform the dissipative operations, such as plasma collisions, or to exchange the particle distribution function information with a core code. To transfer the distribution function between marker particles and a rectangular 2D velocity-space grid, XGC employs a bilinear mapping. The conservation of particle density and momentum is accurate enough in this bilinear operation, but the error in the particle energy conservation can become undesirably large and cause non-negligible numerical heating in a steep edge pedestal. In the present work we update XGC to use a novel mapping technique, based on the calculation of a pseudo-inverse, to exactly preserve moments up to the order of the discretization space. We describe the details of the implementation and we demonstrate the reduced interpolation error for a tokamak test plasma by using 1st- and 2nd-order elements with the pseudo-inverse method and comparing to the bilinear mapping.",
+            "site_url": "https://dataspace.princeton.edu/handle/88435/dsp014t64gr246",
+            "date_first_submitted": "2021-08-18",
+            "date_last_submitted": "2021-08-25",
+            "doi": "10.11578/1523500",
+            "doi_status": "PENDING",
+            "doi_infix": null,
+            "file_extension": null,
+            "software_needed": null,
+            "dataset_size": null,
+            "contact_name": "Kate Lynch",
+            "contact_org": "Princeton University",
+            "contact_email": "katelynch@princeton.edu",
+            "contact_phone": "(609) 258-1470",
+            "othnondoe_contract_nos": null,
+            "@status": "Pending",
+            "@released": "N"
+        },
+        {
+            "site_input_code": "PPPL",
+            "osti_id": "1523501",
+            "dataset_type": "ND",
+            "title": "Hybrid simulations of sub-cyclotron compressional and global Alfven Eigenmode stability in spherical tokamaks",
+            "status": "SUCCESS",
+            "authors": {
+                "author": [
+                    {
+                        "first_name": "J",
+                        "middle_name": "B",
+                        "last_name": "Lestz"
+                    },
+                    {
+                        "first_name": "E",
+                        "middle_name": "V",
+                        "last_name": "Belova"
+                    },
+                    {
+                        "first_name": "N",
+                        "middle_name": "N",
+                        "last_name": "Gorelenkov"
+                    }
+                ]
+            },
+            "related_resource": null,
+            "product_nos": "None",
+            "product_type": "DA",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_numbers": null,
+            "originating_research_org": "Princeton Plasma Physics Laboratory (PPPL), Princeton, NJ (United States)",
+            "availability": null,
+            "collaboration_names": null,
+            "publication_date": "04/01/2021",
+            "language": "English",
+            "country": "US",
+            "sponsor_org": "USDOE Office of Science (SC)",
+            "subject_categories_code": null,
+            "keywords": "Fast ion driven instabilities;Compressional Alfven Eigenmodes;Global Alfven Eigenmodes;Hybrid simulations;Doppler-shifted cyclotron resonance",
+            "accession_num": "88435/dsp0112579w33q",
+            "description": "A comprehensive numerical study has been conducted in order to investigate the stability of beam-driven, sub-cyclotron frequency compressional (CAE) and global (GAE) Alfven Eigenmodes in low aspect ratio plasmas for a wide range of beam parameters. The presence of CAEs and GAEs has previously been linked to anomalous electron temperature profile flattening at high beam power in NSTX experiments, prompting further examination of the conditions for their excitation. Linear simulations are performed with the hybrid MHD-kinetic initial value code HYM in order to capture the general Doppler-shifted cyclotron resonance that drives the modes. Three distinct types of modes are found in simulations -- co-CAEs, cntr-GAEs, and co-GAEs -- with differing spectral and stability properties. The simulations reveal that unstable GAEs are more ubiquitous than unstable CAEs, consistent with experimental observations, as they are excited at lower beam energies and generally have larger growth rates. Local analytic theory is used to explain key features of the simulation results, including the preferential excitation of different modes based on beam injection geometry and the growth rate dependence on the beam injection velocity, critical velocity, and degree of velocity space anisotropy. The background damping rate is inferred from simulations and estimated analytically for relevant sources not present in the simulation model, indicating that co-CAEs are closer to marginal stability than modes driven by the cyclotron resonances.",
+            "site_url": "https://dataspace.princeton.edu/handle/88435/dsp0112579w33q",
+            "date_first_submitted": "2021-08-18",
+            "date_last_submitted": "2021-08-25",
+            "doi": "10.11578/1523501",
+            "doi_status": "PENDING",
+            "doi_infix": null,
+            "file_extension": null,
+            "software_needed": null,
+            "dataset_size": null,
+            "contact_name": "Kate Lynch",
+            "contact_org": "Princeton University",
+            "contact_email": "katelynch@princeton.edu",
+            "contact_phone": "(609) 258-1470",
+            "othnondoe_contract_nos": null,
+            "@status": "Pending",
+            "@released": "N"
+        },
+        {
+            "site_input_code": "PPPL",
+            "osti_id": "1523508",
+            "dataset_type": "ND",
+            "title": "Probe measurements of electric field and electron density fluctuations at megahertz frequencies using in-shaft miniature circuits",
+            "status": "SUCCESS",
+            "authors": {
+                "author": [
+                    {
+                        "first_name": "Hu",
+                        "last_name": "Yibo"
+                    },
+                    {
+                        "first_name": "Jongsoo",
+                        "last_name": "Yoo"
+                    },
+                    {
+                        "first_name": "Hantao",
+                        "last_name": "Ji"
+                    },
+                    {
+                        "first_name": "Aaron",
+                        "last_name": "Goodman"
+                    },
+                    {
+                        "first_name": "Xuemei",
+                        "last_name": "Wu"
+                    }
+                ]
+            },
+            "related_resource": null,
+            "product_nos": "None",
+            "product_type": "DA",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_numbers": null,
+            "originating_research_org": "Princeton Plasma Physics Laboratory (PPPL), Princeton, NJ (United States)",
+            "availability": null,
+            "collaboration_names": null,
+            "publication_date": "08/18/2021",
+            "language": "English",
+            "country": "US",
+            "sponsor_org": "USDOE Office of Science (SC)",
+            "subject_categories_code": null,
+            "keywords": null,
+            "accession_num": "88435/dsp01w9505358d",
+            "description": null,
+            "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01w9505358d",
+            "date_first_submitted": "2021-08-19",
+            "date_last_submitted": "2021-08-25",
+            "doi": "10.11578/1523508",
+            "doi_status": "PENDING",
+            "doi_infix": null,
+            "file_extension": null,
+            "software_needed": null,
+            "dataset_size": null,
+            "contact_name": "Kate Lynch",
+            "contact_org": "Princeton University",
+            "contact_email": "katelynch@princeton.edu",
+            "contact_phone": "(609) 258-1470",
+            "othnondoe_contract_nos": null,
+            "@status": "Pending",
+            "@released": "N"
+        },
+        {
+            "site_input_code": "PPPL",
+            "osti_id": "1523502",
+            "dataset_type": "SM",
+            "title": "Type-I ELM mitigation by continuous lithium granule gravitational injection into the upper tungsten divertor in EAST",
+            "status": "SUCCESS",
+            "authors": {
+                "author": [
+                    {
+                        "first_name": "Zhen",
+                        "last_name": "Sun"
+                    },
+                    {
+                        "first_name": "Qian",
+                        "last_name": "Yuzhong"
+                    },
+                    {
+                        "first_name": "Rajesh",
+                        "last_name": "Maingi"
+                    },
+                    {
+                        "first_name": "Yifeng",
+                        "last_name": "Wang"
+                    },
+                    {
+                        "first_name": "Yumin",
+                        "last_name": "Wang"
+                    },
+                    {
+                        "first_name": "Alex",
+                        "last_name": "Nagy"
+                    },
+                    {
+                        "first_name": "Kevin",
+                        "last_name": "Tritz"
+                    },
+                    {
+                        "first_name": "Robert",
+                        "last_name": "Lunsford"
+                    },
+                    {
+                        "first_name": "Erik",
+                        "last_name": "Gilson"
+                    },
+                    {
+                        "first_name": "Guizhong",
+                        "last_name": "Zuo"
+                    },
+                    {
+                        "first_name": "Wei",
+                        "last_name": "Xu"
+                    },
+                    {
+                        "first_name": "Ming",
+                        "last_name": "Huang"
+                    },
+                    {
+                        "first_name": "Xiancai",
+                        "last_name": "Meng"
+                    },
+                    {
+                        "first_name": "Dennis",
+                        "middle_name": "K",
+                        "last_name": "Mansfield"
+                    },
+                    {
+                        "first_name": "Qing",
+                        "last_name": "Zang"
+                    },
+                    {
+                        "first_name": "Xiang",
+                        "last_name": "Zhu"
+                    },
+                    {
+                        "first_name": "Xin",
+                        "last_name": "Lin"
+                    },
+                    {
+                        "first_name": "Haiqing",
+                        "last_name": "Liu"
+                    },
+                    {
+                        "first_name": "Yanmin",
+                        "last_name": "Duan"
+                    },
+                    {
+                        "first_name": "Ling",
+                        "last_name": "Zhang"
+                    },
+                    {
+                        "first_name": "Bo",
+                        "last_name": "Lyu"
+                    },
+                    {
+                        "first_name": "Yong",
+                        "last_name": "Liu"
+                    },
+                    {
+                        "first_name": "Liang",
+                        "last_name": "Wang"
+                    },
+                    {
+                        "first_name": "Ale",
+                        "last_name": "Bortolon"
+                    },
+                    {
+                        "first_name": "Guosheng",
+                        "last_name": "Xu"
+                    },
+                    {
+                        "first_name": "Xianzu",
+                        "last_name": "Gong"
+                    },
+                    {
+                        "first_name": "Jiansheng",
+                        "last_name": "Hu"
+                    }
+                ]
+            },
+            "related_resource": null,
+            "product_nos": "None",
+            "product_type": "DA",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_numbers": null,
+            "originating_research_org": "Princeton Plasma Physics Laboratory (PPPL), Princeton, NJ (United States)",
+            "availability": null,
+            "collaboration_names": null,
+            "publication_date": "05/06/2021",
+            "language": "English",
+            "country": "US",
+            "sponsor_org": "USDOE Office of Science (SC)",
+            "subject_categories_code": null,
+            "keywords": "Lithium;Impurity seeding;Edge localized modes;EAST",
+            "accession_num": "88435/dsp014x51hn09b",
+            "description": "Large edge-localized modes (ELMs) were mitigated by gravitational injection of lithium granules into the upper X-point region of the EAST device with tungsten plasma-facing components. The maximum ELM size was reduced by ~ 70% in high \u03b2N H-mode plasmas. Large ELM stabilization was sustained for up to about 40 energy confinement times, with constant core radiated power and no evidence of high-Z or low-Z impurity accumulation. The lithium granules injection reduced the edge plasma pedestal density and temperature and their gradients, due to increased edge radiation and reduced recycling from the plasma-facing components. Ideal stability calculations using the ELITE code indicate that the stabilization of large ELMs correlates with improved stability of intermediate-n peeling-ballooning modes, due to reduced edge current resulting from the profile changes. The pedestal pressure reduction was partially offset by a core density increase, which resulted in a modest ~ 7% drop in core stored energy and normalized energy confinement time. We surmise that the remnant small ELMs are triggered by the penetration of multiple Li granules just past the separatrix, similar to small ELMs triggered by deuterium pellet [S. Futatani et al., Nucl. Fusion 54 (2014) 073008]. This study extends previous ELM elimination with Li powder injection [R. Maingi et al., Nucl. Fusion 58 (2018) 024003] in EAST because 1) use of small, dust-like powder and the related potential health hazards were eliminated, and 2) use of macroscopic granules should be more applicable to future devices, due to deeper penetration than dust particles, e.g. inside the separatrix with velocities ~ 10 m/s in EAST.",
+            "site_url": "https://dataspace.princeton.edu/handle/88435/dsp014x51hn09b",
+            "date_first_submitted": "2021-08-18",
+            "date_last_submitted": "2021-08-25",
+            "doi": "10.11578/1523502",
+            "doi_status": "PENDING",
+            "doi_infix": null,
+            "file_extension": null,
+            "software_needed": null,
+            "dataset_size": null,
+            "contact_name": "Kate Lynch",
+            "contact_org": "Princeton University",
+            "contact_email": "katelynch@princeton.edu",
+            "contact_phone": "(609) 258-1470",
+            "othnondoe_contract_nos": null,
+            "@status": "Pending",
+            "@released": "N"
+        },
+        {
+            "site_input_code": "PPPL",
+            "osti_id": "1523503",
+            "dataset_type": "ND",
+            "title": "Observation of synergy between lower hybrid waves at two frequencies in EAST",
+            "status": "SUCCESS",
+            "authors": {
+                "author": [
+                    {
+                        "first_name": "W",
+                        "last_name": "Choi"
+                    },
+                    {
+                        "first_name": "F",
+                        "middle_name": "M",
+                        "last_name": "Poli"
+                    },
+                    {
+                        "first_name": "M",
+                        "middle_name": "H",
+                        "last_name": "Li"
+                    },
+                    {
+                        "first_name": "S",
+                        "middle_name": "G",
+                        "last_name": "Baek"
+                    },
+                    {
+                        "first_name": "M",
+                        "last_name": "Gorenlenkova"
+                    },
+                    {
+                        "first_name": "B",
+                        "middle_name": "J",
+                        "last_name": "Ding"
+                    },
+                    {
+                        "first_name": "X",
+                        "middle_name": "Z",
+                        "last_name": "Gong"
+                    },
+                    {
+                        "first_name": "A",
+                        "last_name": "Chan"
+                    },
+                    {
+                        "first_name": "Y",
+                        "middle_name": "M",
+                        "last_name": "Duan"
+                    },
+                    {
+                        "first_name": "J",
+                        "middle_name": "H",
+                        "last_name": "Hu"
+                    },
+                    {
+                        "first_name": "H",
+                        "last_name": "Lian"
+                    },
+                    {
+                        "first_name": "S",
+                        "middle_name": "Y",
+                        "last_name": "Lin"
+                    },
+                    {
+                        "first_name": "H",
+                        "middle_name": "Q",
+                        "last_name": "Liu"
+                    },
+                    {
+                        "first_name": "J",
+                        "middle_name": "P",
+                        "last_name": "Qian"
+                    },
+                    {
+                        "first_name": "G",
+                        "last_name": "Wallace"
+                    },
+                    {
+                        "first_name": "Y",
+                        "middle_name": "M",
+                        "last_name": "Wang"
+                    },
+                    {
+                        "first_name": "Q",
+                        "last_name": "Zang"
+                    },
+                    {
+                        "first_name": "H",
+                        "middle_name": "L",
+                        "last_name": "Zhao"
+                    }
+                ]
+            },
+            "related_resource": null,
+            "product_nos": "None",
+            "product_type": "DA",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_numbers": null,
+            "originating_research_org": "Princeton Plasma Physics Laboratory (PPPL), Princeton, NJ (United States)",
+            "availability": null,
+            "collaboration_names": null,
+            "publication_date": "06/15/2021",
+            "language": "English",
+            "country": "US",
+            "sponsor_org": "USDOE Office of Science (SC)",
+            "subject_categories_code": null,
+            "keywords": "Lower hybrid synergy;TRANSP simulation",
+            "accession_num": "88435/dsp0137720g81z",
+            "description": "Synergistic effects between two frequencies of lower hybrid (LH) waves\u2014operating at 2.45 and 4.6 GHz\u2014were observed in experiment on EAST for the first time. At low density (n_e,lin \u2248 2.0 \u00d7 10^19m^\u22123), simultaneous injection of a 65/35 mix of 2.45 GHz/4.6 GHz power achieved an LHCD efficiency that was 25% higher than what should be expected from the linear combination of the two sources. The experiment was interpreted with time-dependent simulations, using the equilibrium and transport solver TRANSP, coupled with the ray-tracing code GENRAY and the Fokker-Planck solver CQL3D. For each discharge, profiles of current and hard x-ray from simulation and measurement agree within uncertainties. An examination of the electron distribution function indicates that the LH synergy is supported by the increased width of the LH resonance plateau in the simultaneous injection case compared to independent injection.",
+            "site_url": "https://dataspace.princeton.edu/handle/88435/dsp0137720g81z",
+            "date_first_submitted": "2021-08-18",
+            "date_last_submitted": "2021-08-25",
+            "doi": "10.11578/1523503",
+            "doi_status": "PENDING",
+            "doi_infix": null,
+            "file_extension": null,
+            "software_needed": null,
+            "dataset_size": null,
+            "contact_name": "Kate Lynch",
+            "contact_org": "Princeton University",
+            "contact_email": "katelynch@princeton.edu",
+            "contact_phone": "(609) 258-1470",
+            "othnondoe_contract_nos": null,
+            "@status": "Pending",
+            "@released": "N"
+        },
+        {
+            "site_input_code": "PPPL",
+            "osti_id": "1523504",
+            "dataset_type": "ND",
+            "title": "Hyperdiffusion of dust particles in a turbulent tokamak plasma",
+            "status": "SUCCESS",
+            "authors": {
+                "author": [
+                    {
+                        "first_name": "Federico",
+                        "last_name": "Nespoli"
+                    },
+                    {
+                        "first_name": "Igor",
+                        "last_name": "Kaganovich"
+                    },
+                    {
+                        "first_name": "Adrien",
+                        "last_name": "Autricque"
+                    },
+                    {
+                        "first_name": "Yannick",
+                        "last_name": "Marandet"
+                    },
+                    {
+                        "first_name": "Patrick",
+                        "last_name": "Tamain"
+                    }
+                ]
+            },
+            "related_resource": null,
+            "product_nos": "None",
+            "product_type": "DA",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_numbers": null,
+            "originating_research_org": "Princeton Plasma Physics Laboratory (PPPL), Princeton, NJ (United States)",
+            "availability": null,
+            "collaboration_names": null,
+            "publication_date": "07/08/2021",
+            "language": "English",
+            "country": "US",
+            "sponsor_org": "USDOE Office of Science (SC)",
+            "subject_categories_code": null,
+            "keywords": "plasma turbulence;dust;simulations;transport",
+            "accession_num": "88435/dsp01db78tg111",
+            "description": "The effect of plasma turbulence on the trajectories of dust particles is investigated for the first time. The dynamics of dust particles is computed using the ad-hoc developed Dust Injection Simulator code, using a 3D turbulent plasma background computed with the TOKAM3X code. As a result, the evolution of the particle trajectories is governed by the ion drag force, and the shape of the trajectory is set by the Stokes number $St\\propto a_d/n_0$, with $a_d$ the dust radius and $n_0$ the density at the separatrix. The plasma turbulence is observed to scatter the dust particles, exhibiting a hyperdiffusive regime in all cases. The amplitude of the turbulent spread of the trajectories $\\Delta r^2$ is shown to depend on the ratio $Ku/St$, with $Ku\\propto u_{rms}$ the Kubo number and $u_{rms}$ the fluctuation level of the plasma flow. These results are compared with a simple analytical model, predicting $\\Delta r^2\\propto (Ku/St)^2t^3$, or $\\Delta r^2\\propto (u_{rms}n_0/a_d)^2t^3$. As the dust is heated by the plasma fluxes, thermionic emission sets the dust charge, originally negative, to slightly positive values. This results in a substantial reduction of the ion drag force through the suppression of its Coulomb scattering component. The dust grain inertia is then no longer negligible, and drives the transition from a hyperdiffusive regime towards a ballistic one.",
+            "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01db78tg111",
+            "date_first_submitted": "2021-08-18",
+            "date_last_submitted": "2021-08-25",
+            "doi": "10.11578/1523504",
+            "doi_status": "PENDING",
+            "doi_infix": null,
+            "file_extension": null,
+            "software_needed": null,
+            "dataset_size": null,
+            "contact_name": "Kate Lynch",
+            "contact_org": "Princeton University",
+            "contact_email": "katelynch@princeton.edu",
+            "contact_phone": "(609) 258-1470",
+            "othnondoe_contract_nos": null,
+            "@status": "Pending",
+            "@released": "N"
+        },
+        {
+            "site_input_code": "PPPL",
+            "osti_id": "1523505",
+            "dataset_type": "ND",
+            "title": "A thermodynamic phase transition in magnetic reconnection",
+            "status": "SUCCESS",
+            "authors": {
+                "author": [
+                    {
+                        "first_name": "Jonathan",
+                        "last_name": "Jara-Almonte"
+                    },
+                    {
+                        "first_name": "Ji",
+                        "last_name": "Hantao"
+                    }
+                ]
+            },
+            "related_resource": null,
+            "product_nos": "None",
+            "product_type": "DA",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_numbers": null,
+            "originating_research_org": "Princeton Plasma Physics Laboratory (PPPL), Princeton, NJ (United States)",
+            "availability": null,
+            "collaboration_names": null,
+            "publication_date": "07/09/2021",
+            "language": "English",
+            "country": "US",
+            "sponsor_org": "USDOE Office of Science (SC)",
+            "subject_categories_code": null,
+            "keywords": null,
+            "accession_num": "88435/dsp018k71nm17d",
+            "description": "Data supporting the manuscript \"A thermodynamic phase transition in magnetic reconnection\" published in Physical Review Letters.",
+            "site_url": "https://dataspace.princeton.edu/handle/88435/dsp018k71nm17d",
+            "date_first_submitted": "2021-08-18",
+            "date_last_submitted": "2021-08-25",
+            "doi": "10.11578/1523505",
+            "doi_status": "PENDING",
+            "doi_infix": null,
+            "file_extension": null,
+            "software_needed": null,
+            "dataset_size": null,
+            "contact_name": "Kate Lynch",
+            "contact_org": "Princeton University",
+            "contact_email": "katelynch@princeton.edu",
+            "contact_phone": "(609) 258-1470",
+            "othnondoe_contract_nos": null,
+            "@status": "Pending",
+            "@released": "N"
+        },
+        {
+            "site_input_code": "PPPL",
+            "osti_id": "1523506",
+            "dataset_type": "ND",
+            "title": "Novel 2D velocity estimation method for large transient events in plasmas",
+            "status": "SUCCESS",
+            "authors": {
+                "author": [
+                    {
+                        "first_name": "Lampert",
+                        "last_name": "Mate"
+                    },
+                    {
+                        "first_name": "Diallo",
+                        "last_name": "Ahmed"
+                    },
+                    {
+                        "first_name": "Zweben",
+                        "last_name": "Stewart"
+                    }
+                ]
+            },
+            "related_resource": null,
+            "product_nos": "None",
+            "product_type": "DA",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_numbers": null,
+            "originating_research_org": "Princeton Plasma Physics Laboratory (PPPL), Princeton, NJ (United States)",
+            "availability": null,
+            "collaboration_names": null,
+            "publication_date": "07/29/2021",
+            "language": "English",
+            "country": "US",
+            "sponsor_org": "USDOE Office of Science (SC)",
+            "subject_categories_code": null,
+            "keywords": "correlation;velocimetry;imaging;fusion",
+            "accession_num": "88435/dsp01w3763987d",
+            "description": "The dataset includes the data shown in the figures of the publication",
+            "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01w3763987d",
+            "date_first_submitted": "2021-08-18",
+            "date_last_submitted": "2021-08-25",
+            "doi": "10.11578/1523506",
+            "doi_status": "PENDING",
+            "doi_infix": null,
+            "file_extension": null,
+            "software_needed": null,
+            "dataset_size": null,
+            "contact_name": "Kate Lynch",
+            "contact_org": "Princeton University",
+            "contact_email": "katelynch@princeton.edu",
+            "contact_phone": "(609) 258-1470",
+            "othnondoe_contract_nos": null,
+            "@status": "Pending",
+            "@released": "N"
+        },
+        {
+            "site_input_code": "PPPL",
+            "osti_id": "1523507",
+            "dataset_type": "FP",
+            "title": "Enhancement of edge turbulence concomitant with ELM suppression during boron powder injection in EAST",
+            "status": "SUCCESS",
+            "authors": {
+                "author": [
+                    {
+                        "first_name": "Zhen",
+                        "last_name": "Sun"
+                    },
+                    {
+                        "first_name": "Rajesh",
+                        "last_name": "Maingi"
+                    },
+                    {
+                        "first_name": "Ahmed",
+                        "last_name": "Diallo"
+                    },
+                    {
+                        "first_name": "Wei",
+                        "last_name": "Xu"
+                    },
+                    {
+                        "first_name": "Yuzhong",
+                        "last_name": "Qian"
+                    },
+                    {
+                        "first_name": "Kevin",
+                        "last_name": "Tritz"
+                    },
+                    {
+                        "first_name": "Yang",
+                        "last_name": "Ye"
+                    },
+                    {
+                        "first_name": "Chenglong",
+                        "last_name": "Li"
+                    },
+                    {
+                        "first_name": "Zhong",
+                        "last_name": "Xu"
+                    },
+                    {
+                        "first_name": "Yifeng",
+                        "last_name": "Wang"
+                    },
+                    {
+                        "first_name": "Ye",
+                        "last_name": "Kaixuan"
+                    },
+                    {
+                        "first_name": "A",
+                        "last_name": "Bortolon"
+                    },
+                    {
+                        "first_name": "Alex",
+                        "last_name": "Nagy"
+                    },
+                    {
+                        "first_name": "Ling",
+                        "last_name": "Zhang"
+                    },
+                    {
+                        "first_name": "Yanmin",
+                        "last_name": "Duan"
+                    },
+                    {
+                        "first_name": "Zhiyuan",
+                        "last_name": "Lu"
+                    },
+                    {
+                        "first_name": "Huiqian",
+                        "last_name": "Wang"
+                    },
+                    {
+                        "first_name": "Tonghui",
+                        "last_name": "Shi"
+                    },
+                    {
+                        "first_name": "Hailin",
+                        "last_name": "Zhao"
+                    },
+                    {
+                        "first_name": "Wei",
+                        "last_name": "Gao"
+                    },
+                    {
+                        "first_name": "Jichan",
+                        "last_name": "Xu"
+                    },
+                    {
+                        "first_name": "Ran",
+                        "last_name": "Chen"
+                    },
+                    {
+                        "first_name": "Ming",
+                        "last_name": "Huang"
+                    },
+                    {
+                        "first_name": "Guizhong",
+                        "last_name": "Zuo"
+                    },
+                    {
+                        "first_name": "Guosheng",
+                        "last_name": "Xu"
+                    },
+                    {
+                        "first_name": "Xianzu",
+                        "last_name": "Gong"
+                    },
+                    {
+                        "first_name": "Jiansheng",
+                        "last_name": "Hu"
+                    }
+                ]
+            },
+            "related_resource": null,
+            "product_nos": "None",
+            "product_type": "DA",
+            "contract_nos": "AC02-09CH11466",
+            "other_identifying_numbers": null,
+            "originating_research_org": "Princeton Plasma Physics Laboratory (PPPL), Princeton, NJ (United States)",
+            "availability": null,
+            "collaboration_names": null,
+            "publication_date": "08/16/2021",
+            "language": "English",
+            "country": "US",
+            "sponsor_org": "USDOE Office of Science (SC)",
+            "subject_categories_code": null,
+            "keywords": "Boron powder;Impurity seeding;Edge localized modes;EAST;Turbulence",
+            "accession_num": "88435/dsp01dz010t189",
+            "description": "Data supporting the manuscript \"Enhancement of edge turbulence concomitant with ELM suppression during boron powder injection in EAST\" published in Plasma of Physics, 2021.",
+            "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01dz010t189",
+            "date_first_submitted": "2021-08-18",
+            "date_last_submitted": "2021-08-25",
+            "doi": "10.11578/1523507",
+            "doi_status": "PENDING",
+            "doi_infix": null,
+            "file_extension": null,
+            "software_needed": null,
+            "dataset_size": null,
+            "contact_name": "Kate Lynch",
+            "contact_org": "Princeton University",
+            "contact_email": "katelynch@princeton.edu",
+            "contact_phone": "(609) 258-1470",
+            "othnondoe_contract_nos": null,
+            "@status": "Pending",
+            "@released": "N"
+        }
+    ]
+}
