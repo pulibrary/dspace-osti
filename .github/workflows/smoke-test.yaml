@@ -1,6 +1,10 @@
 name: smoke-test
 
-on: [push]
+on:
+  push:
+  schedule:
+    # First of the month at 7AM
+    - cron: "0 11 1 * *"
 
 jobs:
   smoke-test:
