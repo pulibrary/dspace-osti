@@ -86,13 +86,14 @@ class Scraper:
             'Engineering Research': 3381,
             'ESH Technical Reports': 3382,
             'IT PPPL Collaborations': 3383,
-            'Advanced Projects Other Projects', 3386
+            'Advanced Projects Other Projects': 3386
+            'Advanced Projects System Studies': 1309
         }
         """
         # NOTE: The Dataspace REST API can now support requests from handles.
         #  Shifting this scrape to collection handles instead of IDs may make
         #  this script clearer and easier to change if necessary.
-        COLLECTION_IDS = [1282, 1304, 1308, 1422, 2266, 3378, 3379, 3380, 3381, 3382, 3383, 3386]
+        COLLECTION_IDS = [1282, 1304, 1308, 1309, 1422, 2266, 3378, 3379, 3380, 3381, 3382, 3383, 3386]
 
         all_items = []
 
@@ -106,6 +107,8 @@ class Scraper:
         # Confirm that all collections were included
         PPPL_COMMUNITY_ID = 346
         r = requests.get(f"https://dataspace.princeton.edu/rest/communities/{PPPL_COMMUNITY_ID}")
+        print(json.loads(r.text)['countItems'])
+        print(len(all_items))
         assert json.loads(r.text)['countItems'] == len(all_items),\
             ("The number of items in the PPPL community does not equal the "
              "number of items collected. Review the list of collections we "
