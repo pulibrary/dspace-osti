@@ -107,8 +107,8 @@ class Scraper:
         # Confirm that all collections were included
         PPPL_COMMUNITY_ID = 346
         r = requests.get(f"https://dataspace.princeton.edu/rest/communities/{PPPL_COMMUNITY_ID}")
-        print(json.loads(r.text)['countItems'])
-        print(len(all_items))
+        print('countItems: ', json.loads(r.text)['countItems'])
+        print('all_items: ', len(all_items))
         assert json.loads(r.text)['countItems'] == len(all_items),\
             ("The number of items in the PPPL community does not equal the "
              "number of items collected. Review the list of collections we "
