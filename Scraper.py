@@ -8,6 +8,27 @@ from os.path import join as pjoin
 
 DSPACE_ID = 'DSpace ID'
 
+# NOTE: The Dataspace REST API can now support requests from handles.
+#  Shifting this scrape to collection handles instead of IDs may make
+#  this script clearer and easier to change if necessary.
+PPPL_COLLECTIONS = {
+    'NSTX': 1282,
+    'NSTX-U': 1304,
+    'Stellarators': 1308,
+    'Plasma Science & Technology': 1422,
+    'Theory and Computation': 2266,
+    'ITER and Tokamaks PPPL Collaborations': 3378,
+    'Theory': 3379,
+    'Computational Science PPPL Collaborations': 3380,
+    'Engineering Research': 3381,
+    'ESH Technical Reports': 3382,
+    'IT PPPL Collaborations': 3383,
+    'Advanced Projects Other Projects': 3386,
+    'Advanced Projects System Studies': 1309,
+}
+
+PPPL_COMMUNITY_ID = 346
+
 
 class Scraper:
     """
@@ -74,39 +95,19 @@ class Scraper:
         """
         Collect metadata on all items from all DataSpace PPPL collections
 
-        collections = {
-            'NSTX': 1282,
-            'NSTX-U': 1304,
-            'Stellarators': 1308,
-            'Plasma Science & Technology': 1422,
-            'Theory and Computation': 2266,
-            'ITER and Tokamaks PPPL Collaborations': 3378,
-            'Theory': 3379,
-            'Computational Science PPPL Collaborations': 3380,
-            'Engineering Research': 3381,
-            'ESH Technical Reports': 3382,
-            'IT PPPL Collaborations': 3383,
-            'Advanced Projects Other Projects': 3386
-            'Advanced Projects System Studies': 1309
-        }
         """
-        # NOTE: The Dataspace REST API can now support requests from handles.
-        #  Shifting this scrape to collection handles instead of IDs may make
-        #  this script clearer and easier to change if necessary.
-        COLLECTION_IDS = [1282, 1304, 1308, 1309, 1422, 2266, 3378, 3379, 3380, 3381, 3382, 3383, 3386]
 
         all_items = []
 
-        for collection_id in COLLECTION_IDS:
-            r = requests.get(
-                f'https://dataspace.princeton.edu/rest/collections/{collection_id}/items?expand=metadata'
-            )
+        for c_name, c_id in PPPL_COLLECTIONS.items():
+            url = f'https://dataspace.princeton.edu/rest/collections/{c_id}/items?expand=metadata'
+            r = requests.get(url)
             j = json.loads(r.text)
             all_items.extend(j)
 
         # Confirm that all collections were included
-        PPPL_COMMUNITY_ID = 346
-        r = requests.get(f"https://dataspace.princeton.edu/rest/communities/{PPPL_COMMUNITY_ID}")
+        url_all = f"https://dataspace.princeton.edu/rest/communities/{PPPL_COMMUNITY_ID}"
+        r = requests.get(url_all)
         print('countItems: ', json.loads(r.text)['countItems'])
         print('all_items: ', len(all_items))
         assert json.loads(r.text)['countItems'] == len(all_items),\
