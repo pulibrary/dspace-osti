@@ -32,9 +32,12 @@ PPPL_COLLECTIONS = {
 PPPL_COMMUNITY_ID = 346
 
 # All possible prefix
-REGEX_DOE = r"^(DE|AC|SC|FC|FG|AR|EE|EM|FE|NA|NE)"  # https://regex101.com/r/SxNHJg/2
-REGEX_DOE_SUB = "^(DE)+(-?)"  # https://regex101.com/r/NsZbRJ/2
-REGEX_FUNDING = r"\b(?:[A-Z0-9\/\-]{6,})"  # https://regex101.com/r/4fNYVm/3
+REGEX_DOE = r"^(DE|AC|SC|FC|FG|AR|EE|EM|FE|NA|NE)"  # https://regex101.com/r/SxNHJg
+REGEX_DOE_SUB = "^(DE)+(-?)"  # https://regex101.com/r/NsZbRJ
+REGEX_FUNDING = r"\b(?:[A-Z0-9\/\-]{6,})"  # https://regex101.com/r/4fNYVm
+REGEX_BARE_DOE = re.compile(
+    r"(^((U.S.|U. S.) (Department of Energy))|FES)$"
+)  # https://regex101.com/r/2s3dA3
 
 REPLACE_DICT = {
     '- ': '-',  # Extra white space inside DoE grant
@@ -223,8 +226,12 @@ class Scraper:
         ]
         funding_source_dict = list(map(get_doe_funding, funding_result_simple))
 
-        df['DOE Contract'] = [";".join(d.get("doe")) for d in funding_source_dict]
-        df['Non-DOE Contract'] = [";".join(d.get("other")) for d in funding_source_dict]
+        df['DOE Contract'] = [
+            ";".join(sorted(d.get("doe"))) for d in funding_source_dict
+        ]
+        df['Non-DOE Contract'] = [
+            ";".join(sorted(d.get("other"))) for d in funding_source_dict
+        ]
 
         # Sponsoring organizations is always Office of Science
         df['Sponsoring Organizations'] = "USDOE Office of Science (SC)"
@@ -295,8 +302,12 @@ def get_funder(text: str) -> list:
     for hyphen in ["\u2010", "\u2013"]:
         text = text.replace(hyphen, '-')
 
-    matches = re.finditer(REGEX_FUNDING, text)
-    return [m.group() for m in matches]
+    base_match = re.match(REGEX_BARE_DOE, text)
+    if base_match:  # DOE/FES funded but no grant number
+        return ["AC02-09CH11466"]
+    else:
+        matches = re.finditer(REGEX_FUNDING, text)
+        return [m.group() for m in matches]
 
 
 def get_doe_funding(grant_nos: str) -> Dict[str, set]:
