@@ -36,6 +36,18 @@ REGEX_DOE = r"^(DE|AC|SC|FC|FG|AR|EE|EM|FE|NA|NE)"  # https://regex101.com/r/SxN
 REGEX_DOE_SUB = "^(DE)+(-?)"  # https://regex101.com/r/NsZbRJ/2
 REGEX_FUNDING = r"\b(?:[A-Z0-9\/\-]{6,})"  # https://regex101.com/r/4fNYVm/3
 
+REPLACE_DICT = {
+    '- ': '-',  # Extra white space inside DoE grant
+    'AC02 ': 'AC02-',  # Missing hyphen
+    'AC-02': 'AC02',  # Extra hyphen
+    'SC-0': 'SC0',  # Extra hyphen for Office of Science grants
+    'DC': 'DE',  # Common typo
+    'DE ': 'DE',  # Extra white space
+    'DOE-': 'DE',  # Proper prefix
+    'DOE ': '',  # Extra DOE
+    'DOE': '',  # Remove DOE if still present
+}
+
 
 class Scraper:
     """
@@ -275,6 +287,13 @@ class Scraper:
 
 def get_funder(text: str) -> list:
     """Aggregate funding grant numbers from text"""
+
+    # Clean up text by fixing any whitespace to get full grant no.
+    for key, value in REPLACE_DICT.items():
+        text = text.replace(key, value)
+
+    for hyphen in ["\u2010", "\u2013"]:
+        text = text.replace(hyphen, '-')
 
     matches = re.finditer(REGEX_FUNDING, text)
     return [m.group() for m in matches]
