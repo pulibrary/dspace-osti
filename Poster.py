@@ -57,7 +57,7 @@ class Poster:
         with open(self.to_upload) as f:
             to_upload_j = json.load(f)
 
-        df = pd.read_csv(self.form_input, sep='\t')
+        df = pd.read_csv(self.form_input, sep='\t', keep_default_na=False)
         df = df.set_index('DSpace ID')
 
         # Validate Input CSV 
@@ -110,6 +110,7 @@ class Poster:
                 'research_org': 'PPPL',
                 'accession_num': dspace_data['handle'],
                 'publication_date': pub_date,
+                'othnondoe_contract_nos': row['Non-DOE Contract'],
             }
 
             # Collect optional required information
@@ -149,6 +150,7 @@ class Poster:
                     "title": record["title"],
                     "contract_nos": "AC02-09CH11466",
                     "other_identifying_nos": None,
+                    "othnondoe_contract_nos": "",
                     "doi": "10.11578/1488485",
                     "doi_status": "PENDING",
                     "status": "SUCCESS",
