@@ -1,5 +1,7 @@
-import os
 import json
+import os
+import re
+from typing import Dict
 
 import requests
 import pandas as pd
@@ -28,6 +30,10 @@ PPPL_COLLECTIONS = {
 }
 
 PPPL_COMMUNITY_ID = 346
+
+REGEX_DOE = r"^(DE|AC|SC|FC|FG|AR|EE|EM|FE|NA|NE)"  # All possible prefix
+REGEX_DOE_SUB = "^(DE)+(-?)"  # https://regex101.com/r/NsZbRJ/2
+REGEX_FUNDING = r"\b(?:[A-Z0-9\/\-]{6,})"  # https://regex101.com/r/4fNYVm/3
 
 
 class Scraper:
@@ -184,10 +190,33 @@ class Scraper:
         df['Dataspace Link'] = ["https://dataspace.princeton.edu/handle/" + item['handle']
                                 for item in to_upload_j]
 
-        # To be filled in:
-        df['Sponsoring Organizations'] = None
-        df['DOE Contract'] = None
-        df['Datatype'] = None
+        # Retrieve funding data
+        funding_text_list = [
+            [
+                m['value']
+                for m in item['metadata']
+                if m['key'] == 'dc.contributor.funder'
+            ]
+            for item in to_upload_j
+        ]
+
+        funding_result = [
+            list(filter(None, map(get_funder, f_list)))
+            for f_list in funding_text_list
+        ]
+        funding_result_simple = [
+            ";".join([";".join(value) if value else "" for value in res])
+            for res in funding_result
+        ]
+        funding_source_dict = list(map(get_doe_funding, funding_result_simple))
+
+        df['DOE Contract'] = [d.get("doe") for d in funding_source_dict]
+        df['Non-DOE Contract'] = [d.get("other") for d in funding_source_dict]
+
+        # Sponsoring organizations is always Office of Science
+        df['Sponsoring Organizations'] = "USDOE Office of Science (SC)"
+
+        df['Datatype'] = None  # To be filled in
 
         df = df.sort_values('Issue Date')
         df.to_csv(self.entry_form, index=False, sep='\t')
@@ -227,11 +256,7 @@ class Scraper:
             print(f"Appending : {','.join([str(add) for add in adds])}")
             revised_df = input_df.append(entry_df.loc[adds])
 
-            # Sponsoring organizations is always 'PPPL',
-            # DOE Contact is often the case (for starter), and
-            # Datatype seems to be placeholder - not included in OSTI metadata
-            revised_df.loc[adds, 'Sponsoring Organizations'] = "USDOE Office of Science (SC)"
-            revised_df.loc[adds, 'DOE Contract'] = "AC02-09CH11466***"
+            # "AS" is a placeholder - not included in DataSpace metadata
             revised_df.loc[adds, 'Datatype'] = "AS"
 
             revised_df.to_csv(self.form_input, sep='\t')
@@ -245,6 +270,34 @@ class Scraper:
         self.get_unposted_metadata()
         self.generate_contract_entry_form()
         self.update_form_input()
+
+
+def get_funder(text: str) -> list:
+    """Aggregate funding grant numbers from text"""
+
+    matches = re.finditer(REGEX_FUNDING, text)
+    return [m.group() for m in matches]
+
+
+def get_doe_funding(grant_nos: str) -> Dict[str, list]:
+    """Separate DOE from other funding. Prefix DE prefix"""
+
+    grant_dict = {
+        "doe": [],
+        "other": [],
+    }
+
+    if not grant_nos:  # Empty case
+        grant_dict["doe"] = "AC02-09CH11466"
+    else:
+        grants = grant_nos.split(";")
+        for grant in grants:
+            if re.match(REGEX_DOE, grant):
+                grant_dict["doe"].append(re.sub(REGEX_DOE_SUB, "", grant))
+            else:
+                grant_dict["other"].append(grant)
+
+    return grant_dict
 
 
 if __name__ == '__main__':
