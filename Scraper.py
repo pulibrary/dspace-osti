@@ -31,7 +31,8 @@ PPPL_COLLECTIONS = {
 
 PPPL_COMMUNITY_ID = 346
 
-REGEX_DOE = r"^(DE|AC|SC|FC|FG|AR|EE|EM|FE|NA|NE)"  # All possible prefix
+# All possible prefix
+REGEX_DOE = r"^(DE|AC|SC|FC|FG|AR|EE|EM|FE|NA|NE)"  # https://regex101.com/r/SxNHJg/2
 REGEX_DOE_SUB = "^(DE)+(-?)"  # https://regex101.com/r/NsZbRJ/2
 REGEX_FUNDING = r"\b(?:[A-Z0-9\/\-]{6,})"  # https://regex101.com/r/4fNYVm/3
 
@@ -210,8 +211,8 @@ class Scraper:
         ]
         funding_source_dict = list(map(get_doe_funding, funding_result_simple))
 
-        df['DOE Contract'] = [d.get("doe") for d in funding_source_dict]
-        df['Non-DOE Contract'] = [d.get("other") for d in funding_source_dict]
+        df['DOE Contract'] = [";".join(d.get("doe")) for d in funding_source_dict]
+        df['Non-DOE Contract'] = [";".join(d.get("other")) for d in funding_source_dict]
 
         # Sponsoring organizations is always Office of Science
         df['Sponsoring Organizations'] = "USDOE Office of Science (SC)"
@@ -279,23 +280,23 @@ def get_funder(text: str) -> list:
     return [m.group() for m in matches]
 
 
-def get_doe_funding(grant_nos: str) -> Dict[str, list]:
+def get_doe_funding(grant_nos: str) -> Dict[str, set]:
     """Separate DOE from other funding. Prefix DE prefix"""
 
     grant_dict = {
-        "doe": [],
-        "other": [],
+        "doe": set(),
+        "other": set(),
     }
 
     if not grant_nos:  # Empty case
-        grant_dict["doe"] = "AC02-09CH11466"
+        grant_dict["doe"].update(["AC02-09CH11466"])
     else:
         grants = grant_nos.split(";")
         for grant in grants:
             if re.match(REGEX_DOE, grant):
-                grant_dict["doe"].append(re.sub(REGEX_DOE_SUB, "", grant))
+                grant_dict["doe"].update([re.sub(REGEX_DOE_SUB, "", grant)])
             else:
-                grant_dict["other"].append(grant)
+                grant_dict["other"].update([grant])
 
     return grant_dict
 
