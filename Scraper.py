@@ -216,11 +216,12 @@ class Scraper:
             for item in to_upload_j
         ]
 
+        # Generate lists of lists per each dc.contributor.funder entry
         funding_result = [
             list(filter(None, map(get_funder, f_list)))
             for f_list in funding_text_list
         ]
-        funding_result_simple = [
+        funding_result_simple = [  # All grants for each DSpace record
             ";".join([";".join(value) if value else "" for value in res])
             for res in funding_result
         ]
