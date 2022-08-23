@@ -35,7 +35,10 @@ Run `python Scraper.py` to collect data from OSTI & DSpace. The pipeline will co
 
 ### Manually enter data
 
-Copy `entry_form.tsv` to a Google Sheet and share with partners at PPPL. They will need to enter `Sponsoring Organizations`, `DOE Contract`, and `Datatype`. [See `Datatype` codes here.](https://github.com/doecode/ostiapi#data-set-content-type-values) (Ideally, in the long run we would integrate these fields into DSpace's metadata.) Save the file into this folder as `form_input.tsv`.
+Copy `entry_form.tsv` to a Google Sheet and share with partners at PPPL. They will need to enter `Datatype`. [See `Datatype` codes here.](https://github.com/doecode/ostiapi#data-set-content-type-values)
+(Ideally, in the long run we would integrate these fields into DSpace's metadata.) Save the file into this folder as `form_input.tsv`.
+The `Sponsoring Organization`, `DOE Contract` and `Non-DOE Contract` may need to be modified. The latter two are retrieved from DataSpace metadata.
+Note that the default `Sponsoring Organization` is "USDOE Office of Science (SC)".
 
 Note: Since we're joining by title, typos and encoding errors will inevitably lead to missed results in `entry_form.tsv`. `Scraper.py` also checks for items that are in OSTI but not DSpace, something that shouldn't happen. The user will need to manually remove those rows from the entry form.
 
