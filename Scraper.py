@@ -1,5 +1,7 @@
-import os
 import json
+import os
+import re
+from typing import Dict
 
 import requests
 import pandas as pd
@@ -28,6 +30,26 @@ PPPL_COLLECTIONS = {
 }
 
 PPPL_COMMUNITY_ID = 346
+
+# All possible prefix
+REGEX_DOE = r"^(DE|AC|SC|FC|FG|AR|EE|EM|FE|NA|NE)"  # https://regex101.com/r/SxNHJg
+REGEX_DOE_SUB = "^(DE)+(-?)"  # https://regex101.com/r/NsZbRJ
+REGEX_FUNDING = r"\b(?:[A-Z0-9\/\-]{6,})"  # https://regex101.com/r/4fNYVm
+REGEX_BARE_DOE = re.compile(
+    r"(^((U.S.|U. S.) (Department of Energy))|FES)$"
+)  # https://regex101.com/r/2s3dA3
+
+REPLACE_DICT = {
+    '- ': '-',  # Extra white space inside DoE grant
+    'AC02 ': 'AC02-',  # Missing hyphen
+    'AC-02': 'AC02',  # Extra hyphen
+    'SC-0': 'SC0',  # Extra hyphen for Office of Science grants
+    'DC': 'DE',  # Common typo
+    'DE ': 'DE',  # Extra white space
+    'DOE-': 'DE',  # Proper prefix
+    'DOE ': '',  # Extra DOE
+    'DOE': '',  # Remove DOE if still present
+}
 
 
 class Scraper:
@@ -184,10 +206,38 @@ class Scraper:
         df['Dataspace Link'] = ["https://dataspace.princeton.edu/handle/" + item['handle']
                                 for item in to_upload_j]
 
-        # To be filled in:
-        df['Sponsoring Organizations'] = None
-        df['DOE Contract'] = None
-        df['Datatype'] = None
+        # Retrieve funding data
+        funding_text_list = [
+            [
+                m['value']
+                for m in item['metadata']
+                if m['key'] == 'dc.contributor.funder'
+            ]
+            for item in to_upload_j
+        ]
+
+        # Generate lists of lists per each dc.contributor.funder entry
+        funding_result = [
+            list(filter(None, map(get_funder, f_list)))
+            for f_list in funding_text_list
+        ]
+        funding_result_simple = [  # All grants for each DSpace record
+            ";".join([";".join(value) if value else "" for value in res])
+            for res in funding_result
+        ]
+        funding_source_dict = list(map(get_doe_funding, funding_result_simple))
+
+        df['DOE Contract'] = [
+            ";".join(sorted(d.get("doe"))) for d in funding_source_dict
+        ]
+        df['Non-DOE Contract'] = [
+            ";".join(sorted(d.get("other"))) for d in funding_source_dict
+        ]
+
+        # Sponsoring organizations is always Office of Science
+        df['Sponsoring Organizations'] = "USDOE Office of Science (SC)"
+
+        df['Datatype'] = None  # To be filled in
 
         df = df.sort_values('Issue Date')
         df.to_csv(self.entry_form, index=False, sep='\t')
@@ -227,11 +277,7 @@ class Scraper:
             print(f"Appending : {','.join([str(add) for add in adds])}")
             revised_df = input_df.append(entry_df.loc[adds])
 
-            # Sponsoring organizations is always 'PPPL',
-            # DOE Contact is often the case (for starter), and
-            # Datatype seems to be placeholder - not included in OSTI metadata
-            revised_df.loc[adds, 'Sponsoring Organizations'] = "USDOE Office of Science (SC)"
-            revised_df.loc[adds, 'DOE Contract'] = "AC02-09CH11466***"
+            # "AS" is a placeholder - not included in DataSpace metadata
             revised_df.loc[adds, 'Datatype'] = "AS"
 
             revised_df.to_csv(self.form_input, sep='\t')
@@ -245,6 +291,45 @@ class Scraper:
         self.get_unposted_metadata()
         self.generate_contract_entry_form()
         self.update_form_input()
+
+
+def get_funder(text: str) -> list:
+    """Aggregate funding grant numbers from text"""
+
+    # Clean up text by fixing any whitespace to get full grant no.
+    for key, value in REPLACE_DICT.items():
+        text = text.replace(key, value)
+
+    for hyphen in ["\u2010", "\u2013"]:
+        text = text.replace(hyphen, '-')
+
+    base_match = re.match(REGEX_BARE_DOE, text)
+    if base_match:  # DOE/FES funded but no grant number
+        return ["AC02-09CH11466"]
+    else:
+        matches = re.finditer(REGEX_FUNDING, text)
+        return [m.group() for m in matches]
+
+
+def get_doe_funding(grant_nos: str) -> Dict[str, set]:
+    """Separate DOE from other funding. Prefix DE prefix"""
+
+    grant_dict = {
+        "doe": set(),
+        "other": set(),
+    }
+
+    if not grant_nos:  # Empty case
+        grant_dict["doe"].update(["AC02-09CH11466"])
+    else:
+        grants = grant_nos.split(";")
+        for grant in grants:
+            if re.match(REGEX_DOE, grant):
+                grant_dict["doe"].update([re.sub(REGEX_DOE_SUB, "", grant)])
+            else:
+                grant_dict["other"].update([grant])
+
+    return grant_dict
 
 
 if __name__ == '__main__':
