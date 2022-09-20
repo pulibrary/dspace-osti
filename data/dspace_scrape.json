@@ -4693,7 +4693,7 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2021-02-19 15:54:32.281",
+        "lastModified": "2022-09-02 12:31:43.804",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
@@ -4701,37 +4701,37 @@
             {
                 "key": "dc.contributor.author",
                 "value": "Rafiq T",
-                "language": ""
+                "language": null
             },
             {
                 "key": "dc.contributor.author",
                 "value": "Kaye S",
-                "language": ""
+                "language": null
             },
             {
                 "key": "dc.contributor.author",
                 "value": "Guttenfelder W",
-                "language": ""
+                "language": null
             },
             {
                 "key": "dc.contributor.author",
                 "value": "Weiland J",
-                "language": ""
+                "language": null
             },
             {
                 "key": "dc.contributor.author",
                 "value": "Schuster E",
-                "language": ""
+                "language": null
             },
             {
                 "key": "dc.contributor.author",
                 "value": "Anderson J",
-                "language": ""
+                "language": null
             },
             {
                 "key": "dc.contributor.author",
                 "value": "Luo L;",
-                "language": ""
+                "language": null
             },
             {
                 "key": "dc.date.accessioned",
@@ -4746,7 +4746,7 @@
             {
                 "key": "dc.date.issued",
                 "value": "2021-02",
-                "language": ""
+                "language": null
             },
             {
                 "key": "dc.identifier.uri",
@@ -4809,11 +4809,6 @@
                 "language": "en_US"
             },
             {
-                "key": "dc.subject",
-                "value": "",
-                "language": "en_US"
-            },
-            {
                 "key": "dc.title",
                 "value": "Microtearing Instabilities and Electron Thermal Transport in Low and High Collisionality NSTX Discharges",
                 "language": "en_US"
@@ -4827,6 +4822,897 @@
                 "key": "dc.contributor.funder",
                 "value": "U. S. Department of Energy",
                 "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 130497,
+        "name": "Impact of edge harmonic oscillations on the divertor heat flux in NSTX",
+        "handle": "88435/dsp019c67wq96p",
+        "type": "item",
+        "link": "/rest/items/130497",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2021-12-07 09:29:16.057",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor",
+                "value": "Gan, kaifu",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "gan, kaifu",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Gray, Travis",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Zweben, Stewart",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Eric, Fredrickson",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Maingi, Rajesh",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Battaglia, Devon",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "McLean, Adam",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Wirth, Brian",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2021-12-07T14:27:43Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2021-12-07T14:27:43Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2021-12-06",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp019c67wq96p",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "All the data was uploaded with .cvs file, we have not uploaded the figure 1 data since it is just photo show field of view of IR and GPI diagnostic.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "The data is .cvs file, people can use IDL, Matlab, Python to read these data",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.source",
+                "value": "NSTX data",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "edge harmonic oscillation",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "heat flux width",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Impact of edge harmonic oscillations on the divertor heat flux in NSTX",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.projectgrantnumber",
+                "value": "31016 G0001 10003086 101",
+                "language": null
+            },
+            {
+                "key": "pu.depositor",
+                "value": "gan, kaifu",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy contract number DE-SC0016915",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 133856,
+        "name": "Correlation between the relative blob fraction and plasma parameters in NSTX",
+        "handle": "88435/dsp01qb98mj62b",
+        "type": "item",
+        "link": "/rest/items/133856",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2022-02-16 13:32:13.252",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor",
+                "value": "Zweben, S.J.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Zweben, S,J.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Banerjee, S",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Bisai, N",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Diallo, A",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Lampert, M",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "LeBlanc, B",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Myra, JR",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Russell, D.A.",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2022-01-19T16:57:31Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2022-01-19T16:57:31Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2022-01-18",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp01qb98mj62b",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "data of figures used in this publication",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "Phys. Plasmas 29, 012505 (2022)",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation.isreferencedby",
+                "value": "https://doi.org/10.1063/5.0074261",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "NSTX, blob, turbulence",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Correlation between the relative blob fraction and plasma parameters in NSTX",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.projectgrantnumber",
+                "value": "31016 G0001 10003086 101",
+                "language": null
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Zweben, Stewart",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy contract number DE-AC02-09CH11466",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 148076,
+        "name": "Temporal Structure of Blobs in NSTX",
+        "handle": "88435/dsp01zp38wg800",
+        "type": "item",
+        "link": "/rest/items/148076",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2022-07-25 08:20:02.73",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor",
+                "value": "Myra, James",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Lampert, Mate",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2022-07-25T12:20:01Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2022-07-25T12:20:01Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2022-07-21",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp01zp38wg800",
+                "language": null
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "see Readme",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "Physics of Plasmas 29, 072504 (2022)",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "tokamak, edge, turbulence",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Temporal Structure of Blobs in NSTX",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.projectgrantnumber",
+                "value": "31016 G0001 10003086 101",
+                "language": null
+            },
+            {
+                "key": "pu.depositor",
+                "value": "zweben, Stewart",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy contract number DE-AC02-09CH11466",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 151829,
+        "name": "Electron Temperature Gradient Driven Transport Model for Tokamak Plasmas",
+        "handle": "88435/dsp015d86p342b",
+        "type": "item",
+        "link": "/rest/items/151829",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2022-09-02 12:34:29.559",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor",
+                "value": "Wilson, Christopher",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Rafiq, Tariq",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Wilson, Christopher",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Luo, Lixiang",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Weiland, Jan",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Schuster, Eugenio",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Pankin, Alexei",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Guttenfelder, Walter",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Kaye, Stan",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2022-09-02T16:32:06Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2022-09-02T16:32:06Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2022-08-30",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp015d86p342b",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "A new model for electron temperature gradient (ETG) modes is developed as a component of the Multi-Mode anomalous transport module [T. Rafiq \\textit{et al.,} Phys Plasmas \\textbf{20}, 032506 (2013)] to predict a time dependent electron temperature profile in conventional and low aspect ratio tokamaks. This model is based on two-fluid equations that govern the dynamics of low-frequency short- and long-wavelength electromagnetic toroidal ETG driven drift modes. A low collisionality NSTX discharge is used to scan the plasma parameter dependence on the ETG real frequency, growth rate, and electron thermal diffusivity.  Electron thermal transport is discovered in the deep core region where modes are more electromagnetic in nature. Several previously reported gyrokinetic trends are reproduced, including the dependencies of density gradients, magnetic shear, $\\beta$ and gradient of $\\beta$ $(\\betap)$, collisionality, safety factor, and toroidicity, where $\\beta$ is the ratio of plasma pressure to the magnetic pressure. The electron heat diffusivity associated with the ETG mode is discovered to be on a scale consistent with the experimental diffusivity determined by power balance analysis.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "Phys plasmas",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "ETG",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "NSTX",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "Turbulence and transport",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "instabilities",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Electron Temperature Gradient Driven Transport Model for Tokamak Plasmas",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.projectgrantnumber",
+                "value": "31016 G0001 10003086 101",
+                "language": null
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Rafiq, Tariq",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy contract number  US DOE DE-SC0021385 and DE-SC0013977",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 151788,
+        "name": "Internal Rotation of ELM Filaments on NSTX",
+        "handle": "88435/dsp011n79h751f",
+        "type": "item",
+        "link": "/rest/items/151788",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2022-09-05 10:03:26.974",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor",
+                "value": "Lampert, Mate",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Lampert, Mate",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Diallo, Ahmed",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Zweben, Stewart",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Myra, Jim",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2022-09-05T14:03:25Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2022-09-05T14:03:25Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2022-09",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp011n79h751f",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "The data is formatted to text files. A corresponding file is provided for each figure.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "Dataset for the Physics of Plasmas paper titled \"Internal Rotation of ELM Filaments on NSTX\"",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.source",
+                "value": "GPI data analysis",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Internal Rotation of ELM Filaments on NSTX",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.projectgrantnumber",
+                "value": "31016 G0001 10003086 101",
+                "language": null
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Lampert, Mate",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy contract number DE-AC02-09CH11466",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 152336,
+        "name": "Linear ion-scale micro-stability analysis of high and low-collisionality NSTX discharges and NSTX-U projections",
+        "handle": "88435/dsp01ng451m72r",
+        "type": "item",
+        "link": "/rest/items/152336",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2022-09-07 09:48:24.344",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Clauser, Cesar",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Guttenfelder, Walter",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Rafiq, Tariq",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Schuster, Eugenio",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2022-09-07T13:47:01Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2022-09-07T13:47:01Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2022-09-06",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp01ng451m72r",
+                "language": null
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Linear ion-scale micro-stability analysis of high and low-collisionality NSTX discharges and NSTX-U projections",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.projectgrantnumber",
+                "value": "31016 G0001 10003086 101",
+                "language": null
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Clauser, Cesar",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy contract number DE-SC0021385",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy contract number DE-SC0013977",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 136583,
+        "name": "Global gyrokinetic study of shaping effects on electromagnetic modes at NSTX aspect ratio with ad hoc parallel magnetic perturbation effects",
+        "handle": "88435/dsp015x21tj58z",
+        "type": "item",
+        "link": "/rest/items/136583",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2022-09-14 15:18:29.638",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Sharma, A. Y.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Cole, M. D. J.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "G\u00f6rler, T.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Chen, Y.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Hatch, D. R.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Guttenfelder, W.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Hager, R.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Sturdevant, B. J.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Ku, S.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Chang, C. S.",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2022-06-15T18:17:38Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2022-06-15T18:17:38Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2022",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp015x21tj58z",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "Plasma shaping may have a stronger effect on global turbulence in tight-aspect-ratio tokamaks than in conventional-aspect-ratio tokamaks due to the higher toroidicity and more acute poloidal asymmetry in the magnetic field. In addition, previous local gyrokinetic studies have shown that it is necessary to include parallel magnetic field perturbations in order to accurately compute growth rates of electromagnetic modes in tight-aspect-ratio tokamaks. In this work, the effects of elongation and triangularity on global, ion-scale, linear electromagnetic modes are studied at NSTX aspect ratio and high plasma beta using the global gyrokinetic particle-in-cell code XGC. The effects of compressional magnetic perturbations are approximated via a well-known modification to the particle drifts that was developed for flux-tube simulations [N. Joiner et al., Phys. Plasmas 17, 072104 (2010)], without proof of its validity in a global simulation. Magnetic equilibria are re-constructed for each distinct plasma profile that is used. Coulomb collision effects are not considered. Within the limitations imposed by the present study, it is found that linear growth rates of electromagnetic modes (collisionless microtearing modes and kinetic ballooning modes) are significantly reduced by NSTX-like shaping. For example, growth rates of kinetic ballooning modes at high beta are reduced to the level of that of collisionless trapped electron modes.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Physics of Plasmas",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Global gyrokinetic study of shaping effects on electromagnetic modes at NSTX aspect ratio with ad hoc parallel magnetic perturbation effects",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Sharma, Amil",
+                "language": null
             }
         ],
         "bitstreams": null,
@@ -15227,6 +16113,601 @@
         "withdrawn": "false"
     },
     {
+        "id": 126899,
+        "name": "Prototype tests of the Electromagnetic Particle Injector-2 for Fast Time Response Disruption Mitigation in Tokamaks",
+        "handle": "88435/dsp013j3335393",
+        "type": "item",
+        "link": "/rest/items/126899",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2021-10-19 09:03:57.833",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor",
+                "value": "Raman, Roger",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Raman, Roger",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Lunsford, Robert",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Clauser, C.F.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Jardin, S.C",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Menard, J.E.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Ono, M.",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2021-10-19T12:05:50Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2021-10-19T12:05:50Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2021",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp013j3335393",
+                "language": null
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "Figure 1\r\n\r\nFigure 2\r\n\r\nFigure 3\r\n\r\nFig4a.csv\r\n\r\nFig4b.csv\r\n\r\nFig4c.csv\r\n\r\nFig4d.csv\r\n\r\nFigure 5\r\n\r\nFig6.csv\r\n\r\nFig7a.csv\r\n\r\nFig7b.csv\r\n\r\nFig7c.csv\r\n\r\nFig7d.csv\r\n\r\nFig8a.csv\r\n\r\nFig8b.csv\r\n\r\nFig8c.csv\r\n\r\nFig8d.csv",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "EPI",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "disruption",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "DMS",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "particle injector",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Prototype tests of the Electromagnetic Particle Injector-2 for Fast Time Response Disruption Mitigation in Tokamaks",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.projectgrantnumber",
+                "value": "31016 G0001 10003086 101",
+                "language": null
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Raman, Roger",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy contract number DE-AC02-09CH11466",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "DE-SC0006757",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 128661,
+        "name": "Development of a reduced model for energetic particle transport by sawteeth in tokamaks",
+        "handle": "88435/dsp013197xq19q",
+        "type": "item",
+        "link": "/rest/items/128661",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2021-11-11 15:04:28.708",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Podesta, Mario",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2021-11-11T20:04:27Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2021-11-11T20:04:27Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2021-11-09",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.citation",
+                "value": "Podesta, 2021, Development of a reduced model for energetic particle transport by sawteeth in tokamaks, Princeton Plasma Physics Laboratory, Princeotn University DataSpace, 88435/dsp018p58pg29j",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp013197xq19q",
+                "language": null
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "Each file in the dataset refers to a figure in the manuscript, with a common prefix and a suffix that points to a specific figure.For example, the file sw21_poincare_fig4.txt contains data for figure 4 in the manuscript. Data are given in ascii format, with headers for each set of data describing the format and units for the different variables.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "Podesta et al 2021 Plasma Phys. Control. Fusion https://doi.org/10.1088/1361-6587/ac37fe",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Development of a reduced model for energetic particle transport by sawteeth in tokamaks",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.projectgrantnumber",
+                "value": "31016 G0001 10003086 101",
+                "language": null
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Podesta, Mario",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy contract number DE-AC02-09CH11466",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 126327,
+        "name": "Predicting Resistive Wall Mode Stability in NSTX through Balanced Random Forests and Counterfactual Explanations",
+        "handle": "88435/dsp015q47rr88m",
+        "type": "item",
+        "link": "/rest/items/126327",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2021-12-07 09:34:01.575",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Piccione, Andrea",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Sabbagh, Steven",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Andreopoulos, Yiannis",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2021-12-07T14:30:00Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2021-12-07T14:30:00Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2021",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp015q47rr88m",
+                "language": null
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "Consult readme.txt",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Predicting Resistive Wall Mode Stability in NSTX through Balanced Random Forests and Counterfactual Explanations",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.projectgrantnumber",
+                "value": "31016 G0001 10003086 101",
+                "language": null
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Berkery, John",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy contract number DE-SC0018623",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 136440,
+        "name": "Nonlinear growth of magnetic islands by passing fast ions in NSTX",
+        "handle": "88435/dsp01pz50h025c",
+        "type": "item",
+        "link": "/rest/items/136440",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2022-09-07 11:16:56.98",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Yang, James",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Fredrickson, Eric",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Podest\u00e0, Mario",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Poli, Francesca",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2022-07-13T19:16:19Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2022-07-13T19:16:19Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2022",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp01pz50h025c",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "The growth of magnetic islands in NSTX is modeled successfully, with the consideration of passing fast ions. It is shown that a good quantitative agreement between simulation and experimental measurement can be achieved when the uncompensated cross-field current induced by passing fast ions is included in the island growth model. The fast ion parameters,\r\nalong with other equilibrium parameters, are obtained self-consistently using the TRANSP code with the assumptions of the \u2018kick\u2019 model (Podest\u00e0 et al 2017 Plasma Phys. Control. Fusion 59 095008). The results show that fast ions can contribute to overcoming the stabilizing effect of polarization current for magnetic island growth.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "IDL scripts (12), one for each figures, complete with save files that contains the data and plot specifications. Converted to ASCII format (see /save/).",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "Fast ions",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "neoclassical tearing modes",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "kick model",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "NSTX",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Nonlinear growth of magnetic islands by passing fast ions in NSTX",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.projectgrantnumber",
+                "value": "31016 G0001 10003086 101",
+                "language": null
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Yang, James",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy contract number DE-AC02-09CH11466",
+                "language": "en_US"
+            },
+            {
+                "key": "dcterms.isReferencedBy",
+                "value": "10.1088/1361-6587/ac7970",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 148405,
+        "name": "Parametric dependencies of resonant layer responses across linear, two-fluid, drift-MHD regimes",
+        "handle": "88435/dsp0170795b825",
+        "type": "item",
+        "link": "/rest/items/148405",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2022-07-26 13:47:59.118",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor",
+                "value": "Park, Jong-Kyu",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Park, Jong-Kyu",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2022-07-26T17:47:58Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2022-07-26T17:47:58Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2022-07-26",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.citation",
+                "value": "Jong-Kyu Park, 2022, Dataset for accepted paper, Princeton Plasma Physics Laboratory",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp0170795b825",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "Non-axisymmetric magnetic fields arising in a tokamak either by external or internal perturbations can induce complex non-ideal MHD responses in their resonant surfaces while remaining ideally evolved elsewhere. This layer response can be characterized in a linear regime by a single parameter called the inner-layer Delta, which enables outer-layer matching and the prediction of torque balance to non-linear island regimes. Here, we follow strictly one of the most comprehensive analytic treatments including two-fluid and drift MHD effects and keep the fidelity of the formulation by incorporating the numerical method based on the Riccati transformation when quantifying the inner-layer Delta. The proposed scheme reproduces not only the predicted responses in essentially all asymptotic regimes but also with continuous transitions as well as improved accuracies. In particular, the Delta variations across the inertial regimes with viscous or semi-collisional effects have been further resolved, in comparison with additional analytic solutions. The results imply greater shielding of the electromagnetic torque at the layer than what would be expected by earlier work when the viscous or semi-collisional effects can compete against the inertial effects, and also due to the intermediate regulation by kinetic Alfven wave resonances as rotation slows down. These are important features that can alter the nonaxisymmetric plasma responses including the field penetration by external fields or island seeding process in rotating tokamak plasmas.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "Dataset for figures 1-9 in the paper.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "Physics of Plasmas 29, 072506 (2022)",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation.isreferencedby",
+                "value": "https://doi.org/10.1063/5.0093079",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.source",
+                "value": "Simulations",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "MHD instability",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Parametric dependencies of resonant layer responses across linear, two-fluid, drift-MHD regimes",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.projectgrantnumber",
+                "value": "31016 G0001 10003086 101",
+                "language": null
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Park, Jong-Kyu",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy contract number DE-AC02-09CH11466",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
         "id": 105871,
         "name": "Geometric concepts for stellarator permanent magnet arrays",
         "handle": "88435/dsp01db78tg01d",
@@ -15633,6 +17114,262 @@
             {
                 "key": "dc.contributor.funder",
                 "value": "NIFS LHD Project grant number ULHH040",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 126951,
+        "name": "Stellarator coil design using cubic splines for improved access on the outboard side",
+        "handle": "88435/dsp01q811kn76d",
+        "type": "item",
+        "link": "/rest/items/126951",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2021-10-20 12:35:26.718",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Nicola, Lonigro",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Zhu, Caoxiang",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2021-10-19T19:15:12Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2021-10-19T19:15:12Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2021-10-20",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp01q811kn76d",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "This is the data archive for the paper Lonigro & Zhu 2021 Nucl. Fusion https://doi.org/10.1088/1741-4326/ac2ff3.\r\nYou can reproduce all the figures in the paper using the data and plotting scripts archived in this folder.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "fig2\r\nfig3\r\nfig4\r\nfig5\r\nfig6\r\nfig7\r\nfig8\r\nfig9\r\nfig10\r\nfigA1\r\nfigA2\r\nfigA3\r\nREADME.txt",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "Nuclear Fusion, 2021, https://doi.org/10.1088/1741-4326/ac2ff3",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation.isreferencedby",
+                "value": "https://doi.org/10.1088/1741-4326/ac2ff3",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "stellarator",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "coil design",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "optimization",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "cubic spline",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Stellarator coil design using cubic splines for improved access on the outboard side",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "collection",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Zhu, Caoxiang",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U.S. Department of Energy",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 152342,
+        "name": "Design of an arrangement of cubic magnets for a quasi-axisymmetric stellarator experiment",
+        "handle": "88435/dsp01x059cb547",
+        "type": "item",
+        "link": "/rest/items/152342",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2022-09-14 18:00:55.728",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Hammond, Kenneth",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Zhu, Caoxiang",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Korrigan, Keith",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Gates, David",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Lown, Robert",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Mercurio, Robert",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Qian, Tony",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Zarnstorff, Michael",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2022-09-06T14:49:56Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2022-09-06T14:49:56Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2022",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp01x059cb547",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "The usage of permanent magnets to shape the confining field of a stellarator has the potential to reduce or eliminate the need for non-planar coils. As a proof-of-concept for this idea, we have developed a procedure for designing an array of cubic permanent magnets that works in tandem with a set of toroidal-field coils to confine a stellarator plasma. All of the magnets in the design are constrained to have identical geometry and one of three polarization types in order to simplify fabrication while still producing sufficient field accuracy. We present some of the key steps leading to the design, including the geometric arrangement of the magnets around the device, the procedure for optimizing the polarizations according to three allowable magnet types, and the choice of magnet types to be used. We apply these methods to design an array of rare-Earth permanent magnets that can be paired with a set of planar toroidal-field coils to confine a quasi-axisymmetric plasma with a toroidal magnetic field strength of about 0.5 T on axis.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "Consult the file README.txt for a more detailed description of the contents.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "Nuclear Fusion, in press",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Design of an arrangement of cubic magnets for a quasi-axisymmetric stellarator experiment",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.projectgrantnumber",
+                "value": "31016 G0001 10003086 101",
+                "language": null
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Hammond, Kenneth",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy contract number DE-AC02-09CH11466",
                 "language": "en_US"
             }
         ],
@@ -19025,7 +20762,7 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2021-08-18 14:28:08.67",
+        "lastModified": "2021-09-20 18:00:17.129",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
@@ -19213,7 +20950,7 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2021-08-18 17:23:56.147",
+        "lastModified": "2021-09-20 18:00:17.742",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
@@ -19336,7 +21073,7 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2021-08-19 20:38:55.127",
+        "lastModified": "2021-09-20 15:00:24.161",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
@@ -19459,6 +21196,1318 @@
             {
                 "key": "dc.contributor.funder",
                 "value": "DOE grant DE-FG02-04ER54746.",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 131221,
+        "name": "Coupling between Alfven wave and Kelvin-Helmholtz waves in the low latitude boundary layer",
+        "handle": "88435/dsp013r074z09k",
+        "type": "item",
+        "link": "/rest/items/131221",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2021-12-14 22:34:43.931",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Kim, Eun-Hwa",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Johnson, Jay",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Nykyri, Katariina",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2021-12-15T03:34:41Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2021-12-15T03:34:41Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2021-12",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp013r074z09k",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "The Kelvin-Helmholtz (KH) instability of magnetohydrodynamic surface waves at the low latitude boundary layer is examined using both an eigenfrequency analysis and a time-dependent wave simulation.  The analysis includes the effects of sheared flow and Alfven velocity gradient. When the magnetosheath flows are perpendicular to the ambient magnetic field direction, unstable KH waves that propagate obliquely to the sheared flow direction occur at the sheared flow surface when the Alfv\\'en Mach number is higher than an instability threshold. Including a shear transition layer between the magnetosphere and magnetosheath leads to secondary KH waves (driven by the sheared flow) that are coupled to the resonant surface Alfven wave. There are remarkable differences between the primary and the secondary KH waves including wave frequency, the growth rate, and the ratio between transverse and the compressional component. The secondary KH wave energy is concentrated near the shear Alfven wave frequency at the magnetosheath with a lower frequency than the primary KH waves. Although the growth rate of the secondary KH waves is lower than the primary KH waves, the threshold condition is lower, so it is expected that these types of waves will dominate at lower Mach number. Because the transverse component of the secondary KH waves is stronger than the primary KH waves, more efficient wave energy transfer from the boundary layer to the inner magnetosphere is also predicted.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "Frontiers in Astronom and Space Sciences, 2021",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "Kelvin-Helmholtz instability",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "Alfven wave",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "Magnetopause",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "Mode conversion",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "boundary layer",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "wave coupling",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Coupling between Alfven wave and Kelvin-Helmholtz waves in the low latitude boundary layer",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.projectgrantnumber",
+                "value": "31016 G0001 10003086 101",
+                "language": null
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Kim, Eun-Hwa",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy contract number DE-AC02-09CH11466",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 139601,
+        "name": "To dee or not to dee: costs and benefits of altering the triangularity of a steady-state DEMO-like reactor",
+        "handle": "88435/dsp01rf55zb85t",
+        "type": "item",
+        "link": "/rest/items/139601",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2022-04-08 06:00:16.257",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Schwartz, Jacob A.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Nelson, A. O.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Kolemen, Egemen",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2022-04-08T00:47:57Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2022-04-08T00:47:57Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2022-04",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.citation",
+                "value": "J. A. Schwartz, A. O. Nelson, E. Kolemen, 2022, Data related to the paper \"To dee or not to dee: costs and benefits of altering the triangularity of a steady-state DEMO-like reactor\", Princeton Plasma Physics Laboratory, Princeton University DataSpace, ARK #####",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp01rf55zb85t",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "Shaping a tokamak plasma to have a negative triangularity may allow operation in an ELM-free L-mode regime and with a larger strike-point radius, ameliorating divertor power-handling requirements. However, the shaping has a potential drawback in the form of a lower no-wall ideal beta limit, found using the MHD codes CHEASE and DCON. Using the new fusion systems code FAROES, we construct a steady-state DEMO2 reactor model. This model is essentially zero-dimensional and neglects variations in physical mechanisms like turbulence, confinement, and radiative power limits, which could have a substantial impact on the conclusions deduced herein. Keeping its shape otherwise constant, we alter the triangularity and compute the effects on the levelized cost of energy (LCOE). If the tokamak is limited to a fixed B field, then unless other means to increase performance (such as reduced turbulence, improved current drive efficiency or higher density operation) can be leveraged, a negative-triangularity reactor is strongly disfavored in the model due to lower \\beta_N limits at negative triangularity, which leads to tripling of the LCOE. However, if the reactor is constrained by divertor heat fluxes and not by magnet engineering, then a negative-triangularity reactor with higher B0 could be favorable: we find a class of solutions at negative triangularity with lower peak heat flux and lower LCOE than those of the equivalent positive triangularity reactors.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "Contains figures and data presented directly in the figures for this paper. Also contains scripts (tokamak model and solver instructions) which was used to generate data for one of the figures. Please consult README.txt for detailed dataset contents.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "Nuclear Fusion, 2022, in press",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation.isreferencedby",
+                "value": "https://doi.org/10.1088/1741-4326/ac62f6",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "tokamak",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "plasma",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "FAROES",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "systems code",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "CHEASE",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "DCON",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "cost of electricity",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "fusion reactor economics",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "To dee or not to dee: costs and benefits of altering the triangularity of a steady-state DEMO-like reactor",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.projectgrantnumber",
+                "value": "31016 G0001 10003086 101",
+                "language": null
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Schwartz, Jacob A.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy contract number DE-AC02-09CH11466",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 139829,
+        "name": "Interpreting ion-energy distributions using charge exchange emitted from deeply kinetic field-reversed-configuration plasmas",
+        "handle": "88435/dsp01pk02cd897",
+        "type": "item",
+        "link": "/rest/items/139829",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2022-04-15 13:00:35.995",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor",
+                "value": "Cohen, Samuel",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Glasser, Alan",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Cohen, Samuel",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2022-04-15T17:00:35Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2022-04-15T17:00:35Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2022",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp01pk02cd897",
+                "language": null
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "Figures from paper",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Interpreting ion-energy distributions using charge exchange emitted from deeply kinetic field-reversed-configuration plasmas",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title.alternative",
+                "value": "Synthetic diagnostic for CX emission from FRCs",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Image",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.projectgrantnumber",
+                "value": "31016 G0001 10003086 101",
+                "language": null
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Cohen, Samuel",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy contract number DE-AC02-09CH11466",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 144183,
+        "name": "Study of Stark Broadening of Krypton Helium-beta Lines and Estimation of Electron Density and Temperature in NIF Compressed Capsules",
+        "handle": "88435/dsp01xk81jp54s",
+        "type": "item",
+        "link": "/rest/items/144183",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2022-06-06 13:12:23.348",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Hill, K. W.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Gao, L.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Kraus, B. F.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Bitter, M.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Efthimion, P. C.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Pablant, N. A.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Schneider, M. B.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Thorn, D. B.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Chen, H.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Kauffman, R. L.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Liedahl, D. A.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "MacDonald, M. J.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "MacPhee, A. G.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Scott, H. A.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Stoupin, S.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Doron, R.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Stambulchik, E.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Maron, Y.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Lahmann, B.",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2022-06-06T17:12:22Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2022-06-06T17:12:22Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2022-06-06",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp01xk81jp54s",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "Numerical data used to draw the figures in the manuscript",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "Figs. 1-11.zip",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "Plasma Physics and Controlled Fusion  (2022)",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.source",
+                "value": "Simulations from code SimU of co-author E. Stambulchik",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.source",
+                "value": "Data from National Ignition Facility (NIF)  dHiRes spectrometer from 4 ICF shots",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "NIF diagnostics x-ray spectroscopy",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Study of Stark Broadening of Krypton Helium-beta Lines and Estimation of Electron Density and Temperature in NIF Compressed Capsules",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.projectgrantnumber",
+                "value": "31016 G0001 10003086 101",
+                "language": null
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Hill, K. W.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy contract number DE-AC02-09CH11466",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 145895,
+        "name": "Plasma Facing Components with Capillary Porous System and Liquid Metal Coolant Flow",
+        "handle": "88435/dsp019w032619d",
+        "type": "item",
+        "link": "/rest/items/145895",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2022-06-27 16:26:18.74",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Khodak, Andrei",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Maingi, Rajesh",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2022-06-27T20:26:17Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2022-06-27T20:26:17Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2021",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp019w032619d",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "Liquid metal can create a renewable protective surface on plasma facing components (PFC), with an additional advantage of deuterium pumping and the prospect of tritium extraction if liquid lithium (LL) is used and maintained below 450 C, the temperature above which LL vapor pressure begins to contaminate the plasma. LM can also be utilized as an efficient coolant, driven by the Lorentz force created with the help of the magnetic field in fusion devices. Capillary porous systems can serve as a conduit of LM and simultaneously provide stabilization of the LM flow, protecting against spills into the plasma. Recently a combination of a fast-flowing LM cooling system with a porous plasma facing wall (CPSF) was investigated [Khodak and Maingi (2021)]. The system takes an advantage of a magnetohydrodynamics velocity profile, as well as attractive LM properties to promote efficient heat transfer from the plasma to the LL at low pumping energy cost, relative to the incident heat flux on the PFC. In case of a disruption leading to excessive heat flux from the plasma to the LM PFCs, LL evaporation can stabilize the PFC surface temperature, due to high evaporation heat and apparent vapor shielding. The proposed CPSF was optimized analytically for the conditions of a Fusion Nuclear Science Facility [Kessel et al. (2019)]: 10T toroidal field and 10 MW/m2 peak incident heat flux. Computational fluid dynamics analysis confirmed that a CPSF system with 2.5 mm square channels can pump enough LL so that no additional coolant is needed.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "Table of Contents is in a Readme file",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "Physics of Plasmas, 2022",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "Plasma Facing Components; Numerical Analysis; High Heat Flux",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Plasma Facing Components with Capillary Porous System and Liquid Metal Coolant Flow",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Image",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.projectgrantnumber",
+                "value": "31016 G0001 10003086 101",
+                "language": null
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Khodak, Andrei",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy contract number DE-AC02-09CH11466",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 146170,
+        "name": "Electron heating in 2-D: combining Fermi-Ulam acceleration and magnetic-moment non-adiabaticity in a mirror-configuration plasma",
+        "handle": "88435/dsp01xp68kk38z",
+        "type": "item",
+        "link": "/rest/items/146170",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2022-07-01 10:55:41.878",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor",
+                "value": "Swanson, Charles",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Swanson, Charles",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Galea, Christopher",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2022-07-01T14:55:40Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2022-07-01T14:55:40Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2022",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.citation",
+                "value": "C.P.S. Swanson, C. A. Galea, and S. A. Cohen, 2022, Electron heating in 2-D: combining Fermi-Ulam acceleration and magnetic-moment non-adiabaticity in a mirror-configuration plasma, Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp01xp68kk38z",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "This dataset contains the files (scripts and data) required to produce the figures of the above reference.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "Please see Readme.txt for the table of contents.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "C.P.S. Swanson, C. A. Galea, and S. A. Cohen, \"Electron heating in 2-D: combining Fermi-Ulam acceleration and magnetic-moment non-adiabaticity in a mirror-configuration plasma\", submitted to Physics of Plasmas, 2022",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Electron heating in 2-D: combining Fermi-Ulam acceleration and magnetic-moment non-adiabaticity in a mirror-configuration plasma",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.projectgrantnumber",
+                "value": "31016 G0001 10003086 101",
+                "language": null
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Swanson, Charles",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy contract number DE-AC02-09CH11466",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 146393,
+        "name": "Identification of a non-axisymmetric mode in laboratory experiments searching for standard magnetorotational instability",
+        "handle": "88435/dsp01sx61dq46q",
+        "type": "item",
+        "link": "/rest/items/146393",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2022-07-05 10:06:19.015",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Wang, Yin",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Gilson, Erik P.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Ebrahimi, Fatima",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Goodman, Jeremy",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Caspary, Kyle J.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Winarto, Himawan W.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Ji, Hantao",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2022-07-05T14:06:18Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2022-07-05T14:06:18Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2022",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp01sx61dq46q",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "This dataset provides the source data of figures in the main text of the paper \"Identification of a non-axisymmetric mode in laboratory experiments searching for standard magnetorotational instability\" accepted by Nature Communications.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "File name: \"SourceData.xlsx\" Description: source data for the 8 figures in the main text of the paper \"Identification of a non-axisymmetric mode in laboratory experiments searching for standard magnetorotational instability\" accepted by Nature Communications.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "magnetorotational instability",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "MRI",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "liquid metal",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "Taylor-Couette flow",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Identification of a non-axisymmetric mode in laboratory experiments searching for standard magnetorotational instability",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.projectgrantnumber",
+                "value": "31016 G0001 10003086 101",
+                "language": null
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Wang, Yin",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy contract number DE-AC02-09CH11466",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. National Aeronautics and Space Administration (NASA) grant number NNH15AB25I",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. National Science Foundation (NSF) grant number AST-2108871",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "Max-Planck-Princeton Center for Plasma Physics (MPPC)",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 151535,
+        "name": "Streaked Sub-ps-resolution X-ray Line Shapes and Implications for Solid-density Plasma Dynamics",
+        "handle": "88435/dsp013n2042309",
+        "type": "item",
+        "link": "/rest/items/151535",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2022-08-29 22:19:50.56",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Gao, Lan",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Hill, K. W.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Bitter, M.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Efthimion, P. C.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Hollinger, R.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Wang, Shoujun",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Song, Huanyu",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Nedbailo, R.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Rocca, J. J.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Mancini, R. C.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "MacDonald, M. J.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Beatty, C. B.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Shepherd, R.",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2022-08-30T02:19:46Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2022-08-30T02:19:46Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2022",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp013n2042309",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "A high-resolution x-ray spectrometer was coupled with an ultrafast x-ray streak camera to produce time-resolved line shape spectra measured from hot, solid-density plasmas. A Bragg crystal was placed near a laser-produced plasma to maximize throughput; alignment tolerances were established by raytracing. The streak camera produced single-shot time-resolved spectra, heavily sloped due to photon time-of-flight differences, with sufficient reproducibility to accumulate photon statistics. The images are time-calibrated by the slope of streaked spectra and dewarped to generate spectra emitted at different times defined at the source. The streaked spectra demonstrate the evolution of spectral shoulders and other features on ps timescales, showing the feasibility of plasma parameter measurements on the rapid timescales necessary to study high-energy-density plasmas.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "See \"dataDescription_README.txt\" for a description of all files.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "Review of Scientific Instruments 2022 (publication pending)",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "x-ray spectroscopy",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "High-energy-density plasmas",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Streaked Sub-ps-resolution X-ray Line Shapes and Implications for Solid-density Plasma Dynamics",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.projectgrantnumber",
+                "value": "31016 G0001 10003086 101",
+                "language": null
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Kraus, B. F.",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy contract number DE-AC02-09CH11466",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 152434,
+        "name": "Source data for \"Observation of Axisymmetric Standard Magnetorotational Instability in the Laboratory\"",
+        "handle": "88435/dsp018623j1954",
+        "type": "item",
+        "link": "/rest/items/152434",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2022-09-08 23:00:26.818",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Wang, Yin",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Gilson, Erik",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Ebrahimi, Fatima",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Goodman, Jeremy",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Ji, Hantao",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2022-09-09T03:00:25Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2022-09-09T03:00:25Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2022-09",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp018623j1954",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "Source data for the article \"Observation of Axisymmetric Standard Magnetorotational Instability in the Laboratory\" published in Physical Review Letters.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "Source data for Figure 2, Figure 4, Figure 5 and Figure 7 of the article \"Observation of Axisymmetric Standard Magnetorotational Instability in the Laboratory\" published in Physical Review Letters.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "Physical Review Letters, 2022, 129, 11, 115001",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation.isreferencedby",
+                "value": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.129.115001",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "Magnetorotational Instability",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "Taylor-Couette Flow",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "Liquid Metal",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "MHD instability",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "Accretion Disk",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Source data for \"Observation of Axisymmetric Standard Magnetorotational Instability in the Laboratory\"",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.projectgrantnumber",
+                "value": "31016 G0001 10003086 101",
+                "language": null
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Wang, Yin",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy contract number DE-AC02-09CH11466",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "NASA (Grant No. NNH15AB25I),",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "NSF (Grant No. AST-2108871)",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "Max-Planck-Princeton Center for Plasma Physics (MPPC)",
                 "language": "en_US"
             }
         ],
@@ -21516,6 +24565,385 @@
         "withdrawn": "false"
     },
     {
+        "id": 137079,
+        "name": "Gyrokinetic simulations of momentum flux parasitic to free-energy transfer",
+        "handle": "88435/dsp011g05ff76p",
+        "type": "item",
+        "link": "/rest/items/137079",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2022-03-09 07:15:59.17",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Stoltzfus-Dueck, T",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Hornsby, W A",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Grosshauser, S R",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2022-03-09T12:15:58Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2022-03-09T12:15:58Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2022",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.citation",
+                "value": "T. Stoltzfus-Dueck, W. A. Hornsby, and S. R. Grosshauser, 2022, \u201cGyrokinetic simulations of momentum flux parasitic to free-energy transfer,\u201d Princeton Plasma Physics Laboratory, Princeton University DataSpace",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp011g05ff76p",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "Ion Landau damping interacts with a portion of the E\u00d7B drift to cause a non-diffusive outward flux of co-current toroidal angular momentum. Quantitative evaluation of this momentum flux requires nonlinear simulations to determine fL, the fraction of fluctuation free energy that passes through ion Landau damping, in fully developed turbulence. Nonlinear gyrokinetic simulations with the GKW code confirm the presence of the systematic symmetry-breaking momentum flux. For simulations with adiabatic electrons, fL scales inversely with the ion temperature gradient, because only the ion curvature drift can transfer free energy to the electrostatic potential. Although kinetic electrons should in principle relax this restriction, the ion Landau damping measured in collisionless kinetic-electron simulations remained at low levels comparable with ion-curvature-drift transfer, except when magnetic shear was strong. A set of simulations scanning the electron pitch-angle scattering rate showed only a weak variation of fL with the electron collisionality. However, collisional-electron simulations with electron temperature greater than ion temperature unambiguously showed electron-curvature-drift transfer supporting ion Landau damping, leading to a corresponding enhancement of the symmetry-breaking momentum flux.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "Data underlying the figures of \"Gyrokinetic simulations of momentum flux parasitic to free-energy transfer\".  See README.txt for detailed information on the data, all of which are contained within data.h5.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton University.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "toroidal rotation",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "tokamak",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "transport",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "intrinsic rotation",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "rotation reversal",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Gyrokinetic simulations of momentum flux parasitic to free-energy transfer",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Stoltzfus-Dueck, Timothy",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "US Dept. of Energy, Office of Science, Contract DE-AC02-09CH11466",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 137762,
+        "name": "Effects of collisional ion orbit loss on neoclassical tokamak radial electric fields",
+        "handle": "88435/dsp01qz20sw65g",
+        "type": "item",
+        "link": "/rest/items/137762",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2022-03-11 13:22:14.158",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Zhu, Hongxuan",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Stoltzfus-Dueck, T",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Hager, R",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Ku, S",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Chang, C. S.",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2022-03-11T18:22:13Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2022-03-11T18:22:13Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2022",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.citation",
+                "value": "Hongxuan Zhu, T. Stoltzfus-Dueck, R. Hager, S. Ku, and C. S. Chang, 2022, \"Effects of collisional ion orbit loss on neoclassical tokamak radial electric fields,\" Princeton Plasma Physics Laboratory, Princeton University DataSpace.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp01qz20sw65g",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "Ion orbit loss is considered important for generating the radially inward electric field Er in a tokamak edge plasma. In particular, this effect is emphasized in diverted tokamaks with a magnetic X point. In neoclassical equilibria, Coulomb collisions can scatter ions onto loss orbits and generate a radially outward current, which in steady state is balanced by the radially inward current from viscosity. To quantitatively measure this loss-orbit current in an edge pedestal, an ion-orbit-flux diagnostic has been implemented in the axisymmetric version of the gyrokinetic particle-in-cell code XGC. As the first application of this diagnostic, a neoclassical DIII-D H-mode plasma is studied using gyrokinetic ions and adiabatic electrons. The validity of the diagnostic is demonstrated by studying the collisional relaxation of Er in the core. After this demonstration, the loss-orbit current is numerically measured in the edge pedestal in quasisteady state. In this plasma, it is found that the radial electric force on ions from Er approximately balances the ion radial pressure gradient in the edge pedestal, with the radial force from the plasma flow term being a minor component. The effect of orbit loss on Er is found to be only mild.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "See README.txt.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "Nuclear Fusion",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "ion orbit loss",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "radial electric field",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "tokamak edge plasmas",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "gyrokinetic simulations",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Effects of collisional ion orbit loss on neoclassical tokamak radial electric fields",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Zhu, Hongxuan",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U.S. Department of Energy, DE-AC02\u201309CH11466",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U.S. Department of Energy, DE-AC02- 05CH11231",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U.S. Department of Energy, SciDAC-4",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "Princeton Research Computing",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 142447,
+        "name": "The dispersion and propagation of topological Langmuir-cyclotron waves in cold magnetized plasmas",
+        "handle": "88435/dsp011g05ff77b",
+        "type": "item",
+        "link": "/rest/items/142447",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2022-05-16 08:11:03.956",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor",
+                "value": "Fu, Yichen",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Fu, Yichen",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Qin, Hong",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2022-05-16T12:11:03Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2022-05-16T12:11:03Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2022",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp011g05ff77b",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "The time evolution of the topological Langmuir-Cyclotron waves excited by an external source.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Journal of Plasma Physics",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "topological waves",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "The dispersion and propagation of topological Langmuir-cyclotron waves in cold magnetized plasmas",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "moving image",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Fu, Yichen",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U.S. Department of Energy (DE-AC02- 09CH11466).",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
         "id": 112982,
         "name": "Type-I ELM mitigation by continuous lithium granule gravitational injection into the upper tungsten divertor in EAST",
         "handle": "88435/dsp014x51hn09b",
@@ -22170,6 +25598,520 @@
         "withdrawn": "false"
     },
     {
+        "id": 138119,
+        "name": "Wall conditioning and ELM mitigation with boron nitride powder injection in KSTAR",
+        "handle": "88435/dsp01hh63t006w",
+        "type": "item",
+        "link": "/rest/items/138119",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2022-05-25 11:38:20.052",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Gilson, Erik",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Lee, H",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Bortolon, A",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Choe, W",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Diallo, A",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Hong, SH",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Lee, HM",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Maingi, R",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Mansfield, DK",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Nagy, A",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Park, SH",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Song, IW",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Song, JI",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Yun, SW",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Nazikian, R",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2022-05-25T15:38:18Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2022-05-25T15:38:18Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2021-09",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp01hh63t006w",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "Results from KSTAR powder injection experiments, in which tens of milligrams of boron nitride (BN) were dropped into low-power H-mode plasmas, show an improvement in wall conditions in subsequent discharges and, in some cases, a reduction or elimination of edge-localized modes (ELMs). Injected powder is distributed by the plasma flow and is deposited on the wall and, over the course of several discharges, was observed to gradually reduce recycling by 33%, and decrease both the ELM amplitude and frequency. This is the first demonstration of the use of BN for ELM mitigation. In all of these experiments, an Impurity Powder Dropper (IPD) was used to introduce precise, controllable amounts of the materials into ELMy H-mode KSTAR discharges. The plasma duration was between 10 s and 15 s, \ud835\udc3c\ud835\udc5d = 500 kA, \ud835\udc35\ud835\udc47 = 1.8 T, \ud835\udc43NBI = 1.6 MW, and \ud835\udc43ECH = 0.6 MW. Plasma densities were between 2 and 3 \u00d7 1019 m\u22123. In all cases, the pre-fill and startup gas-fueling was kept constant, suggesting that the decrease in baseline D\ud835\udefc emission is in fact due to a reduction in recycling. The results presented herein highlight the viability of powder injection for intra-shot and between-shot wall conditioning.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Elsevier",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "Gilson et al., 2021, Wall conditioning and ELM mitigation with boron nitride powder injection in KSTAR, Princeton Plasma Physics Laboratory, Princeton University DataSapce",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation.isreferencedby",
+                "value": "https://doi.org/10.1016/j.nme.2021.101043",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Wall conditioning and ELM mitigation with boron nitride powder injection in KSTAR",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Gilson, Erik",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "Supported in part by U.S. Dept. of Energy under contract DE- 61 AC02-09CH11466, in part the Ministry of Science, ICT and Future 62 Planning of the Republic of Korea through the Korean ITER Tech- 63 nology R&D Program (IN2010-3), in part by the R&D Program of 64 the KSTAR Experimental Collaboration and Fusion Plasma Research 65 (EN2101-12) through the Korea Institute of Fusion Energy (KFE), and 66 in part by the National R&D Program through the National Research 67 Foundation of Korea (NRF), funded by the Ministry of Science and ICT 68 (NRF-2019M1A7A1A03087560).",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 133782,
+        "name": "Initial Results from Boron Powder Injection Experiments in WEST Lower Single Null L-mode Plasmas",
+        "handle": "88435/dsp01cr56n4150",
+        "type": "item",
+        "link": "/rest/items/133782",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2022-07-06 10:18:35.943",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Bodner, Grant",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Gallo, Alberto",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Diallo, Ahmed",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Lunsford, Robert",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Moreau, Philippe",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Nagy, Alex",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Pellissier, Francis-Pierre",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Guillemaut, Christophe",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Gunn, James",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Bourdelle, Clarisse",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Desgranges, Corinne",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Manas, Pierre",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Bortolon, Alessandro",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Klepper, Christopher",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Tsitrone, Emanuelle",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Unterberg, Ezekial",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Vermare, Laure",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2022-05-25T16:33:17Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2022-05-25T16:33:17Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2022",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp01cr56n4150",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "Using a recently installed impurity powder dropper (IPD), boron powder (< 150 \u03bcm) was injected into lower single null (LSN) L-mode discharges in WEST. IPDs possibly enable real-time wall conditioning of the plasma-facing components and may help to facilitate H-mode access in the full-tungsten environment of WEST. The discharges in this experiment featured Ip = 0.5 MA, BT = 3.7 T, q95 = 4.3, tpulse = 12\u201330 s, ne,0 ~ 4\u00d71019 m-2, and PLHCD ~ 4.5 MW. Estimates of the deuterium and impurity particle fluxes, derived from a combination of visible spectroscopy measurements and their corresponding S/XB coefficients, showed decreases of ~ 50% in O+, N+, and C+ populations during powder injection and a moderate reduction of these low-Z impurities (~ 50%) and W (~ 10%) in the discharges that followed powder injection. Along with the improved wall conditions, WEST discharges with B powder injection observed improved confinement, as the stored energy WMHD, neutron rate, and electron temperature Te increased significantly (10\u201325% for WMHD and 60\u2013200% for the neutron rate) at constant input power. These increases in confinement scale up with the powder drop rate and are likely due to the suppression of ion temperature gradient (ITG) turbulence from changes in Zeff and/or modifications to the electron density profile.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "README.txt should be consulted for table of contents information.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "Bodner et al. 2022 Nucl. Fusion accepted",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation.isreferencedby",
+                "value": "https://doi.org/10.1088/1741-4326/ac70ea",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "Wall conditioning",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "Powder injection",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "Boronization",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "Tungsten",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Initial Results from Boron Powder Injection Experiments in WEST Lower Single Null L-mode Plasmas",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Bodner, Grant",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "Department of Energy",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 150055,
+        "name": "Supplemental material for: Verification, validation, and results of an approximate model for the stress of a Tokamak toroidal field coil at the inboard midplane",
+        "handle": "88435/dsp01rb68xg060",
+        "type": "item",
+        "link": "/rest/items/150055",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2022-08-16 14:37:38.56",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor",
+                "value": "Swanson, CPS",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Swanson, CPS",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Kahn, S",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Rana, C",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Titus, PH",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Brooks, AW",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Guttenfelder, W",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Zhai, Y",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Brown, TG",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Menard, JE",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2022-08-16T18:37:34Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2022-08-16T18:37:34Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2022",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.citation",
+                "value": "Swanson, CPS et al., 2022, Supplemental material for: Verification, validation, and results of an approximate model for the stress of a Tokamak toroidal field coil at the inboard midplane, Princeton Plasma Physics Laboratory, Princeton University Dataspace, ARC #",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp01rb68xg060",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "This is the supplemental material for the manuscript \"Verification, validation, and results of an approximate model for the stress of a Tokamak toroidal field coil at the inboard midplane\" submitted to Fusion Engineering and Design. This material includes PDF writeups of the derivations of the axisymmetric extended plane strain model, the elastic properties smearing model, and 20+ MATLAB scripts and functions which implement the model and generate the figures in the paper.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "See the file README.txt",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "Swanson, CPS et al., Verification, validation, and results of an approximate model for the stress of a Tokamak toroidal field coil at the inboard midplane, submitted to Fusion Engineering and Design, 2022",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Supplemental material for: Verification, validation, and results of an approximate model for the stress of a Tokamak toroidal field coil at the inboard midplane",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "collection",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Software",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Swanson, Charles",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "This work was supported by the U.S. Department of Energy under contract number DE-AC02-09CH11466.",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
         "id": 118127,
         "name": "Hyperdiffusion of dust particles in a turbulent tokamak plasma",
         "handle": "88435/dsp01db78tg111",
@@ -22280,6 +26222,174 @@
             {
                 "key": "dc.type",
                 "value": "Article",
+                "language": "en_US"
+            }
+        ],
+        "bitstreams": null,
+        "archived": "true",
+        "withdrawn": "false"
+    },
+    {
+        "id": 132717,
+        "name": "Fusion Pilot Plant performance and the role of a Sustained High Power Density tokamak",
+        "handle": "88435/dsp01kk91fp703",
+        "type": "item",
+        "link": "/rest/items/132717",
+        "expand": [
+            "parentCollection",
+            "parentCollectionList",
+            "parentCommunityList",
+            "bitstreams",
+            "all"
+        ],
+        "lastModified": "2022-01-19 17:21:30.553",
+        "parentCollection": null,
+        "parentCollectionList": null,
+        "parentCommunityList": null,
+        "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "Menard, Jonathan",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Grierson, Brian",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Brown, Tom",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Rana, Chirag",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Zhai, Yuhu",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Poli, Francesca",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Maingi, Rajesh",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Guttenfelder, Walter",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.author",
+                "value": "Snyder, Philip",
+                "language": null
+            },
+            {
+                "key": "dc.date.accessioned",
+                "value": "2022-01-19T22:21:29Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.available",
+                "value": "2022-01-19T22:21:29Z",
+                "language": null
+            },
+            {
+                "key": "dc.date.issued",
+                "value": "2022-01",
+                "language": null
+            },
+            {
+                "key": "dc.identifier.uri",
+                "value": "http://arks.princeton.edu/ark:/88435/dsp01kk91fp703",
+                "language": null
+            },
+            {
+                "key": "dc.description.abstract",
+                "value": "Recent U.S. fusion development strategy reports all recommend that the U.S. should pursue innovative science and technology to enable construction of a Fusion Pilot Plant (FPP) that produces net electricity from fusion at  low capital cost.  Compact tokamaks have been proposed as a means of potentially reducing the capital cost of a fusion pilot plant.  However, compact steady-state tokamak FPPs face the challenge of integrating a high fraction of self-driven current with high core confinement, plasma pressure, and high divertor parallel heat flux. This integration is sufficiently challenging that a dedicated sustained-high-power-density (SHPD) tokamak facility is proposed by the U.S. community as the optimal way to close this integration gap. Performance projections for the steady-state tokamak FPP regime are presented and a preliminary SHPD device with substantial flexibility in lower aspect ratio (A=2-2.5), shaping, and divertor configuration to narrow gaps to a FPP is described.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.description.tableofcontents",
+                "value": "Original images for each of the 16 figures in the Nuclear Fusion article plus CSV or TXT files for the data in each of the figures where applicable.",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.language.iso",
+                "value": "en_US",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.publisher",
+                "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation",
+                "value": "Nuclear Fusion (https://doi.org/10.1088/1741-4326/ac49aa)",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation.isreferencedby",
+                "value": "https://doi.org/10.1088/1741-4326/ac49aa",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "fusion pilot plant",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "steady-state tokamak",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "core-edge integration",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "high-temperature superconductors",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.subject",
+                "value": "liquid metals",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.title",
+                "value": "Fusion Pilot Plant performance and the role of a Sustained High Power Density tokamak",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.type",
+                "value": "Dataset",
+                "language": "en_US"
+            },
+            {
+                "key": "pu.projectgrantnumber",
+                "value": "31016 G0001 10003086 101",
+                "language": null
+            },
+            {
+                "key": "pu.depositor",
+                "value": "Menard, Jonathan",
+                "language": null
+            },
+            {
+                "key": "dc.contributor.funder",
+                "value": "U. S. Department of Energy contract number DE-AC02-09CH11466",
                 "language": "en_US"
             }
         ],
