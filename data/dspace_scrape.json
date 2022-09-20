@@ -4841,19 +4841,19 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2021-12-07 09:29:16.057",
+        "lastModified": "2022-09-20 17:07:40.646",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
         "metadata": [
             {
                 "key": "dc.contributor",
-                "value": "Gan, kaifu",
+                "value": "Gan, Kaifu",
                 "language": null
             },
             {
                 "key": "dc.contributor.author",
-                "value": "gan, kaifu",
+                "value": "Gan, Kaifu",
                 "language": null
             },
             {
@@ -22365,7 +22365,7 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2022-09-08 23:00:26.818",
+        "lastModified": "2022-09-20 17:04:20.608",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
@@ -22442,7 +22442,7 @@
             },
             {
                 "key": "dc.relation.isreferencedby",
-                "value": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.129.115001",
+                "value": "https://doi.org/10.1103/PhysRevLett.129.115001",
                 "language": "en_US"
             },
             {
