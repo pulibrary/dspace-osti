@@ -4841,7 +4841,7 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2022-09-20 17:07:40.646",
+        "lastModified": "2022-09-21 11:05:20.098",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
@@ -4929,6 +4929,11 @@
             {
                 "key": "dc.publisher",
                 "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation.isreferencedby",
+                "value": "https://doi.org/10.1063/5.0069701",
                 "language": "en_US"
             },
             {
@@ -5132,7 +5137,7 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2022-07-25 08:20:02.73",
+        "lastModified": "2022-09-21 11:09:08.209",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
@@ -5188,6 +5193,11 @@
                 "language": "en_US"
             },
             {
+                "key": "dc.relation.isreferencedby",
+                "value": "https://doi.org/10.1063/5.0097282",
+                "language": "en_US"
+            },
+            {
                 "key": "dc.subject",
                 "value": "tokamak, edge, turbulence",
                 "language": "en_US"
@@ -5235,7 +5245,7 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2022-09-02 12:34:29.559",
+        "lastModified": "2022-09-21 11:28:34.765",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
@@ -5323,6 +5333,11 @@
             {
                 "key": "dc.relation",
                 "value": "Phys plasmas",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation.isreferencedby",
+                "value": "https://doi.org/10.1063/5.0104672",
                 "language": "en_US"
             },
             {
@@ -16125,7 +16140,7 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2021-10-19 09:03:57.833",
+        "lastModified": "2022-09-21 10:58:36.691",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
@@ -16201,6 +16216,11 @@
                 "language": "en_US"
             },
             {
+                "key": "dc.relation.isreferencedby",
+                "value": "https://doi.org/10.1088/1741-4326/ac30ca",
+                "language": "en_US"
+            },
+            {
                 "key": "dc.subject",
                 "value": "EPI",
                 "language": "en_US"
@@ -16268,7 +16288,7 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2021-11-11 15:04:28.708",
+        "lastModified": "2022-09-21 10:53:23.702",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
@@ -16324,6 +16344,11 @@
                 "language": "en_US"
             },
             {
+                "key": "dc.relation.isreferencedby",
+                "value": "https://doi.org/10.1088/1361-6587/ac37fe",
+                "language": "en_US"
+            },
+            {
                 "key": "dc.title",
                 "value": "Development of a reduced model for energetic particle transport by sawteeth in tokamaks",
                 "language": "en_US"
@@ -16366,7 +16391,7 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2021-12-07 09:34:01.575",
+        "lastModified": "2022-09-21 11:04:19.548",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
@@ -16422,6 +16447,11 @@
                 "language": "en_US"
             },
             {
+                "key": "dc.relation.isreferencedby",
+                "value": "https://doi.org/10.1088/1741-4326/ac44af",
+                "language": "en_US"
+            },
+            {
                 "key": "dc.title",
                 "value": "Predicting Resistive Wall Mode Stability in NSTX through Balanced Random Forests and Counterfactual Explanations",
                 "language": "en_US"
@@ -16464,7 +16494,7 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2022-09-07 11:16:56.98",
+        "lastModified": "2022-09-21 11:13:47.809",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
@@ -16527,6 +16557,11 @@
             {
                 "key": "dc.publisher",
                 "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation.isreferencedby",
+                "value": "https://doi.org/10.1088/1361-6587/ac7970",
                 "language": "en_US"
             },
             {
@@ -21216,7 +21251,7 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2021-12-14 22:34:43.931",
+        "lastModified": "2022-09-21 10:54:30.314",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
@@ -21274,6 +21309,11 @@
             {
                 "key": "dc.relation",
                 "value": "Frontiers in Astronom and Space Sciences, 2021",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation.isreferencedby",
+                "value": "https://doi.org/10.3389/fspas.2021.785413",
                 "language": "en_US"
             },
             {
@@ -21507,7 +21547,7 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2022-04-15 13:00:35.995",
+        "lastModified": "2022-09-21 10:59:30.63",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
@@ -21563,6 +21603,11 @@
                 "language": "en_US"
             },
             {
+                "key": "dc.relation.isreferencedby",
+                "value": "https://doi.org/10.1063/5.0089430",
+                "language": "en_US"
+            },
+            {
                 "key": "dc.title",
                 "value": "Interpreting ion-energy distributions using charge exchange emitted from deeply kinetic field-reversed-configuration plasmas",
                 "language": "en_US"
@@ -21610,7 +21655,7 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2022-06-06 13:12:23.348",
+        "lastModified": "2022-09-21 11:20:52.675",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
@@ -21756,6 +21801,11 @@
                 "language": "en_US"
             },
             {
+                "key": "dc.relation.isreferencedby",
+                "value": "https://doi.org/10.1088/1361-6587/ac9017",
+                "language": "en_US"
+            },
+            {
                 "key": "dc.source",
                 "value": "Simulations from code SimU of co-author E. Stambulchik",
                 "language": "en_US"
@@ -21813,7 +21863,7 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2022-06-27 16:26:18.74",
+        "lastModified": "2022-09-21 11:08:22.977",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
@@ -21874,6 +21924,11 @@
                 "language": "en_US"
             },
             {
+                "key": "dc.relation.isreferencedby",
+                "value": "https://doi.org/10.1063/5.0088015",
+                "language": "en_US"
+            },
+            {
                 "key": "dc.subject",
                 "value": "Plasma Facing Components; Numerical Analysis; High Heat Flux",
                 "language": "en_US"
@@ -21926,7 +21981,7 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2022-07-01 10:55:41.878",
+        "lastModified": "2022-09-21 11:15:14.998",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
@@ -21997,6 +22052,11 @@
                 "language": "en_US"
             },
             {
+                "key": "dc.relation.isreferencedby",
+                "value": "https://doi.org/10.1063/5.0097299",
+                "language": "en_US"
+            },
+            {
                 "key": "dc.title",
                 "value": "Electron heating in 2-D: combining Fermi-Ulam acceleration and magnetic-moment non-adiabaticity in a mirror-configuration plasma",
                 "language": "en_US"
@@ -22039,7 +22099,7 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2022-07-05 10:06:19.015",
+        "lastModified": "2022-09-21 11:06:29.05",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
@@ -22117,6 +22177,11 @@
             {
                 "key": "dc.publisher",
                 "value": "Princeton Plasma Physics Laboratory, Princeton University",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation.isreferencedby",
+                "value": "https://doi.org/10.1038/s41467-022-32278-0",
                 "language": "en_US"
             },
             {
@@ -24577,7 +24642,7 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2022-03-09 07:15:59.17",
+        "lastModified": "2022-09-21 11:12:31.674",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
@@ -24643,6 +24708,11 @@
                 "language": "en_US"
             },
             {
+                "key": "dc.relation.isreferencedby",
+                "value": "https://doi.org/10.1063/5.0080368",
+                "language": "en_US"
+            },
+            {
                 "key": "dc.subject",
                 "value": "toroidal rotation",
                 "language": "en_US"
@@ -24705,7 +24775,7 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2022-03-11 13:22:14.158",
+        "lastModified": "2022-09-21 10:57:08.748",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
@@ -24786,6 +24856,11 @@
                 "language": "en_US"
             },
             {
+                "key": "dc.relation.isreferencedby",
+                "value": "https://doi.org/10.1088/1741-4326/ac5b8a",
+                "language": "en_US"
+            },
+            {
                 "key": "dc.subject",
                 "value": "ion orbit loss",
                 "language": "en_US"
@@ -24858,7 +24933,7 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2022-05-16 08:11:03.956",
+        "lastModified": "2022-09-21 11:11:00.281",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
@@ -24911,6 +24986,11 @@
             {
                 "key": "dc.publisher",
                 "value": "Journal of Plasma Physics",
+                "language": "en_US"
+            },
+            {
+                "key": "dc.relation.isreferencedby",
+                "value": "https://doi.org/10.1017/S0022377822000629",
                 "language": "en_US"
             },
             {
