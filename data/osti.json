@@ -2,7 +2,7 @@
     {
         "title": "Wall conditioning and ELM mitigation with boron nitride powder injection in KSTAR",
         "creators": "Gilson, Erik;Lee, H;Bortolon, A;Choe, W;Diallo, A;Hong, SH;Lee, HM;Maingi, R;Mansfield, DK;Nagy, A;Park, SH;Song, IW;Song, JI;Yun, SW;Nazikian, R",
-        "dataset_type": "AS",
+        "dataset_type": "FP",
         "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01hh63t006w",
         "contract_nos": "AC02-09CH11466",
         "sponsor_org": "USDOE Office of Science (SC)",
@@ -22,7 +22,7 @@
     {
         "title": "Linear ion-scale micro-stability analysis of high and low-collisionality NSTX discharges and NSTX-U projections",
         "creators": "Clauser, Cesar;Guttenfelder, Walter;Rafiq, Tariq;Schuster, Eugenio",
-        "dataset_type": "AS",
+        "dataset_type": "ND",
         "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01ng451m72r",
         "contract_nos": "SC0013977;SC0021385",
         "sponsor_org": "USDOE Office of Science (SC)",
@@ -34,19 +34,26 @@
     {
         "title": "Development of a reduced model for energetic particle transport by sawteeth in tokamaks",
         "creators": "Podesta, Mario",
-        "dataset_type": "AS",
+        "dataset_type": "ND",
         "site_url": "https://dataspace.princeton.edu/handle/88435/dsp013197xq19q",
         "contract_nos": "AC02-09CH11466",
         "sponsor_org": "USDOE Office of Science (SC)",
         "research_org": "PPPL",
         "accession_num": "88435/dsp013197xq19q",
         "publication_date": "11/11/2021",
-        "othnondoe_contract_nos": ""
+        "othnondoe_contract_nos": "",
+        "related_identifiers": [
+            {
+                "related_identifier": "10.1088/1361-6587/ac37fe",
+                "relation_type": "IsReferencedBy",
+                "related_identifier_type": "DOI"
+            }
+        ]
     },
     {
         "title": "Coupling between Alfven wave and Kelvin-Helmholtz waves in the low latitude boundary layer",
         "creators": "Kim, Eun-Hwa;Johnson, Jay;Nykyri, Katariina",
-        "dataset_type": "AS",
+        "dataset_type": "SM",
         "site_url": "https://dataspace.princeton.edu/handle/88435/dsp013r074z09k",
         "contract_nos": "AC02-09CH11466",
         "sponsor_org": "USDOE Office of Science (SC)",
@@ -55,12 +62,19 @@
         "publication_date": "12/15/2021",
         "othnondoe_contract_nos": "",
         "description": "The Kelvin-Helmholtz (KH) instability of magnetohydrodynamic surface waves at the low latitude boundary layer is examined using both an eigenfrequency analysis and a time-dependent wave simulation.  The analysis includes the effects of sheared flow and Alfven velocity gradient. When the magnetosheath flows are perpendicular to the ambient magnetic field direction, unstable KH waves that propagate obliquely to the sheared flow direction occur at the sheared flow surface when the Alfv\\'en Mach number is higher than an instability threshold. Including a shear transition layer between the magnetosphere and magnetosheath leads to secondary KH waves (driven by the sheared flow) that are coupled to the resonant surface Alfven wave. There are remarkable differences between the primary and the secondary KH waves including wave frequency, the growth rate, and the ratio between transverse and the compressional component. The secondary KH wave energy is concentrated near the shear Alfven wave frequency at the magnetosheath with a lower frequency than the primary KH waves. Although the growth rate of the secondary KH waves is lower than the primary KH waves, the threshold condition is lower, so it is expected that these types of waves will dominate at lower Mach number. Because the transverse component of the secondary KH waves is stronger than the primary KH waves, more efficient wave energy transfer from the boundary layer to the inner magnetosphere is also predicted.",
-        "keywords": "Kelvin-Helmholtz instability; Alfven wave; Magnetopause; Mode conversion; boundary layer; wave coupling"
+        "keywords": "Kelvin-Helmholtz instability; Alfven wave; Magnetopause; Mode conversion; boundary layer; wave coupling",
+        "related_identifiers": [
+            {
+                "related_identifier": "10.3389/fspas.2021.785413",
+                "relation_type": "IsReferencedBy",
+                "related_identifier_type": "DOI"
+            }
+        ]
     },
     {
         "title": "Initial Results from Boron Powder Injection Experiments in WEST Lower Single Null L-mode Plasmas",
         "creators": "Bodner, Grant;Gallo, Alberto;Diallo, Ahmed;Lunsford, Robert;Moreau, Philippe;Nagy, Alex;Pellissier, Francis-Pierre;Guillemaut, Christophe;Gunn, James;Bourdelle, Clarisse;Desgranges, Corinne;Manas, Pierre;Bortolon, Alessandro;Klepper, Christopher;Tsitrone, Emanuelle;Unterberg, Ezekial;Vermare, Laure",
-        "dataset_type": "AS",
+        "dataset_type": "SM",
         "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01cr56n4150",
         "contract_nos": "AC02-09CH11466",
         "sponsor_org": "USDOE Office of Science (SC)",
@@ -81,7 +95,7 @@
     {
         "title": "Design of an arrangement of cubic magnets for a quasi-axisymmetric stellarator experiment",
         "creators": "Hammond, Kenneth;Zhu, Caoxiang;Korrigan, Keith;Gates, David;Lown, Robert;Mercurio, Robert;Qian, Tony;Zarnstorff, Michael",
-        "dataset_type": "AS",
+        "dataset_type": "SM",
         "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01x059cb547",
         "contract_nos": "AC02-09CH11466",
         "sponsor_org": "USDOE Office of Science (SC)",
@@ -94,7 +108,7 @@
     {
         "title": "Electron Temperature Gradient Driven Transport Model for Tokamak Plasmas",
         "creators": "Rafiq, Tariq;Wilson, Christopher;Luo, Lixiang;Weiland, Jan;Schuster, Eugenio;Pankin, Alexei;Guttenfelder, Walter;Kaye, Stan",
-        "dataset_type": "AS",
+        "dataset_type": "ND",
         "site_url": "https://dataspace.princeton.edu/handle/88435/dsp015d86p342b",
         "contract_nos": "SC0013977;SC0021385",
         "sponsor_org": "USDOE Office of Science (SC)",
@@ -103,12 +117,19 @@
         "publication_date": "09/02/2022",
         "othnondoe_contract_nos": "",
         "description": "A new model for electron temperature gradient (ETG) modes is developed as a component of the Multi-Mode anomalous transport module [T. Rafiq \\textit{et al.,} Phys Plasmas \\textbf{20}, 032506 (2013)] to predict a time dependent electron temperature profile in conventional and low aspect ratio tokamaks. This model is based on two-fluid equations that govern the dynamics of low-frequency short- and long-wavelength electromagnetic toroidal ETG driven drift modes. A low collisionality NSTX discharge is used to scan the plasma parameter dependence on the ETG real frequency, growth rate, and electron thermal diffusivity.  Electron thermal transport is discovered in the deep core region where modes are more electromagnetic in nature. Several previously reported gyrokinetic trends are reproduced, including the dependencies of density gradients, magnetic shear, $\\beta$ and gradient of $\\beta$ $(\\betap)$, collisionality, safety factor, and toroidicity, where $\\beta$ is the ratio of plasma pressure to the magnetic pressure. The electron heat diffusivity associated with the ETG mode is discovered to be on a scale consistent with the experimental diffusivity determined by power balance analysis.",
-        "keywords": "ETG; NSTX; Turbulence and transport; instabilities"
+        "keywords": "ETG; NSTX; Turbulence and transport; instabilities",
+        "related_identifiers": [
+            {
+                "related_identifier": "10.1063/5.0104672",
+                "relation_type": "IsReferencedBy",
+                "related_identifier_type": "DOI"
+            }
+        ]
     },
     {
         "title": "Effects of collisional ion orbit loss on neoclassical tokamak radial electric fields",
         "creators": "Zhu, Hongxuan;Stoltzfus-Dueck, T;Hager, R;Ku, S;Chang, C. S.",
-        "dataset_type": "AS",
+        "dataset_type": "ND",
         "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01qz20sw65g",
         "contract_nos": "AC02-05CH11231;AC02-09CH11466",
         "sponsor_org": "USDOE Office of Science (SC)",
@@ -117,12 +138,19 @@
         "publication_date": "03/11/2022",
         "othnondoe_contract_nos": "",
         "description": "Ion orbit loss is considered important for generating the radially inward electric field Er in a tokamak edge plasma. In particular, this effect is emphasized in diverted tokamaks with a magnetic X point. In neoclassical equilibria, Coulomb collisions can scatter ions onto loss orbits and generate a radially outward current, which in steady state is balanced by the radially inward current from viscosity. To quantitatively measure this loss-orbit current in an edge pedestal, an ion-orbit-flux diagnostic has been implemented in the axisymmetric version of the gyrokinetic particle-in-cell code XGC. As the first application of this diagnostic, a neoclassical DIII-D H-mode plasma is studied using gyrokinetic ions and adiabatic electrons. The validity of the diagnostic is demonstrated by studying the collisional relaxation of Er in the core. After this demonstration, the loss-orbit current is numerically measured in the edge pedestal in quasisteady state. In this plasma, it is found that the radial electric force on ions from Er approximately balances the ion radial pressure gradient in the edge pedestal, with the radial force from the plasma flow term being a minor component. The effect of orbit loss on Er is found to be only mild.",
-        "keywords": "ion orbit loss; radial electric field; tokamak edge plasmas; gyrokinetic simulations"
+        "keywords": "ion orbit loss; radial electric field; tokamak edge plasmas; gyrokinetic simulations",
+        "related_identifiers": [
+            {
+                "related_identifier": "10.1088/1741-4326/ac5b8a",
+                "relation_type": "IsReferencedBy",
+                "related_identifier_type": "DOI"
+            }
+        ]
     },
     {
         "title": "Supplemental material for: Verification, validation, and results of an approximate model for the stress of a Tokamak toroidal field coil at the inboard midplane",
         "creators": "Swanson, CPS;Kahn, S;Rana, C;Titus, PH;Brooks, AW;Guttenfelder, W;Zhai, Y;Brown, TG;Menard, JE",
-        "dataset_type": "AS",
+        "dataset_type": "SM",
         "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01rb68xg060",
         "contract_nos": "AC02-09CH11466",
         "sponsor_org": "USDOE Office of Science (SC)",
@@ -135,7 +163,7 @@
     {
         "title": "Prototype tests of the Electromagnetic Particle Injector-2 for Fast Time Response Disruption Mitigation in Tokamaks",
         "creators": "Raman, Roger;Lunsford, Robert;Clauser, C.F.;Jardin, S.C;Menard, J.E.;Ono, M.",
-        "dataset_type": "AS",
+        "dataset_type": "SM",
         "site_url": "https://dataspace.princeton.edu/handle/88435/dsp013j3335393",
         "contract_nos": "AC02-09CH11466;SC0006757",
         "sponsor_org": "USDOE Office of Science (SC)",
@@ -143,24 +171,38 @@
         "accession_num": "88435/dsp013j3335393",
         "publication_date": "10/19/2021",
         "othnondoe_contract_nos": "",
-        "keywords": "EPI; disruption; DMS; particle injector"
+        "keywords": "EPI; disruption; DMS; particle injector",
+        "related_identifiers": [
+            {
+                "related_identifier": "10.1088/1741-4326/ac30ca",
+                "relation_type": "IsReferencedBy",
+                "related_identifier_type": "DOI"
+            }
+        ]
     },
     {
         "title": "Interpreting ion-energy distributions using charge exchange emitted from deeply kinetic field-reversed-configuration plasmas",
         "creators": "Glasser, Alan;Cohen, Samuel",
-        "dataset_type": "AS",
+        "dataset_type": "FP",
         "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01pk02cd897",
         "contract_nos": "AC02-09CH11466",
         "sponsor_org": "USDOE Office of Science (SC)",
         "research_org": "PPPL",
         "accession_num": "88435/dsp01pk02cd897",
         "publication_date": "04/15/2022",
-        "othnondoe_contract_nos": ""
+        "othnondoe_contract_nos": "",
+        "related_identifiers": [
+            {
+                "related_identifier": "10.1063/5.0089430",
+                "relation_type": "IsReferencedBy",
+                "related_identifier_type": "DOI"
+            }
+        ]
     },
     {
         "title": "Parametric dependencies of resonant layer responses across linear, two-fluid, drift-MHD regimes",
         "creators": "Park, Jong-Kyu",
-        "dataset_type": "AS",
+        "dataset_type": "FP",
         "site_url": "https://dataspace.princeton.edu/handle/88435/dsp0170795b825",
         "contract_nos": "AC02-09CH11466",
         "sponsor_org": "USDOE Office of Science (SC)",
@@ -181,7 +223,7 @@
     {
         "title": "Study of Stark Broadening of Krypton Helium-beta Lines and Estimation of Electron Density and Temperature in NIF Compressed Capsules",
         "creators": "Hill, K. W.;Gao, L.;Kraus, B. F.;Bitter, M.;Efthimion, P. C.;Pablant, N. A.;Schneider, M. B.;Thorn, D. B.;Chen, H.;Kauffman, R. L.;Liedahl, D. A.;MacDonald, M. J.;MacPhee, A. G.;Scott, H. A.;Stoupin, S.;Doron, R.;Stambulchik, E.;Maron, Y.;Lahmann, B.",
-        "dataset_type": "AS",
+        "dataset_type": "ND",
         "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01xk81jp54s",
         "contract_nos": "AC02-09CH11466",
         "sponsor_org": "USDOE Office of Science (SC)",
@@ -190,24 +232,38 @@
         "publication_date": "06/06/2022",
         "othnondoe_contract_nos": "",
         "description": "Numerical data used to draw the figures in the manuscript",
-        "keywords": "NIF diagnostics x-ray spectroscopy"
+        "keywords": "NIF diagnostics x-ray spectroscopy",
+        "related_identifiers": [
+            {
+                "related_identifier": "10.1088/1361-6587/ac9017",
+                "relation_type": "IsReferencedBy",
+                "related_identifier_type": "DOI"
+            }
+        ]
     },
     {
         "title": "Predicting Resistive Wall Mode Stability in NSTX through Balanced Random Forests and Counterfactual Explanations",
         "creators": "Piccione, Andrea;Sabbagh, Steven;Andreopoulos, Yiannis",
-        "dataset_type": "AS",
+        "dataset_type": "ND",
         "site_url": "https://dataspace.princeton.edu/handle/88435/dsp015q47rr88m",
         "contract_nos": "SC0018623",
         "sponsor_org": "USDOE Office of Science (SC)",
         "research_org": "PPPL",
         "accession_num": "88435/dsp015q47rr88m",
         "publication_date": "12/07/2021",
-        "othnondoe_contract_nos": ""
+        "othnondoe_contract_nos": "",
+        "related_identifiers": [
+            {
+                "related_identifier": "10.1088/1741-4326/ac44af",
+                "relation_type": "IsReferencedBy",
+                "related_identifier_type": "DOI"
+            }
+        ]
     },
     {
         "title": "Impact of edge harmonic oscillations on the divertor heat flux in NSTX",
         "creators": "Gan, Kaifu;Gray, Travis;Zweben, Stewart;Eric, Fredrickson;Maingi, Rajesh;Battaglia, Devon;McLean, Adam;Wirth, Brian",
-        "dataset_type": "AS",
+        "dataset_type": "ND",
         "site_url": "https://dataspace.princeton.edu/handle/88435/dsp019c67wq96p",
         "contract_nos": "SC0016915",
         "sponsor_org": "USDOE Office of Science (SC)",
@@ -216,12 +272,19 @@
         "publication_date": "12/07/2021",
         "othnondoe_contract_nos": "",
         "description": "All the data was uploaded with .cvs file, we have not uploaded the figure 1 data since it is just photo show field of view of IR and GPI diagnostic.",
-        "keywords": "edge harmonic oscillation; heat flux width"
+        "keywords": "edge harmonic oscillation; heat flux width",
+        "related_identifiers": [
+            {
+                "related_identifier": "10.1063/5.0069701",
+                "relation_type": "IsReferencedBy",
+                "related_identifier_type": "DOI"
+            }
+        ]
     },
     {
         "title": "To dee or not to dee: costs and benefits of altering the triangularity of a steady-state DEMO-like reactor",
         "creators": "Schwartz, Jacob A.;Nelson, A. O.;Kolemen, Egemen",
-        "dataset_type": "AS",
+        "dataset_type": "SM",
         "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01rf55zb85t",
         "contract_nos": "AC02-09CH11466",
         "sponsor_org": "USDOE Office of Science (SC)",
@@ -242,7 +305,7 @@
     {
         "title": "Identification of a non-axisymmetric mode in laboratory experiments searching for standard magnetorotational instability",
         "creators": "Wang, Yin;Gilson, Erik P.;Ebrahimi, Fatima;Goodman, Jeremy;Caspary, Kyle J.;Winarto, Himawan W.;Ji, Hantao",
-        "dataset_type": "AS",
+        "dataset_type": "ND",
         "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01sx61dq46q",
         "contract_nos": "AC02-09CH11466",
         "sponsor_org": "USDOE Office of Science (SC)",
@@ -251,12 +314,19 @@
         "publication_date": "07/05/2022",
         "othnondoe_contract_nos": "AST-2108871;NNH15AB25I",
         "description": "This dataset provides the source data of figures in the main text of the paper \"Identification of a non-axisymmetric mode in laboratory experiments searching for standard magnetorotational instability\" accepted by Nature Communications.",
-        "keywords": "magnetorotational instability; MRI; liquid metal; Taylor-Couette flow"
+        "keywords": "magnetorotational instability; MRI; liquid metal; Taylor-Couette flow",
+        "related_identifiers": [
+            {
+                "related_identifier": "10.1038/s41467-022-32278-0",
+                "relation_type": "IsReferencedBy",
+                "related_identifier_type": "DOI"
+            }
+        ]
     },
     {
         "title": "Correlation between the relative blob fraction and plasma parameters in NSTX",
         "creators": "Zweben, S,J.;Banerjee, S;Bisai, N;Diallo, A;Lampert, M;LeBlanc, B;Myra, JR;Russell, D.A.",
-        "dataset_type": "AS",
+        "dataset_type": "ND",
         "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01qb98mj62b",
         "contract_nos": "AC02-09CH11466",
         "sponsor_org": "USDOE Office of Science (SC)",
@@ -277,7 +347,7 @@
     {
         "title": "Stellarator coil design using cubic splines for improved access on the outboard side",
         "creators": "Nicola, Lonigro;Zhu, Caoxiang",
-        "dataset_type": "AS",
+        "dataset_type": "SM",
         "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01q811kn76d",
         "contract_nos": "AC02-09CH11466",
         "sponsor_org": "USDOE Office of Science (SC)",
@@ -298,7 +368,7 @@
     {
         "title": "Plasma Facing Components with Capillary Porous System and Liquid Metal Coolant Flow",
         "creators": "Khodak, Andrei;Maingi, Rajesh",
-        "dataset_type": "AS",
+        "dataset_type": "SM",
         "site_url": "https://dataspace.princeton.edu/handle/88435/dsp019w032619d",
         "contract_nos": "AC02-09CH11466",
         "sponsor_org": "USDOE Office of Science (SC)",
@@ -307,12 +377,19 @@
         "publication_date": "06/27/2022",
         "othnondoe_contract_nos": "",
         "description": "Liquid metal can create a renewable protective surface on plasma facing components (PFC), with an additional advantage of deuterium pumping and the prospect of tritium extraction if liquid lithium (LL) is used and maintained below 450 C, the temperature above which LL vapor pressure begins to contaminate the plasma. LM can also be utilized as an efficient coolant, driven by the Lorentz force created with the help of the magnetic field in fusion devices. Capillary porous systems can serve as a conduit of LM and simultaneously provide stabilization of the LM flow, protecting against spills into the plasma. Recently a combination of a fast-flowing LM cooling system with a porous plasma facing wall (CPSF) was investigated [Khodak and Maingi (2021)]. The system takes an advantage of a magnetohydrodynamics velocity profile, as well as attractive LM properties to promote efficient heat transfer from the plasma to the LL at low pumping energy cost, relative to the incident heat flux on the PFC. In case of a disruption leading to excessive heat flux from the plasma to the LM PFCs, LL evaporation can stabilize the PFC surface temperature, due to high evaporation heat and apparent vapor shielding. The proposed CPSF was optimized analytically for the conditions of a Fusion Nuclear Science Facility [Kessel et al. (2019)]: 10T toroidal field and 10 MW/m2 peak incident heat flux. Computational fluid dynamics analysis confirmed that a CPSF system with 2.5 mm square channels can pump enough LL so that no additional coolant is needed.",
-        "keywords": "Plasma Facing Components; Numerical Analysis; High Heat Flux"
+        "keywords": "Plasma Facing Components; Numerical Analysis; High Heat Flux",
+        "related_identifiers": [
+            {
+                "related_identifier": "10.1063/5.0088015",
+                "relation_type": "IsReferencedBy",
+                "related_identifier_type": "DOI"
+            }
+        ]
     },
     {
         "title": "Temporal Structure of Blobs in NSTX",
         "creators": "Lampert, Mate",
-        "dataset_type": "AS",
+        "dataset_type": "SM",
         "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01zp38wg800",
         "contract_nos": "AC02-09CH11466",
         "sponsor_org": "USDOE Office of Science (SC)",
@@ -320,12 +397,19 @@
         "accession_num": "88435/dsp01zp38wg800",
         "publication_date": "07/25/2022",
         "othnondoe_contract_nos": "",
-        "keywords": "tokamak, edge, turbulence"
+        "keywords": "tokamak, edge, turbulence",
+        "related_identifiers": [
+            {
+                "related_identifier": "10.1063/5.0097282",
+                "relation_type": "IsReferencedBy",
+                "related_identifier_type": "DOI"
+            }
+        ]
     },
     {
         "title": "Fusion Pilot Plant performance and the role of a Sustained High Power Density tokamak",
         "creators": "Menard, Jonathan;Grierson, Brian;Brown, Tom;Rana, Chirag;Zhai, Yuhu;Poli, Francesca;Maingi, Rajesh;Guttenfelder, Walter;Snyder, Philip",
-        "dataset_type": "AS",
+        "dataset_type": "SM",
         "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01kk91fp703",
         "contract_nos": "AC02-09CH11466",
         "sponsor_org": "USDOE Office of Science (SC)",
@@ -346,7 +430,7 @@
     {
         "title": "Internal Rotation of ELM Filaments on NSTX",
         "creators": "Lampert, Mate;Diallo, Ahmed;Zweben, Stewart;Myra, Jim",
-        "dataset_type": "AS",
+        "dataset_type": "ND",
         "site_url": "https://dataspace.princeton.edu/handle/88435/dsp011n79h751f",
         "contract_nos": "AC02-09CH11466",
         "sponsor_org": "USDOE Office of Science (SC)",
@@ -368,12 +452,19 @@
         "publication_date": "05/16/2022",
         "othnondoe_contract_nos": "",
         "description": "The time evolution of the topological Langmuir-Cyclotron waves excited by an external source.",
-        "keywords": "topological waves"
+        "keywords": "topological waves",
+        "related_identifiers": [
+            {
+                "related_identifier": "10.1017/S0022377822000629",
+                "relation_type": "IsReferencedBy",
+                "related_identifier_type": "DOI"
+            }
+        ]
     },
     {
         "title": "Streaked Sub-ps-resolution X-ray Line Shapes and Implications for Solid-density Plasma Dynamics",
         "creators": "Gao, Lan;Hill, K. W.;Bitter, M.;Efthimion, P. C.;Hollinger, R.;Wang, Shoujun;Song, Huanyu;Nedbailo, R.;Rocca, J. J.;Mancini, R. C.;MacDonald, M. J.;Beatty, C. B.;Shepherd, R.",
-        "dataset_type": "AS",
+        "dataset_type": "ND",
         "site_url": "https://dataspace.princeton.edu/handle/88435/dsp013n2042309",
         "contract_nos": "AC02-09CH11466",
         "sponsor_org": "USDOE Office of Science (SC)",
@@ -387,7 +478,7 @@
     {
         "title": "Source data for \"Observation of Axisymmetric Standard Magnetorotational Instability in the Laboratory\"",
         "creators": "Wang, Yin;Gilson, Erik;Ebrahimi, Fatima;Goodman, Jeremy;Ji, Hantao",
-        "dataset_type": "AS",
+        "dataset_type": "ND",
         "site_url": "https://dataspace.princeton.edu/handle/88435/dsp018623j1954",
         "contract_nos": "AC02-09CH11466",
         "sponsor_org": "USDOE Office of Science (SC)",
@@ -408,7 +499,7 @@
     {
         "title": "Gyrokinetic simulations of momentum flux parasitic to free-energy transfer",
         "creators": "Stoltzfus-Dueck, T;Hornsby, W A;Grosshauser, S R",
-        "dataset_type": "AS",
+        "dataset_type": "ND",
         "site_url": "https://dataspace.princeton.edu/handle/88435/dsp011g05ff76p",
         "contract_nos": "AC02-09CH11466",
         "sponsor_org": "USDOE Office of Science (SC)",
@@ -417,12 +508,19 @@
         "publication_date": "03/09/2022",
         "othnondoe_contract_nos": "",
         "description": "Ion Landau damping interacts with a portion of the E\u00d7B drift to cause a non-diffusive outward flux of co-current toroidal angular momentum. Quantitative evaluation of this momentum flux requires nonlinear simulations to determine fL, the fraction of fluctuation free energy that passes through ion Landau damping, in fully developed turbulence. Nonlinear gyrokinetic simulations with the GKW code confirm the presence of the systematic symmetry-breaking momentum flux. For simulations with adiabatic electrons, fL scales inversely with the ion temperature gradient, because only the ion curvature drift can transfer free energy to the electrostatic potential. Although kinetic electrons should in principle relax this restriction, the ion Landau damping measured in collisionless kinetic-electron simulations remained at low levels comparable with ion-curvature-drift transfer, except when magnetic shear was strong. A set of simulations scanning the electron pitch-angle scattering rate showed only a weak variation of fL with the electron collisionality. However, collisional-electron simulations with electron temperature greater than ion temperature unambiguously showed electron-curvature-drift transfer supporting ion Landau damping, leading to a corresponding enhancement of the symmetry-breaking momentum flux.",
-        "keywords": "toroidal rotation; tokamak; transport; intrinsic rotation; rotation reversal"
+        "keywords": "toroidal rotation; tokamak; transport; intrinsic rotation; rotation reversal",
+        "related_identifiers": [
+            {
+                "related_identifier": "10.1063/5.0080368",
+                "relation_type": "IsReferencedBy",
+                "related_identifier_type": "DOI"
+            }
+        ]
     },
     {
         "title": "Nonlinear growth of magnetic islands by passing fast ions in NSTX",
         "creators": "Yang, James;Fredrickson, Eric;Podest\u00e0, Mario;Poli, Francesca",
-        "dataset_type": "AS",
+        "dataset_type": "SM",
         "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01pz50h025c",
         "contract_nos": "AC02-09CH11466",
         "sponsor_org": "USDOE Office of Science (SC)",
@@ -431,12 +529,19 @@
         "publication_date": "07/13/2022",
         "othnondoe_contract_nos": "",
         "description": "The growth of magnetic islands in NSTX is modeled successfully, with the consideration of passing fast ions. It is shown that a good quantitative agreement between simulation and experimental measurement can be achieved when the uncompensated cross-field current induced by passing fast ions is included in the island growth model. The fast ion parameters,\r\nalong with other equilibrium parameters, are obtained self-consistently using the TRANSP code with the assumptions of the \u2018kick\u2019 model (Podest\u00e0 et al 2017 Plasma Phys. Control. Fusion 59 095008). The results show that fast ions can contribute to overcoming the stabilizing effect of polarization current for magnetic island growth.",
-        "keywords": "Fast ions; neoclassical tearing modes; kick model; NSTX"
+        "keywords": "Fast ions; neoclassical tearing modes; kick model; NSTX",
+        "related_identifiers": [
+            {
+                "related_identifier": "10.1088/1361-6587/ac7970",
+                "relation_type": "IsReferencedBy",
+                "related_identifier_type": "DOI"
+            }
+        ]
     },
     {
         "title": "Electron heating in 2-D: combining Fermi-Ulam acceleration and magnetic-moment non-adiabaticity in a mirror-configuration plasma",
         "creators": "Swanson, Charles;Galea, Christopher",
-        "dataset_type": "AS",
+        "dataset_type": "FP",
         "site_url": "https://dataspace.princeton.edu/handle/88435/dsp01xp68kk38z",
         "contract_nos": "AC02-09CH11466",
         "sponsor_org": "USDOE Office of Science (SC)",
@@ -444,6 +549,13 @@
         "accession_num": "88435/dsp01xp68kk38z",
         "publication_date": "07/01/2022",
         "othnondoe_contract_nos": "",
-        "description": "This dataset contains the files (scripts and data) required to produce the figures of the above reference."
+        "description": "This dataset contains the files (scripts and data) required to produce the figures of the above reference.",
+        "related_identifiers": [
+            {
+                "related_identifier": "10.1063/5.0097299",
+                "relation_type": "IsReferencedBy",
+                "related_identifier_type": "DOI"
+            }
+        ]
     }
 ]
