@@ -22262,11 +22262,16 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2022-08-29 22:19:50.56",
+        "lastModified": "2022-09-26 11:07:37.911",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
         "metadata": [
+            {
+                "key": "dc.contributor.author",
+                "value": "B. Frances Kraus",
+                "language": null
+            },
             {
                 "key": "dc.contributor.author",
                 "value": "Gao, Lan",
