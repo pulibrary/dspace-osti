@@ -96,7 +96,7 @@ class Scraper:
         Paginate through OSTI's Data Explorer API to find datasets that have
         been submitted
         """
-        MAX_PAGE_COUNT = 10
+        MAX_PAGE_COUNT = 15
         existing_datasets = []
 
         for page in range(MAX_PAGE_COUNT):
