@@ -30,6 +30,7 @@ PPPL_COLLECTIONS = {
     'IT PPPL Collaborations': 3383,
     'Advanced Projects Other Projects': 3386,
     'Advanced Projects System Studies': 1309,
+    "MAST-U": 3515,
 }
 
 PPPL_COMMUNITY_ID = 346
