@@ -1,10 +1,13 @@
 import json
 import os
 import re
+import ssl
 from typing import Dict
 
-import requests
 import pandas as pd
+import requests
+import requests.adapters
+import urllib3
 
 from os.path import join as pjoin
 
@@ -50,6 +53,23 @@ REPLACE_DICT = {
     'DOE ': '',  # Extra DOE
     'DOE': '',  # Remove DOE if still present
 }
+
+
+# Fix for OpenSSL issue: https://github.com/pulibrary/dspace-osti/issues/73
+class CustomHttpAdapter(requests.adapters.HTTPAdapter):
+    # "Transport adapter" that allows us to use custom ssl_context.
+
+    def __init__(self, ssl_context=None, **kwargs):
+        self.ssl_context = ssl_context
+        super().__init__(**kwargs)
+
+    def init_poolmanager(self, connections, maxsize, block=False, **pool_kwargs):
+        self.poolmanager = urllib3.poolmanager.PoolManager(
+            num_pools=connections,
+            maxsize=maxsize,
+            block=block,
+            ssl_context=self.ssl_context,
+        )
 
 
 class Scraper:
@@ -100,7 +120,8 @@ class Scraper:
         existing_datasets = []
 
         for page in range(MAX_PAGE_COUNT):
-            r = requests.get(f'https://www.osti.gov/dataexplorer/api/v1/records?site_ownership_code=PPPL&page={page}')
+            url = f"https://www.osti.gov/dataexplorer/api/v1/records?site_ownership_code=PPPL&page={page}"
+            r = get_legacy_session().get(url)  # fix for #73
             j = json.loads(r.text)
             if len(j) != 0:
                 existing_datasets.extend(j)
@@ -147,7 +168,7 @@ class Scraper:
         """Compare OSTI and DataSpace JSON to identify records to be uploaded"""
         def get_handle(doi, redirects_j):
             if doi not in redirects_j:
-                r = requests.get(doi)
+                r = get_legacy_session().get(doi)  # fix for #73
                 assert r.status_code == 200, f"Error parsing DOI: {doi}"
                 handle = r.url.split('handle/')[-1]
                 redirects_j[doi] = handle
@@ -330,6 +351,15 @@ def get_doe_funding(grant_nos: str) -> Dict[str, set]:
                 grant_dict["other"].update([grant])
 
     return grant_dict
+
+
+# Fix for OpenSSL issue: https://github.com/pulibrary/dspace-osti/issues/73
+def get_legacy_session():
+    ctx = ssl.create_default_context(ssl.Purpose.SERVER_AUTH)
+    ctx.options |= 0x4  # OP_LEGACY_SERVER_CONNECT
+    session = requests.session()
+    session.mount("https://", CustomHttpAdapter(ctx))
+    return session
 
 
 if __name__ == '__main__':
