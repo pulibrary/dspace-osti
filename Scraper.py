@@ -289,7 +289,7 @@ class Scraper:
             entry_id = set(entry_df.index)
             input_id = set(input_df.index)
             drops = input_id - entry_id
-            adds = entry_id - input_id
+            adds = list(entry_id - input_id)
             commons = entry_id & input_id
             print(f"Commons records : {len(commons):3}")
             print(f"New records     : {len(adds):3}")
@@ -297,7 +297,7 @@ class Scraper:
             print(f"Removing : {','.join([str(drop) for drop in drops])} ...")
             input_df.drop(drops, inplace=True)
             print(f"Appending : {','.join([str(add) for add in adds])}")
-            revised_df = input_df.append(entry_df.loc[adds])
+            revised_df = pd.concat([input_df, entry_df.loc[adds]], axis=0)
 
             # "AS" is a placeholder - not included in DataSpace metadata
             revised_df.loc[adds, 'Datatype'] = "AS"
