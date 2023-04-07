@@ -104,7 +104,7 @@ class Poster:
                     ]
                 ),
                 'dataset_type': row['Datatype'],
-                'site_url': "https://dataspace.princeton.edu/handle/" + dspace_data['handle'],
+                'site_url': "https://arks.princeton.edu/ark:/" + dspace_data['handle'],
                 'contract_nos': row['DOE Contract'],
                 'sponsor_org': row['Sponsoring Organizations'],
                 'research_org': 'PPPL',
