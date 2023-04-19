@@ -17149,7 +17149,7 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2023-04-13 09:58:16.852",
+        "lastModified": "2023-04-19 10:57:51.947",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
@@ -17195,6 +17195,11 @@
                 "language": "en_US"
             },
             {
+                "key": "dc.relation.isreferencedby",
+                "value": "https://doi.org/10.1103/PhysRevLett.130.105101",
+                "language": null
+            },
+            {
                 "key": "dc.title",
                 "value": "Dataset for the letter \"Shifting and Splitting of Resonance Lines due to Dynamical Friction in Plasmas\" Phys. Rev. Lett. 130, 105101 (2023)",
                 "language": "en_US"
@@ -17237,7 +17242,7 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2023-04-13 12:10:47.815",
+        "lastModified": "2023-04-19 10:55:50.809",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
@@ -17301,6 +17306,11 @@
                 "key": "dc.relation",
                 "value": "Nuclear Fusion, 2022, 62, 12, 126046",
                 "language": "en_US"
+            },
+            {
+                "key": "dc.relation.isreferencedby",
+                "value": "https://doi.org/10.1088/1741-4326/ac9690",
+                "language": null
             },
             {
                 "key": "dc.subject",
@@ -23785,7 +23795,7 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2023-02-27 11:18:03.568",
+        "lastModified": "2023-04-19 11:00:08.891",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
@@ -23869,6 +23879,11 @@
                 "key": "dc.relation",
                 "value": "Physics of plasmas",
                 "language": "en_US"
+            },
+            {
+                "key": "dc.relation.isreferencedby",
+                "value": "https://doi.org/10.1063/5.0137457",
+                "language": null
             },
             {
                 "key": "dc.subject",
@@ -27722,7 +27737,7 @@
             "bitstreams",
             "all"
         ],
-        "lastModified": "2023-04-06 17:34:48.307",
+        "lastModified": "2023-04-19 11:01:11.193",
         "parentCollection": null,
         "parentCollectionList": null,
         "parentCommunityList": null,
@@ -27786,6 +27801,11 @@
                 "key": "dc.relation",
                 "value": "Qin, H., & Fu, Y. (2023). Topological Langmuir-cyclotron wave. Science Advances, 9(13). https://doi.org/10.1126/sciadv.add8041",
                 "language": "en_US"
+            },
+            {
+                "key": "dc.relation.isreferencedby",
+                "value": "https://doi.org/10.1126/sciadv.add8041",
+                "language": null
             },
             {
                 "key": "dc.subject",
