@@ -17,20 +17,20 @@ DSPACE_ID = 'DSpace ID'
 #  Shifting this scrape to collection handles instead of IDs may make
 #  this script clearer and easier to change if necessary.
 PPPL_COLLECTIONS = {
-    'NSTX': 1282,
-    'NSTX-U': 1304,
-    'Stellarators': 1308,
+    'Spherical Torus - NSTX': 1282,
+    'Spherical Torus - NSTX-U': 1304,
+    'Advanced Projects - Stellarators': 1308,
     'Plasma Science & Technology': 1422,
     'Theory and Computation': 2266,
-    'ITER and Tokamaks PPPL Collaborations': 3378,
-    'Theory': 3379,
-    'Computational Science PPPL Collaborations': 3380,
-    'Engineering Research': 3381,
-    'ESH Technical Reports': 3382,
-    'IT PPPL Collaborations': 3383,
-    'Advanced Projects Other Projects': 3386,
-    'Advanced Projects System Studies': 1309,
-    "MAST-U": 3515,
+    'ITER and Tokamaks - PPPL Collaborations': 3378,
+    'Theory - Theory': 3379,
+    'Computational Science - PPPL Collaborations': 3380,
+    'Engineering - Engineering Research': 3381,
+    'ESH - Technical Reports': 3382,
+    'IT - PPPL Collaborations': 3383,
+    'Advanced Projects - Other Projects': 3386,
+    'Advanced Projects - System Studies': 1309,
+    "Spherical Torus - MAST-U": 3515,
 }
 
 PPPL_COMMUNITY_ID = 346
